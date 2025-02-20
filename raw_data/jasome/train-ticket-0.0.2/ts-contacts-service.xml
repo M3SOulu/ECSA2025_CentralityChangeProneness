@@ -1,0 +1,1270 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Project sourceDir="/Users/abakhtin22/Documents/TempNet/ECSA2025_TemporalCentrality/Projects/train-ticket-0.0.2/ts-contacts-service/src">
+    <Metrics>
+        <Metric description="Total Lines of Code" name="TLOC" value="236"/>
+    </Metrics>
+    <Packages>
+        <Package name="contacts">
+            <Metrics>
+                <Metric description="Abstractness" name="A" value="0,0"/>
+                <Metric description="Class Categorical Relational Cohesion" name="CCRC" value="0,0"/>
+                <Metric description="Afferent Coupling" name="Ca" value="0"/>
+                <Metric description="Efferent Coupling" name="Ce" value="0"/>
+                <Metric description="Number of Classes" name="NOC" value="1"/>
+                <Metric description="Number of Interfaces and Abstract Classes" name="NOI" value="0"/>
+                <Metric description="Package Relative System Complexity" name="PkgRCi" value="1,5"/>
+                <Metric description="Package Total System Complexity" name="PkgTCi" value="3,0"/>
+                <Metric description="Total Lines of Code" name="TLOC" value="8"/>
+            </Metrics>
+            <Classes>
+                <Class name="ContactsApplication" sourceFile="./main/java/contacts/ContactsApplication.java">
+                    <Metrics>
+                        <Metric description="Number of Attributes (All)" name="Aa" value="0"/>
+                        <Metric description="Number of Attributes Defined" name="Ad" value="0"/>
+                        <Metric description="Number of Attributes Inherited and Not Overridden" name="Ai" value="0"/>
+                        <Metric description="Number of Attributes Inherited (Total)" name="Ait" value="0"/>
+                        <Metric description="Number of Attributes Overridden" name="Ao" value="0"/>
+                        <Metric description="Number of Public Attributes Defined" name="Av" value="0"/>
+                        <Metric description="Class Relative System Complexity" name="ClRCi" value="1,5"/>
+                        <Metric description="Class Total System Complexity" name="ClTCi" value="3,0"/>
+                        <Metric description="Depth of Inheritance Tree" name="DIT" value="1"/>
+                        <Metric description="Number of Hidden Methods Defined" name="HMd" value="0"/>
+                        <Metric description="Number of Hidden Methods Inherited and Not Overridden" name="HMi" value="0"/>
+                        <Metric description="Method Hiding Factor" name="MHF" value="1,0"/>
+                        <Metric description="Method Inheritance Factor" name="MIF" value="0,0"/>
+                        <Metric description="Number of Methods (All)" name="Ma" value="2"/>
+                        <Metric description="Number of Methods Defined" name="Md" value="2"/>
+                        <Metric description="Number of Methods Inherited and Not Overridden" name="Mi" value="0"/>
+                        <Metric description="Number of Methods Inherited (Total)" name="Mit" value="0"/>
+                        <Metric description="Number of Methods Overridden" name="Mo" value="0"/>
+                        <Metric description="Number of Attributes" name="NF" value="0"/>
+                        <Metric description="Number of Methods" name="NM" value="2"/>
+                        <Metric description="Number of Methods Added to Inheritance" name="NMA" value="2"/>
+                        <Metric description="Number of Inherited Methods" name="NMI" value="0"/>
+                        <Metric description="Number of Ancestors" name="NOA" value="0"/>
+                        <Metric description="Number of Children" name="NOCh" value="0"/>
+                        <Metric description="Number of Descendants" name="NOD" value="0"/>
+                        <Metric description="Number of Links" name="NOL" value="0"/>
+                        <Metric description="Number of Parents" name="NOPa" value="0"/>
+                        <Metric description="Number of Overridden Methods" name="NORM" value="0"/>
+                        <Metric description="Number of Public Attributes" name="NPF" value="0"/>
+                        <Metric description="Number of Public Methods" name="NPM" value="2"/>
+                        <Metric description="Number of Static Attributes" name="NSF" value="0"/>
+                        <Metric description="Number of Static Methods" name="NSM" value="1"/>
+                        <Metric description="Public Methods Ratio" name="PMR" value="1,0"/>
+                        <Metric description="Number of Public Methods Defined" name="PMd" value="2"/>
+                        <Metric description="Number of Public Methods Inherited and Not Overridden" name="PMi" value="0"/>
+                        <Metric description="Raw Total Lines of Code" name="RTLOC" value="16"/>
+                        <Metric description="Specialization Index" name="SIX" value="0,0"/>
+                        <Metric description="Total Lines of Code" name="TLOC" value="8"/>
+                        <Metric description="Weighted methods per Class" name="WMC" value="2"/>
+                    </Metrics>
+                    <Methods>
+                        <Method constructor="false" lineEnd="27" lineStart="24" name="public RestTemplate restTemplate(RestTemplateBuilder builder)">
+                            <Metrics>
+                                <Metric description="System Complexity" name="Ci" value="2,0"/>
+                                <Metric description="Data Complexity" name="Di" value="2,0"/>
+                                <Metric description="Fan-in" name="Fin" value="0"/>
+                                <Metric description="Fan-out" name="Fout" value="0"/>
+                                <Metric description="Input/Output Variables" name="IOVars" value="2"/>
+                                <Metric description="McClure's Complexity Metric" name="MCLC" value="0"/>
+                                <Metric description="Nested Block Depth" name="NBD" value="1"/>
+                                <Metric description="Number of Comparisons" name="NCOMP" value="0"/>
+                                <Metric description="Number of Parameters" name="NOP" value="1"/>
+                                <Metric description="Number of Control Variables" name="NVAR" value="0"/>
+                                <Metric description="Structural Complexity" name="Si" value="0"/>
+                                <Metric description="Total Lines of Code" name="TLOC" value="3"/>
+                                <Metric description="McCabe Cyclomatic Complexity" name="VG" value="1"/>
+                            </Metrics>
+                        </Method>
+                        <Method constructor="false" lineEnd="22" lineStart="20" name="public static void main(String[] args) throws Exception">
+                            <Metrics>
+                                <Metric description="System Complexity" name="Ci" value="1,0"/>
+                                <Metric description="Data Complexity" name="Di" value="1,0"/>
+                                <Metric description="Fan-in" name="Fin" value="0"/>
+                                <Metric description="Fan-out" name="Fout" value="0"/>
+                                <Metric description="Input/Output Variables" name="IOVars" value="1"/>
+                                <Metric description="McClure's Complexity Metric" name="MCLC" value="0"/>
+                                <Metric description="Nested Block Depth" name="NBD" value="1"/>
+                                <Metric description="Number of Comparisons" name="NCOMP" value="0"/>
+                                <Metric description="Number of Parameters" name="NOP" value="1"/>
+                                <Metric description="Number of Control Variables" name="NVAR" value="0"/>
+                                <Metric description="Structural Complexity" name="Si" value="0"/>
+                                <Metric description="Total Lines of Code" name="TLOC" value="3"/>
+                                <Metric description="McCabe Cyclomatic Complexity" name="VG" value="1"/>
+                            </Metrics>
+                        </Method>
+                    </Methods>
+                </Class>
+            </Classes>
+        </Package>
+        <Package name="contacts.config">
+            <Metrics>
+                <Metric description="Abstractness" name="A" value="0,0"/>
+                <Metric description="Class Categorical Relational Cohesion" name="CCRC" value="0,0"/>
+                <Metric description="Afferent Coupling" name="Ca" value="0"/>
+                <Metric description="Efferent Coupling" name="Ce" value="0"/>
+                <Metric description="Number of Classes" name="NOC" value="1"/>
+                <Metric description="Number of Interfaces and Abstract Classes" name="NOI" value="0"/>
+                <Metric description="Package Relative System Complexity" name="PkgRCi" value="1,0"/>
+                <Metric description="Package Total System Complexity" name="PkgTCi" value="3,0"/>
+                <Metric description="Total Lines of Code" name="TLOC" value="12"/>
+            </Metrics>
+            <Classes>
+                <Class name="SecurityConfig" sourceFile="./main/java/contacts/config/SecurityConfig.java">
+                    <Metrics>
+                        <Metric description="Number of Attributes (All)" name="Aa" value="0"/>
+                        <Metric description="Number of Attributes Defined" name="Ad" value="0"/>
+                        <Metric description="Number of Attributes Inherited and Not Overridden" name="Ai" value="0"/>
+                        <Metric description="Number of Attributes Inherited (Total)" name="Ait" value="0"/>
+                        <Metric description="Number of Attributes Overridden" name="Ao" value="0"/>
+                        <Metric description="Number of Public Attributes Defined" name="Av" value="0"/>
+                        <Metric description="Class Relative System Complexity" name="ClRCi" value="1,0"/>
+                        <Metric description="Class Total System Complexity" name="ClTCi" value="3,0"/>
+                        <Metric description="Depth of Inheritance Tree" name="DIT" value="1"/>
+                        <Metric description="Number of Hidden Methods Defined" name="HMd" value="1"/>
+                        <Metric description="Number of Hidden Methods Inherited and Not Overridden" name="HMi" value="0"/>
+                        <Metric description="Method Hiding Factor" name="MHF" value="0,666666667"/>
+                        <Metric description="Method Inheritance Factor" name="MIF" value="0,0"/>
+                        <Metric description="Number of Methods (All)" name="Ma" value="3"/>
+                        <Metric description="Number of Methods Defined" name="Md" value="3"/>
+                        <Metric description="Number of Methods Inherited and Not Overridden" name="Mi" value="0"/>
+                        <Metric description="Number of Methods Inherited (Total)" name="Mit" value="0"/>
+                        <Metric description="Number of Methods Overridden" name="Mo" value="0"/>
+                        <Metric description="Number of Attributes" name="NF" value="0"/>
+                        <Metric description="Number of Methods" name="NM" value="3"/>
+                        <Metric description="Number of Methods Added to Inheritance" name="NMA" value="3"/>
+                        <Metric description="Number of Inherited Methods" name="NMI" value="0"/>
+                        <Metric description="Number of Ancestors" name="NOA" value="0"/>
+                        <Metric description="Number of Children" name="NOCh" value="0"/>
+                        <Metric description="Number of Descendants" name="NOD" value="0"/>
+                        <Metric description="Number of Links" name="NOL" value="0"/>
+                        <Metric description="Number of Parents" name="NOPa" value="0"/>
+                        <Metric description="Number of Overridden Methods" name="NORM" value="0"/>
+                        <Metric description="Number of Public Attributes" name="NPF" value="0"/>
+                        <Metric description="Number of Public Methods" name="NPM" value="2"/>
+                        <Metric description="Number of Static Attributes" name="NSF" value="0"/>
+                        <Metric description="Number of Static Methods" name="NSM" value="0"/>
+                        <Metric description="Public Methods Ratio" name="PMR" value="0,666666667"/>
+                        <Metric description="Number of Public Methods Defined" name="PMd" value="2"/>
+                        <Metric description="Number of Public Methods Inherited and Not Overridden" name="PMi" value="0"/>
+                        <Metric description="Raw Total Lines of Code" name="RTLOC" value="55"/>
+                        <Metric description="Specialization Index" name="SIX" value="0,0"/>
+                        <Metric description="Total Lines of Code" name="TLOC" value="12"/>
+                        <Metric description="Weighted methods per Class" name="WMC" value="3"/>
+                    </Metrics>
+                    <Methods>
+                        <Method constructor="false" lineEnd="73" lineStart="55" name="protected void configure(HttpSecurity httpSecurity) throws Exception">
+                            <Metrics>
+                                <Metric description="System Complexity" name="Ci" value="1,0"/>
+                                <Metric description="Data Complexity" name="Di" value="1,0"/>
+                                <Metric description="Fan-in" name="Fin" value="0"/>
+                                <Metric description="Fan-out" name="Fout" value="0"/>
+                                <Metric description="Input/Output Variables" name="IOVars" value="1"/>
+                                <Metric description="McClure's Complexity Metric" name="MCLC" value="0"/>
+                                <Metric description="Nested Block Depth" name="NBD" value="1"/>
+                                <Metric description="Number of Comparisons" name="NCOMP" value="0"/>
+                                <Metric description="Number of Parameters" name="NOP" value="1"/>
+                                <Metric description="Number of Control Variables" name="NVAR" value="0"/>
+                                <Metric description="Structural Complexity" name="Si" value="0"/>
+                                <Metric description="Total Lines of Code" name="TLOC" value="4"/>
+                                <Metric description="McCabe Cyclomatic Complexity" name="VG" value="1"/>
+                            </Metrics>
+                        </Method>
+                        <Method constructor="false" lineEnd="29" lineStart="26" name="public PasswordEncoder passwordEncoder()">
+                            <Metrics>
+                                <Metric description="System Complexity" name="Ci" value="1,0"/>
+                                <Metric description="Data Complexity" name="Di" value="1,0"/>
+                                <Metric description="Fan-in" name="Fin" value="0"/>
+                                <Metric description="Fan-out" name="Fout" value="0"/>
+                                <Metric description="Input/Output Variables" name="IOVars" value="1"/>
+                                <Metric description="McClure's Complexity Metric" name="MCLC" value="0"/>
+                                <Metric description="Nested Block Depth" name="NBD" value="1"/>
+                                <Metric description="Number of Comparisons" name="NCOMP" value="0"/>
+                                <Metric description="Number of Parameters" name="NOP" value="0"/>
+                                <Metric description="Number of Control Variables" name="NVAR" value="0"/>
+                                <Metric description="Structural Complexity" name="Si" value="0"/>
+                                <Metric description="Total Lines of Code" name="TLOC" value="3"/>
+                                <Metric description="McCabe Cyclomatic Complexity" name="VG" value="1"/>
+                            </Metrics>
+                        </Method>
+                        <Method constructor="false" lineEnd="52" lineStart="39" name="public WebMvcConfigurer corsConfigurer()">
+                            <Metrics>
+                                <Metric description="System Complexity" name="Ci" value="1,0"/>
+                                <Metric description="Data Complexity" name="Di" value="1,0"/>
+                                <Metric description="Fan-in" name="Fin" value="0"/>
+                                <Metric description="Fan-out" name="Fout" value="0"/>
+                                <Metric description="Input/Output Variables" name="IOVars" value="1"/>
+                                <Metric description="McClure's Complexity Metric" name="MCLC" value="0"/>
+                                <Metric description="Nested Block Depth" name="NBD" value="2"/>
+                                <Metric description="Number of Comparisons" name="NCOMP" value="0"/>
+                                <Metric description="Number of Parameters" name="NOP" value="0"/>
+                                <Metric description="Number of Control Variables" name="NVAR" value="0"/>
+                                <Metric description="Structural Complexity" name="Si" value="0"/>
+                                <Metric description="Total Lines of Code" name="TLOC" value="3"/>
+                                <Metric description="McCabe Cyclomatic Complexity" name="VG" value="1"/>
+                            </Metrics>
+                        </Method>
+                    </Methods>
+                </Class>
+            </Classes>
+        </Package>
+        <Package name="contacts.controller">
+            <Metrics>
+                <Metric description="Abstractness" name="A" value="0,0"/>
+                <Metric description="Class Categorical Relational Cohesion" name="CCRC" value="200,0"/>
+                <Metric description="Afferent Coupling" name="Ca" value="0"/>
+                <Metric description="Efferent Coupling" name="Ce" value="1"/>
+                <Metric description="Normalized Distance from Main Sequence" name="DMS" value="0,0"/>
+                <Metric description="Instability" name="I" value="1,0"/>
+                <Metric description="Number of Classes" name="NOC" value="1"/>
+                <Metric description="Number of Interfaces and Abstract Classes" name="NOI" value="0"/>
+                <Metric description="Package Relative System Complexity" name="PkgRCi" value="2,5625"/>
+                <Metric description="Package Total System Complexity" name="PkgTCi" value="20,5"/>
+                <Metric description="Total Lines of Code" name="TLOC" value="36"/>
+            </Metrics>
+            <Classes>
+                <Class name="ContactsController" sourceFile="./main/java/contacts/controller/ContactsController.java">
+                    <Metrics>
+                        <Metric description="Attribute Hiding Factor" name="AHF" value="0,0"/>
+                        <Metric description="Attribute Inheritance Factor" name="AIF" value="0,0"/>
+                        <Metric description="Number of Attributes (All)" name="Aa" value="1"/>
+                        <Metric description="Number of Attributes Defined" name="Ad" value="1"/>
+                        <Metric description="Number of Attributes Inherited and Not Overridden" name="Ai" value="0"/>
+                        <Metric description="Number of Attributes Inherited (Total)" name="Ait" value="0"/>
+                        <Metric description="Number of Attributes Overridden" name="Ao" value="0"/>
+                        <Metric description="Number of Public Attributes Defined" name="Av" value="0"/>
+                        <Metric description="Class Relative System Complexity" name="ClRCi" value="2,5625"/>
+                        <Metric description="Class Total System Complexity" name="ClTCi" value="20,5"/>
+                        <Metric description="Depth of Inheritance Tree" name="DIT" value="1"/>
+                        <Metric description="Number of Hidden Methods Defined" name="HMd" value="0"/>
+                        <Metric description="Number of Hidden Methods Inherited and Not Overridden" name="HMi" value="0"/>
+                        <Metric description="Lack of Cohesion Methods (H-S)" name="LCOM*" value="0,142857143"/>
+                        <Metric description="Method Hiding Factor" name="MHF" value="1,0"/>
+                        <Metric description="Method Inheritance Factor" name="MIF" value="0,0"/>
+                        <Metric description="Number of Methods (All)" name="Ma" value="8"/>
+                        <Metric description="Number of Methods Defined" name="Md" value="8"/>
+                        <Metric description="Number of Methods Inherited and Not Overridden" name="Mi" value="0"/>
+                        <Metric description="Number of Methods Inherited (Total)" name="Mit" value="0"/>
+                        <Metric description="Number of Methods Overridden" name="Mo" value="0"/>
+                        <Metric description="Number of Attributes" name="NF" value="1"/>
+                        <Metric description="Number of Methods" name="NM" value="8"/>
+                        <Metric description="Number of Methods Added to Inheritance" name="NMA" value="8"/>
+                        <Metric description="Number of Inherited Methods" name="NMI" value="0"/>
+                        <Metric description="Number of Ancestors" name="NOA" value="0"/>
+                        <Metric description="Number of Children" name="NOCh" value="0"/>
+                        <Metric description="Number of Descendants" name="NOD" value="0"/>
+                        <Metric description="Number of Links" name="NOL" value="2"/>
+                        <Metric description="Number of Parents" name="NOPa" value="0"/>
+                        <Metric description="Number of Overridden Methods" name="NORM" value="0"/>
+                        <Metric description="Number of Public Attributes" name="NPF" value="0"/>
+                        <Metric description="Number of Public Methods" name="NPM" value="8"/>
+                        <Metric description="Number of Static Attributes" name="NSF" value="0"/>
+                        <Metric description="Number of Static Methods" name="NSM" value="0"/>
+                        <Metric description="Public Methods Ratio" name="PMR" value="1,0"/>
+                        <Metric description="Number of Public Methods Defined" name="PMd" value="8"/>
+                        <Metric description="Number of Public Methods Inherited and Not Overridden" name="PMi" value="0"/>
+                        <Metric description="Raw Total Lines of Code" name="RTLOC" value="87"/>
+                        <Metric description="Specialization Index" name="SIX" value="0,0"/>
+                        <Metric description="Total Lines of Code" name="TLOC" value="36"/>
+                        <Metric description="Weighted methods per Class" name="WMC" value="8"/>
+                    </Metrics>
+                    <Methods>
+                        <Method constructor="false" lineEnd="56" lineStart="52" name="public HttpEntity deleteContacts(@PathVariable String contactsId, @RequestHeader HttpHeaders headers)">
+                            <Metrics>
+                                <Metric description="System Complexity" name="Ci" value="3,0"/>
+                                <Metric description="Data Complexity" name="Di" value="3,0"/>
+                                <Metric description="Fan-in" name="Fin" value="0"/>
+                                <Metric description="Fan-out" name="Fout" value="0"/>
+                                <Metric description="Input/Output Variables" name="IOVars" value="3"/>
+                                <Metric description="McClure's Complexity Metric" name="MCLC" value="0"/>
+                                <Metric description="Nested Block Depth" name="NBD" value="1"/>
+                                <Metric description="Number of Comparisons" name="NCOMP" value="0"/>
+                                <Metric description="Number of Parameters" name="NOP" value="2"/>
+                                <Metric description="Number of Control Variables" name="NVAR" value="0"/>
+                                <Metric description="Structural Complexity" name="Si" value="0"/>
+                                <Metric description="Total Lines of Code" name="TLOC" value="3"/>
+                                <Metric description="McCabe Cyclomatic Complexity" name="VG" value="1"/>
+                            </Metrics>
+                        </Method>
+                        <Method constructor="false" lineEnd="72" lineStart="66" name="public HttpEntity findContactsByAccountId(@PathVariable String accountId, @RequestHeader HttpHeaders headers)">
+                            <Metrics>
+                                <Metric description="System Complexity" name="Ci" value="3,0"/>
+                                <Metric description="Data Complexity" name="Di" value="3,0"/>
+                                <Metric description="Fan-in" name="Fin" value="0"/>
+                                <Metric description="Fan-out" name="Fout" value="0"/>
+                                <Metric description="Input/Output Variables" name="IOVars" value="3"/>
+                                <Metric description="McClure's Complexity Metric" name="MCLC" value="1"/>
+                                <Metric description="Nested Block Depth" name="NBD" value="1"/>
+                                <Metric description="Number of Comparisons" name="NCOMP" value="1"/>
+                                <Metric description="Number of Parameters" name="NOP" value="2"/>
+                                <Metric description="Number of Control Variables" name="NVAR" value="0"/>
+                                <Metric description="Structural Complexity" name="Si" value="0"/>
+                                <Metric description="Total Lines of Code" name="TLOC" value="5"/>
+                                <Metric description="McCabe Cyclomatic Complexity" name="VG" value="1"/>
+                            </Metrics>
+                        </Method>
+                        <Method constructor="false" lineEnd="33" lineStart="28" name="public HttpEntity getAllContacts(@RequestHeader HttpHeaders headers)">
+                            <Metrics>
+                                <Metric description="System Complexity" name="Ci" value="2,0"/>
+                                <Metric description="Data Complexity" name="Di" value="2,0"/>
+                                <Metric description="Fan-in" name="Fin" value="0"/>
+                                <Metric description="Fan-out" name="Fout" value="0"/>
+                                <Metric description="Input/Output Variables" name="IOVars" value="2"/>
+                                <Metric description="McClure's Complexity Metric" name="MCLC" value="0"/>
+                                <Metric description="Nested Block Depth" name="NBD" value="1"/>
+                                <Metric description="Number of Comparisons" name="NCOMP" value="0"/>
+                                <Metric description="Number of Parameters" name="NOP" value="1"/>
+                                <Metric description="Number of Control Variables" name="NVAR" value="0"/>
+                                <Metric description="Structural Complexity" name="Si" value="0"/>
+                                <Metric description="Total Lines of Code" name="TLOC" value="4"/>
+                                <Metric description="McCabe Cyclomatic Complexity" name="VG" value="1"/>
+                            </Metrics>
+                        </Method>
+                        <Method constructor="false" lineEnd="80" lineStart="74" name="public HttpEntity getContactsByContactsId(@PathVariable String id, @RequestHeader HttpHeaders headers)">
+                            <Metrics>
+                                <Metric description="System Complexity" name="Ci" value="3,0"/>
+                                <Metric description="Data Complexity" name="Di" value="3,0"/>
+                                <Metric description="Fan-in" name="Fin" value="0"/>
+                                <Metric description="Fan-out" name="Fout" value="0"/>
+                                <Metric description="Input/Output Variables" name="IOVars" value="3"/>
+                                <Metric description="McClure's Complexity Metric" name="MCLC" value="1"/>
+                                <Metric description="Nested Block Depth" name="NBD" value="1"/>
+                                <Metric description="Number of Comparisons" name="NCOMP" value="1"/>
+                                <Metric description="Number of Parameters" name="NOP" value="2"/>
+                                <Metric description="Number of Control Variables" name="NVAR" value="0"/>
+                                <Metric description="Structural Complexity" name="Si" value="0"/>
+                                <Metric description="Total Lines of Code" name="TLOC" value="5"/>
+                                <Metric description="McCabe Cyclomatic Complexity" name="VG" value="1"/>
+                            </Metrics>
+                        </Method>
+                        <Method constructor="false" lineEnd="64" lineStart="59" name="public HttpEntity modifyContacts(@RequestBody Contacts info, @RequestHeader HttpHeaders headers)">
+                            <Metrics>
+                                <Metric description="System Complexity" name="Ci" value="2,5"/>
+                                <Metric description="Data Complexity" name="Di" value="1,5"/>
+                                <Metric description="Fan-in" name="Fin" value="0"/>
+                                <Metric description="Fan-out" name="Fout" value="1"/>
+                                <Metric description="Input/Output Variables" name="IOVars" value="3"/>
+                                <Metric description="McClure's Complexity Metric" name="MCLC" value="1"/>
+                                <Metric description="Nested Block Depth" name="NBD" value="1"/>
+                                <Metric description="Number of Comparisons" name="NCOMP" value="1"/>
+                                <Metric description="Number of Parameters" name="NOP" value="2"/>
+                                <Metric description="Number of Control Variables" name="NVAR" value="0"/>
+                                <Metric description="Structural Complexity" name="Si" value="1"/>
+                                <Metric description="Total Lines of Code" name="TLOC" value="4"/>
+                                <Metric description="McCabe Cyclomatic Complexity" name="VG" value="1"/>
+                            </Metrics>
+                        </Method>
+                        <Method constructor="false" lineEnd="49" lineStart="43" name="public HttpEntity&lt;?&gt; createNewContactsAdmin(@RequestBody Contacts aci, @RequestHeader HttpHeaders headers)">
+                            <Metrics>
+                                <Metric description="System Complexity" name="Ci" value="3,0"/>
+                                <Metric description="Data Complexity" name="Di" value="3,0"/>
+                                <Metric description="Fan-in" name="Fin" value="0"/>
+                                <Metric description="Fan-out" name="Fout" value="0"/>
+                                <Metric description="Input/Output Variables" name="IOVars" value="3"/>
+                                <Metric description="McClure's Complexity Metric" name="MCLC" value="0"/>
+                                <Metric description="Nested Block Depth" name="NBD" value="1"/>
+                                <Metric description="Number of Comparisons" name="NCOMP" value="0"/>
+                                <Metric description="Number of Parameters" name="NOP" value="2"/>
+                                <Metric description="Number of Control Variables" name="NVAR" value="0"/>
+                                <Metric description="Structural Complexity" name="Si" value="0"/>
+                                <Metric description="Total Lines of Code" name="TLOC" value="5"/>
+                                <Metric description="McCabe Cyclomatic Complexity" name="VG" value="1"/>
+                            </Metrics>
+                        </Method>
+                        <Method constructor="false" lineEnd="41" lineStart="35" name="public ResponseEntity&lt;Response&gt; createNewContacts(@RequestBody Contacts aci, @RequestHeader HttpHeaders headers)">
+                            <Metrics>
+                                <Metric description="System Complexity" name="Ci" value="3,0"/>
+                                <Metric description="Data Complexity" name="Di" value="3,0"/>
+                                <Metric description="Fan-in" name="Fin" value="0"/>
+                                <Metric description="Fan-out" name="Fout" value="0"/>
+                                <Metric description="Input/Output Variables" name="IOVars" value="3"/>
+                                <Metric description="McClure's Complexity Metric" name="MCLC" value="0"/>
+                                <Metric description="Nested Block Depth" name="NBD" value="1"/>
+                                <Metric description="Number of Comparisons" name="NCOMP" value="0"/>
+                                <Metric description="Number of Parameters" name="NOP" value="2"/>
+                                <Metric description="Number of Control Variables" name="NVAR" value="0"/>
+                                <Metric description="Structural Complexity" name="Si" value="0"/>
+                                <Metric description="Total Lines of Code" name="TLOC" value="4"/>
+                                <Metric description="McCabe Cyclomatic Complexity" name="VG" value="1"/>
+                            </Metrics>
+                        </Method>
+                        <Method constructor="false" lineEnd="26" lineStart="23" name="public String home()">
+                            <Metrics>
+                                <Metric description="System Complexity" name="Ci" value="1,0"/>
+                                <Metric description="Data Complexity" name="Di" value="1,0"/>
+                                <Metric description="Fan-in" name="Fin" value="0"/>
+                                <Metric description="Fan-out" name="Fout" value="0"/>
+                                <Metric description="Input/Output Variables" name="IOVars" value="1"/>
+                                <Metric description="McClure's Complexity Metric" name="MCLC" value="0"/>
+                                <Metric description="Nested Block Depth" name="NBD" value="1"/>
+                                <Metric description="Number of Comparisons" name="NCOMP" value="0"/>
+                                <Metric description="Number of Parameters" name="NOP" value="0"/>
+                                <Metric description="Number of Control Variables" name="NVAR" value="0"/>
+                                <Metric description="Structural Complexity" name="Si" value="0"/>
+                                <Metric description="Total Lines of Code" name="TLOC" value="3"/>
+                                <Metric description="McCabe Cyclomatic Complexity" name="VG" value="1"/>
+                            </Metrics>
+                        </Method>
+                    </Methods>
+                </Class>
+            </Classes>
+        </Package>
+        <Package name="contacts.entity">
+            <Metrics>
+                <Metric description="Abstractness" name="A" value="0,0"/>
+                <Metric description="Class Categorical Relational Cohesion" name="CCRC" value="0,0"/>
+                <Metric description="Afferent Coupling" name="Ca" value="5"/>
+                <Metric description="Efferent Coupling" name="Ce" value="0"/>
+                <Metric description="Normalized Distance from Main Sequence" name="DMS" value="1,0"/>
+                <Metric description="Instability" name="I" value="0,0"/>
+                <Metric description="Number of Classes" name="NOC" value="1"/>
+                <Metric description="Number of Interfaces and Abstract Classes" name="NOI" value="0"/>
+                <Metric description="Package Relative System Complexity" name="PkgRCi" value="2,738095238"/>
+                <Metric description="Package Total System Complexity" name="PkgTCi" value="38,333333333"/>
+                <Metric description="Total Lines of Code" name="TLOC" value="59"/>
+            </Metrics>
+            <Classes>
+                <Class name="Contacts" sourceFile="./main/java/contacts/entity/Contacts.java">
+                    <Metrics>
+                        <Metric description="Attribute Hiding Factor" name="AHF" value="0,0"/>
+                        <Metric description="Attribute Inheritance Factor" name="AIF" value="0,0"/>
+                        <Metric description="Number of Attributes (All)" name="Aa" value="6"/>
+                        <Metric description="Number of Attributes Defined" name="Ad" value="6"/>
+                        <Metric description="Number of Attributes Inherited and Not Overridden" name="Ai" value="0"/>
+                        <Metric description="Number of Attributes Inherited (Total)" name="Ait" value="0"/>
+                        <Metric description="Number of Attributes Overridden" name="Ao" value="0"/>
+                        <Metric description="Number of Public Attributes Defined" name="Av" value="0"/>
+                        <Metric description="Class Relative System Complexity" name="ClRCi" value="2,738095238"/>
+                        <Metric description="Class Total System Complexity" name="ClTCi" value="38,333333333"/>
+                        <Metric description="Depth of Inheritance Tree" name="DIT" value="1"/>
+                        <Metric description="Number of Hidden Methods Defined" name="HMd" value="0"/>
+                        <Metric description="Number of Hidden Methods Inherited and Not Overridden" name="HMi" value="0"/>
+                        <Metric description="Lack of Cohesion Methods (H-S)" name="LCOM*" value="0,858974359"/>
+                        <Metric description="Method Hiding Factor" name="MHF" value="1,0"/>
+                        <Metric description="Method Inheritance Factor" name="MIF" value="0,0"/>
+                        <Metric description="Number of Methods (All)" name="Ma" value="14"/>
+                        <Metric description="Number of Methods Defined" name="Md" value="14"/>
+                        <Metric description="Number of Methods Inherited and Not Overridden" name="Mi" value="0"/>
+                        <Metric description="Number of Methods Inherited (Total)" name="Mit" value="0"/>
+                        <Metric description="Number of Methods Overridden" name="Mo" value="0"/>
+                        <Metric description="Number of Attributes" name="NF" value="6"/>
+                        <Metric description="Number of Methods" name="NM" value="14"/>
+                        <Metric description="Number of Methods Added to Inheritance" name="NMA" value="14"/>
+                        <Metric description="Number of Inherited Methods" name="NMI" value="0"/>
+                        <Metric description="Number of Ancestors" name="NOA" value="0"/>
+                        <Metric description="Number of Children" name="NOCh" value="0"/>
+                        <Metric description="Number of Descendants" name="NOD" value="0"/>
+                        <Metric description="Number of Links" name="NOL" value="0"/>
+                        <Metric description="Number of Parents" name="NOPa" value="0"/>
+                        <Metric description="Number of Overridden Methods" name="NORM" value="0"/>
+                        <Metric description="Number of Public Attributes" name="NPF" value="0"/>
+                        <Metric description="Number of Public Methods" name="NPM" value="13"/>
+                        <Metric description="Number of Static Attributes" name="NSF" value="0"/>
+                        <Metric description="Number of Static Methods" name="NSM" value="0"/>
+                        <Metric description="Public Methods Ratio" name="PMR" value="1,0"/>
+                        <Metric description="Number of Public Methods Defined" name="PMd" value="14"/>
+                        <Metric description="Number of Public Methods Inherited and Not Overridden" name="PMi" value="0"/>
+                        <Metric description="Raw Total Lines of Code" name="RTLOC" value="88"/>
+                        <Metric description="Specialization Index" name="SIX" value="0,0"/>
+                        <Metric description="Total Lines of Code" name="TLOC" value="59"/>
+                        <Metric description="Weighted methods per Class" name="WMC" value="21"/>
+                    </Metrics>
+                    <Methods>
+                        <Method constructor="true" lineEnd="27" lineStart="25" name="public Contacts Contacts()">
+                            <Metrics>
+                                <Metric description="System Complexity" name="Ci" value="1,0"/>
+                                <Metric description="Data Complexity" name="Di" value="1,0"/>
+                                <Metric description="Fan-in" name="Fin" value="0"/>
+                                <Metric description="Fan-out" name="Fout" value="0"/>
+                                <Metric description="Input/Output Variables" name="IOVars" value="1"/>
+                                <Metric description="McClure's Complexity Metric" name="MCLC" value="0"/>
+                                <Metric description="Nested Block Depth" name="NBD" value="1"/>
+                                <Metric description="Number of Comparisons" name="NCOMP" value="0"/>
+                                <Metric description="Number of Parameters" name="NOP" value="0"/>
+                                <Metric description="Number of Control Variables" name="NVAR" value="0"/>
+                                <Metric description="Structural Complexity" name="Si" value="0"/>
+                                <Metric description="Total Lines of Code" name="TLOC" value="2"/>
+                                <Metric description="McCabe Cyclomatic Complexity" name="VG" value="1"/>
+                            </Metrics>
+                        </Method>
+                        <Method constructor="false" lineEnd="63" lineStart="61" name="public String getDocumentNumber()">
+                            <Metrics>
+                                <Metric description="System Complexity" name="Ci" value="1,0"/>
+                                <Metric description="Data Complexity" name="Di" value="1,0"/>
+                                <Metric description="Fan-in" name="Fin" value="3"/>
+                                <Metric description="Fan-out" name="Fout" value="0"/>
+                                <Metric description="Input/Output Variables" name="IOVars" value="1"/>
+                                <Metric description="McClure's Complexity Metric" name="MCLC" value="0"/>
+                                <Metric description="Nested Block Depth" name="NBD" value="1"/>
+                                <Metric description="Number of Comparisons" name="NCOMP" value="0"/>
+                                <Metric description="Number of Parameters" name="NOP" value="0"/>
+                                <Metric description="Number of Control Variables" name="NVAR" value="0"/>
+                                <Metric description="Structural Complexity" name="Si" value="0"/>
+                                <Metric description="Total Lines of Code" name="TLOC" value="3"/>
+                                <Metric description="McCabe Cyclomatic Complexity" name="VG" value="1"/>
+                            </Metrics>
+                        </Method>
+                        <Method constructor="false" lineEnd="47" lineStart="45" name="public String getName()">
+                            <Metrics>
+                                <Metric description="System Complexity" name="Ci" value="1,0"/>
+                                <Metric description="Data Complexity" name="Di" value="1,0"/>
+                                <Metric description="Fan-in" name="Fin" value="3"/>
+                                <Metric description="Fan-out" name="Fout" value="0"/>
+                                <Metric description="Input/Output Variables" name="IOVars" value="1"/>
+                                <Metric description="McClure's Complexity Metric" name="MCLC" value="0"/>
+                                <Metric description="Nested Block Depth" name="NBD" value="1"/>
+                                <Metric description="Number of Comparisons" name="NCOMP" value="0"/>
+                                <Metric description="Number of Parameters" name="NOP" value="0"/>
+                                <Metric description="Number of Control Variables" name="NVAR" value="0"/>
+                                <Metric description="Structural Complexity" name="Si" value="0"/>
+                                <Metric description="Total Lines of Code" name="TLOC" value="3"/>
+                                <Metric description="McCabe Cyclomatic Complexity" name="VG" value="1"/>
+                            </Metrics>
+                        </Method>
+                        <Method constructor="false" lineEnd="71" lineStart="69" name="public String getPhoneNumber()">
+                            <Metrics>
+                                <Metric description="System Complexity" name="Ci" value="1,0"/>
+                                <Metric description="Data Complexity" name="Di" value="1,0"/>
+                                <Metric description="Fan-in" name="Fin" value="3"/>
+                                <Metric description="Fan-out" name="Fout" value="0"/>
+                                <Metric description="Input/Output Variables" name="IOVars" value="1"/>
+                                <Metric description="McClure's Complexity Metric" name="MCLC" value="0"/>
+                                <Metric description="Nested Block Depth" name="NBD" value="1"/>
+                                <Metric description="Number of Comparisons" name="NCOMP" value="0"/>
+                                <Metric description="Number of Parameters" name="NOP" value="0"/>
+                                <Metric description="Number of Control Variables" name="NVAR" value="0"/>
+                                <Metric description="Structural Complexity" name="Si" value="0"/>
+                                <Metric description="Total Lines of Code" name="TLOC" value="3"/>
+                                <Metric description="McCabe Cyclomatic Complexity" name="VG" value="1"/>
+                            </Metrics>
+                        </Method>
+                        <Method constructor="false" lineEnd="39" lineStart="37" name="public UUID getAccountId()">
+                            <Metrics>
+                                <Metric description="System Complexity" name="Ci" value="1,0"/>
+                                <Metric description="Data Complexity" name="Di" value="1,0"/>
+                                <Metric description="Fan-in" name="Fin" value="3"/>
+                                <Metric description="Fan-out" name="Fout" value="0"/>
+                                <Metric description="Input/Output Variables" name="IOVars" value="1"/>
+                                <Metric description="McClure's Complexity Metric" name="MCLC" value="0"/>
+                                <Metric description="Nested Block Depth" name="NBD" value="1"/>
+                                <Metric description="Number of Comparisons" name="NCOMP" value="0"/>
+                                <Metric description="Number of Parameters" name="NOP" value="0"/>
+                                <Metric description="Number of Control Variables" name="NVAR" value="0"/>
+                                <Metric description="Structural Complexity" name="Si" value="0"/>
+                                <Metric description="Total Lines of Code" name="TLOC" value="3"/>
+                                <Metric description="McCabe Cyclomatic Complexity" name="VG" value="1"/>
+                            </Metrics>
+                        </Method>
+                        <Method constructor="false" lineEnd="31" lineStart="29" name="public UUID getId()">
+                            <Metrics>
+                                <Metric description="System Complexity" name="Ci" value="1,0"/>
+                                <Metric description="Data Complexity" name="Di" value="1,0"/>
+                                <Metric description="Fan-in" name="Fin" value="4"/>
+                                <Metric description="Fan-out" name="Fout" value="0"/>
+                                <Metric description="Input/Output Variables" name="IOVars" value="1"/>
+                                <Metric description="McClure's Complexity Metric" name="MCLC" value="0"/>
+                                <Metric description="Nested Block Depth" name="NBD" value="1"/>
+                                <Metric description="Number of Comparisons" name="NCOMP" value="0"/>
+                                <Metric description="Number of Parameters" name="NOP" value="0"/>
+                                <Metric description="Number of Control Variables" name="NVAR" value="0"/>
+                                <Metric description="Structural Complexity" name="Si" value="0"/>
+                                <Metric description="Total Lines of Code" name="TLOC" value="3"/>
+                                <Metric description="McCabe Cyclomatic Complexity" name="VG" value="1"/>
+                            </Metrics>
+                        </Method>
+                        <Method constructor="false" lineEnd="94" lineStart="77" name="public boolean equals(Object obj)">
+                            <Metrics>
+                                <Metric description="System Complexity" name="Ci" value="25,333333333"/>
+                                <Metric description="Data Complexity" name="Di" value="0,333333333"/>
+                                <Metric description="Fan-in" name="Fin" value="0"/>
+                                <Metric description="Fan-out" name="Fout" value="5"/>
+                                <Metric description="Input/Output Variables" name="IOVars" value="2"/>
+                                <Metric description="McClure's Complexity Metric" name="MCLC" value="9"/>
+                                <Metric description="Nested Block Depth" name="NBD" value="2"/>
+                                <Metric description="Number of Comparisons" name="NCOMP" value="8"/>
+                                <Metric description="Number of Parameters" name="NOP" value="1"/>
+                                <Metric description="Number of Control Variables" name="NVAR" value="1"/>
+                                <Metric description="Structural Complexity" name="Si" value="25"/>
+                                <Metric description="Total Lines of Code" name="TLOC" value="13"/>
+                                <Metric description="McCabe Cyclomatic Complexity" name="VG" value="8"/>
+                            </Metrics>
+                        </Method>
+                        <Method constructor="false" lineEnd="55" lineStart="53" name="public int getDocumentType()">
+                            <Metrics>
+                                <Metric description="System Complexity" name="Ci" value="1,0"/>
+                                <Metric description="Data Complexity" name="Di" value="1,0"/>
+                                <Metric description="Fan-in" name="Fin" value="3"/>
+                                <Metric description="Fan-out" name="Fout" value="0"/>
+                                <Metric description="Input/Output Variables" name="IOVars" value="1"/>
+                                <Metric description="McClure's Complexity Metric" name="MCLC" value="0"/>
+                                <Metric description="Nested Block Depth" name="NBD" value="1"/>
+                                <Metric description="Number of Comparisons" name="NCOMP" value="0"/>
+                                <Metric description="Number of Parameters" name="NOP" value="0"/>
+                                <Metric description="Number of Control Variables" name="NVAR" value="0"/>
+                                <Metric description="Structural Complexity" name="Si" value="0"/>
+                                <Metric description="Total Lines of Code" name="TLOC" value="3"/>
+                                <Metric description="McCabe Cyclomatic Complexity" name="VG" value="1"/>
+                            </Metrics>
+                        </Method>
+                        <Method constructor="false" lineEnd="43" lineStart="41" name="public void setAccountId(UUID accountId)">
+                            <Metrics>
+                                <Metric description="System Complexity" name="Ci" value="1,0"/>
+                                <Metric description="Data Complexity" name="Di" value="1,0"/>
+                                <Metric description="Fan-in" name="Fin" value="0"/>
+                                <Metric description="Fan-out" name="Fout" value="0"/>
+                                <Metric description="Input/Output Variables" name="IOVars" value="1"/>
+                                <Metric description="McClure's Complexity Metric" name="MCLC" value="0"/>
+                                <Metric description="Nested Block Depth" name="NBD" value="1"/>
+                                <Metric description="Number of Comparisons" name="NCOMP" value="0"/>
+                                <Metric description="Number of Parameters" name="NOP" value="1"/>
+                                <Metric description="Number of Control Variables" name="NVAR" value="0"/>
+                                <Metric description="Structural Complexity" name="Si" value="0"/>
+                                <Metric description="Total Lines of Code" name="TLOC" value="3"/>
+                                <Metric description="McCabe Cyclomatic Complexity" name="VG" value="1"/>
+                            </Metrics>
+                        </Method>
+                        <Method constructor="false" lineEnd="67" lineStart="65" name="public void setDocumentNumber(String documentNumber)">
+                            <Metrics>
+                                <Metric description="System Complexity" name="Ci" value="1,0"/>
+                                <Metric description="Data Complexity" name="Di" value="1,0"/>
+                                <Metric description="Fan-in" name="Fin" value="0"/>
+                                <Metric description="Fan-out" name="Fout" value="0"/>
+                                <Metric description="Input/Output Variables" name="IOVars" value="1"/>
+                                <Metric description="McClure's Complexity Metric" name="MCLC" value="0"/>
+                                <Metric description="Nested Block Depth" name="NBD" value="1"/>
+                                <Metric description="Number of Comparisons" name="NCOMP" value="0"/>
+                                <Metric description="Number of Parameters" name="NOP" value="1"/>
+                                <Metric description="Number of Control Variables" name="NVAR" value="0"/>
+                                <Metric description="Structural Complexity" name="Si" value="0"/>
+                                <Metric description="Total Lines of Code" name="TLOC" value="3"/>
+                                <Metric description="McCabe Cyclomatic Complexity" name="VG" value="1"/>
+                            </Metrics>
+                        </Method>
+                        <Method constructor="false" lineEnd="59" lineStart="57" name="public void setDocumentType(int documentType)">
+                            <Metrics>
+                                <Metric description="System Complexity" name="Ci" value="1,0"/>
+                                <Metric description="Data Complexity" name="Di" value="1,0"/>
+                                <Metric description="Fan-in" name="Fin" value="2"/>
+                                <Metric description="Fan-out" name="Fout" value="0"/>
+                                <Metric description="Input/Output Variables" name="IOVars" value="1"/>
+                                <Metric description="McClure's Complexity Metric" name="MCLC" value="0"/>
+                                <Metric description="Nested Block Depth" name="NBD" value="1"/>
+                                <Metric description="Number of Comparisons" name="NCOMP" value="0"/>
+                                <Metric description="Number of Parameters" name="NOP" value="1"/>
+                                <Metric description="Number of Control Variables" name="NVAR" value="0"/>
+                                <Metric description="Structural Complexity" name="Si" value="0"/>
+                                <Metric description="Total Lines of Code" name="TLOC" value="3"/>
+                                <Metric description="McCabe Cyclomatic Complexity" name="VG" value="1"/>
+                            </Metrics>
+                        </Method>
+                        <Method constructor="false" lineEnd="35" lineStart="33" name="public void setId(UUID id)">
+                            <Metrics>
+                                <Metric description="System Complexity" name="Ci" value="1,0"/>
+                                <Metric description="Data Complexity" name="Di" value="1,0"/>
+                                <Metric description="Fan-in" name="Fin" value="0"/>
+                                <Metric description="Fan-out" name="Fout" value="0"/>
+                                <Metric description="Input/Output Variables" name="IOVars" value="1"/>
+                                <Metric description="McClure's Complexity Metric" name="MCLC" value="0"/>
+                                <Metric description="Nested Block Depth" name="NBD" value="1"/>
+                                <Metric description="Number of Comparisons" name="NCOMP" value="0"/>
+                                <Metric description="Number of Parameters" name="NOP" value="1"/>
+                                <Metric description="Number of Control Variables" name="NVAR" value="0"/>
+                                <Metric description="Structural Complexity" name="Si" value="0"/>
+                                <Metric description="Total Lines of Code" name="TLOC" value="3"/>
+                                <Metric description="McCabe Cyclomatic Complexity" name="VG" value="1"/>
+                            </Metrics>
+                        </Method>
+                        <Method constructor="false" lineEnd="51" lineStart="49" name="public void setName(String name)">
+                            <Metrics>
+                                <Metric description="System Complexity" name="Ci" value="1,0"/>
+                                <Metric description="Data Complexity" name="Di" value="1,0"/>
+                                <Metric description="Fan-in" name="Fin" value="0"/>
+                                <Metric description="Fan-out" name="Fout" value="0"/>
+                                <Metric description="Input/Output Variables" name="IOVars" value="1"/>
+                                <Metric description="McClure's Complexity Metric" name="MCLC" value="0"/>
+                                <Metric description="Nested Block Depth" name="NBD" value="1"/>
+                                <Metric description="Number of Comparisons" name="NCOMP" value="0"/>
+                                <Metric description="Number of Parameters" name="NOP" value="1"/>
+                                <Metric description="Number of Control Variables" name="NVAR" value="0"/>
+                                <Metric description="Structural Complexity" name="Si" value="0"/>
+                                <Metric description="Total Lines of Code" name="TLOC" value="3"/>
+                                <Metric description="McCabe Cyclomatic Complexity" name="VG" value="1"/>
+                            </Metrics>
+                        </Method>
+                        <Method constructor="false" lineEnd="75" lineStart="73" name="public void setPhoneNumber(String phoneNumber)">
+                            <Metrics>
+                                <Metric description="System Complexity" name="Ci" value="1,0"/>
+                                <Metric description="Data Complexity" name="Di" value="1,0"/>
+                                <Metric description="Fan-in" name="Fin" value="0"/>
+                                <Metric description="Fan-out" name="Fout" value="0"/>
+                                <Metric description="Input/Output Variables" name="IOVars" value="1"/>
+                                <Metric description="McClure's Complexity Metric" name="MCLC" value="0"/>
+                                <Metric description="Nested Block Depth" name="NBD" value="1"/>
+                                <Metric description="Number of Comparisons" name="NCOMP" value="0"/>
+                                <Metric description="Number of Parameters" name="NOP" value="1"/>
+                                <Metric description="Number of Control Variables" name="NVAR" value="0"/>
+                                <Metric description="Structural Complexity" name="Si" value="0"/>
+                                <Metric description="Total Lines of Code" name="TLOC" value="3"/>
+                                <Metric description="McCabe Cyclomatic Complexity" name="VG" value="1"/>
+                            </Metrics>
+                        </Method>
+                    </Methods>
+                </Class>
+            </Classes>
+        </Package>
+        <Package name="contacts.init">
+            <Metrics>
+                <Metric description="Abstractness" name="A" value="0,0"/>
+                <Metric description="Class Categorical Relational Cohesion" name="CCRC" value="0,0"/>
+                <Metric description="Afferent Coupling" name="Ca" value="0"/>
+                <Metric description="Efferent Coupling" name="Ce" value="1"/>
+                <Metric description="Normalized Distance from Main Sequence" name="DMS" value="0,0"/>
+                <Metric description="Instability" name="I" value="1,0"/>
+                <Metric description="Number of Classes" name="NOC" value="1"/>
+                <Metric description="Number of Interfaces and Abstract Classes" name="NOI" value="0"/>
+                <Metric description="Package Relative System Complexity" name="PkgRCi" value="1,0"/>
+                <Metric description="Package Total System Complexity" name="PkgTCi" value="1,0"/>
+                <Metric description="Total Lines of Code" name="TLOC" value="21"/>
+            </Metrics>
+            <Classes>
+                <Class name="InitData" sourceFile="./main/java/contacts/init/InitData.java">
+                    <Metrics>
+                        <Metric description="Attribute Hiding Factor" name="AHF" value="1,0"/>
+                        <Metric description="Attribute Inheritance Factor" name="AIF" value="0,0"/>
+                        <Metric description="Number of Attributes (All)" name="Aa" value="1"/>
+                        <Metric description="Number of Attributes Defined" name="Ad" value="1"/>
+                        <Metric description="Number of Attributes Inherited and Not Overridden" name="Ai" value="0"/>
+                        <Metric description="Number of Attributes Inherited (Total)" name="Ait" value="0"/>
+                        <Metric description="Number of Attributes Overridden" name="Ao" value="0"/>
+                        <Metric description="Number of Public Attributes Defined" name="Av" value="1"/>
+                        <Metric description="Class Relative System Complexity" name="ClRCi" value="1,0"/>
+                        <Metric description="Class Total System Complexity" name="ClTCi" value="1,0"/>
+                        <Metric description="Depth of Inheritance Tree" name="DIT" value="1"/>
+                        <Metric description="Number of Hidden Methods Defined" name="HMd" value="0"/>
+                        <Metric description="Number of Hidden Methods Inherited and Not Overridden" name="HMi" value="0"/>
+                        <Metric description="Method Hiding Factor" name="MHF" value="1,0"/>
+                        <Metric description="Method Inheritance Factor" name="MIF" value="0,0"/>
+                        <Metric description="Number of Methods (All)" name="Ma" value="1"/>
+                        <Metric description="Number of Methods Defined" name="Md" value="1"/>
+                        <Metric description="Number of Methods Inherited and Not Overridden" name="Mi" value="0"/>
+                        <Metric description="Number of Methods Inherited (Total)" name="Mit" value="0"/>
+                        <Metric description="Number of Methods Overridden" name="Mo" value="0"/>
+                        <Metric description="Number of Attributes" name="NF" value="1"/>
+                        <Metric description="Number of Methods" name="NM" value="1"/>
+                        <Metric description="Number of Methods Added to Inheritance" name="NMA" value="1"/>
+                        <Metric description="Number of Inherited Methods" name="NMI" value="0"/>
+                        <Metric description="Number of Ancestors" name="NOA" value="0"/>
+                        <Metric description="Number of Children" name="NOCh" value="0"/>
+                        <Metric description="Number of Descendants" name="NOD" value="0"/>
+                        <Metric description="Number of Links" name="NOL" value="0"/>
+                        <Metric description="Number of Parents" name="NOPa" value="0"/>
+                        <Metric description="Number of Overridden Methods" name="NORM" value="0"/>
+                        <Metric description="Number of Public Attributes" name="NPF" value="0"/>
+                        <Metric description="Number of Public Methods" name="NPM" value="1"/>
+                        <Metric description="Number of Static Attributes" name="NSF" value="0"/>
+                        <Metric description="Number of Static Methods" name="NSM" value="0"/>
+                        <Metric description="Public Methods Ratio" name="PMR" value="1,0"/>
+                        <Metric description="Number of Public Methods Defined" name="PMd" value="1"/>
+                        <Metric description="Number of Public Methods Inherited and Not Overridden" name="PMi" value="0"/>
+                        <Metric description="Raw Total Lines of Code" name="RTLOC" value="27"/>
+                        <Metric description="Specialization Index" name="SIX" value="0,0"/>
+                        <Metric description="Total Lines of Code" name="TLOC" value="21"/>
+                        <Metric description="Weighted methods per Class" name="WMC" value="1"/>
+                    </Metrics>
+                    <Methods>
+                        <Method constructor="false" lineEnd="36" lineStart="17" name="public void run(String... args) throws Exception">
+                            <Metrics>
+                                <Metric description="System Complexity" name="Ci" value="1,0"/>
+                                <Metric description="Data Complexity" name="Di" value="1,0"/>
+                                <Metric description="Fan-in" name="Fin" value="0"/>
+                                <Metric description="Fan-out" name="Fout" value="0"/>
+                                <Metric description="Input/Output Variables" name="IOVars" value="1"/>
+                                <Metric description="McClure's Complexity Metric" name="MCLC" value="0"/>
+                                <Metric description="Nested Block Depth" name="NBD" value="1"/>
+                                <Metric description="Number of Comparisons" name="NCOMP" value="0"/>
+                                <Metric description="Number of Parameters" name="NOP" value="1"/>
+                                <Metric description="Number of Control Variables" name="NVAR" value="0"/>
+                                <Metric description="Structural Complexity" name="Si" value="0"/>
+                                <Metric description="Total Lines of Code" name="TLOC" value="18"/>
+                                <Metric description="McCabe Cyclomatic Complexity" name="VG" value="1"/>
+                            </Metrics>
+                        </Method>
+                    </Methods>
+                </Class>
+            </Classes>
+        </Package>
+        <Package name="contacts.repository">
+            <Metrics>
+                <Metric description="Abstractness" name="A" value="1,0"/>
+                <Metric description="Class Categorical Relational Cohesion" name="CCRC" value="0,0"/>
+                <Metric description="Afferent Coupling" name="Ca" value="1"/>
+                <Metric description="Efferent Coupling" name="Ce" value="1"/>
+                <Metric description="Normalized Distance from Main Sequence" name="DMS" value="0,5"/>
+                <Metric description="Instability" name="I" value="0,5"/>
+                <Metric description="Number of Classes" name="NOC" value="1"/>
+                <Metric description="Number of Interfaces and Abstract Classes" name="NOI" value="1"/>
+                <Metric description="Package Relative System Complexity" name="PkgRCi" value="1,5"/>
+                <Metric description="Package Total System Complexity" name="PkgTCi" value="6,0"/>
+                <Metric description="Total Lines of Code" name="TLOC" value="6"/>
+            </Metrics>
+            <Classes>
+                <Class name="ContactsRepository" sourceFile="./main/java/contacts/repository/ContactsRepository.java">
+                    <Metrics>
+                        <Metric description="Number of Attributes (All)" name="Aa" value="0"/>
+                        <Metric description="Number of Attributes Defined" name="Ad" value="0"/>
+                        <Metric description="Number of Attributes Inherited and Not Overridden" name="Ai" value="0"/>
+                        <Metric description="Number of Attributes Inherited (Total)" name="Ait" value="0"/>
+                        <Metric description="Number of Attributes Overridden" name="Ao" value="0"/>
+                        <Metric description="Number of Public Attributes Defined" name="Av" value="0"/>
+                        <Metric description="Class Relative System Complexity" name="ClRCi" value="1,5"/>
+                        <Metric description="Class Total System Complexity" name="ClTCi" value="6,0"/>
+                        <Metric description="Depth of Inheritance Tree" name="DIT" value="1"/>
+                        <Metric description="Number of Hidden Methods Defined" name="HMd" value="0"/>
+                        <Metric description="Number of Hidden Methods Inherited and Not Overridden" name="HMi" value="0"/>
+                        <Metric description="Number of Methods (All)" name="Ma" value="0"/>
+                        <Metric description="Number of Methods Defined" name="Md" value="0"/>
+                        <Metric description="Number of Methods Inherited and Not Overridden" name="Mi" value="0"/>
+                        <Metric description="Number of Methods Inherited (Total)" name="Mit" value="0"/>
+                        <Metric description="Number of Methods Overridden" name="Mo" value="0"/>
+                        <Metric description="Number of Attributes" name="NF" value="0"/>
+                        <Metric description="Number of Methods" name="NM" value="4"/>
+                        <Metric description="Number of Methods Added to Inheritance" name="NMA" value="4"/>
+                        <Metric description="Number of Inherited Methods" name="NMI" value="0"/>
+                        <Metric description="Number of Ancestors" name="NOA" value="0"/>
+                        <Metric description="Number of Children" name="NOCh" value="0"/>
+                        <Metric description="Number of Descendants" name="NOD" value="0"/>
+                        <Metric description="Number of Links" name="NOL" value="0"/>
+                        <Metric description="Number of Parents" name="NOPa" value="0"/>
+                        <Metric description="Number of Overridden Methods" name="NORM" value="0"/>
+                        <Metric description="Number of Public Attributes" name="NPF" value="0"/>
+                        <Metric description="Number of Public Methods" name="NPM" value="0"/>
+                        <Metric description="Number of Static Attributes" name="NSF" value="0"/>
+                        <Metric description="Number of Static Methods" name="NSM" value="0"/>
+                        <Metric description="Number of Public Methods Defined" name="PMd" value="0"/>
+                        <Metric description="Number of Public Methods Inherited and Not Overridden" name="PMi" value="0"/>
+                        <Metric description="Raw Total Lines of Code" name="RTLOC" value="13"/>
+                        <Metric description="Specialization Index" name="SIX" value="0,0"/>
+                        <Metric description="Total Lines of Code" name="TLOC" value="6"/>
+                        <Metric description="Weighted methods per Class" name="WMC" value="4"/>
+                    </Metrics>
+                    <Methods>
+                        <Method constructor="false" lineEnd="20" lineStart="20" name="ArrayList&lt;Contacts&gt; findAll()">
+                            <Metrics>
+                                <Metric description="System Complexity" name="Ci" value="1,0"/>
+                                <Metric description="Data Complexity" name="Di" value="1,0"/>
+                                <Metric description="Fan-in" name="Fin" value="0"/>
+                                <Metric description="Fan-out" name="Fout" value="0"/>
+                                <Metric description="Input/Output Variables" name="IOVars" value="1"/>
+                                <Metric description="McClure's Complexity Metric" name="MCLC" value="0"/>
+                                <Metric description="Nested Block Depth" name="NBD" value="1"/>
+                                <Metric description="Number of Comparisons" name="NCOMP" value="0"/>
+                                <Metric description="Number of Parameters" name="NOP" value="0"/>
+                                <Metric description="Number of Control Variables" name="NVAR" value="0"/>
+                                <Metric description="Structural Complexity" name="Si" value="0"/>
+                                <Metric description="Total Lines of Code" name="TLOC" value="1"/>
+                                <Metric description="McCabe Cyclomatic Complexity" name="VG" value="1"/>
+                            </Metrics>
+                        </Method>
+                        <Method constructor="false" lineEnd="16" lineStart="15" name="ArrayList&lt;Contacts&gt; findByAccountId(UUID accountId)">
+                            <Metrics>
+                                <Metric description="System Complexity" name="Ci" value="2,0"/>
+                                <Metric description="Data Complexity" name="Di" value="2,0"/>
+                                <Metric description="Fan-in" name="Fin" value="0"/>
+                                <Metric description="Fan-out" name="Fout" value="0"/>
+                                <Metric description="Input/Output Variables" name="IOVars" value="2"/>
+                                <Metric description="McClure's Complexity Metric" name="MCLC" value="0"/>
+                                <Metric description="Nested Block Depth" name="NBD" value="1"/>
+                                <Metric description="Number of Comparisons" name="NCOMP" value="0"/>
+                                <Metric description="Number of Parameters" name="NOP" value="1"/>
+                                <Metric description="Number of Control Variables" name="NVAR" value="0"/>
+                                <Metric description="Structural Complexity" name="Si" value="0"/>
+                                <Metric description="Total Lines of Code" name="TLOC" value="1"/>
+                                <Metric description="McCabe Cyclomatic Complexity" name="VG" value="1"/>
+                            </Metrics>
+                        </Method>
+                        <Method constructor="false" lineEnd="13" lineStart="13" name="Contacts findById(UUID id)">
+                            <Metrics>
+                                <Metric description="System Complexity" name="Ci" value="2,0"/>
+                                <Metric description="Data Complexity" name="Di" value="2,0"/>
+                                <Metric description="Fan-in" name="Fin" value="0"/>
+                                <Metric description="Fan-out" name="Fout" value="0"/>
+                                <Metric description="Input/Output Variables" name="IOVars" value="2"/>
+                                <Metric description="McClure's Complexity Metric" name="MCLC" value="0"/>
+                                <Metric description="Nested Block Depth" name="NBD" value="1"/>
+                                <Metric description="Number of Comparisons" name="NCOMP" value="0"/>
+                                <Metric description="Number of Parameters" name="NOP" value="1"/>
+                                <Metric description="Number of Control Variables" name="NVAR" value="0"/>
+                                <Metric description="Structural Complexity" name="Si" value="0"/>
+                                <Metric description="Total Lines of Code" name="TLOC" value="1"/>
+                                <Metric description="McCabe Cyclomatic Complexity" name="VG" value="1"/>
+                            </Metrics>
+                        </Method>
+                        <Method constructor="false" lineEnd="18" lineStart="18" name="void deleteById(UUID id)">
+                            <Metrics>
+                                <Metric description="System Complexity" name="Ci" value="1,0"/>
+                                <Metric description="Data Complexity" name="Di" value="1,0"/>
+                                <Metric description="Fan-in" name="Fin" value="0"/>
+                                <Metric description="Fan-out" name="Fout" value="0"/>
+                                <Metric description="Input/Output Variables" name="IOVars" value="1"/>
+                                <Metric description="McClure's Complexity Metric" name="MCLC" value="0"/>
+                                <Metric description="Nested Block Depth" name="NBD" value="1"/>
+                                <Metric description="Number of Comparisons" name="NCOMP" value="0"/>
+                                <Metric description="Number of Parameters" name="NOP" value="1"/>
+                                <Metric description="Number of Control Variables" name="NVAR" value="0"/>
+                                <Metric description="Structural Complexity" name="Si" value="0"/>
+                                <Metric description="Total Lines of Code" name="TLOC" value="1"/>
+                                <Metric description="McCabe Cyclomatic Complexity" name="VG" value="1"/>
+                            </Metrics>
+                        </Method>
+                    </Methods>
+                </Class>
+            </Classes>
+        </Package>
+        <Package name="contacts.service">
+            <Metrics>
+                <Metric description="Abstractness" name="A" value="0,5"/>
+                <Metric description="Class Categorical Relational Cohesion" name="CCRC" value="200,0"/>
+                <Metric description="Afferent Coupling" name="Ca" value="2"/>
+                <Metric description="Efferent Coupling" name="Ce" value="2"/>
+                <Metric description="Normalized Distance from Main Sequence" name="DMS" value="0,0"/>
+                <Metric description="Instability" name="I" value="0,5"/>
+                <Metric description="Number of Classes" name="NOC" value="2"/>
+                <Metric description="Number of Interfaces and Abstract Classes" name="NOI" value="1"/>
+                <Metric description="Package Relative System Complexity" name="PkgRCi" value="8,700255102"/>
+                <Metric description="Package Total System Complexity" name="PkgTCi" value="121,803571429"/>
+                <Metric description="Total Lines of Code" name="TLOC" value="94"/>
+            </Metrics>
+            <Classes>
+                <Class name="ContactsService" sourceFile="./main/java/contacts/service/ContactsService.java">
+                    <Metrics>
+                        <Metric description="Number of Attributes (All)" name="Aa" value="0"/>
+                        <Metric description="Number of Attributes Defined" name="Ad" value="0"/>
+                        <Metric description="Number of Attributes Inherited and Not Overridden" name="Ai" value="0"/>
+                        <Metric description="Number of Attributes Inherited (Total)" name="Ait" value="0"/>
+                        <Metric description="Number of Attributes Overridden" name="Ao" value="0"/>
+                        <Metric description="Number of Public Attributes Defined" name="Av" value="0"/>
+                        <Metric description="Class Relative System Complexity" name="ClRCi" value="2,857142857"/>
+                        <Metric description="Class Total System Complexity" name="ClTCi" value="20,0"/>
+                        <Metric description="Depth of Inheritance Tree" name="DIT" value="1"/>
+                        <Metric description="Number of Hidden Methods Defined" name="HMd" value="0"/>
+                        <Metric description="Number of Hidden Methods Inherited and Not Overridden" name="HMi" value="0"/>
+                        <Metric description="Number of Methods (All)" name="Ma" value="0"/>
+                        <Metric description="Number of Methods Defined" name="Md" value="0"/>
+                        <Metric description="Number of Methods Inherited and Not Overridden" name="Mi" value="0"/>
+                        <Metric description="Number of Methods Inherited (Total)" name="Mit" value="0"/>
+                        <Metric description="Number of Methods Overridden" name="Mo" value="0"/>
+                        <Metric description="Number of Attributes" name="NF" value="0"/>
+                        <Metric description="Number of Methods" name="NM" value="7"/>
+                        <Metric description="Number of Methods Added to Inheritance" name="NMA" value="7"/>
+                        <Metric description="Number of Inherited Methods" name="NMI" value="0"/>
+                        <Metric description="Number of Ancestors" name="NOA" value="0"/>
+                        <Metric description="Number of Children" name="NOCh" value="1"/>
+                        <Metric description="Number of Descendants" name="NOD" value="1"/>
+                        <Metric description="Number of Links" name="NOL" value="1"/>
+                        <Metric description="Number of Parents" name="NOPa" value="0"/>
+                        <Metric description="Number of Overridden Methods" name="NORM" value="0"/>
+                        <Metric description="Number of Public Attributes" name="NPF" value="0"/>
+                        <Metric description="Number of Public Methods" name="NPM" value="0"/>
+                        <Metric description="Number of Static Attributes" name="NSF" value="0"/>
+                        <Metric description="Number of Static Methods" name="NSM" value="0"/>
+                        <Metric description="Number of Public Methods Defined" name="PMd" value="0"/>
+                        <Metric description="Number of Public Methods Inherited and Not Overridden" name="PMi" value="0"/>
+                        <Metric description="Raw Total Lines of Code" name="RTLOC" value="17"/>
+                        <Metric description="Specialization Index" name="SIX" value="0,0"/>
+                        <Metric description="Total Lines of Code" name="TLOC" value="9"/>
+                        <Metric description="Weighted methods per Class" name="WMC" value="7"/>
+                    </Metrics>
+                    <Methods>
+                        <Method constructor="false" lineEnd="14" lineStart="14" name="Response create(Contacts addContacts, HttpHeaders headers)">
+                            <Metrics>
+                                <Metric description="System Complexity" name="Ci" value="3,0"/>
+                                <Metric description="Data Complexity" name="Di" value="3,0"/>
+                                <Metric description="Fan-in" name="Fin" value="0"/>
+                                <Metric description="Fan-out" name="Fout" value="0"/>
+                                <Metric description="Input/Output Variables" name="IOVars" value="3"/>
+                                <Metric description="McClure's Complexity Metric" name="MCLC" value="0"/>
+                                <Metric description="Nested Block Depth" name="NBD" value="1"/>
+                                <Metric description="Number of Comparisons" name="NCOMP" value="0"/>
+                                <Metric description="Number of Parameters" name="NOP" value="2"/>
+                                <Metric description="Number of Control Variables" name="NVAR" value="0"/>
+                                <Metric description="Structural Complexity" name="Si" value="0"/>
+                                <Metric description="Total Lines of Code" name="TLOC" value="1"/>
+                                <Metric description="McCabe Cyclomatic Complexity" name="VG" value="1"/>
+                            </Metrics>
+                        </Method>
+                        <Method constructor="false" lineEnd="12" lineStart="12" name="Response createContacts(Contacts contacts, HttpHeaders headers)">
+                            <Metrics>
+                                <Metric description="System Complexity" name="Ci" value="3,0"/>
+                                <Metric description="Data Complexity" name="Di" value="3,0"/>
+                                <Metric description="Fan-in" name="Fin" value="0"/>
+                                <Metric description="Fan-out" name="Fout" value="0"/>
+                                <Metric description="Input/Output Variables" name="IOVars" value="3"/>
+                                <Metric description="McClure's Complexity Metric" name="MCLC" value="0"/>
+                                <Metric description="Nested Block Depth" name="NBD" value="1"/>
+                                <Metric description="Number of Comparisons" name="NCOMP" value="0"/>
+                                <Metric description="Number of Parameters" name="NOP" value="2"/>
+                                <Metric description="Number of Control Variables" name="NVAR" value="0"/>
+                                <Metric description="Structural Complexity" name="Si" value="0"/>
+                                <Metric description="Total Lines of Code" name="TLOC" value="1"/>
+                                <Metric description="McCabe Cyclomatic Complexity" name="VG" value="1"/>
+                            </Metrics>
+                        </Method>
+                        <Method constructor="false" lineEnd="16" lineStart="16" name="Response delete(UUID contactsId, HttpHeaders headers)">
+                            <Metrics>
+                                <Metric description="System Complexity" name="Ci" value="3,0"/>
+                                <Metric description="Data Complexity" name="Di" value="3,0"/>
+                                <Metric description="Fan-in" name="Fin" value="0"/>
+                                <Metric description="Fan-out" name="Fout" value="0"/>
+                                <Metric description="Input/Output Variables" name="IOVars" value="3"/>
+                                <Metric description="McClure's Complexity Metric" name="MCLC" value="0"/>
+                                <Metric description="Nested Block Depth" name="NBD" value="1"/>
+                                <Metric description="Number of Comparisons" name="NCOMP" value="0"/>
+                                <Metric description="Number of Parameters" name="NOP" value="2"/>
+                                <Metric description="Number of Control Variables" name="NVAR" value="0"/>
+                                <Metric description="Structural Complexity" name="Si" value="0"/>
+                                <Metric description="Total Lines of Code" name="TLOC" value="1"/>
+                                <Metric description="McCabe Cyclomatic Complexity" name="VG" value="1"/>
+                            </Metrics>
+                        </Method>
+                        <Method constructor="false" lineEnd="24" lineStart="24" name="Response findContactsByAccountId(UUID accountId, HttpHeaders headers)">
+                            <Metrics>
+                                <Metric description="System Complexity" name="Ci" value="3,0"/>
+                                <Metric description="Data Complexity" name="Di" value="3,0"/>
+                                <Metric description="Fan-in" name="Fin" value="0"/>
+                                <Metric description="Fan-out" name="Fout" value="0"/>
+                                <Metric description="Input/Output Variables" name="IOVars" value="3"/>
+                                <Metric description="McClure's Complexity Metric" name="MCLC" value="0"/>
+                                <Metric description="Nested Block Depth" name="NBD" value="1"/>
+                                <Metric description="Number of Comparisons" name="NCOMP" value="0"/>
+                                <Metric description="Number of Parameters" name="NOP" value="2"/>
+                                <Metric description="Number of Control Variables" name="NVAR" value="0"/>
+                                <Metric description="Structural Complexity" name="Si" value="0"/>
+                                <Metric description="Total Lines of Code" name="TLOC" value="1"/>
+                                <Metric description="McCabe Cyclomatic Complexity" name="VG" value="1"/>
+                            </Metrics>
+                        </Method>
+                        <Method constructor="false" lineEnd="22" lineStart="22" name="Response findContactsById(UUID id, HttpHeaders headers)">
+                            <Metrics>
+                                <Metric description="System Complexity" name="Ci" value="3,0"/>
+                                <Metric description="Data Complexity" name="Di" value="3,0"/>
+                                <Metric description="Fan-in" name="Fin" value="0"/>
+                                <Metric description="Fan-out" name="Fout" value="0"/>
+                                <Metric description="Input/Output Variables" name="IOVars" value="3"/>
+                                <Metric description="McClure's Complexity Metric" name="MCLC" value="0"/>
+                                <Metric description="Nested Block Depth" name="NBD" value="1"/>
+                                <Metric description="Number of Comparisons" name="NCOMP" value="0"/>
+                                <Metric description="Number of Parameters" name="NOP" value="2"/>
+                                <Metric description="Number of Control Variables" name="NVAR" value="0"/>
+                                <Metric description="Structural Complexity" name="Si" value="0"/>
+                                <Metric description="Total Lines of Code" name="TLOC" value="1"/>
+                                <Metric description="McCabe Cyclomatic Complexity" name="VG" value="1"/>
+                            </Metrics>
+                        </Method>
+                        <Method constructor="false" lineEnd="20" lineStart="20" name="Response getAllContacts(HttpHeaders headers)">
+                            <Metrics>
+                                <Metric description="System Complexity" name="Ci" value="2,0"/>
+                                <Metric description="Data Complexity" name="Di" value="2,0"/>
+                                <Metric description="Fan-in" name="Fin" value="0"/>
+                                <Metric description="Fan-out" name="Fout" value="0"/>
+                                <Metric description="Input/Output Variables" name="IOVars" value="2"/>
+                                <Metric description="McClure's Complexity Metric" name="MCLC" value="0"/>
+                                <Metric description="Nested Block Depth" name="NBD" value="1"/>
+                                <Metric description="Number of Comparisons" name="NCOMP" value="0"/>
+                                <Metric description="Number of Parameters" name="NOP" value="1"/>
+                                <Metric description="Number of Control Variables" name="NVAR" value="0"/>
+                                <Metric description="Structural Complexity" name="Si" value="0"/>
+                                <Metric description="Total Lines of Code" name="TLOC" value="1"/>
+                                <Metric description="McCabe Cyclomatic Complexity" name="VG" value="1"/>
+                            </Metrics>
+                        </Method>
+                        <Method constructor="false" lineEnd="18" lineStart="18" name="Response modify(Contacts contacts, HttpHeaders headers)">
+                            <Metrics>
+                                <Metric description="System Complexity" name="Ci" value="3,0"/>
+                                <Metric description="Data Complexity" name="Di" value="3,0"/>
+                                <Metric description="Fan-in" name="Fin" value="0"/>
+                                <Metric description="Fan-out" name="Fout" value="0"/>
+                                <Metric description="Input/Output Variables" name="IOVars" value="3"/>
+                                <Metric description="McClure's Complexity Metric" name="MCLC" value="0"/>
+                                <Metric description="Nested Block Depth" name="NBD" value="1"/>
+                                <Metric description="Number of Comparisons" name="NCOMP" value="0"/>
+                                <Metric description="Number of Parameters" name="NOP" value="2"/>
+                                <Metric description="Number of Control Variables" name="NVAR" value="0"/>
+                                <Metric description="Structural Complexity" name="Si" value="0"/>
+                                <Metric description="Total Lines of Code" name="TLOC" value="1"/>
+                                <Metric description="McCabe Cyclomatic Complexity" name="VG" value="1"/>
+                            </Metrics>
+                        </Method>
+                    </Methods>
+                </Class>
+                <Class name="ContactsServiceImpl" sourceFile="./main/java/contacts/service/ContactsServiceImpl.java">
+                    <Metrics>
+                        <Metric description="Attribute Hiding Factor" name="AHF" value="0,0"/>
+                        <Metric description="Attribute Inheritance Factor" name="AIF" value="0,0"/>
+                        <Metric description="Number of Attributes (All)" name="Aa" value="1"/>
+                        <Metric description="Number of Attributes Defined" name="Ad" value="1"/>
+                        <Metric description="Number of Attributes Inherited and Not Overridden" name="Ai" value="0"/>
+                        <Metric description="Number of Attributes Inherited (Total)" name="Ait" value="0"/>
+                        <Metric description="Number of Attributes Overridden" name="Ao" value="0"/>
+                        <Metric description="Number of Public Attributes Defined" name="Av" value="0"/>
+                        <Metric description="Class Relative System Complexity" name="ClRCi" value="14,543367347"/>
+                        <Metric description="Class Total System Complexity" name="ClTCi" value="101,803571429"/>
+                        <Metric description="Depth of Inheritance Tree" name="DIT" value="2"/>
+                        <Metric description="Number of Hidden Methods Defined" name="HMd" value="0"/>
+                        <Metric description="Number of Hidden Methods Inherited and Not Overridden" name="HMi" value="0"/>
+                        <Metric description="Lack of Cohesion Methods (H-S)" name="LCOM*" value="0,0"/>
+                        <Metric description="Method Hiding Factor" name="MHF" value="1,0"/>
+                        <Metric description="Method Inheritance Factor" name="MIF" value="0,0"/>
+                        <Metric description="Number of Methods (All)" name="Ma" value="7"/>
+                        <Metric description="Number of Methods Defined" name="Md" value="7"/>
+                        <Metric description="Number of Methods Inherited and Not Overridden" name="Mi" value="0"/>
+                        <Metric description="Number of Methods Inherited (Total)" name="Mit" value="0"/>
+                        <Metric description="Number of Methods Overridden" name="Mo" value="0"/>
+                        <Metric description="Number of Attributes" name="NF" value="1"/>
+                        <Metric description="Number of Methods" name="NM" value="7"/>
+                        <Metric description="Number of Methods Added to Inheritance" name="NMA" value="0"/>
+                        <Metric description="Number of Inherited Methods" name="NMI" value="0"/>
+                        <Metric description="Number of Ancestors" name="NOA" value="1"/>
+                        <Metric description="Number of Children" name="NOCh" value="0"/>
+                        <Metric description="Number of Descendants" name="NOD" value="0"/>
+                        <Metric description="Number of Links" name="NOL" value="3"/>
+                        <Metric description="Number of Parents" name="NOPa" value="1"/>
+                        <Metric description="Number of Overridden Methods" name="NORM" value="7"/>
+                        <Metric description="Number of Public Attributes" name="NPF" value="0"/>
+                        <Metric description="Number of Public Methods" name="NPM" value="7"/>
+                        <Metric description="Number of Static Attributes" name="NSF" value="0"/>
+                        <Metric description="Number of Static Methods" name="NSM" value="0"/>
+                        <Metric description="Public Methods Ratio" name="PMR" value="1,0"/>
+                        <Metric description="Number of Public Methods Defined" name="PMd" value="7"/>
+                        <Metric description="Number of Public Methods Inherited and Not Overridden" name="PMi" value="0"/>
+                        <Metric description="Raw Total Lines of Code" name="RTLOC" value="106"/>
+                        <Metric description="Specialization Index" name="SIX" value="2,0"/>
+                        <Metric description="Total Lines of Code" name="TLOC" value="85"/>
+                        <Metric description="Weighted methods per Class" name="WMC" value="16"/>
+                    </Metrics>
+                    <Methods>
+                        <Method constructor="false" lineEnd="80" lineStart="60" name="public Response create(Contacts addContacts, HttpHeaders headers)">
+                            <Metrics>
+                                <Metric description="System Complexity" name="Ci" value="49,375"/>
+                                <Metric description="Data Complexity" name="Di" value="0,375"/>
+                                <Metric description="Fan-in" name="Fin" value="0"/>
+                                <Metric description="Fan-out" name="Fout" value="7"/>
+                                <Metric description="Input/Output Variables" name="IOVars" value="3"/>
+                                <Metric description="McClure's Complexity Metric" name="MCLC" value="2"/>
+                                <Metric description="Nested Block Depth" name="NBD" value="2"/>
+                                <Metric description="Number of Comparisons" name="NCOMP" value="0"/>
+                                <Metric description="Number of Parameters" name="NOP" value="2"/>
+                                <Metric description="Number of Control Variables" name="NVAR" value="2"/>
+                                <Metric description="Structural Complexity" name="Si" value="49"/>
+                                <Metric description="Total Lines of Code" name="TLOC" value="18"/>
+                                <Metric description="McCabe Cyclomatic Complexity" name="VG" value="2"/>
+                            </Metrics>
+                        </Method>
+                        <Method constructor="false" lineEnd="58" lineStart="48" name="public Response createContacts(Contacts contacts, HttpHeaders headers)">
+                            <Metrics>
+                                <Metric description="System Complexity" name="Ci" value="5,0"/>
+                                <Metric description="Data Complexity" name="Di" value="1,0"/>
+                                <Metric description="Fan-in" name="Fin" value="0"/>
+                                <Metric description="Fan-out" name="Fout" value="2"/>
+                                <Metric description="Input/Output Variables" name="IOVars" value="3"/>
+                                <Metric description="McClure's Complexity Metric" name="MCLC" value="3"/>
+                                <Metric description="Nested Block Depth" name="NBD" value="2"/>
+                                <Metric description="Number of Comparisons" name="NCOMP" value="2"/>
+                                <Metric description="Number of Parameters" name="NOP" value="2"/>
+                                <Metric description="Number of Control Variables" name="NVAR" value="1"/>
+                                <Metric description="Structural Complexity" name="Si" value="4"/>
+                                <Metric description="Total Lines of Code" name="TLOC" value="10"/>
+                                <Metric description="McCabe Cyclomatic Complexity" name="VG" value="2"/>
+                            </Metrics>
+                        </Method>
+                        <Method constructor="false" lineEnd="93" lineStart="82" name="public Response delete(UUID contactsId, HttpHeaders headers)">
+                            <Metrics>
+                                <Metric description="System Complexity" name="Ci" value="3,0"/>
+                                <Metric description="Data Complexity" name="Di" value="3,0"/>
+                                <Metric description="Fan-in" name="Fin" value="0"/>
+                                <Metric description="Fan-out" name="Fout" value="0"/>
+                                <Metric description="Input/Output Variables" name="IOVars" value="3"/>
+                                <Metric description="McClure's Complexity Metric" name="MCLC" value="2"/>
+                                <Metric description="Nested Block Depth" name="NBD" value="2"/>
+                                <Metric description="Number of Comparisons" name="NCOMP" value="1"/>
+                                <Metric description="Number of Parameters" name="NOP" value="2"/>
+                                <Metric description="Number of Control Variables" name="NVAR" value="1"/>
+                                <Metric description="Structural Complexity" name="Si" value="0"/>
+                                <Metric description="Total Lines of Code" name="TLOC" value="11"/>
+                                <Metric description="McCabe Cyclomatic Complexity" name="VG" value="2"/>
+                            </Metrics>
+                        </Method>
+                        <Method constructor="false" lineEnd="46" lineStart="37" name="public Response findContactsByAccountId(UUID accountId, HttpHeaders headers)">
+                            <Metrics>
+                                <Metric description="System Complexity" name="Ci" value="3,0"/>
+                                <Metric description="Data Complexity" name="Di" value="3,0"/>
+                                <Metric description="Fan-in" name="Fin" value="0"/>
+                                <Metric description="Fan-out" name="Fout" value="0"/>
+                                <Metric description="Input/Output Variables" name="IOVars" value="3"/>
+                                <Metric description="McClure's Complexity Metric" name="MCLC" value="5"/>
+                                <Metric description="Nested Block Depth" name="NBD" value="2"/>
+                                <Metric description="Number of Comparisons" name="NCOMP" value="4"/>
+                                <Metric description="Number of Parameters" name="NOP" value="2"/>
+                                <Metric description="Number of Control Variables" name="NVAR" value="1"/>
+                                <Metric description="Structural Complexity" name="Si" value="0"/>
+                                <Metric description="Total Lines of Code" name="TLOC" value="9"/>
+                                <Metric description="McCabe Cyclomatic Complexity" name="VG" value="3"/>
+                            </Metrics>
+                        </Method>
+                        <Method constructor="false" lineEnd="35" lineStart="26" name="public Response findContactsById(UUID id, HttpHeaders headers)">
+                            <Metrics>
+                                <Metric description="System Complexity" name="Ci" value="3,0"/>
+                                <Metric description="Data Complexity" name="Di" value="3,0"/>
+                                <Metric description="Fan-in" name="Fin" value="0"/>
+                                <Metric description="Fan-out" name="Fout" value="0"/>
+                                <Metric description="Input/Output Variables" name="IOVars" value="3"/>
+                                <Metric description="McClure's Complexity Metric" name="MCLC" value="3"/>
+                                <Metric description="Nested Block Depth" name="NBD" value="2"/>
+                                <Metric description="Number of Comparisons" name="NCOMP" value="2"/>
+                                <Metric description="Number of Parameters" name="NOP" value="2"/>
+                                <Metric description="Number of Control Variables" name="NVAR" value="1"/>
+                                <Metric description="Structural Complexity" name="Si" value="0"/>
+                                <Metric description="Total Lines of Code" name="TLOC" value="9"/>
+                                <Metric description="McCabe Cyclomatic Complexity" name="VG" value="2"/>
+                            </Metrics>
+                        </Method>
+                        <Method constructor="false" lineEnd="122" lineStart="114" name="public Response getAllContacts(HttpHeaders headers)">
+                            <Metrics>
+                                <Metric description="System Complexity" name="Ci" value="2,0"/>
+                                <Metric description="Data Complexity" name="Di" value="2,0"/>
+                                <Metric description="Fan-in" name="Fin" value="0"/>
+                                <Metric description="Fan-out" name="Fout" value="0"/>
+                                <Metric description="Input/Output Variables" name="IOVars" value="2"/>
+                                <Metric description="McClure's Complexity Metric" name="MCLC" value="4"/>
+                                <Metric description="Nested Block Depth" name="NBD" value="2"/>
+                                <Metric description="Number of Comparisons" name="NCOMP" value="3"/>
+                                <Metric description="Number of Parameters" name="NOP" value="1"/>
+                                <Metric description="Number of Control Variables" name="NVAR" value="1"/>
+                                <Metric description="Structural Complexity" name="Si" value="0"/>
+                                <Metric description="Total Lines of Code" name="TLOC" value="8"/>
+                                <Metric description="McCabe Cyclomatic Complexity" name="VG" value="3"/>
+                            </Metrics>
+                        </Method>
+                        <Method constructor="false" lineEnd="112" lineStart="95" name="public Response modify(Contacts contacts, HttpHeaders headers)">
+                            <Metrics>
+                                <Metric description="System Complexity" name="Ci" value="36,428571429"/>
+                                <Metric description="Data Complexity" name="Di" value="0,428571429"/>
+                                <Metric description="Fan-in" name="Fin" value="0"/>
+                                <Metric description="Fan-out" name="Fout" value="6"/>
+                                <Metric description="Input/Output Variables" name="IOVars" value="3"/>
+                                <Metric description="McClure's Complexity Metric" name="MCLC" value="2"/>
+                                <Metric description="Nested Block Depth" name="NBD" value="2"/>
+                                <Metric description="Number of Comparisons" name="NCOMP" value="1"/>
+                                <Metric description="Number of Parameters" name="NOP" value="2"/>
+                                <Metric description="Number of Control Variables" name="NVAR" value="1"/>
+                                <Metric description="Structural Complexity" name="Si" value="36"/>
+                                <Metric description="Total Lines of Code" name="TLOC" value="17"/>
+                                <Metric description="McCabe Cyclomatic Complexity" name="VG" value="2"/>
+                            </Metrics>
+                        </Method>
+                    </Methods>
+                </Class>
+            </Classes>
+        </Package>
+    </Packages>
+</Project>
