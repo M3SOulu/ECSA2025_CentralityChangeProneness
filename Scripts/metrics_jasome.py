@@ -1,7 +1,7 @@
 import os
 import subprocess
 
-JASOME_PATH = "/Users/abakhtin22/Documents/jasome-0.6.8-alpha/bin/jasome"
+JASOME_PATH = "/Users/abakhtin22/Applications/jasome-0.6.8-alpha/bin/jasome"
 
 
 def run_jasome(project_path, output_dir):

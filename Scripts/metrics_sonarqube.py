@@ -1,7 +1,7 @@
 import os
 import subprocess
 
-SONAR_PATH = "/Users/abakhtin22/Documents/sonar-scanner-6.2.1.4610-macosx-x64/bin/sonar-scanner"
+SONAR_PATH = "/Users/abakhtin22/Application/sonar-scanner-6.2.1.4610-macosx-x64/bin/sonar-scanner"
 TOKEN = "sqa_bde2972ca3539cda86a01800002351995d20368e"
 
 
