@@ -20,7 +20,7 @@ static_rows = [["Microservice",
                 "Taylor_TAC", "Taylor_FOM"
                 ]]
 
-time_rows = [["Version",
+time_rows = [["Version", "Version Id",
               "Taylor_MLC", "Yin_MLC", "Liu_MLC", "Huang_MLC",
               ]]
 
@@ -59,7 +59,7 @@ yin_mnc = yin.mnc
 yin_mlc = yin.mlc
 
 for version_id, version in enumerate(versions):
-    time_rows.append([version,
+    time_rows.append([version, version_id+1,
                       # Marginal Layer Centralities
                       abs(float(taylor_mlc[version_id])),
                       abs(float(yin_mlc[version_id])),

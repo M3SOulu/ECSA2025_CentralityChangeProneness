@@ -5,9 +5,6 @@ import pandas as pd
 with open("raw_data/package_map.json", 'r') as f:
     PACKAGE_MAP = json.load(f)
 
-# PACKAGES = set(PACKAGE_MAP.keys())
-# SERVICES = set(PACKAGE_MAP.values())
-#
 # Mappping of packages to services
 def map_packages(df: pd.DataFrame) -> pd.DataFrame:
     new_col = []
@@ -17,7 +14,6 @@ def map_packages(df: pd.DataFrame) -> pd.DataFrame:
         for base_package, service in PACKAGE_MAP[version].items():
             if package.startswith(base_package):
                 new_col.append(service)
-                print(version, package, service)
                 break
         else:
             new_col.append(None)
@@ -162,9 +158,21 @@ total = total.merge(centrality, on=["MS_system", "Microservice"], how="left")
 total = total.drop(columns=["Avg(NMIR)", "Avg(PF)", "Max(NMIR)", "Max(PF)"])  # These cause values to be NaN
 total = total.dropna()
 
+versions = {
+    "train-ticket-0.0.1": 1,
+    "train-ticket-0.0.2": 2,
+    "train-ticket-0.0.3": 3,
+    "train-ticket-0.0.4": 4,
+    "train-ticket-0.1.0": 5,
+    "train-ticket-0.2.0": 6,
+    "train-ticket-1.0.0": 7,
+}
+
+total["Version Id"] = total["MS_system"].map(versions)
+
 # Reorder columns to start with system, service
-cols = ["MS_system", "Microservice"] + [col for col in total.columns
-                                        if col not in ["MS_system", "Microservice"]]
+cols = ["MS_system", "Version Id", "Microservice"] + [col for col in total.columns
+                                        if col not in ["MS_system","Version Id", "Microservice"]]
 total = total[cols]
 total = total.sort_values(by=["MS_system", "Microservice"])
 total.to_csv("Metrics/metrics_merged.csv", index=False, header=True)
