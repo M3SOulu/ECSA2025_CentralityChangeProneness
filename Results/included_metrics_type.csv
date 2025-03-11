@@ -1,0 +1,13 @@
+Metric,Type
+Avg(Cognitive complexity),complexity
+Cognitive complexity,complexity
+CountDeclClass,size
+CountDeclMethodPrivate,size
+CountStmtExe,size
+Max(HMd),size
+Max(NBD),complexity
+Max(SIX),complexity
+Max(VG),complexity
+RatioPrivateToPublicMethod,size
+Sum(HMd),size
+Sum(TLOC),size
