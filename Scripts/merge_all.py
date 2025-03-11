@@ -149,14 +149,20 @@ centrality = pd.read_csv("Metrics/metrics_temporal_centrality.csv")
 
 # --- Total merge
 
-total = understand
-total = total.merge(jasome_package, on=["MS_system", "Microservice"], how="left")
-total = total.merge(jasome_class, on=["MS_system", "Microservice"], how="left")
-total = total.merge(jasome_method, on=["MS_system", "Microservice"], how="left")
-total = total.merge(sonarqube, on=["MS_system", "Microservice"], how="left")
-total = total.merge(centrality, on=["MS_system", "Microservice"], how="left")
-total = total.drop(columns=["Avg(NMIR)", "Avg(PF)", "Max(NMIR)", "Max(PF)"])  # These cause values to be NaN
-total = total.dropna()
+# total = understand
+# total = total.merge(jasome_package, on=["MS_system", "Microservice"], how="left")
+# total = total.merge(jasome_class, on=["MS_system", "Microservice"], how="left")
+# total = total.merge(jasome_method, on=["MS_system", "Microservice"], how="left")
+# total = total.merge(sonarqube, on=["MS_system", "Microservice"], how="left")
+# total = total.merge(centrality, on=["MS_system", "Microservice"], how="left")
+# total = total.drop(columns=["Avg(NMIR)", "Avg(PF)", "Max(NMIR)", "Max(PF)"])  # These cause values to be NaN
+# total = total.dropna()
+
+understand = understand.merge(centrality, on=["MS_system", "Microservice"], how="left")
+jasome = jasome_package.merge(centrality, on=["MS_system", "Microservice"], how="left")
+jasome = jasome.merge(jasome_class, on=["MS_system", "Microservice"], how="left")
+jasome = jasome_method.merge(jasome_method, on=["MS_system", "Microservice"], how="left")
+sonarqube = sonarqube.merge(centrality, on=["MS_system", "Microservice"], how="left")
 
 versions = {
     "train-ticket-0.0.1": 1,
@@ -168,11 +174,27 @@ versions = {
     "train-ticket-1.0.0": 7,
 }
 
-total["Version Id"] = total["MS_system"].map(versions)
+understand["Version Id"] = understand["MS_system"].map(versions)
+jasome["Version Id"] = jasome["MS_system"].map(versions)
+sonarqube["Version Id"] = sonarqube["MS_system"].map(versions)
 
 # Reorder columns to start with system, service
-cols = ["MS_system", "Version Id", "Microservice"] + [col for col in total.columns
+cols = ["MS_system", "Version Id", "Microservice"] + [col for col in understand.columns
                                         if col not in ["MS_system","Version Id", "Microservice"]]
-total = total[cols]
-total = total.sort_values(by=["MS_system", "Microservice"])
-total.to_csv("Metrics/metrics_merged.csv", index=False, header=True)
+understand = understand[cols]
+understand = understand.sort_values(by=["MS_system", "Microservice"])
+understand.to_csv("Results/metrics_understand.csv", index=False, header=True)
+
+# Reorder columns to start with system, service
+cols = ["MS_system", "Version Id", "Microservice"] + [col for col in jasome.columns
+                                                      if col not in ["MS_system","Version Id", "Microservice"]]
+jasome = jasome[cols]
+jasome = jasome.sort_values(by=["MS_system", "Microservice"])
+jasome.to_csv("Results/metrics_jasome.csv", index=False, header=True)
+
+# Reorder columns to start with system, service
+cols = ["MS_system", "Version Id", "Microservice"] + [col for col in sonarqube.columns
+                                                      if col not in ["MS_system","Version Id", "Microservice"]]
+sonarqube = sonarqube[cols]
+sonarqube = sonarqube.sort_values(by=["MS_system", "Microservice"])
+sonarqube.to_csv("Results/metrics_sonarqube.csv", index=False, header=True)
