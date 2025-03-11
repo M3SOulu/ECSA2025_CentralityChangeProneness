@@ -1,0 +1,147 @@
+Metric,Reason
+Avg(AHF),AD
+Avg(Aa),AD
+Avg(Ad),AD
+Avg(Av),AD
+Avg(Code smells),AD
+Avg(Critical violations),AD
+Avg(DIT),AD
+Avg(Di),AD
+Avg(Duplicated blocks),AD
+Avg(Fin),AD
+Avg(Fout),AD
+Avg(IOVars),AD
+Avg(LCOM*),AD
+Avg(MCLC),AD
+Avg(Ma),AD
+Avg(Md),AD
+Avg(NBD),AD
+Avg(NF),AD
+Avg(NM),AD
+Avg(NMA),AD
+Avg(NOA),AD
+Avg(NOCh),AD
+Avg(NOD),AD
+Avg(NOL),AD
+Avg(NOPa),AD
+Avg(NORM),AD
+Avg(NPM),AD
+Avg(NSF),AD
+Avg(PMd),AD
+Avg(SIX),AD
+Avg(SQ maintainability remediation effort),AD
+Avg(VG),AD
+Avg(Violations),AD
+Code smells,AD
+CountLineCodeExe,AD
+CountLineComment,AD
+Critical violations,AD
+Major violations,AD
+Max(Fin),AD
+Max(MCLC),AD
+Minor violations,AD
+RatioProtectedToPublicMethod,AD
+Sum(Ca),AD
+Sum(LCOM*),AD
+Sum(MCLC),AD
+Sum(NM),AD
+Sum(NPM),AD
+Sum(PkgRCi),AD
+Sum(SIX),AD
+Taylor_TAC,AD
+Violations,AD
+Avg(Bugs),Rho
+Avg(Effort to reach rating A),Rho
+Avg(HMd),Rho
+Avg(Info violations),Rho
+Avg(MHF),Rho
+Avg(Major violations),Rho
+Avg(Minor violations),Rho
+Avg(NMI),Rho
+Avg(NPF),Rho
+Avg(NSM),Rho
+Avg(PMR),Rho
+Avg(Reliability remediation effort),Rho
+Avg(SQ reliability remediation effort),Rho
+Avg(Security hotspots),Rho
+Avg(Si),Rho
+Bugs,Rho
+CountDeclClassMethod,Rho
+CountDeclClassVariable,Rho
+CountDeclFile,Rho
+CountDeclInstanceMethod,Rho
+CountDeclInstanceVariable,Rho
+CountDeclMethod,Rho
+CountDeclMethodDefault,Rho
+CountDeclMethodProtected,Rho
+CountDeclMethodPublic,Rho
+CountLine,Rho
+CountLineBlank,Rho
+CountLineCode,Rho
+CountLineCodeDecl,Rho
+CountSemicolon,Rho
+CountStmt,Rho
+CountStmtDecl,Rho
+Duplicated blocks,Rho
+Effort to reach rating A,Rho
+Info violations,Rho
+Max(AHF),Rho
+Max(Aa),Rho
+Max(Ad),Rho
+Max(Av),Rho
+Max(Di),Rho
+Max(Fout),Rho
+Max(IOVars),Rho
+Max(LCOM*),Rho
+Max(Ma),Rho
+Max(Md),Rho
+Max(NF),Rho
+Max(NM),Rho
+Max(NMA),Rho
+Max(NMI),Rho
+Max(NOL),Rho
+Max(NORM),Rho
+Max(NPF),Rho
+Max(NPM),Rho
+Max(NSF),Rho
+Max(NSM),Rho
+Max(PMd),Rho
+Max(Reliability rating),Rho
+Max(Si),Rho
+Max(Sqale rating),Rho
+Reliability remediation effort,Rho
+SQ maintainability remediation effort,Rho
+SQ reliability remediation effort,Rho
+Security hotspots,Rho
+Sum(Aa),Rho
+Sum(Ad),Rho
+Sum(Av),Rho
+Sum(Ce),Rho
+Sum(Di),Rho
+Sum(Fin),Rho
+Sum(Fout),Rho
+Sum(IOVars),Rho
+Sum(Ma),Rho
+Sum(Md),Rho
+Sum(NBD),Rho
+Sum(NF),Rho
+Sum(NMA),Rho
+Sum(NMI),Rho
+Sum(NOA),Rho
+Sum(NOC),Rho
+Sum(NOCh),Rho
+Sum(NOD),Rho
+Sum(NOI),Rho
+Sum(NOL),Rho
+Sum(NOPa),Rho
+Sum(NORM),Rho
+Sum(NPF),Rho
+Sum(NSF),Rho
+Sum(NSM),Rho
+Sum(PMd),Rho
+Sum(PkgTCi),Rho
+Sum(RTLOC),Rho
+Sum(Si),Rho
+Sum(VG),Rho
+Sum(WMC),Rho
+SumCyclomatic,Rho

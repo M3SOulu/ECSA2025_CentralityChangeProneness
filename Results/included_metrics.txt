@@ -1,0 +1,17 @@
+Avg(Cognitive complexity)
+Cognitive complexity
+CountDeclClass
+CountDeclMethodPrivate
+CountStmtExe
+Huang_MNC
+Liu_MNC
+Max(HMd)
+Max(NBD)
+Max(SIX)
+Max(VG)
+RatioPrivateToPublicMethod
+Sum(HMd)
+Sum(TLOC)
+Taylor_FOM
+Taylor_MNC
+Yin_MNC
