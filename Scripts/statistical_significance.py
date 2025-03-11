@@ -40,6 +40,7 @@ static = [
 
 # Make sure "Variable" column is only centrality and "by Variable" are the kept metrics
 kept_AD = set(kept_AD) - set(centrality_metrics)
+kept_AD = set(kept_AD) - set(static)
 correlation = correlation[correlation["Variable"].isin(centrality_metrics)]
 correlation = correlation[correlation["by Variable"].isin(kept_AD)]
 
