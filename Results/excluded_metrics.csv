@@ -48,7 +48,6 @@ Sum(NM),AD
 Sum(NPM),AD
 Sum(PkgRCi),AD
 Sum(SIX),AD
-Taylor_TAC,AD
 Violations,AD
 Avg(Bugs),Rho
 Avg(Effort to reach rating A),Rho

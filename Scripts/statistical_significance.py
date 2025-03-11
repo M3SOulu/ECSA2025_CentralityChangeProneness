@@ -8,6 +8,8 @@ normality = pd.read_excel("Results/AndersonDarling.xlsx")
 # Metrics that did not have statistical significance at least once (removed from analysis)
 non_significant_AD = normality[normality["Simulated p-Value"] > 0.01]
 filtered_AD = set(non_significant_AD["Y"])
+filtered_AD.discard("Taylor_FOM")
+filtered_AD.discard("Taylor_TAC")
 
 # The rest of the metrics (to keep for analysis)
 kept_AD = set(normality["Y"]) - set(filtered_AD)
