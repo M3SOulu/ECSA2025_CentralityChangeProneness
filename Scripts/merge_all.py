@@ -161,7 +161,7 @@ centrality = pd.read_csv("Metrics/metrics_temporal_centrality.csv")
 understand = understand.merge(centrality, on=["MS_system", "Microservice"], how="left")
 jasome = jasome_package.merge(centrality, on=["MS_system", "Microservice"], how="left")
 jasome = jasome.merge(jasome_class, on=["MS_system", "Microservice"], how="left")
-jasome = jasome_method.merge(jasome_method, on=["MS_system", "Microservice"], how="left")
+jasome = jasome.merge(jasome_method, on=["MS_system", "Microservice"], how="left")
 sonarqube = sonarqube.merge(centrality, on=["MS_system", "Microservice"], how="left")
 
 versions = {
