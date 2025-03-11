@@ -22,3 +22,13 @@ quality_metrics = (["MS_system", "Version Id", "Microservice"]
                 + centrality_cols )
 df_quality = all_metrics[quality_metrics]
 df_quality.to_csv("Results/metrics_quality.csv", index=False, header=True)
+
+
+df_metrics = pd.read_csv("Results/excluded_metrics.csv")
+excluded_ad = df_metrics[df_metrics["Reason"]=="AD"]["Metric"]
+print(excluded_ad)
+all_non_normal = set(all_metrics.columns) - set(excluded_ad)
+all_non_normal = [col for col in all_metrics.columns if col in all_non_normal]
+
+df_all_non_normal = all_metrics[all_non_normal]
+df_all_non_normal.to_csv("Results/metrics_non_normal.csv", index=False, header=True)
