@@ -9,6 +9,7 @@ normality = pd.read_excel("Results/AndersonDarling.xlsx")
 non_significant_AD = normality[normality["Simulated p-Value"] > 0.01]
 filtered_AD = set(non_significant_AD["Y"])
 filtered_AD.discard("Taylor_FOM")
+filtered_AD.discard("Taylor_FOM_NORM")
 filtered_AD.discard("Taylor_TAC")
 
 # The rest of the metrics (to keep for analysis)
@@ -38,6 +39,7 @@ static = [
     "Liu_MLC",
     "Taylor_TAC",
     "Taylor_FOM",
+    "Taylor_FOM_NORM",
 ]
 
 # Make sure "Variable" column is only centrality and "by Variable" are the kept metrics

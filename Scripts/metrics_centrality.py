@@ -1,6 +1,7 @@
 import os
 import tenetan
 import pandas
+import numpy as np
 
 tempnet = tenetan.networks.SnapshotGraph()
 tempnet.load_csv(os.path.join("raw_data", "train-ticket-temporal.csv"),
@@ -12,12 +13,12 @@ temporal_rows = [["MS_system", "Microservice",
          "Taylor_CC", "Yin_CC", "Liu_CC", "Huang_CC",
          "Taylor_MNC", "Yin_MNC", "Liu_MNC", "Huang_MNC",
          "Taylor_MLC", "Yin_MLC", "Liu_MLC", "Huang_MLC",
-         "Taylor_TAC", "Taylor_FOM"
+         "Taylor_TAC", "Taylor_FOM", "Taylor_FOM_NORM"
                   ]]
 
 static_rows = [["Microservice",
                 "Taylor_MNC", "Yin_MNC", "Liu_MNC", "Huang_MNC",
-                "Taylor_TAC", "Taylor_FOM"
+                "Taylor_TAC", "Taylor_FOM", "Taylor_FOM_NORM"
                 ]]
 
 time_rows = [["Version", "Version Id",
@@ -36,6 +37,8 @@ taylor_mlc = taylor.mlc
 taylor.zero_first_order_expansion()
 taylor_tac = taylor.tac
 taylor_fom = taylor.fom
+fom_norm = np.linalg.norm(taylor_fom)
+taylor_fom_norm = taylor_fom / fom_norm
 
 liu = tenetan.centrality.eigenvector.LiuSupraMatrix(tempnet)
 liu.compute_centrality()
@@ -92,6 +95,7 @@ for version_id, version in enumerate(versions):
                               taylor_tac[service_id],
                               # First-order-mover scores
                               taylor_fom[service_id],
+                              taylor_fom_norm[service_id],
                               ])
         if version_id == 0:
             static_rows.append([service,
@@ -104,6 +108,7 @@ for version_id, version in enumerate(versions):
                               taylor_tac[service_id],
                               # First-order-mover scores
                               taylor_fom[service_id],
+                              taylor_fom_norm[service_id],
                               ])
 
 df = pandas.DataFrame(temporal_rows)
