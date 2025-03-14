@@ -5,6 +5,7 @@ df_metrics = pd.read_csv("Results/included_metrics_type.csv")
 all_metrics = pd.read_csv("Metrics/metrics_merged.csv")
 
 centrality_cols = [col for col in all_metrics.columns if "_JC" in col or "_CC" in col]
+centrality_cols.extend(["Taylor_TAC", "Taylor_FOM", "Taylor_FOM_NORM"])
 complexity_metrics = (["MS_system", "Version Id", "Microservice"]
                       + list(df_metrics[df_metrics["Type"] == "complexity"]["Metric"])
                       + centrality_cols )
