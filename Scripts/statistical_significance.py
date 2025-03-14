@@ -1,5 +1,3 @@
-import csv
-
 import pandas as pd
 
 # Load data on normality testing
@@ -16,7 +14,7 @@ filtered_AD.discard("Taylor_TAC")
 kept_AD = set(normality["Y"]) - set(filtered_AD)
 
 # Load pairwise Spearman correlations
-correlation = pd.read_excel("Results/Correlation.xlsx")
+correlation = pd.read_excel("Results/RQ1/Correlation.xlsx")
 
 centrality_metrics = [
     "Taylor_JC",
@@ -60,20 +58,18 @@ for centrality in centrality_metrics:
 # All the res of metrics are excluded
 filtered_corr = kept_AD - kept_corr
 
-# Write a csv with all excluded metrics and the reason for exclusion
+# Write the lists of included and excluded metrics
 filtered_AD = sorted(filtered_AD)
 filtered_corr = sorted(filtered_corr)
-with open("Results/excluded_metrics.csv", 'w', newline='') as f:
-    writer = csv.writer(f)
-    writer.writerow(["Metric","Reason"])
-    for metric in filtered_AD:
-        writer.writerow([metric,"AD"])
-    for metric in filtered_corr:
-        writer.writerow([metric,"Rho"])
-
-# Write a list of included metrics
 kept_corr = sorted(kept_corr)
+filtered_AD = [f"{metric}\n" for metric in filtered_AD]
+filtered_corr = [f"{metric}\n" for metric in filtered_corr]
 kept_corr = [f"{metric}\n" for metric in kept_corr]
-with open("Results/included_metrics.txt", 'w') as f:
+
+with open("Results/excluded_metrics_AD.txt", 'w') as f:
+    f.writelines(filtered_AD)
+with open("Results/RQ1/excluded_metrics_Spearman.txt", 'w') as f:
+    f.writelines(filtered_corr)
+with open("Results/RQ1/included_metrics_Spearman.txt", 'w') as f:
     f.writelines(kept_corr)
 

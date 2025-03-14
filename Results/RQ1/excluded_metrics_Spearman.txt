@@ -1,0 +1,95 @@
+Avg(Bugs)
+Avg(Effort to reach rating A)
+Avg(HMd)
+Avg(Info violations)
+Avg(MHF)
+Avg(Major violations)
+Avg(Minor violations)
+Avg(NMI)
+Avg(NPF)
+Avg(NSM)
+Avg(PMR)
+Avg(Reliability remediation effort)
+Avg(SQ reliability remediation effort)
+Avg(Security hotspots)
+Avg(Si)
+Bugs
+CountDeclClassMethod
+CountDeclClassVariable
+CountDeclFile
+CountDeclInstanceMethod
+CountDeclInstanceVariable
+CountDeclMethod
+CountDeclMethodDefault
+CountDeclMethodProtected
+CountDeclMethodPublic
+CountLine
+CountLineBlank
+CountLineCode
+CountLineCodeDecl
+CountSemicolon
+CountStmt
+CountStmtDecl
+Duplicated blocks
+Effort to reach rating A
+Info violations
+Max(AHF)
+Max(Aa)
+Max(Ad)
+Max(Av)
+Max(Di)
+Max(Fout)
+Max(IOVars)
+Max(LCOM*)
+Max(Ma)
+Max(Md)
+Max(NF)
+Max(NM)
+Max(NMA)
+Max(NMI)
+Max(NOL)
+Max(NORM)
+Max(NPF)
+Max(NPM)
+Max(NSF)
+Max(NSM)
+Max(PMd)
+Max(Reliability rating)
+Max(Si)
+Max(Sqale rating)
+Reliability remediation effort
+SQ maintainability remediation effort
+SQ reliability remediation effort
+Security hotspots
+Sum(Aa)
+Sum(Ad)
+Sum(Av)
+Sum(Ce)
+Sum(Di)
+Sum(Fin)
+Sum(Fout)
+Sum(IOVars)
+Sum(Ma)
+Sum(Md)
+Sum(NBD)
+Sum(NF)
+Sum(NMA)
+Sum(NMI)
+Sum(NOA)
+Sum(NOC)
+Sum(NOCh)
+Sum(NOD)
+Sum(NOI)
+Sum(NOL)
+Sum(NOPa)
+Sum(NORM)
+Sum(NPF)
+Sum(NSF)
+Sum(NSM)
+Sum(PMd)
+Sum(PkgTCi)
+Sum(RTLOC)
+Sum(Si)
+Sum(VG)
+Sum(WMC)
+SumCyclomatic

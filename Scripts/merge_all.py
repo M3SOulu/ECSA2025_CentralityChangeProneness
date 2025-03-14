@@ -175,4 +175,4 @@ cols = ["MS_system", "Version Id", "Microservice"] + [col for col in total.colum
                                         if col not in ["MS_system","Version Id", "Microservice"]]
 total = total[cols]
 total = total.sort_values(by=["MS_system", "Microservice"])
-total.to_csv("Metrics/metrics_merged.csv", index=False, header=True)
+total.to_csv("Metrics/metrics_all.csv", index=False, header=True)

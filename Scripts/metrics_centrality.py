@@ -133,6 +133,6 @@ for version_id, version in enumerate(versions):
 df = pandas.DataFrame(temporal_rows)
 df.to_csv("Metrics/metrics_temporal_centrality.csv", index=False, header=False)
 df = pandas.DataFrame(static_rows)
-df.to_csv("Metrics/metrics_static_centrality.csv", index=False, header=False)
+df.to_csv("Metrics/metrics_mnc.csv", index=False, header=False)
 df = pandas.DataFrame(time_rows)
-df.to_csv("Metrics/metrics_layer_centrality.csv", index=False, header=False)
+df.to_csv("Metrics/metrics_mlc.csv", index=False, header=False)
