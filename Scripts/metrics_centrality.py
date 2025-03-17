@@ -11,8 +11,6 @@ tempnet.load_csv(os.path.join("raw_data", "temp_net", "train-ticket-temporal-v1.
 temporal_rows = [["MS_system", "Microservice",
          "Taylor_JC", "Yin_JC", "Liu_JC", "Huang_JC",
          "Taylor_CC", "Yin_CC", "Liu_CC", "Huang_CC",
-         "Taylor_MNC", "Yin_MNC", "Liu_MNC", "Huang_MNC",
-         "Taylor_MLC", "Yin_MLC", "Liu_MLC", "Huang_MLC",
          "Taylor_TAC", "Taylor_FOM", "Taylor_FOM_NORM"
                   ]]
 
@@ -91,21 +89,6 @@ for version_id, version in enumerate(versions):
                abs(float(yin_cc[service_id, version_id])),
                abs(float(liu_cc[service_id, version_id])),
                abs(float(huang_cc[service_id, version_id])),
-               # Marginal Node Centralities
-               abs(float(taylor_mnc[service_id])),
-               abs(float(yin_mnc[service_id])),
-               abs(float(liu_mnc[service_id])),
-               abs(float(huang_mnc[service_id])),
-               # Marginal Layer Centralities
-               abs(float(taylor_mlc[version_id])),
-               abs(float(yin_mlc[version_id])),
-               abs(float(liu_mlc[version_id])),
-               abs(float(huang_mlc[version_id])),
-               # Time-averaged centralities
-               # taylor_tac[service_id],
-               # # First-order-mover scores
-               # taylor_fom[service_id],
-               # taylor_fom_norm[service_id],
                ]
 
         if service in service_mapping_current:
