@@ -1,0 +1,94 @@
+from collections import Counter
+import pandas as pd
+
+
+centralities =[
+    "Taylor_JC",
+    "Yin_JC",
+    "Liu_JC",
+    "Huang_JC",
+    "Taylor_CC",
+    "Yin_CC",
+    "Liu_CC",
+    "Huang_CC",
+    "Taylor_TAC",
+    "Taylor_FOM",
+    "Taylor_FOM_NORM",
+]
+
+metric_types = {}
+with open("Metrics/metrics_type.csv", 'r') as f:
+    for line in f.readlines():
+        line = line.strip("\n")
+        metric, type_ = line.split(',')
+        metric_types[metric] = type_
+
+
+# Load pairwise Spearman correlations
+correlation = pd.read_excel("Results/RQ1/Correlation.xlsx")
+
+rejected = {
+    "size": Counter(),
+    "complexity": Counter(),
+    "quality": Counter()
+}
+
+for tup in correlation.itertuples():
+    print(tup)
+    metric = tup[3]
+    metric_type = metric_types[metric]
+    centrality = tup[2]
+    version = tup[1]
+    pvalue = tup[5]
+    if pvalue <= 0.01:
+        rejected[metric_type][version] += 1
+
+for version in range (1,8):
+    print("Version:", version)
+    print("\tSize rejected:", rejected["size"][version])
+    print("\tComplexity rejected:", rejected["complexity"][version])
+    print("\tQuality rejected:", rejected["quality"][version])
+
+
+
+centrality_metrics = correlation["Variable"].unique()
+software_metrics = correlation["by Variable"].unique()
+included_corr = set()
+for centrality in centrality_metrics:
+    for metric in software_metrics:
+        # Get all correlations of specific centrality and metric across time
+        time_series = correlation[(correlation["Variable"] == centrality) & (correlation["by Variable"] == metric)]
+        # Keep a metric if it is always stat. sig. correlated
+        if all(time_series["p-value"] <= 0.01):
+            included_corr.add(metric)
+
+# # All the res of metrics are excluded
+software_metrics = set(software_metrics)
+excluded_corr = software_metrics - included_corr
+#
+# Write the lists of included and excluded metrics
+excluded_corr = sorted(excluded_corr)
+included_corr = sorted(included_corr)
+
+included_size = [metric for metric in included_corr if metric_types[metric] == 'size']
+included_complexity = [metric for metric in included_corr if metric_types[metric] == 'complexity']
+included_quality = [metric for metric in included_corr if metric_types[metric] == 'quality']
+
+excluded_corr = [f"{metric}\n" for metric in excluded_corr]
+included_corr = [f"{metric}\n" for metric in included_corr]
+with open("Results/RQ1/excluded_metrics_Spearman.txt", 'w') as f:
+    f.writelines(excluded_corr)
+with open("Results/RQ1/included_metrics_Spearman.txt", 'w') as f:
+    f.writelines(included_corr)
+
+size_columns = ["MS_system", "Version Id", "Microservice", *included_size, *centralities]
+complexity_columns = ["MS_system", "Version Id", "Microservice", *included_complexity, *centralities]
+quality_columns = ["MS_system", "Version Id", "Microservice", *included_quality, *centralities]
+
+all_metrics = pd.read_csv("Results/metrics_non_normal.csv")
+size_metrics = all_metrics[size_columns]
+complexity_metrics = all_metrics[complexity_columns]
+quality_metrics = all_metrics[quality_columns]
+size_metrics.to_csv("Results/RQ1/metrics_size.csv", index=False)
+complexity_metrics.to_csv("Results/RQ1/metrics_complexity.csv", index=False)
+quality_metrics.to_csv("Results/RQ1/metrics_quality.csv", index=False)
