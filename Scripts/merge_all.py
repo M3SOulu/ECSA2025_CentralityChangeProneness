@@ -45,6 +45,10 @@ understand = understand.groupby(["MS_system", "Microservice"], as_index=False).s
 understand["RatioPrivateToPublicMethod"] = understand["CountDeclMethodPrivate"]/understand["CountDeclMethodPublic"]
 understand["RatioProtectedToPublicMethod"] = understand["CountDeclMethodProtected"]/understand["CountDeclMethodPublic"]
 
+# with open("Metrics/metrics_type.csv", "a") as f:
+#     for col in understand.columns:
+#         f.write(f"{col},size\n")
+
 
 
 # --- Jasome Package
@@ -59,6 +63,9 @@ jasome_package = jasome_package.drop(columns=["A", "I", "DMS", "CCRC"], errors="
 jasome_package = jasome_package.groupby(["MS_system", "Microservice"], as_index=False).sum()
 jasome_package.columns = jasome_package.columns.map(lambda x: f"Sum({x})" if x not in ["MS_system", "Microservice"] else x)
 
+# with open("Metrics/metrics_type.csv", "a") as f:
+#     for col in jasome_package.columns:
+#         f.write(f"{col},\n")
 
 # --- Jasome Class
 jasome_class = pd.read_csv("Metrics/metrics_jasome_class.csv")
@@ -92,6 +99,10 @@ jasome_class_merged = sum_metrics.merge(avg_metrics, on=["MS_system", "Microserv
 jasome_class = jasome_class_merged.merge(max_metrics, on=["MS_system", "Microservice"])
 
 
+# with open("Metrics/metrics_type.csv", "a") as f:
+#     for col in jasome_class.columns:
+#         f.write(f"{col},\n")
+
 # --- Jasome Method
 jasome_method = pd.read_csv("Metrics/metrics_jasome_method.csv")
 # Map Package to Microservice
@@ -119,6 +130,9 @@ max_metrics.columns = max_metrics.columns.map(lambda x: f"Max({x})" if x not in 
 jasome_method_merged = sum_metrics.merge(avg_metrics, on=["MS_system", "Microservice"])  # Insert back the MS_system column
 jasome_method = jasome_method_merged.merge(max_metrics, on=["MS_system", "Microservice"])
 
+# with open("Metrics/metrics_type.csv", "a") as f:
+#     for col in jasome_method.columns:
+#         f.write(f"{col},\n")
 
 # --- SonarQube
 sonarqube = pd.read_csv("Metrics/metrics_sonarqube.csv")
@@ -141,6 +155,10 @@ max_metrics.columns = max_metrics.columns.map(lambda x: f"Max({x})" if x not in 
 
 sonarqube_merged = sum_metrics.merge(avg_metrics, on=["MS_system", "Microservice"])  # Insert back the MS_system column
 sonarqube = sonarqube_merged.merge(max_metrics, on=["MS_system", "Microservice"])
+#
+# with open("Metrics/metrics_type.csv", "a") as f:
+#     for col in sonarqube.columns:
+#         f.write(f"{col},quality\n")
 
 
 # --- Centrality

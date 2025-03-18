@@ -1,0 +1,200 @@
+CountDeclClass,size
+CountDeclClassMethod,size
+CountDeclClassVariable,size
+CountDeclFile,size
+CountDeclInstanceMethod,size
+CountDeclInstanceVariable,size
+CountDeclMethod,size
+CountDeclMethodPrivate,size
+CountDeclMethodProtected,size
+CountDeclMethodPublic,size
+CountLine,size
+CountLineBlank,size
+CountLineCode,size
+CountLineCodeDecl,size
+CountLineCodeExe,size
+CountLineComment,size
+CountStmt,size
+CountStmtDecl,size
+CountStmtExe,size
+SumCyclomatic,complexity
+CountDeclFunction,size
+CountDeclMethodDefault,size
+CountSemicolon,size
+RatioPrivateToPublicMethod,size
+RatioProtectedToPublicMethod,size
+Sum(Ca),complexity
+Sum(Ce),complexity
+Sum(NOC),size
+Sum(NOI),size
+Sum(PkgRCi),complexity
+Sum(PkgTCi),complexity
+Sum(TLOC),size
+Sum(Aa),size
+Sum(Ad),size
+Sum(Ait),size
+Sum(Ao),size
+Sum(Av),size
+Sum(HMd),size
+Sum(HMi),size
+Sum(Ma),complexity
+Sum(Md),complexity
+Sum(Mi),complexity
+Sum(Mit),complexity
+Sum(Mo),complexity
+Sum(NF),size
+Sum(NM),size
+Sum(NMA),complexity
+Sum(NMI),complexity
+Sum(NOA),complexity
+Sum(NOCh),complexity
+Sum(NOD),complexity
+Sum(NOL),complexity
+Sum(NOPa),complexity
+Sum(NORM),complexity
+Sum(NPF),size
+Sum(NPM),size
+Sum(NSF),size
+Sum(NSM),size
+Sum(PMd),size
+Sum(PMi),size
+Sum(RTLOC),size
+Sum(SIX),complexity
+Sum(WMC),complexity
+Sum(LCOM*),complexity
+Sum(PF),complexity
+Avg(Aa),size
+Avg(Ad),size
+Avg(Ait),size
+Avg(Ao),size
+Avg(Av),size
+Avg(DIT),complexity
+Avg(HMd),size
+Avg(HMi),size
+Avg(MHF),size
+Avg(MIF),size
+Avg(Ma),complexity
+Avg(Md),complexity
+Avg(Mi),complexity
+Avg(Mit),complexity
+Avg(Mo),complexity
+Avg(NF),size
+Avg(NM),size
+Avg(NMA),complexity
+Avg(NMI),complexity
+Avg(NOA),complexity
+Avg(NOCh),complexity
+Avg(NOD),complexity
+Avg(NOL),complexity
+Avg(NOPa),complexity
+Avg(NORM),complexity
+Avg(NPF),size
+Avg(NPM),size
+Avg(NSF),size
+Avg(NSM),size
+Avg(PMR),size
+Avg(PMd),size
+Avg(PMi),size
+Avg(SIX),complexity
+Avg(AHF),size
+Avg(AIF),complexity
+Avg(LCOM*),complexity
+Avg(NMIR),complexity
+Avg(PF),complexity
+Max(Aa),size
+Max(Ad),size
+Max(Ait),size
+Max(Ao),size
+Max(Av),size
+Max(DIT),complexity
+Max(HMd),size
+Max(HMi),size
+Max(MHF),size
+Max(MIF),size
+Max(Ma),complexity
+Max(Md),complexity
+Max(Mi),complexity
+Max(Mit),complexity
+Max(Mo),complexity
+Max(NF),size
+Max(NM),size
+Max(NMA),complexity
+Max(NMI),complexity
+Max(NOA),complexity
+Max(NOCh),complexity
+Max(NOD),complexity
+Max(NOL),complexity
+Max(NOPa),complexity
+Max(NORM),complexity
+Max(NPF),size
+Max(NPM),size
+Max(NSF),size
+Max(NSM),size
+Max(PMR),size
+Max(PMd),size
+Max(PMi),size
+Max(SIX),complexity
+Max(AHF),size
+Max(AIF),complexity
+Max(LCOM*),complexity
+Max(NMIR),complexity
+Max(PF),complexity
+Sum(Di),complexity
+Sum(Fin),complexity
+Sum(Fout),complexity
+Sum(IOVars),complexity
+Sum(MCLC),complexity
+Sum(NBD),complexity
+Sum(Si),complexity
+Sum(VG),complexity
+Avg(Di),complexity
+Avg(Fin),complexity
+Avg(Fout),complexity
+Avg(IOVars),complexity
+Avg(MCLC),complexity
+Avg(NBD),complexity
+Avg(Si),complexity
+Avg(VG),complexity
+Max(Di),complexity
+Max(Fin),complexity
+Max(Fout),complexity
+Max(IOVars),complexity
+Max(MCLC),complexity
+Max(NBD),complexity
+Max(Si),complexity
+Max(VG),complexity
+SQ reliability remediation effort,quality
+Critical violations,quality
+Violations,quality
+Cognitive complexity,complexity
+Minor violations,quality
+Info violations,quality
+Security remediation effort,quality
+SQ maintainability remediation effort,quality
+Security hotspots,quality
+Effort to reach rating A,quality
+Duplicated blocks,quality
+Reliability remediation effort,quality
+Code smells,quality
+SQ security remediation effort,quality
+Bugs,quality
+Major violations,quality
+Avg(SQ reliability remediation effort),quality
+Avg(Critical violations),quality
+Avg(Violations),quality
+Avg(Cognitive complexity),complexity
+Avg(Minor violations),quality
+Avg(Info violations),quality
+Avg(Security remediation effort),quality
+Avg(SQ maintainability remediation effort),quality
+Avg(Security hotspots),quality
+Avg(Effort to reach rating A),quality
+Avg(Duplicated blocks),quality
+Avg(Reliability remediation effort),quality
+Avg(Code smells),quality
+Avg(SQ security remediation effort),quality
+Avg(Bugs),quality
+Avg(Major violations),quality
+Max(Sqale rating),quality
+Max(Reliability rating),quality
+Max(Security rating),quality
