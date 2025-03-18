@@ -33,10 +33,12 @@ rejected = {
     "quality": Counter()
 }
 
+total_hypotheses = Counter()
 for tup in correlation.itertuples():
     print(tup)
     metric = tup[3]
     metric_type = metric_types[metric]
+    total_hypotheses[metric_type] += 1
     centrality = tup[2]
     version = tup[1]
     pvalue = tup[5]
@@ -48,6 +50,8 @@ for version in range (1,8):
     print("\tSize rejected:", rejected["size"][version])
     print("\tComplexity rejected:", rejected["complexity"][version])
     print("\tQuality rejected:", rejected["quality"][version])
+
+print("Total hypotheses:", total_hypotheses)
 
 
 
