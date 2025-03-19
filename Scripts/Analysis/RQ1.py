@@ -3,14 +3,14 @@ import pandas as pd
 
 
 centralities =[
-    "Taylor_JC",
     "Yin_JC",
-    "Liu_JC",
-    "Huang_JC",
-    "Taylor_CC",
     "Yin_CC",
+    "Liu_JC",
     "Liu_CC",
+    "Huang_JC",
     "Huang_CC",
+    "Taylor_JC",
+    "Taylor_CC",
     "Taylor_TAC",
     "Taylor_FOM",
     "Taylor_FOM_NORM",
