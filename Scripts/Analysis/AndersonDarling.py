@@ -1,4 +1,5 @@
 import pandas as pd
+from collections import Counter
 
 centrality ={
     "Taylor_JC",
@@ -33,3 +34,37 @@ all_non_normal = [col for col in all_metrics.columns if col in all_non_normal]
 
 df_all_non_normal = all_metrics[all_non_normal]
 df_all_non_normal.to_csv("Results/metrics_non_normal.csv", index=False, header=True)
+
+
+metric_types = {}
+with open("Metrics/metrics_type.csv", 'r') as f:
+    for line in f.readlines():
+        line = line.strip("\n")
+        metric, type_ = line.split(',')
+        metric_types[metric] = type_
+
+
+rejected = {
+    "size": Counter(),
+    "complexity": Counter(),
+    "quality": Counter()
+}
+total_hypotheses = Counter()
+for tup in normality.itertuples():
+    pvalue = tup[7]
+    metric = tup.Y
+    if metric not in metric_types:
+        continue
+    metric_type = metric_types[metric]
+    total_hypotheses[metric_type] += 1
+    version = tup[2]
+    if pvalue <= 0.01:
+        rejected[metric_type][version] += 1
+
+for version in range (1,8):
+    print("Version:", version)
+    print("\tSize rejected:", rejected["size"][version])
+    print("\tComplexity rejected:", rejected["complexity"][version])
+    print("\tQuality rejected:", rejected["quality"][version])
+
+print("Total hypotheses:", total_hypotheses, total_hypotheses.total())
