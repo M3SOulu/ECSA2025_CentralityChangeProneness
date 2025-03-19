@@ -164,6 +164,9 @@ sonarqube = sonarqube_merged.merge(max_metrics, on=["MS_system", "Microservice"]
 # --- Centrality
 centrality = pd.read_csv("Metrics/metrics_temporal_centrality.csv")
 
+centrality['CCP'] = pd.qcut(centrality['Taylor_FOM_NORM'], q=4, labels=["LOW", "MEDIUM-LOW", "MEDIUM-HIGH", "HIGH"])
+centrality['Taylor_FOM_NORM'].quantile([0.25, 0.5, 0.75]).to_csv("Results/RQ2/FOM_NORM_quartiles.csv", index=True)
+
 
 # --- Total merge
 

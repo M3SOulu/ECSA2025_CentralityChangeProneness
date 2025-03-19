@@ -14,6 +14,7 @@ centralities =[
     "Taylor_TAC",
     "Taylor_FOM",
     "Taylor_FOM_NORM",
+    "CCP"
 ]
 
 metric_types = {}
