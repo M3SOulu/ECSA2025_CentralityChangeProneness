@@ -26,7 +26,7 @@ with open("Metrics/metrics_type.csv", 'r') as f:
 
 
 # Load pairwise Spearman correlations
-correlation = pd.read_excel("Results/RQ1/Correlation.xlsx")
+correlation = pd.read_excel("Results/RQ1/Correlation.ods")
 
 rejected = {
     "size": Counter(),
@@ -37,12 +37,12 @@ rejected = {
 total_hypotheses = Counter()
 for tup in correlation.itertuples():
     print(tup)
-    metric = tup[3]
+    metric = tup.by_Variable
     metric_type = metric_types[metric]
     total_hypotheses[metric_type] += 1
-    centrality = tup[2]
-    version = tup[1]
-    pvalue = tup[5]
+    centrality = tup.Variable
+    version = tup.Version_Id
+    pvalue = tup.pvalue
     if pvalue <= 0.01:
         rejected[metric_type][version] += 1
 
@@ -57,14 +57,14 @@ print("Total hypotheses:", total_hypotheses)
 
 
 centrality_metrics = correlation["Variable"].unique()
-software_metrics = correlation["by Variable"].unique()
+software_metrics = correlation["by_Variable"].unique()
 included_corr = set()
 for centrality in centrality_metrics:
     for metric in software_metrics:
         # Get all correlations of specific centrality and metric across time
-        time_series = correlation[(correlation["Variable"] == centrality) & (correlation["by Variable"] == metric)]
+        time_series = correlation[(correlation["Variable"] == centrality) & (correlation["by_Variable"] == metric)]
         # Keep a metric if it is always stat. sig. correlated
-        if all(time_series["p-value"] <= 0.01):
+        if all(time_series["pvalue"] <= 0.01):
             included_corr.add(metric)
 
 # # All the res of metrics are excluded
