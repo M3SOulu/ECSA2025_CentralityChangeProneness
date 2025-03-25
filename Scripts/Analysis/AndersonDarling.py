@@ -16,12 +16,12 @@ centrality ={
 }
 static = {"Taylor_MNC", "Yin_MNC", "Liu_MNC", "Huang_MNC"}
 # Load data on normality testing
-normality = pd.read_excel("Results/AndersonDarling.xlsx")
+normality = pd.read_excel("Results/AndersonDarling.ods")
 all_metrics = pd.read_csv("Metrics/metrics_all.csv")
 
 # Metrics that did not have statistical significance at least once (removed from analysis)
-non_significant_AD = normality[normality["Simulated p-Value"] > 0.01]
-excluded_AD = set(non_significant_AD["Y"]) - centrality
+non_significant_AD = normality[normality["pvalue"] > 0.01]
+excluded_AD = set(non_significant_AD["Variable"]) - centrality
 
 all_non_normal = set(all_metrics.columns) - excluded_AD
 excluded_AD = sorted(excluded_AD)
@@ -51,13 +51,13 @@ rejected = {
 }
 total_hypotheses = Counter()
 for tup in normality.itertuples():
-    pvalue = tup[7]
-    metric = tup.Y
+    pvalue = tup.pvalue
+    metric = tup.Variable
     if metric not in metric_types:
         continue
     metric_type = metric_types[metric]
     total_hypotheses[metric_type] += 1
-    version = tup[2]
+    version = tup.Version_Id
     if pvalue <= 0.01:
         rejected[metric_type][version] += 1
 
