@@ -3,6 +3,7 @@ import tenetan
 import pandas
 import numpy as np
 
+# Load the complete TN with all the releases (version 1.0.0)
 tempnet = tenetan.networks.SnapshotGraph()
 tempnet.load_csv(os.path.join("raw_data", "temp_net", "train-ticket-temporal-v1.0.0.csv"),
                  source_col="source", target_col="target", time_col="version",
@@ -24,6 +25,7 @@ time_rows = [["Version", "Version Id",
 
 versions = tempnet.timestamps
 
+# Apply Taylor algorithm
 taylor = tenetan.centrality.eigenvector.TaylorSupraMatrix(tempnet)
 taylor.compute_centrality()
 taylor_joint = taylor.joint_centrality
@@ -31,6 +33,7 @@ taylor_cc = taylor.cc
 taylor_mnc = taylor.mnc
 taylor_mlc = taylor.mlc
 
+# Apply Liu algorithm
 liu = tenetan.centrality.eigenvector.LiuSupraMatrix(tempnet)
 liu.compute_centrality()
 liu_joint = liu.joint_centrality
@@ -38,6 +41,7 @@ liu_cc = liu.cc
 liu_mnc = liu.mnc
 liu_mlc = liu.mlc
 
+# Apply Huang algorithm
 huang = tenetan.centrality.eigenvector.HuangSupraMatrix(tempnet)
 huang.compute_centrality()
 huang_joint = huang.joint_centrality
@@ -45,6 +49,7 @@ huang_cc = huang.cc
 huang_mnc = huang.mnc
 huang_mlc = huang.mlc
 
+# Apply Huang algorithm
 yin = tenetan.centrality.eigenvector.YinSupraMatrix(tempnet)
 yin.compute_centrality()
 yin_joint = yin.joint_centrality
@@ -56,19 +61,24 @@ service_mapping_latest = tempnet._vertex_index_mapping
 
 
 for version_id, version in enumerate(versions):
+    # Load the cumulative TN for each version
     tempnet = tenetan.networks.SnapshotGraph()
     tempnet.load_csv(os.path.join("raw_data", "temp_net", f"train-ticket-temporal-{version}.csv"),
                      source_col="source", target_col="target", time_col="version",
                      weight_col="weight", sort_timestamps=True, sort_vertices=True)
     taylor = tenetan.centrality.eigenvector.TaylorSupraMatrix(tempnet)
     taylor.compute_centrality()
+    # Solve for Taylor TAC, FOM for the cumulative TN
     taylor.zero_first_order_expansion()
     taylor_tac = taylor.tac
     taylor_fom = taylor.fom
+    # Normalize FOM by L2 norm
     fom_norm = np.linalg.norm(taylor_fom)
     taylor_fom_norm = taylor_fom / fom_norm
+
     service_mapping_current = tempnet._vertex_index_mapping
 
+    # Write data to csv rows
     time_rows.append([version, version_id+1,
                       # Marginal Layer Centralities
                       abs(float(taylor_mlc[version_id])),
@@ -76,6 +86,7 @@ for version_id, version in enumerate(versions):
                       abs(float(liu_mlc[version_id])),
                       abs(float(huang_mlc[version_id])),
                       ])
+    # Write data for each service in the complete TN
     for service, service_id in service_mapping_latest.items():
 
         new_row = [f"train-ticket-{version[1:]}", service,
@@ -91,6 +102,7 @@ for version_id, version in enumerate(versions):
                abs(float(huang_cc[service_id, version_id])),
                ]
 
+        # Write TAC/FOM if the service is found in current cumulative TN
         if service in service_mapping_current:
             service_id_current = service_mapping_current[service]
             new_row.extend([
@@ -104,6 +116,7 @@ for version_id, version in enumerate(versions):
             new_row.extend([0.0, 0.0, 0.0])
         temporal_rows.append(new_row)
 
+        # Write MNC only once
         if version_id == 6:
             static_rows.append([service,
                               # Marginal Node Centralities
