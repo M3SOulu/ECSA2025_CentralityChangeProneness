@@ -1,0 +1,7 @@
+pandas
+networkx
+numpy
+requests
+statsmodels==0.14.4
+scipy
+odfpy

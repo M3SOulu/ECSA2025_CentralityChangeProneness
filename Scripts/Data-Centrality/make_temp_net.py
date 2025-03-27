@@ -13,7 +13,7 @@ for version in v:
         source = edge_dict["sender"]
         target = edge_dict["receiver"]
         # services can only start with 'ts'
-        if not source.starntswith("ts") or not target.startswith("ts"):
+        if not source.startswith("ts") or not target.startswith("ts"):
             continue
         to_csv.append([source, target, version, 1])
 
