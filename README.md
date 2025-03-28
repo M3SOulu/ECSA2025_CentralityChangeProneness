@@ -1,8 +1,8 @@
 # Replication package and Online Appendix
 
-This is a replication package and online appendix for the ECSA2025 paper.
+This is a replication package and online appendix for the ECSA2025 paper "Centrality Change Proneness: an Early Indicator of Microservice Architectural Degradation".
 
-## Contents
+# Contents
 This repository contains the following:
 - [INSTALL](INSTALL.md): Detailed installation instructions for each used tool
 - [Appendix](Appendix):
@@ -68,13 +68,15 @@ This repository contains the following:
     - [RQ2.py](Scripts/Analysis/RQ2.py): Count the rejected null hypotheses for Wilcoxon and Spearman Rho tests of RQ2
     - [figure_subset_services.py](Scripts/Analysis/figure_subset_services.py): Select only the data necessary to produce Figures 1 and 5
 
-## License
+# License
 
 All generated data is provided under [Creative Commons 4.0 Attribution License](DATA_LICENSE).
 
 All scripts are provided under the [MIT License](SCRIPT_LICENSE).
 
 Analysed train-ticket project [was provided](https://github.com/FudanSELab/train-ticket/blob/master/LICENSE) by the authors under the [Apache-2.0 License](PROJECT_LICENSE).
+
+# Using the replication package
 
 ## Preparation and installation
 
@@ -211,9 +213,9 @@ normality tests and keeps only the metrics are are **not** normally distributed 
 [metrics_non_normal.csv](Results/metrics_non_normal.csv).
 
 The file [RQ1.py](Scripts/Analysis/RQ1.py) checks the hypotheses for the Spearman Rho test
-of RQ1 and counts the amount of rejected hypothese as well as keeps only the metrics
+of RQ1 and counts the amount of rejected hypotheses as well as keeps only the metrics
 that have consistently a statistically significant correlation with at least one
 temporal centrality for all releases.
 
-The file [RQ2.py](Scripts/Analysis/RQ2.py) checks the hypothese for Wilcoxon and Spearman Rho tests
+The file [RQ2.py](Scripts/Analysis/RQ2.py) checks the hypotheses for Wilcoxon and Spearman Rho tests
 for RQ2 and count the amount of rejected hypotheses.
