@@ -1,3 +1,4 @@
+tenetan==0.3.0
 pandas
 networkx
 numpy
