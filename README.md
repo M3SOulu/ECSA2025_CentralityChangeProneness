@@ -16,7 +16,7 @@ This repository contains the following:
   - [Correlation with complexity metrics](Figures/Figure%204.%20Correlation%20with%20complexity%20metrics.pdf): Figure 4 from the manuscript (Correlation with complexity metrics heatmap)
   - [CCP trajectories](Figures/Figure%205.%20CCP%20trajectories.pdf): Figure 5 from the manuscript (CCP trajectories)
 - [Raw data](raw_data): a folder containing all raw data extracted from different tools
-  - [Code2DFD](raw_data/code2DFD): Raw output of Code2DFD
+  - [Code2DFD](raw_data/code2DFD_output): Raw output of Code2DFD
   - [graph](raw_data/graph): Graphs extracted from Code2DFD output
   - [temp_net](raw_data/temp_net): Temporal networks for each release accumulated since the first one
   - [understand](raw_data/understand): Raw data from Understand
@@ -92,7 +92,7 @@ Use the script [clone_projects.sh](clone_projects.sh) to create the seven versio
 ##  `Code2DFD` and centrality metrics
 All DFDs are reconstructed with [c65b4a](https://github.com/tuhh-softsec/code2DFD/tree/c65b4a081ed2ca1618319e5dabf9ecf590988059) version of `Code2DFD` tool.
 
-The raw json output for project version is saved here to [raw_data/code2DFD](raw_data/code2DFD).
+The raw json output for each project version is saved here to [raw_data/code2DFD](raw_data/code2DFD_output).
 
 ### Converting `Code2DFD` to graph and temporal network
 The script [extract_graphs.py](Scripts/Data-Centrality/extract_graphs.py) converts the `json` files of the `Code2DFD` output into
