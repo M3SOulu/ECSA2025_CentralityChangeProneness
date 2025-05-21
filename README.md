@@ -7,7 +7,8 @@ This repository contains the following:
 - [INSTALL](INSTALL.md): Detailed installation instructions for each used tool
 - [Appendix](Appendix):
   - [Background](Appendix/Background.pdf): Extended background section that was not present in the manuscript due to size constraints
-- [Projects](Projects): a folder containing source code of all seven studied releases of "train-ticket"
+- [Projects](Projects): a folder containing source code of all seven studied releases of "train-ticket" (initially empty, created with [clone_projects.sh](clone_projects.sh))
+- [clone_projects.sh](clone_projects.sh): Script to initialize the seven versions of `train-ticket` source code.
 - [Figures](Figures): a folder containing all figures used in the paper
   - [Centrality trajectories](Figures/Figure%201.%20Centrality%20Trajectories.pdf): Figure 1 from the manuscript (temporal centrality trajectories)
   - [Marginal Layer Centrality](Figures/Figure%202.%20MLC.pdf): Figure 2 from the manuscript (MLC)
@@ -78,9 +79,15 @@ Analysed train-ticket project [was provided](https://github.com/FudanSELab/train
 
 # Using the replication package
 
+All commands should be executed in the root directory of the repository.
+
 ## Preparation and installation
 
 Follow the instructions in [INSTALL](INSTALL.md) to install and configure all used tools.
+
+## Cloning the projects
+
+Use the script [clone_projects.sh](clone_projects.sh) to create the seven versions of `train-ticket` in the [Projects](Projects) directory.
 
 ##  `Code2DFD` and centrality metrics
 All DFDs are reconstructed with [c65b4a](https://github.com/tuhh-softsec/code2DFD/tree/c65b4a081ed2ca1618319e5dabf9ecf590988059) version of `Code2DFD` tool.
@@ -123,13 +130,6 @@ The script [metrics_centrality.py](Scripts/Data-Centrality/metrics_centrality.py
     - Conditional Centrality
     - Marginal Node Centrality
     - Marginal Layer Centrality
-- Closeness centrality
-- Betweenness centrality
-- Load centrality
-- Harmonic centrality
-- Information Centrality
-- Current flow centrality
-- Subgraph centrality
 
 ## `Jasome` metrics
 
