@@ -8,7 +8,7 @@ Download `Code2DFD` from its official [repository](https://github.com/tuhh-softs
 
 Data presented in this package/paper were generated with the [c65b4a](https://github.com/tuhh-softsec/code2DFD/tree/c65b4a081ed2ca1618319e5dabf9ecf590988059) version of the tool.
 
-Create a separate virtual environment where you will run the tool.
+Create a separate virtual environment where you will install and run the tool.
 
 Install its dependencies from [requirements.txt](https://github.com/tuhh-softsec/code2DFD/blob/c65b4a081ed2ca1618319e5dabf9ecf590988059/requirements.txt) as
 
