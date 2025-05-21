@@ -2,7 +2,7 @@ import json
 import csv
 import os
 
-v = ["v0.0.1", "v0.0.2", "v0.0.3", "v0.0.4", "v0.1.0", "v0.2.0", "v1.0.0"]
+v = ["0.0.1", "0.0.2", "0.0.3", "0.0.4", "0.1.0", "0.2.0", "1.0.0"]
 
 to_csv = [["source", "target", "version", "weight"]]
 # Accumulate TNs by version

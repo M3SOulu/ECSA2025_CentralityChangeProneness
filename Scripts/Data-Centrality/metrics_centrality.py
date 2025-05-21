@@ -5,7 +5,7 @@ import numpy as np
 
 # Load the complete TN with all the releases (version 1.0.0)
 tempnet = tenetan.networks.SnapshotGraph()
-tempnet.load_csv(os.path.join("raw_data", "temp_net", "train-ticket-temporal-v1.0.0.csv"),
+tempnet.load_csv(os.path.join("raw_data", "temp_net", "train-ticket-temporal-1.0.0.csv"),
                  source_col="source", target_col="target", time_col="version",
                  weight_col="weight", sort_timestamps=True, sort_vertices=True)
 
