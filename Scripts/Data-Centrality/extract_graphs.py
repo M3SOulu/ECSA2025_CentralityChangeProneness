@@ -29,9 +29,6 @@ for version in os.scandir(os.path.join(os.getcwd(), "raw_data", "code2DFD_output
             name = version.name
             output_folder = os.path.join(os.getcwd(), "raw_data", "graph")
             os.makedirs(output_folder, exist_ok=True)
-            gwcc_path = os.path.join(output_folder, f"{name}_gwcc.json")
-            with open(gwcc_path, 'w') as f:
-                json.dump(g, f, indent=4, sort_keys=True)
 
             # Remove DB only connected to own service
             nodes = set(G.nodes)
@@ -43,6 +40,6 @@ for version in os.scandir(os.path.join(os.getcwd(), "raw_data", "code2DFD_output
             del g["multigraph"]
             del g["directed"]
             del g["graph"]
-            gwcc_nodb_path = os.path.join(output_folder, f"{name}_gwcc_noDB.json")
+            gwcc_nodb_path = os.path.join(output_folder, f"{name}.json")
             with open(gwcc_nodb_path, 'w') as f:
                 json.dump(g, f, indent=4, sort_keys=True)
