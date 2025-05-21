@@ -1,0 +1,182 @@
+
+@startuml
+skinparam monochrome true
+skinparam ClassBackgroundColor White
+skinparam defaultFontName Arial
+skinparam defaultFontSize 11
+
+
+digraph dfd2{
+    node[shape=record]
+        ts_contacts_service [label = "{Service: ts_contacts_service | --local_logging--\n--basic_authentication--\n--internal--\n--csrf_disabled--\n'Logging Technology': 'Lombok'\n'Endpoints': ['/api/v1/contactservice/contacts/\n}" shape = Mrecord];
+        ts_admin_user_service [label = "{Service: ts_admin_user_service | --local_logging--\n--basic_authentication--\n--internal--\n--csrf_disabled--\n'Logging Technology': 'Lombok'\n'Port': 16115\n'Endpoints': ['/api/v1/adminuserservice/users'\n}" shape = Mrecord];
+        ts_food_map_service [label = "{Service: ts_food_map_service | --basic_authentication--\n--internal--\n--csrf_disabled--\n'Endpoints': ['/api/v1/foodmapservice/foodstores/\n}" shape = Mrecord];
+        ts_notification_service [label = "{Service: ts_notification_service | --basic_authentication--\n--internal--\n--csrf_disabled--\n'Endpoints': ['/api/v1/notifyservice/notification/order_changed_success'\n'Port': 17853\n}" shape = Mrecord];
+        ts_cancel_service [label = "{Service: ts_cancel_service | --basic_authentication--\n--internal--\n--csrf_disabled--\n'Port': 18885\n'Endpoints': ['/api/v1/cancelservice/cancel/\n}" shape = Mrecord];
+        ts_config_service [label = "{Service: ts_config_service | --basic_authentication--\n--internal--\n--csrf_disabled--\n'Port': 15679\n'Endpoints': ['/api/v1/configservice/config/query'\n}" shape = Mrecord];
+        ts_assurance_service [label = "{Service: ts_assurance_service | --basic_authentication--\n--internal--\n--csrf_disabled--\n'Port': 18888\n'Endpoints': ['/api/v1/assuranceservice'\n}" shape = Mrecord];
+        ts_order_other_service [label = "{Service: ts_order_other_service | --local_logging--\n--basic_authentication--\n--internal--\n--csrf_disabled--\n'Logging Technology': 'Lombok'\n'Endpoints': ['/api/v1/orderOtherService'\n}" shape = Mrecord];
+        ts_route_service [label = "{Service: ts_route_service | --basic_authentication--\n--internal--\n--csrf_disabled--\n'Port': 11178\n'Endpoints': ['/api/v1/routeservice/welcome'\n}" shape = Mrecord];
+        ts_price_service [label = "{Service: ts_price_service | --basic_authentication--\n--internal--\n--csrf_disabled--\n'Endpoints': ['/api/v1/priceservice/prices/welcome'\n}" shape = Mrecord];
+        ts_preserve_service [label = "{Service: ts_preserve_service | --local_logging--\n--basic_authentication--\n--internal--\n--csrf_disabled--\n'Logging Technology': 'Lombok'\n'Port': 14568\n'Endpoints': ['/api/v1/preserveservice/preserve'\n}" shape = Mrecord];
+        micro_service_monitoring_core [label = "{Service: micro_service_monitoring_core | --local_logging--\n--internal--\n}" shape = Mrecord];
+        ts_security_service [label = "{Service: ts_security_service | --basic_authentication--\n--internal--\n--csrf_disabled--\n'Endpoints': ['/api/v1/securityservice'\n}" shape = Mrecord];
+        ts_consign_service [label = "{Service: ts_consign_service | --local_logging--\n--basic_authentication--\n--internal--\n--csrf_disabled--\n'Logging Technology': 'Lombok'\n'Endpoints': ['/api/v1/consignservice/consigns'\n}" shape = Mrecord];
+        ts_train_service [label = "{Service: ts_train_service | --local_logging--\n--basic_authentication--\n--internal--\n--csrf_disabled--\n'Port': 14567\n'Endpoints': ['/api/v1/trainservice/trains'\n}" shape = Mrecord];
+        ts_order_service [label = "{Service: ts_order_service | --local_logging--\n--basic_authentication--\n--internal--\n--csrf_disabled--\n'Logging Technology': 'Lombok'\n'Port': 12031\n'Endpoints': ['/api/v1/orderservice/welcome'\n}" shape = Mrecord];
+        ts_verification_code_service [label = "{Service: ts_verification_code_service | --local_logging--\n--internal--\n'Port': 15678\n'Logging Technology': 'Lombok'\n'Endpoints': ['/api/v1/verifycode/verify/\n}" shape = Mrecord];
+        ts_food_service [label = "{Service: ts_food_service | --basic_authentication--\n--internal--\n--csrf_disabled--\n'Endpoints': ['/api/v1/foodservice/orders'\n}" shape = Mrecord];
+        ts_rebook_service [label = "{Service: ts_rebook_service | --basic_authentication--\n--internal--\n--csrf_disabled--\n'Port': 18886\n'Endpoints': ['/api/v1/rebookservice/rebook'\n}" shape = Mrecord];
+        rest_service_5 [label = "{Service: rest_service_5 | --local_logging--\n--internal--\n'Port': 16005\n'Endpoints': ['/monitor'\n}" shape = Mrecord];
+        rest_service_2 [label = "{Service: rest_service_2 | --local_logging--\n--internal--\n'Endpoints': ['/hello'\n'Port': 16002\n}" shape = Mrecord];
+        rest_service_collector [label = "{Service: rest_service_collector | --local_logging--\n--internal--\n'Port': 16001\n'Endpoints': ['/api/v1/spans'\n}" shape = Mrecord];
+        rest_service_3 [label = "{Service: rest_service_3 | --local_logging--\n--internal--\n'Endpoints': ['/hello'\n'Port': 16003\n}" shape = Mrecord];
+        rest_service_4 [label = "{Service: rest_service_4 | --local_logging--\n--internal--\n'Endpoints': ['/getdata1'\n'Port': 16004\n}" shape = Mrecord];
+        rest_service_1 [label = "{Service: rest_service_1 | --local_logging--\n--internal--\n'Port': 16001\n'Endpoints': ['/hello'\n}" shape = Mrecord];
+        rest_service_6 [label = "{Service: rest_service_6 | --local_logging--\n--internal--\n'Endpoints': ['/hello6'\n'Port': 16006\n}" shape = Mrecord];
+        rest_service_end [label = "{Service: rest_service_end | --local_logging--\n--internal--\n'Endpoints': ['/test'\n'Port': 16000\n}" shape = Mrecord];
+        ts_ui_test [label = "{Service: ts_ui_test | --internal--\n}" shape = Mrecord];
+        spring_transaction_consumer [label = "{Service: spring_transaction_consumer | --internal--\n}" shape = Mrecord];
+        ts_admin_basic_info_service [label = "{Service: ts_admin_basic_info_service | --local_logging--\n--basic_authentication--\n--internal--\n--csrf_disabled--\n'Endpoints': ['/api/v1/adminbasicservice/adminbasic/configs/\n}" shape = Mrecord];
+        ts_consign_price_service [label = "{Service: ts_consign_price_service | --basic_authentication--\n--internal--\n--csrf_disabled--\n'Endpoints': ['/api/v1/consignpriceservice/consignprice/price'\n}" shape = Mrecord];
+        ts_basic_service [label = "{Service: ts_basic_service | --local_logging--\n--basic_authentication--\n--internal--\n--csrf_disabled--\n'Logging Technology': 'Lombok'\n'Port': 15680\n'Endpoints': ['/api/v1/basicservice/welcome'\n}" shape = Mrecord];
+        ts_preserve_other_service [label = "{Service: ts_preserve_other_service | --local_logging--\n--basic_authentication--\n--internal--\n--csrf_disabled--\n'Logging Technology': 'Lombok'\n'Endpoints': ['/api/v1/preserveotherservice/welcome'\n'Port': 14569\n}" shape = Mrecord];
+        ts_common [label = "{Service: ts_common | --local_logging--\n--internal--\n'Logging Technology': 'Lombok'\n}" shape = Mrecord];
+        ts_station_service [label = "{Service: ts_station_service | --basic_authentication--\n--internal--\n--csrf_disabled--\n'Port': 12345\n'Endpoints': ['/api/v1/stationservice/welcome'\n}" shape = Mrecord];
+        ts_auth_service [label = "{Service: ts_auth_service | --local_logging--\n--basic_authentication--\n--internal--\n--csrf_disabled--\n'Port': 12340\n'Endpoints': ['/api/v1/users/hello'\n}" shape = Mrecord];
+        ts_user_service [label = "{Service: ts_user_service | --local_logging--\n--basic_authentication--\n--internal--\n--csrf_disabled--\n'Logging Technology': 'Lombok'\n'Endpoints': ['/api/v1/userservice/users/id/\n}" shape = Mrecord];
+        ts_route_plan_service [label = "{Service: ts_route_plan_service | --basic_authentication--\n--internal--\n--csrf_disabled--\n'Port': 14578\n'Endpoints': ['/api/v1/routeplanservice/routePlan/minStopStations'\n}" shape = Mrecord];
+        ts_ticketinfo_service [label = "{Service: ts_ticketinfo_service | --basic_authentication--\n--internal--\n--csrf_disabled--\n'Endpoints': ['/api/v1/ticketinfoservice'\n}" shape = Mrecord];
+        spring_transaction_producer [label = "{Service: spring_transaction_producer | --internal--\n}" shape = Mrecord];
+        ts_payment_service [label = "{Service: ts_payment_service | --basic_authentication--\n--internal--\n--csrf_disabled--\n'Endpoints': ['/api/v1/paymentservice/payment/money'\n'Port': 19001\n}" shape = Mrecord];
+        ts_inside_payment_service [label = "{Service: ts_inside_payment_service | --basic_authentication--\n--internal--\n--csrf_disabled--\n'Port': 18673\n'Endpoints': ['/api/v1/inside_pay_service/inside_payment/account'\n}" shape = Mrecord];
+        rest_travel.service_update [label = "{Service: rest_travel.service_update | --internal--\n'Port': 15100\n'Endpoints': ['/greeting']\n}" shape = Mrecord];
+        sample_test_1 [label = "{Service: sample_test_1 | --internal--\n}" shape = Mrecord];
+        ts_seat_service [label = "{Service: ts_seat_service | --basic_authentication--\n--internal--\n--csrf_disabled--\n'Port': 18898\n'Endpoints': ['/api/v1/seatservice/seats/left_tickets'\n}" shape = Mrecord];
+        ts_execute_service [label = "{Service: ts_execute_service | --basic_authentication--\n--internal--\n--csrf_disabled--\n'Endpoints': ['/api/v1/executeservice/execute/execute/\n}" shape = Mrecord];
+        ts_travel_plan_service [label = "{Service: ts_travel_plan_service | --basic_authentication--\n--internal--\n--csrf_disabled--\n'Endpoints': ['/api/v1/travelplanservice/travelPlan/transferResult'\n'Port': 14322\n}" shape = Mrecord];
+        ts_travel2_service [label = "{Service: ts_travel2_service | --basic_authentication--\n--internal--\n--csrf_disabled--\n'Endpoints': ['/api/v1/travel2service/trips'\n}" shape = Mrecord];
+        ts_travel_service [label = "{Service: ts_travel_service | --basic_authentication--\n--internal--\n--csrf_disabled--\n'Endpoints': ['/api/v1/travelservice/trips'\n}" shape = Mrecord];
+        ts_admin_order_service [label = "{Service: ts_admin_order_service | --local_logging--\n--basic_authentication--\n--internal--\n--csrf_disabled--\n'Port': 16112\n'Logging Technology': 'Lombok'\n'Endpoints': ['/api/v1/adminorderservice/welcome'\n}" shape = Mrecord];
+        ts_admin_travel_service [label = "{Service: ts_admin_travel_service | --basic_authentication--\n--internal--\n--csrf_disabled--\n'Port': 16114\n'Endpoints': ['/api/v1/admintravelservice'\n}" shape = Mrecord];
+        ts_admin_route_service [label = "{Service: ts_admin_route_service | --basic_authentication--\n--internal--\n--csrf_disabled--\n'Port': 16113\n'Endpoints': ['/api/v1/adminrouteservice'\n}" shape = Mrecord];
+        rabbitmq [label = "{Service: rabbitmq | --message_broker--\n--infrastructural--\n'Port': 5672\n'Message Broker': 'RabbitMQ'\n}" shape = Mrecord];
+        zipkin [label = "{Service: zipkin | --tracing_server--\n--infrastructural--\n'Tracing Server': 'Zipkin'\n'Port': 9411\n}" shape = Mrecord];
+        kafka [label = "{Service: kafka | --message_broker--\n--infrastructural--\n'Port': 2181\n'Message Broker': 'Kafka'\n}" shape = Mrecord];
+        mongodb [label = "{Service: mongodb | --tracing_server--\n--infrastructural--\n'Tracing Server': 'Zipkin'\n'Port': 27017\n}" shape = Mrecord];
+        mail_server [label = "{External Entity: mail_server | --entrypoint--\n--mail_server--\n--exitpoint--\n--plaintext_credentials--\n'Password': 'fdse1234'\n'Host': 'smtp.163.com'\n'Username': 'fdse_microservices@163.com'\n}"];
+        rabbitmq -> spring_transaction_consumer [label = " --message_consumer_rabbitmq--\n--restful_http--\n'Queue': 'async'\n"]
+        kafka -> rest_service_collector [label = " --message_consumer_kafka--\n--restful_http--\n'Consumer Topic': 'None'\n"]
+        rest_service_collector -> kafka [label = " --message_producer_kafka--\n--restful_http--\n'Producer Topic': 'app_log'\n"]
+        ts_cancel_service -> ts_notification_service [label = " --restful_http--\n"]
+        ts_cancel_service -> ts_order_service [label = " --restful_http--\n"]
+        ts_cancel_service -> ts_order_other_service [label = " --restful_http--\n"]
+        ts_cancel_service -> ts_inside_payment_service [label = " --restful_http--\n"]
+        ts_cancel_service -> ts_user_service [label = " --restful_http--\n"]
+        ts_order_other_service -> ts_station_service [label = " --restful_http--\n"]
+        ts_preserve_service -> ts_ticketinfo_service [label = " --restful_http--\n"]
+        ts_preserve_service -> ts_seat_service [label = " --restful_http--\n"]
+        ts_preserve_service -> ts_notification_service [label = " --restful_http--\n"]
+        ts_preserve_service -> ts_user_service [label = " --restful_http--\n"]
+        ts_preserve_service -> ts_assurance_service [label = " --restful_http--\n"]
+        ts_preserve_service -> ts_station_service [label = " --restful_http--\n"]
+        ts_preserve_service -> ts_security_service [label = " --restful_http--\n"]
+        ts_preserve_service -> ts_travel_service [label = " --restful_http--\n"]
+        ts_preserve_service -> ts_contacts_service [label = " --restful_http--\n"]
+        ts_preserve_service -> ts_order_service [label = " --restful_http--\n"]
+        ts_preserve_service -> ts_food_service [label = " --restful_http--\n"]
+        ts_preserve_service -> ts_consign_service [label = " --restful_http--\n"]
+        ts_security_service -> ts_order_service [label = " --restful_http--\n"]
+        ts_security_service -> ts_order_other_service [label = " --restful_http--\n"]
+        ts_consign_service -> ts_consign_price_service [label = " --restful_http--\n"]
+        ts_order_service -> ts_station_service [label = " --restful_http--\n"]
+        ts_food_service -> ts_food_map_service [label = " --restful_http--\n"]
+        ts_food_service -> ts_travel_service [label = " --restful_http--\n"]
+        ts_food_service -> ts_station_service [label = " --restful_http--\n"]
+        ts_rebook_service -> ts_seat_service [label = " --restful_http--\n"]
+        ts_rebook_service -> ts_station_service [label = " --restful_http--\n"]
+        ts_rebook_service -> ts_inside_payment_service [label = " --restful_http--\n"]
+        ts_admin_basic_info_service -> ts_contacts_service [label = " --restful_http--\n"]
+        ts_admin_basic_info_service -> ts_station_service [label = " --restful_http--\n"]
+        ts_admin_basic_info_service -> ts_train_service [label = " --restful_http--\n"]
+        ts_admin_basic_info_service -> ts_config_service [label = " --restful_http--\n"]
+        ts_admin_basic_info_service -> ts_price_service [label = " --restful_http--\n"]
+        ts_basic_service -> ts_station_service [label = " --restful_http--\n"]
+        ts_basic_service -> ts_train_service [label = " --restful_http--\n"]
+        ts_basic_service -> ts_route_service [label = " --restful_http--\n"]
+        ts_basic_service -> ts_price_service [label = " --restful_http--\n"]
+        ts_preserve_other_service -> ts_ticketinfo_service [label = " --restful_http--\n"]
+        ts_preserve_other_service -> ts_seat_service [label = " --restful_http--\n"]
+        ts_preserve_other_service -> ts_notification_service [label = " --restful_http--\n"]
+        ts_preserve_other_service -> ts_user_service [label = " --restful_http--\n"]
+        ts_preserve_other_service -> ts_assurance_service [label = " --restful_http--\n"]
+        ts_preserve_other_service -> ts_station_service [label = " --restful_http--\n"]
+        ts_preserve_other_service -> ts_security_service [label = " --restful_http--\n"]
+        ts_preserve_other_service -> ts_travel2_service [label = " --restful_http--\n"]
+        ts_preserve_other_service -> ts_contacts_service [label = " --restful_http--\n"]
+        ts_preserve_other_service -> ts_order_other_service [label = " --restful_http--\n"]
+        ts_preserve_other_service -> ts_food_service [label = " --restful_http--\n"]
+        ts_preserve_other_service -> ts_consign_service [label = " --restful_http--\n"]
+        ts_auth_service -> ts_verification_code_service [label = " --restful_http--\n"]
+        ts_user_service -> ts_auth_service [label = " --restful_http--\n"]
+        ts_route_plan_service -> ts_route_service [label = " --restful_http--\n"]
+        ts_route_plan_service -> ts_travel_service [label = " --restful_http--\n"]
+        ts_route_plan_service -> ts_travel2_service [label = " --restful_http--\n"]
+        ts_route_plan_service -> ts_station_service [label = " --restful_http--\n"]
+        ts_ticketinfo_service -> ts_basic_service [label = " --restful_http--\n"]
+        ts_inside_payment_service -> ts_order_service [label = " --restful_http--\n"]
+        ts_inside_payment_service -> ts_payment_service [label = " --restful_http--\n"]
+        ts_inside_payment_service -> ts_order_other_service [label = " --restful_http--\n"]
+        ts_seat_service -> ts_travel_service [label = " --restful_http--\n"]
+        ts_seat_service -> ts_order_service [label = " --restful_http--\n"]
+        ts_seat_service -> ts_travel2_service [label = " --restful_http--\n"]
+        ts_seat_service -> ts_order_other_service [label = " --restful_http--\n"]
+        ts_seat_service -> ts_config_service [label = " --restful_http--\n"]
+        ts_execute_service -> ts_order_service [label = " --restful_http--\n"]
+        ts_execute_service -> ts_order_other_service [label = " --restful_http--\n"]
+        ts_travel_plan_service -> ts_seat_service [label = " --restful_http--\n"]
+        ts_travel_plan_service -> ts_route_plan_service [label = " --restful_http--\n"]
+        ts_travel_plan_service -> ts_travel_service [label = " --restful_http--\n"]
+        ts_travel_plan_service -> ts_travel2_service [label = " --restful_http--\n"]
+        ts_travel_plan_service -> ts_ticketinfo_service [label = " --restful_http--\n"]
+        ts_travel_plan_service -> ts_station_service [label = " --restful_http--\n"]
+        ts_travel2_service -> ts_ticketinfo_service [label = " --restful_http--\n"]
+        ts_travel2_service -> ts_order_other_service [label = " --restful_http--\n"]
+        ts_travel2_service -> ts_train_service [label = " --restful_http--\n"]
+        ts_travel2_service -> ts_route_service [label = " --restful_http--\n"]
+        ts_travel2_service -> ts_seat_service [label = " --restful_http--\n"]
+        ts_travel_service -> ts_ticketinfo_service [label = " --restful_http--\n"]
+        ts_travel_service -> ts_order_service [label = " --restful_http--\n"]
+        ts_travel_service -> ts_train_service [label = " --restful_http--\n"]
+        ts_travel_service -> ts_route_service [label = " --restful_http--\n"]
+        ts_travel_service -> ts_seat_service [label = " --restful_http--\n"]
+        ts_admin_order_service -> ts_order_service [label = " --restful_http--\n"]
+        ts_admin_order_service -> ts_order_other_service [label = " --restful_http--\n"]
+        ts_admin_travel_service -> ts_travel_service [label = " --restful_http--\n"]
+        ts_admin_travel_service -> ts_travel2_service [label = " --restful_http--\n"]
+        ts_admin_route_service -> ts_route_service [label = " --restful_http--\n"]
+        rest_service_5 -> rest_service_4 [label = " --restful_http--\n"]
+        rest_service_2 -> rest_service_1 [label = " --restful_http--\n"]
+        rest_service_3 -> rest_service_2 [label = " --restful_http--\n"]
+        rest_service_3 -> rest_service_1 [label = " --restful_http--\n"]
+        rest_service_3 -> rest_service_end [label = " --restful_http--\n"]
+        rest_service_3 -> rest_service_6 [label = " --restful_http--\n"]
+        rest_service_4 -> rest_service_3 [label = " --restful_http--\n"]
+        rest_service_6 -> rest_service_5 [label = " --restful_http--\n"]
+        rest_service_6 -> rest_service_4 [label = " --restful_http--\n"]
+        rest_service_6 -> rest_service_3 [label = " --restful_http--\n"]
+        rest_service_1 -> rest_service_2 [label = " --restful_http--\n"]
+        ts_rebook_service -> ts_travel_service [label = " --restful_http--\n"]
+        ts_admin_user_service -> ts_user_service [label = " --restful_http--\n"]
+        ts_rebook_service -> ts_order_service [label = " --restful_http--\n"]
+        rest_service_5 -> rest_service_collector [label = " --restful_http--\n"]
+        rest_service_2 -> zipkin [label = " --restful_http--\n"]
+        rest_service_3 -> zipkin [label = " --restful_http--\n"]
+        rest_service_4 -> rest_service_collector [label = " --restful_http--\n"]
+        rest_service_1 -> zipkin [label = " --restful_http--\n"]
+        rest_service_6 -> rest_service_collector [label = " --restful_http--\n"]
+        rest_service_end -> zipkin [label = " --restful_http--\n"]
+        ts_notification_service -> mail_server [label = " --plaintext_credentials_link--\n--restful_http--\n"]
+
+}
+@enduml

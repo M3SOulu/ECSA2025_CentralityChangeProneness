@@ -1,0 +1,496 @@
+{
+    "edges": [
+        {
+            "sender": "rabbitmq",
+            "receiver": "spring-transaction-consumer"
+        },
+        {
+            "sender": "kafka",
+            "receiver": "rest-service-collector"
+        },
+        {
+            "sender": "rest-service-collector",
+            "receiver": "kafka"
+        },
+        {
+            "sender": "ts-contacts-service",
+            "receiver": "ts-sso-service"
+        },
+        {
+            "sender": "ts-admin-user-service",
+            "receiver": "ts-sso-service"
+        },
+        {
+            "sender": "ts-login-service",
+            "receiver": "ts-verification-code-service"
+        },
+        {
+            "sender": "ts-login-service",
+            "receiver": "ts-sso-service"
+        },
+        {
+            "sender": "ts-cancel-service",
+            "receiver": "ts-sso-service"
+        },
+        {
+            "sender": "ts-cancel-service",
+            "receiver": "ts-notification-service"
+        },
+        {
+            "sender": "ts-cancel-service",
+            "receiver": "ts-order-other-service"
+        },
+        {
+            "sender": "ts-cancel-service",
+            "receiver": "ts-inside-payment-service"
+        },
+        {
+            "sender": "ts-cancel-service",
+            "receiver": "ts-order-service"
+        },
+        {
+            "sender": "ts-assurance-service",
+            "receiver": "ts-sso-service"
+        },
+        {
+            "sender": "ts-order-other-service",
+            "receiver": "ts-sso-service"
+        },
+        {
+            "sender": "ts-order-other-service",
+            "receiver": "ts-station-service"
+        },
+        {
+            "sender": "ts-preserve-service",
+            "receiver": "ts-ticketinfo-service"
+        },
+        {
+            "sender": "ts-preserve-service",
+            "receiver": "ts-seat-service"
+        },
+        {
+            "sender": "ts-preserve-service",
+            "receiver": "ts-notification-service"
+        },
+        {
+            "sender": "ts-preserve-service",
+            "receiver": "ts-sso-service"
+        },
+        {
+            "sender": "ts-preserve-service",
+            "receiver": "ts-assurance-service"
+        },
+        {
+            "sender": "ts-preserve-service",
+            "receiver": "ts-station-service"
+        },
+        {
+            "sender": "ts-preserve-service",
+            "receiver": "ts-security-service"
+        },
+        {
+            "sender": "ts-preserve-service",
+            "receiver": "ts-travel-service"
+        },
+        {
+            "sender": "ts-preserve-service",
+            "receiver": "ts-contacts-service"
+        },
+        {
+            "sender": "ts-preserve-service",
+            "receiver": "ts-order-service"
+        },
+        {
+            "sender": "ts-preserve-service",
+            "receiver": "ts-food-service"
+        },
+        {
+            "sender": "ts-preserve-service",
+            "receiver": "ts-consign-service"
+        },
+        {
+            "sender": "ts-security-service",
+            "receiver": "ts-order-service"
+        },
+        {
+            "sender": "ts-security-service",
+            "receiver": "ts-order-other-service"
+        },
+        {
+            "sender": "ts-consign-service",
+            "receiver": "ts-consign-price-service"
+        },
+        {
+            "sender": "ts-order-service",
+            "receiver": "ts-sso-service"
+        },
+        {
+            "sender": "ts-order-service",
+            "receiver": "ts-station-service"
+        },
+        {
+            "sender": "ts-food-service",
+            "receiver": "ts-food-map-service"
+        },
+        {
+            "sender": "ts-food-service",
+            "receiver": "ts-travel-service"
+        },
+        {
+            "sender": "ts-food-service",
+            "receiver": "ts-station-service"
+        },
+        {
+            "sender": "ts-rebook-service",
+            "receiver": "ts-seat-service"
+        },
+        {
+            "sender": "ts-rebook-service",
+            "receiver": "ts-sso-service"
+        },
+        {
+            "sender": "ts-rebook-service",
+            "receiver": "ts-travel-service"
+        },
+        {
+            "sender": "ts-rebook-service",
+            "receiver": "ts-travel2-service"
+        },
+        {
+            "sender": "ts-rebook-service",
+            "receiver": "ts-order-service"
+        },
+        {
+            "sender": "ts-rebook-service",
+            "receiver": "ts-order-other-service"
+        },
+        {
+            "sender": "ts-rebook-service",
+            "receiver": "ts-station-service"
+        },
+        {
+            "sender": "ts-rebook-service",
+            "receiver": "ts-inside-payment-service"
+        },
+        {
+            "sender": "ts-register-service",
+            "receiver": "ts-verification-code-service"
+        },
+        {
+            "sender": "ts-register-service",
+            "receiver": "ts-sso-service"
+        },
+        {
+            "sender": "ts-register-service",
+            "receiver": "ts-inside-payment-service"
+        },
+        {
+            "sender": "ts-admin-basic-info-service",
+            "receiver": "ts-contacts-service"
+        },
+        {
+            "sender": "ts-admin-basic-info-service",
+            "receiver": "ts-station-service"
+        },
+        {
+            "sender": "ts-admin-basic-info-service",
+            "receiver": "ts-train-service"
+        },
+        {
+            "sender": "ts-admin-basic-info-service",
+            "receiver": "ts-config-service"
+        },
+        {
+            "sender": "ts-admin-basic-info-service",
+            "receiver": "ts-price-service"
+        },
+        {
+            "sender": "ts-basic-service",
+            "receiver": "ts-station-service"
+        },
+        {
+            "sender": "ts-basic-service",
+            "receiver": "ts-train-service"
+        },
+        {
+            "sender": "ts-basic-service",
+            "receiver": "ts-route-service"
+        },
+        {
+            "sender": "ts-basic-service",
+            "receiver": "ts-price-service"
+        },
+        {
+            "sender": "ts-preserve-other-service",
+            "receiver": "ts-ticketinfo-service"
+        },
+        {
+            "sender": "ts-preserve-other-service",
+            "receiver": "ts-seat-service"
+        },
+        {
+            "sender": "ts-preserve-other-service",
+            "receiver": "ts-notification-service"
+        },
+        {
+            "sender": "ts-preserve-other-service",
+            "receiver": "ts-sso-service"
+        },
+        {
+            "sender": "ts-preserve-other-service",
+            "receiver": "ts-assurance-service"
+        },
+        {
+            "sender": "ts-preserve-other-service",
+            "receiver": "ts-station-service"
+        },
+        {
+            "sender": "ts-preserve-other-service",
+            "receiver": "ts-security-service"
+        },
+        {
+            "sender": "ts-preserve-other-service",
+            "receiver": "ts-travel2-service"
+        },
+        {
+            "sender": "ts-preserve-other-service",
+            "receiver": "ts-contacts-service"
+        },
+        {
+            "sender": "ts-preserve-other-service",
+            "receiver": "ts-order-other-service"
+        },
+        {
+            "sender": "ts-preserve-other-service",
+            "receiver": "ts-food-service"
+        },
+        {
+            "sender": "ts-preserve-other-service",
+            "receiver": "ts-consign-service"
+        },
+        {
+            "sender": "ts-route-plan-service",
+            "receiver": "ts-route-service"
+        },
+        {
+            "sender": "ts-route-plan-service",
+            "receiver": "ts-travel-service"
+        },
+        {
+            "sender": "ts-route-plan-service",
+            "receiver": "ts-travel2-service"
+        },
+        {
+            "sender": "ts-route-plan-service",
+            "receiver": "ts-station-service"
+        },
+        {
+            "sender": "ts-ticketinfo-service",
+            "receiver": "ts-basic-service"
+        },
+        {
+            "sender": "ts-ticketinfo-service",
+            "receiver": "ts-price-service"
+        },
+        {
+            "sender": "ts-inside-payment-service",
+            "receiver": "ts-order-service"
+        },
+        {
+            "sender": "ts-inside-payment-service",
+            "receiver": "ts-order-other-service"
+        },
+        {
+            "sender": "ts-inside-payment-service",
+            "receiver": "ts-payment-service"
+        },
+        {
+            "sender": "ts-seat-service",
+            "receiver": "ts-travel-service"
+        },
+        {
+            "sender": "ts-seat-service",
+            "receiver": "ts-order-service"
+        },
+        {
+            "sender": "ts-seat-service",
+            "receiver": "ts-travel2-service"
+        },
+        {
+            "sender": "ts-seat-service",
+            "receiver": "ts-order-other-service"
+        },
+        {
+            "sender": "ts-seat-service",
+            "receiver": "ts-config-service"
+        },
+        {
+            "sender": "ts-execute-service",
+            "receiver": "ts-order-service"
+        },
+        {
+            "sender": "ts-execute-service",
+            "receiver": "ts-order-other-service"
+        },
+        {
+            "sender": "ts-travel-plan-service",
+            "receiver": "ts-seat-service"
+        },
+        {
+            "sender": "ts-travel-plan-service",
+            "receiver": "ts-route-plan-service"
+        },
+        {
+            "sender": "ts-travel-plan-service",
+            "receiver": "ts-travel-service"
+        },
+        {
+            "sender": "ts-travel-plan-service",
+            "receiver": "ts-travel2-service"
+        },
+        {
+            "sender": "ts-travel-plan-service",
+            "receiver": "ts-ticketinfo-service"
+        },
+        {
+            "sender": "ts-travel-plan-service",
+            "receiver": "ts-station-service"
+        },
+        {
+            "sender": "ts-travel2-service",
+            "receiver": "ts-ticketinfo-service"
+        },
+        {
+            "sender": "ts-travel2-service",
+            "receiver": "ts-order-other-service"
+        },
+        {
+            "sender": "ts-travel2-service",
+            "receiver": "ts-train-service"
+        },
+        {
+            "sender": "ts-travel2-service",
+            "receiver": "ts-route-service"
+        },
+        {
+            "sender": "ts-travel2-service",
+            "receiver": "ts-seat-service"
+        },
+        {
+            "sender": "ts-travel-service",
+            "receiver": "ts-ticketinfo-service"
+        },
+        {
+            "sender": "ts-travel-service",
+            "receiver": "ts-order-service"
+        },
+        {
+            "sender": "ts-travel-service",
+            "receiver": "ts-train-service"
+        },
+        {
+            "sender": "ts-travel-service",
+            "receiver": "ts-route-service"
+        },
+        {
+            "sender": "ts-travel-service",
+            "receiver": "ts-seat-service"
+        },
+        {
+            "sender": "ts-admin-order-service",
+            "receiver": "ts-order-service"
+        },
+        {
+            "sender": "ts-admin-order-service",
+            "receiver": "ts-order-other-service"
+        },
+        {
+            "sender": "ts-admin-travel-service",
+            "receiver": "ts-travel-service"
+        },
+        {
+            "sender": "ts-admin-travel-service",
+            "receiver": "ts-travel2-service"
+        },
+        {
+            "sender": "ts-admin-route-service",
+            "receiver": "ts-route-service"
+        },
+        {
+            "sender": "rest-service-5",
+            "receiver": "rest-service-4"
+        },
+        {
+            "sender": "rest-service-2",
+            "receiver": "rest-service-1"
+        },
+        {
+            "sender": "rest-service-3",
+            "receiver": "rest-service-2"
+        },
+        {
+            "sender": "rest-service-3",
+            "receiver": "rest-service-1"
+        },
+        {
+            "sender": "rest-service-3",
+            "receiver": "rest-service-end"
+        },
+        {
+            "sender": "rest-service-3",
+            "receiver": "rest-service-6"
+        },
+        {
+            "sender": "rest-service-4",
+            "receiver": "rest-service-3"
+        },
+        {
+            "sender": "rest-service-6",
+            "receiver": "rest-service-5"
+        },
+        {
+            "sender": "rest-service-6",
+            "receiver": "rest-service-4"
+        },
+        {
+            "sender": "rest-service-6",
+            "receiver": "rest-service-3"
+        },
+        {
+            "sender": "rest-service-1",
+            "receiver": "rest-service-2"
+        },
+        {
+            "sender": "rest-service-5",
+            "receiver": "rest-service-collector"
+        },
+        {
+            "sender": "rest-service-2",
+            "receiver": "zipkin"
+        },
+        {
+            "sender": "rest-service-3",
+            "receiver": "zipkin"
+        },
+        {
+            "sender": "rest-service-4",
+            "receiver": "rest-service-collector"
+        },
+        {
+            "sender": "rest-service-1",
+            "receiver": "zipkin"
+        },
+        {
+            "sender": "rest-service-6",
+            "receiver": "rest-service-collector"
+        },
+        {
+            "sender": "rest-service-end",
+            "receiver": "zipkin"
+        },
+        {
+            "sender": "ts-notification-service",
+            "receiver": "mail-server"
+        }
+    ]
+}

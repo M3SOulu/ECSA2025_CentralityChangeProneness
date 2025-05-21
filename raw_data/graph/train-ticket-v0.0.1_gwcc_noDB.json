@@ -53,13 +53,14 @@
                 "n",
                 "t",
                 "/",
-                "f",
+                "r",
+                "e",
+                "g",
                 "i",
-                "n",
-                "d",
-                "A",
-                "l",
-                "l",
+                "s",
+                "t",
+                "e",
+                "r",
                 "/",
                 "a",
                 "c",
@@ -69,14 +70,13 @@
                 "n",
                 "t",
                 "/",
-                "r",
-                "e",
-                "g",
+                "f",
                 "i",
-                "s",
-                "t",
-                "e",
-                "r"
+                "n",
+                "d",
+                "A",
+                "l",
+                "l"
             ],
             "receiver": "ts-sso-service",
             "sender": "ts-admin-user-service",
@@ -89,8 +89,8 @@
             "receiver": "mail-server",
             "sender": "ts-notification-service",
             "stereotype_instances": [
-                "plaintext_credentials_link",
-                "restful_http"
+                "restful_http",
+                "plaintext_credentials_link"
             ]
         },
         {
@@ -364,11 +364,6 @@
                 "y",
                 "I",
                 "d",
-                "B",
-                "a",
-                "t",
-                "c",
-                "h",
                 "/",
                 "s",
                 "t",
@@ -400,7 +395,12 @@
                 "B",
                 "y",
                 "I",
-                "d"
+                "d",
+                "B",
+                "a",
+                "t",
+                "c",
+                "h"
             ],
             "receiver": "ts-station-service",
             "sender": "ts-order-other-service",
@@ -939,6 +939,11 @@
                 "y",
                 "I",
                 "d",
+                "B",
+                "a",
+                "t",
+                "c",
+                "h",
                 "/",
                 "s",
                 "t",
@@ -956,12 +961,7 @@
                 "B",
                 "y",
                 "I",
-                "d",
-                "B",
-                "a",
-                "t",
-                "c",
-                "h"
+                "d"
             ],
             "receiver": "ts-station-service",
             "sender": "ts-order-service",
@@ -1097,11 +1097,6 @@
                 "e",
                 "r",
                 "y",
-                "F",
-                "o",
-                "r",
-                "I",
-                "d",
                 "/",
                 "s",
                 "t",
@@ -1115,7 +1110,12 @@
                 "u",
                 "e",
                 "r",
-                "y"
+                "y",
+                "F",
+                "o",
+                "r",
+                "I",
+                "d"
             ],
             "receiver": "ts-station-service",
             "sender": "ts-food-service",
@@ -1240,13 +1240,12 @@
                 "e",
                 "r",
                 "/",
-                "g",
+                "d",
+                "e",
+                "l",
                 "e",
                 "t",
-                "B",
-                "y",
-                "I",
-                "d",
+                "e",
                 "/",
                 "o",
                 "r",
@@ -1267,10 +1266,10 @@
                 "e",
                 "r",
                 "/",
+                "u",
+                "p",
                 "d",
-                "e",
-                "l",
-                "e",
+                "a",
                 "t",
                 "e",
                 "/",
@@ -1280,12 +1279,13 @@
                 "e",
                 "r",
                 "/",
-                "u",
-                "p",
-                "d",
-                "a",
+                "g",
+                "e",
                 "t",
-                "e"
+                "B",
+                "y",
+                "I",
+                "d"
             ],
             "receiver": "ts-order-service",
             "sender": "ts-rebook-service",
@@ -1308,6 +1308,24 @@
                 "e",
                 "r",
                 "/",
+                "c",
+                "r",
+                "e",
+                "a",
+                "t",
+                "e",
+                "/",
+                "o",
+                "r",
+                "d",
+                "e",
+                "r",
+                "O",
+                "t",
+                "h",
+                "e",
+                "r",
+                "/",
                 "g",
                 "e",
                 "t",
@@ -1348,24 +1366,6 @@
                 "u",
                 "p",
                 "d",
-                "a",
-                "t",
-                "e",
-                "/",
-                "o",
-                "r",
-                "d",
-                "e",
-                "r",
-                "O",
-                "t",
-                "h",
-                "e",
-                "r",
-                "/",
-                "c",
-                "r",
-                "e",
                 "a",
                 "t",
                 "e"
@@ -1437,25 +1437,6 @@
                 "n",
                 "t",
                 "/",
-                "p",
-                "a",
-                "y",
-                "/",
-                "i",
-                "n",
-                "s",
-                "i",
-                "d",
-                "e",
-                "_",
-                "p",
-                "a",
-                "y",
-                "m",
-                "e",
-                "n",
-                "t",
-                "/",
                 "d",
                 "r",
                 "a",
@@ -1492,7 +1473,26 @@
                 "e",
                 "n",
                 "c",
-                "e"
+                "e",
+                "/",
+                "i",
+                "n",
+                "s",
+                "i",
+                "d",
+                "e",
+                "_",
+                "p",
+                "a",
+                "y",
+                "m",
+                "e",
+                "n",
+                "t",
+                "/",
+                "p",
+                "a",
+                "y"
             ],
             "receiver": "ts-inside-payment-service",
             "sender": "ts-rebook-service",
@@ -1609,12 +1609,12 @@
                 "t",
                 "s",
                 "/",
-                "m",
-                "o",
                 "d",
-                "i",
-                "f",
-                "y",
+                "e",
+                "l",
+                "e",
+                "t",
+                "e",
                 "C",
                 "o",
                 "n",
@@ -1623,22 +1623,6 @@
                 "c",
                 "t",
                 "s",
-                "/",
-                "c",
-                "o",
-                "n",
-                "t",
-                "a",
-                "c",
-                "t",
-                "s",
-                "/",
-                "d",
-                "e",
-                "l",
-                "e",
-                "t",
-                "e",
                 "/",
                 "c",
                 "o",
@@ -1666,30 +1650,6 @@
                 "t",
                 "s",
                 "/",
-                "d",
-                "e",
-                "l",
-                "e",
-                "t",
-                "e",
-                "C",
-                "o",
-                "n",
-                "t",
-                "a",
-                "c",
-                "t",
-                "s",
-                "/",
-                "c",
-                "o",
-                "n",
-                "t",
-                "a",
-                "c",
-                "t",
-                "s",
-                "/",
                 "a",
                 "d",
                 "m",
@@ -1700,7 +1660,47 @@
                 "e",
                 "a",
                 "t",
-                "e"
+                "e",
+                "/",
+                "c",
+                "o",
+                "n",
+                "t",
+                "a",
+                "c",
+                "t",
+                "s",
+                "/",
+                "d",
+                "e",
+                "l",
+                "e",
+                "t",
+                "e",
+                "/",
+                "c",
+                "o",
+                "n",
+                "t",
+                "a",
+                "c",
+                "t",
+                "s",
+                "/",
+                "m",
+                "o",
+                "d",
+                "i",
+                "f",
+                "y",
+                "C",
+                "o",
+                "n",
+                "t",
+                "a",
+                "c",
+                "t",
+                "s"
             ],
             "receiver": "ts-contacts-service",
             "sender": "ts-admin-basic-info-service",
@@ -1711,6 +1711,21 @@
         },
         {
             "endpoint": [
+                "/",
+                "s",
+                "t",
+                "a",
+                "t",
+                "i",
+                "o",
+                "n",
+                "/",
+                "d",
+                "e",
+                "l",
+                "e",
+                "t",
+                "e",
                 "/",
                 "s",
                 "t",
@@ -1740,21 +1755,6 @@
                 "e",
                 "r",
                 "y",
-                "/",
-                "s",
-                "t",
-                "a",
-                "t",
-                "i",
-                "o",
-                "n",
-                "/",
-                "d",
-                "e",
-                "l",
-                "e",
-                "t",
-                "e",
                 "/",
                 "s",
                 "t",
@@ -1787,6 +1787,18 @@
                 "i",
                 "n",
                 "/",
+                "q",
+                "u",
+                "e",
+                "r",
+                "y",
+                "/",
+                "t",
+                "r",
+                "a",
+                "i",
+                "n",
+                "/",
                 "d",
                 "e",
                 "l",
@@ -1818,19 +1830,7 @@
                 "d",
                 "a",
                 "t",
-                "e",
-                "/",
-                "t",
-                "r",
-                "a",
-                "i",
-                "n",
-                "/",
-                "q",
-                "u",
-                "e",
-                "r",
-                "y"
+                "e"
             ],
             "receiver": "ts-train-service",
             "sender": "ts-admin-basic-info-service",
@@ -1849,22 +1849,6 @@
                 "i",
                 "g",
                 "/",
-                "q",
-                "u",
-                "e",
-                "r",
-                "y",
-                "A",
-                "l",
-                "l",
-                "/",
-                "c",
-                "o",
-                "n",
-                "f",
-                "i",
-                "g",
-                "/",
                 "d",
                 "e",
                 "l",
@@ -1893,12 +1877,11 @@
                 "i",
                 "g",
                 "/",
-                "c",
+                "q",
+                "u",
+                "e",
                 "r",
-                "e",
-                "a",
-                "t",
-                "e",
+                "y",
                 "/",
                 "c",
                 "o",
@@ -1911,7 +1894,24 @@
                 "u",
                 "e",
                 "r",
-                "y"
+                "y",
+                "A",
+                "l",
+                "l",
+                "/",
+                "c",
+                "o",
+                "n",
+                "f",
+                "i",
+                "g",
+                "/",
+                "c",
+                "r",
+                "e",
+                "a",
+                "t",
+                "e"
             ],
             "receiver": "ts-config-service",
             "sender": "ts-admin-basic-info-service",
@@ -1929,9 +1929,9 @@
                 "c",
                 "e",
                 "/",
-                "u",
-                "p",
-                "d",
+                "c",
+                "r",
+                "e",
                 "a",
                 "t",
                 "e",
@@ -1970,9 +1970,9 @@
                 "c",
                 "e",
                 "/",
-                "c",
-                "r",
-                "e",
+                "u",
+                "p",
+                "d",
                 "a",
                 "t",
                 "e",
@@ -2007,6 +2007,20 @@
                 "o",
                 "n",
                 "/",
+                "e",
+                "x",
+                "i",
+                "s",
+                "t",
+                "/",
+                "s",
+                "t",
+                "a",
+                "t",
+                "i",
+                "o",
+                "n",
+                "/",
                 "q",
                 "u",
                 "e",
@@ -2017,20 +2031,6 @@
                 "r",
                 "I",
                 "d",
-                "/",
-                "s",
-                "t",
-                "a",
-                "t",
-                "i",
-                "o",
-                "n",
-                "/",
-                "e",
-                "x",
-                "i",
-                "s",
-                "t",
                 "/",
                 "s",
                 "t",
@@ -2309,6 +2309,11 @@
                 "e",
                 "r",
                 "y",
+                "F",
+                "o",
+                "r",
+                "I",
+                "d",
                 "/",
                 "s",
                 "t",
@@ -2322,12 +2327,7 @@
                 "u",
                 "e",
                 "r",
-                "y",
-                "F",
-                "o",
-                "r",
-                "I",
-                "d"
+                "y"
             ],
             "receiver": "ts-station-service",
             "sender": "ts-preserve-other-service",
@@ -2602,6 +2602,71 @@
                 "e",
                 "l",
                 "/",
+                "q",
+                "u",
+                "e",
+                "r",
+                "y",
+                "W",
+                "i",
+                "t",
+                "h",
+                "P",
+                "a",
+                "c",
+                "k",
+                "a",
+                "g",
+                "e",
+                "/",
+                "t",
+                "r",
+                "a",
+                "v",
+                "e",
+                "l",
+                "/",
+                "q",
+                "u",
+                "e",
+                "r",
+                "y",
+                "/",
+                "t",
+                "r",
+                "a",
+                "v",
+                "e",
+                "l",
+                "/",
+                "g",
+                "e",
+                "t",
+                "T",
+                "r",
+                "i",
+                "p",
+                "A",
+                "l",
+                "l",
+                "D",
+                "e",
+                "t",
+                "a",
+                "i",
+                "l",
+                "I",
+                "n",
+                "f",
+                "o",
+                "/",
+                "t",
+                "r",
+                "a",
+                "v",
+                "e",
+                "l",
+                "/",
                 "g",
                 "e",
                 "t",
@@ -2651,72 +2716,7 @@
                 "p",
                 "I",
                 "d",
-                "}",
-                "/",
-                "t",
-                "r",
-                "a",
-                "v",
-                "e",
-                "l",
-                "/",
-                "q",
-                "u",
-                "e",
-                "r",
-                "y",
-                "/",
-                "t",
-                "r",
-                "a",
-                "v",
-                "e",
-                "l",
-                "/",
-                "q",
-                "u",
-                "e",
-                "r",
-                "y",
-                "W",
-                "i",
-                "t",
-                "h",
-                "P",
-                "a",
-                "c",
-                "k",
-                "a",
-                "g",
-                "e",
-                "/",
-                "t",
-                "r",
-                "a",
-                "v",
-                "e",
-                "l",
-                "/",
-                "g",
-                "e",
-                "t",
-                "T",
-                "r",
-                "i",
-                "p",
-                "A",
-                "l",
-                "l",
-                "D",
-                "e",
-                "t",
-                "a",
-                "i",
-                "l",
-                "I",
-                "n",
-                "f",
-                "o"
+                "}"
             ],
             "receiver": "ts-travel-service",
             "sender": "ts-route-plan-service",
@@ -2727,6 +2727,20 @@
         },
         {
             "endpoint": [
+                "/",
+                "t",
+                "r",
+                "a",
+                "v",
+                "e",
+                "l",
+                "2",
+                "/",
+                "q",
+                "u",
+                "e",
+                "r",
+                "y",
                 "/",
                 "t",
                 "r",
@@ -2806,21 +2820,7 @@
                 "k",
                 "a",
                 "g",
-                "e",
-                "/",
-                "t",
-                "r",
-                "a",
-                "v",
-                "e",
-                "l",
-                "2",
-                "/",
-                "q",
-                "u",
-                "e",
-                "r",
-                "y"
+                "e"
             ],
             "receiver": "ts-travel2-service",
             "sender": "ts-route-plan-service",
@@ -2889,15 +2889,12 @@
                 "F",
                 "o",
                 "r",
-                "S",
-                "t",
+                "T",
+                "r",
                 "a",
-                "t",
-                "i",
-                "o",
-                "n",
-                "I",
-                "d",
+                "v",
+                "e",
+                "l",
                 "/",
                 "b",
                 "a",
@@ -2913,12 +2910,15 @@
                 "F",
                 "o",
                 "r",
-                "T",
-                "r",
+                "S",
+                "t",
                 "a",
-                "v",
-                "e",
-                "l"
+                "t",
+                "i",
+                "o",
+                "n",
+                "I",
+                "d"
             ],
             "receiver": "ts-basic-service",
             "sender": "ts-ticketinfo-service",
@@ -3256,25 +3256,6 @@
                 "e",
                 "r",
                 "/",
-                "g",
-                "e",
-                "t",
-                "B",
-                "y",
-                "I",
-                "d",
-                "/",
-                "o",
-                "r",
-                "d",
-                "e",
-                "r",
-                "O",
-                "t",
-                "h",
-                "e",
-                "r",
-                "/",
                 "m",
                 "o",
                 "d",
@@ -3291,7 +3272,26 @@
                 "a",
                 "t",
                 "u",
-                "s"
+                "s",
+                "/",
+                "o",
+                "r",
+                "d",
+                "e",
+                "r",
+                "O",
+                "t",
+                "h",
+                "e",
+                "r",
+                "/",
+                "g",
+                "e",
+                "t",
+                "B",
+                "y",
+                "I",
+                "d"
             ],
             "receiver": "ts-order-other-service",
             "sender": "ts-execute-service",
@@ -3378,11 +3378,11 @@
                 "a",
                 "n",
                 "/",
+                "q",
+                "u",
+                "i",
                 "c",
-                "h",
-                "e",
-                "a",
-                "p",
+                "k",
                 "e",
                 "s",
                 "t",
@@ -3402,11 +3402,11 @@
                 "a",
                 "n",
                 "/",
-                "q",
-                "u",
-                "i",
                 "c",
-                "k",
+                "h",
+                "e",
+                "a",
+                "p",
                 "e",
                 "s",
                 "t",
@@ -3543,17 +3543,6 @@
                 "e",
                 "r",
                 "y",
-                "B",
-                "y",
-                "I",
-                "d",
-                "F",
-                "o",
-                "r",
-                "N",
-                "a",
-                "m",
-                "e",
                 "/",
                 "s",
                 "t",
@@ -3567,7 +3556,18 @@
                 "u",
                 "e",
                 "r",
-                "y"
+                "y",
+                "B",
+                "y",
+                "I",
+                "d",
+                "F",
+                "o",
+                "r",
+                "N",
+                "a",
+                "m",
+                "e"
             ],
             "receiver": "ts-station-service",
             "sender": "ts-travel-plan-service",
@@ -3598,12 +3598,15 @@
                 "F",
                 "o",
                 "r",
-                "T",
-                "r",
+                "S",
+                "t",
                 "a",
-                "v",
-                "e",
-                "l",
+                "t",
+                "i",
+                "o",
+                "n",
+                "I",
+                "d",
                 "/",
                 "t",
                 "i",
@@ -3624,15 +3627,12 @@
                 "F",
                 "o",
                 "r",
-                "S",
-                "t",
+                "T",
+                "r",
                 "a",
-                "t",
-                "i",
-                "o",
-                "n",
-                "I",
-                "d"
+                "v",
+                "e",
+                "l"
             ],
             "receiver": "ts-ticketinfo-service",
             "sender": "ts-travel2-service",
@@ -3794,12 +3794,15 @@
                 "F",
                 "o",
                 "r",
-                "T",
-                "r",
+                "S",
+                "t",
                 "a",
-                "v",
-                "e",
-                "l",
+                "t",
+                "i",
+                "o",
+                "n",
+                "I",
+                "d",
                 "/",
                 "t",
                 "i",
@@ -3820,15 +3823,12 @@
                 "F",
                 "o",
                 "r",
-                "S",
-                "t",
+                "T",
+                "r",
                 "a",
-                "t",
-                "i",
-                "o",
-                "n",
-                "I",
-                "d"
+                "v",
+                "e",
+                "l"
             ],
             "receiver": "ts-ticketinfo-service",
             "sender": "ts-travel-service",
@@ -3972,6 +3972,19 @@
                 "e",
                 "r",
                 "/",
+                "d",
+                "e",
+                "l",
+                "e",
+                "t",
+                "e",
+                "/",
+                "o",
+                "r",
+                "d",
+                "e",
+                "r",
+                "/",
                 "f",
                 "i",
                 "n",
@@ -3991,25 +4004,14 @@
                 "m",
                 "i",
                 "n",
-                "U",
-                "p",
+                "A",
                 "d",
-                "a",
-                "t",
-                "e",
-                "/",
-                "o",
+                "d",
+                "O",
                 "r",
                 "d",
                 "e",
                 "r",
-                "/",
-                "d",
-                "e",
-                "l",
-                "e",
-                "t",
-                "e",
                 "/",
                 "o",
                 "r",
@@ -4022,14 +4024,12 @@
                 "m",
                 "i",
                 "n",
-                "A",
+                "U",
+                "p",
                 "d",
-                "d",
-                "O",
-                "r",
-                "d",
-                "e",
-                "r"
+                "a",
+                "t",
+                "e"
             ],
             "receiver": "ts-order-service",
             "sender": "ts-admin-order-service",
@@ -4052,13 +4052,37 @@
                 "e",
                 "r",
                 "/",
-                "f",
+                "a",
+                "d",
+                "m",
                 "i",
                 "n",
-                "d",
                 "A",
+                "d",
+                "d",
+                "O",
+                "r",
+                "d",
+                "e",
+                "r",
+                "/",
+                "o",
+                "r",
+                "d",
+                "e",
+                "r",
+                "O",
+                "t",
+                "h",
+                "e",
+                "r",
+                "/",
+                "d",
+                "e",
                 "l",
-                "l",
+                "e",
+                "t",
+                "e",
                 "/",
                 "o",
                 "r",
@@ -4094,37 +4118,13 @@
                 "e",
                 "r",
                 "/",
-                "a",
-                "d",
-                "m",
+                "f",
                 "i",
                 "n",
+                "d",
                 "A",
-                "d",
-                "d",
-                "O",
-                "r",
-                "d",
-                "e",
-                "r",
-                "/",
-                "o",
-                "r",
-                "d",
-                "e",
-                "r",
-                "O",
-                "t",
-                "h",
-                "e",
-                "r",
-                "/",
-                "d",
-                "e",
                 "l",
-                "e",
-                "t",
-                "e"
+                "l"
             ],
             "receiver": "ts-order-other-service",
             "sender": "ts-admin-order-service",
@@ -4178,10 +4178,10 @@
                 "e",
                 "l",
                 "/",
-                "d",
+                "c",
+                "r",
                 "e",
-                "l",
-                "e",
+                "a",
                 "t",
                 "e",
                 "/",
@@ -4192,10 +4192,10 @@
                 "e",
                 "l",
                 "/",
-                "c",
-                "r",
+                "d",
                 "e",
-                "a",
+                "l",
+                "e",
                 "t",
                 "e"
             ],
@@ -4217,10 +4217,40 @@
                 "l",
                 "2",
                 "/",
+                "c",
+                "r",
+                "e",
+                "a",
+                "t",
+                "e",
+                "/",
+                "t",
+                "r",
+                "a",
+                "v",
+                "e",
+                "l",
+                "2",
+                "/",
                 "u",
                 "p",
                 "d",
                 "a",
+                "t",
+                "e",
+                "/",
+                "t",
+                "r",
+                "a",
+                "v",
+                "e",
+                "l",
+                "2",
+                "/",
+                "d",
+                "e",
+                "l",
+                "e",
                 "t",
                 "e",
                 "/",
@@ -4244,37 +4274,7 @@
                 "y",
                 "A",
                 "l",
-                "l",
-                "/",
-                "t",
-                "r",
-                "a",
-                "v",
-                "e",
-                "l",
-                "2",
-                "/",
-                "d",
-                "e",
-                "l",
-                "e",
-                "t",
-                "e",
-                "/",
-                "t",
-                "r",
-                "a",
-                "v",
-                "e",
-                "l",
-                "2",
-                "/",
-                "c",
-                "r",
-                "e",
-                "a",
-                "t",
-                "e"
+                "l"
             ],
             "receiver": "ts-travel2-service",
             "sender": "ts-admin-travel-service",
@@ -4285,21 +4285,6 @@
         },
         {
             "endpoint": [
-                "/",
-                "r",
-                "o",
-                "u",
-                "t",
-                "e",
-                "/",
-                "q",
-                "u",
-                "e",
-                "r",
-                "y",
-                "A",
-                "l",
-                "l",
                 "/",
                 "r",
                 "o",
@@ -4322,6 +4307,21 @@
                 "i",
                 "f",
                 "y",
+                "/",
+                "r",
+                "o",
+                "u",
+                "t",
+                "e",
+                "/",
+                "q",
+                "u",
+                "e",
+                "r",
+                "y",
+                "A",
+                "l",
+                "l",
                 "/",
                 "r",
                 "o",
@@ -4352,12 +4352,12 @@
             ],
             "tagged_values": [
                 [
-                    "Port",
-                    12347
+                    "Endpoints",
+                    "['/contacts/findAll', '/contacts/modifyContacts', '/contacts/update', '/welcome', '/contacts/create', '/contacts/delete', '/contacts/getContactsById', '/contacts/admincreate', '/contacts/deleteContacts', '/contacts/findContacts']"
                 ],
                 [
-                    "Endpoints",
-                    "['/contacts/deleteContacts', '/contacts/update', '/contacts/findAll', '/welcome', '/contacts/admincreate', '/contacts/create', '/contacts/delete', '/contacts/getContactsById', '/contacts/modifyContacts', '/contacts/findContacts']"
+                    "Port",
+                    12347
                 ]
             ],
             "type": "service"
@@ -4369,12 +4369,12 @@
             ],
             "tagged_values": [
                 [
-                    "Port",
-                    16115
+                    "Endpoints",
+                    "['/adminuser/deleteUser', '/welcome', '/adminuser/findAll/{id}', '/adminuser/updateUser', '/adminuser/addUser']"
                 ],
                 [
-                    "Endpoints",
-                    "['/adminuser/deleteUser', '/adminuser/findAll/{id}', '/adminuser/updateUser', '/adminuser/addUser', '/welcome']"
+                    "Port",
+                    16115
                 ]
             ],
             "type": "service"
@@ -4386,12 +4386,12 @@
             ],
             "tagged_values": [
                 [
-                    "Port",
-                    18855
+                    "Endpoints",
+                    "['/welcome', '/foodmap/getTrainFoodOfTrip', '/foodmap/getAllTrainFood', '/foodmap/getAllFoodStores', '/foodmap/getFoodStoresOfStation']"
                 ],
                 [
-                    "Endpoints",
-                    "['/foodmap/getFoodStoresOfStation', '/welcome', '/foodmap/getAllFoodStores', '/foodmap/getAllTrainFood', '/foodmap/getTrainFoodOfTrip']"
+                    "Port",
+                    18855
                 ]
             ],
             "type": "service"
@@ -4408,7 +4408,7 @@
                 ],
                 [
                     "Endpoints",
-                    "['/notification/order_cancel_success', '/notification/order_changed_success', '/notification/order_create_success', '/notification/preserve_success', '/welcome']"
+                    "['/welcome', '/notification/order_cancel_success', '/notification/preserve_success', '/notification/order_changed_success', '/notification/order_create_success']"
                 ]
             ],
             "type": "service"
@@ -4425,7 +4425,7 @@
                 ],
                 [
                     "Endpoints",
-                    "['/welcome', '/login', '/logout']"
+                    "['/logout', '/login', '/welcome']"
                 ]
             ],
             "type": "service"
@@ -4438,7 +4438,7 @@
             "tagged_values": [
                 [
                     "Endpoints",
-                    "['/cancelCalculateRefund', '/welcome', '/cancelOrder']"
+                    "['/cancelOrder', '/cancelCalculateRefund', '/welcome']"
                 ],
                 [
                     "Port",
@@ -4454,12 +4454,12 @@
             ],
             "tagged_values": [
                 [
-                    "Endpoints",
-                    "['/config/create', '/config/update', '/config/retrieve', '/config/query', '/config/delete', '/welcome', '/config/queryAll']"
-                ],
-                [
                     "Port",
                     15679
+                ],
+                [
+                    "Endpoints",
+                    "['/config/retrieve', '/welcome', '/config/update', '/config/query', '/config/delete', '/config/queryAll', '/config/create']"
                 ]
             ],
             "type": "service"
@@ -4472,7 +4472,7 @@
             "tagged_values": [
                 [
                     "Endpoints",
-                    "['/assurance/getAssuranceById', '/assurance/create', '/assurance/findAll', '/assurance/deleteAssuranceByOrderId', '/assurance/modifyAssurance', '/assurance/getAllAssuranceType', '/assurance/deleteAssurance', '/assurance/findAssuranceByOrderId', '/welcome']"
+                    "['/assurance/modifyAssurance', '/welcome', '/assurance/deleteAssuranceByOrderId', '/assurance/findAssuranceByOrderId', '/assurance/create', '/assurance/deleteAssurance', '/assurance/getAssuranceById', '/assurance/findAll', '/assurance/getAllAssuranceType']"
                 ],
                 [
                     "Port",
@@ -4488,12 +4488,12 @@
             ],
             "tagged_values": [
                 [
-                    "Port",
-                    12032
+                    "Endpoints",
+                    "['/orderOther/modifyOrderStatus', '/orderOther/delete', '/welcome', '/orderOther/findAll', '/orderOther/calculate', '/orderOther/payOrder', '/orderOther/create', '/orderOther/getById', '/orderOther/getTicketListByDateAndTripId', '/orderOther/queryForRefresh', '/orderOther/query', '/orderOther/update', '/orderOther/adminUpdate', '/orderOther/adminAddOrder', '/getOrderOtherInfoForSecurity', '/orderOther/price']"
                 ],
                 [
-                    "Endpoints",
-                    "['/orderOther/payOrder', '/orderOther/findAll', '/orderOther/getById', '/orderOther/price', '/getOrderOtherInfoForSecurity', '/orderOther/getTicketListByDateAndTripId', '/orderOther/calculate', '/orderOther/create', '/welcome', '/orderOther/query', '/orderOther/queryForRefresh', '/orderOther/adminUpdate', '/orderOther/delete', '/orderOther/update', '/orderOther/adminAddOrder', '/orderOther/modifyOrderStatus']"
+                    "Port",
+                    12032
                 ]
             ],
             "type": "service"
@@ -4510,7 +4510,7 @@
                 ],
                 [
                     "Endpoints",
-                    "['/route/queryAll', '/route/createAndModify', '/route/queryById/{routeId}', '/route/delete', '/route/queryByStartAndTerminal', '/welcome']"
+                    "['/route/delete', '/welcome', '/route/createAndModify', '/route/queryAll', '/route/queryByStartAndTerminal', '/route/queryById/{routeId}']"
                 ]
             ],
             "type": "service"
@@ -4522,12 +4522,12 @@
             ],
             "tagged_values": [
                 [
-                    "Endpoints",
-                    "['/price/update', '/price/create', '/price/delete', '/price/queryAll', '/welcome', '/price/query']"
-                ],
-                [
                     "Port",
                     16579
+                ],
+                [
+                    "Endpoints",
+                    "['/price/query', '/welcome', '/price/queryAll', '/price/delete', '/price/create', '/price/update']"
                 ]
             ],
             "type": "service"
@@ -4556,12 +4556,12 @@
             ],
             "tagged_values": [
                 [
-                    "Port",
-                    11188
+                    "Endpoints",
+                    "['/welcome', '/securityConfig/findAll', '/security/check', '/securityConfig/delete', '/securityConfig/update', '/securityConfig/create']"
                 ],
                 [
-                    "Endpoints",
-                    "['/securityConfig/findAll', '/security/check', '/securityConfig/create', '/welcome', '/securityConfig/delete', '/securityConfig/update']"
+                    "Port",
+                    11188
                 ]
             ],
             "type": "service"
@@ -4578,7 +4578,7 @@
                 ],
                 [
                     "Endpoints",
-                    "['/consign/insertConsign', '/consign/findByAccountId/{id}', '/consign/updateConsign', '/welcome', '/consign/findByConsignee']"
+                    "['/consign/findByAccountId/{id}', '/welcome', '/consign/findByConsignee', '/consign/updateConsign', '/consign/insertConsign']"
                 ]
             ],
             "type": "service"
@@ -4591,12 +4591,12 @@
             ],
             "tagged_values": [
                 [
-                    "Endpoints",
-                    "['/train/delete', '/train/retrieve', '/train/update', '/train/create', '/welcome', '/train/query']"
-                ],
-                [
                     "Port",
                     14567
+                ],
+                [
+                    "Endpoints",
+                    "['/train/query', '/train/update', '/train/create', '/welcome', '/train/delete', '/train/retrieve']"
                 ]
             ],
             "type": "service"
@@ -4609,7 +4609,7 @@
             "tagged_values": [
                 [
                     "Endpoints",
-                    "['/order/adminUpdate', '/order/update', '/order/delete', '/order/findAll', '/order/price', '/order/create', '/order/payOrder', '/order/adminAddOrder', '/order/modifyOrderStatus', '/getOrderInfoForSecurity', '/order/calculate', '/order/getById', '/order/queryForRefresh', '/order/getTicketListByDateAndTripId', '/welcome', '/order/query']"
+                    "['/getOrderInfoForSecurity', '/order/calculate', '/order/delete', '/welcome', '/order/modifyOrderStatus', '/order/query', '/order/update', '/order/getById', '/order/adminUpdate', '/order/payOrder', '/order/price', '/order/adminAddOrder', '/order/findAll', '/order/getTicketListByDateAndTripId', '/order/queryForRefresh', '/order/create']"
                 ],
                 [
                     "Port",
@@ -4630,7 +4630,7 @@
                 ],
                 [
                     "Endpoints",
-                    "['/verification/generate', '/verification/verify', '/error']"
+                    "['/error', '/verification/generate', '/verification/verify']"
                 ]
             ],
             "type": "service"
@@ -4642,12 +4642,12 @@
             ],
             "tagged_values": [
                 [
-                    "Endpoints",
-                    "['/food/findFoodOrderByOrderId', '/food/createFoodOrder', '/food/updateFoodOrder', '/food/cancelFoodOrder', '/welcome', '/food/findAllFoodOrder', '/food/getFood']"
-                ],
-                [
                     "Port",
                     18856
+                ],
+                [
+                    "Endpoints",
+                    "['/welcome', '/food/createFoodOrder', '/food/cancelFoodOrder', '/food/findFoodOrderByOrderId', '/food/updateFoodOrder', '/food/findAllFoodOrder', '/food/getFood']"
                 ]
             ],
             "type": "service"
@@ -4660,7 +4660,7 @@
             "tagged_values": [
                 [
                     "Endpoints",
-                    "['/welcome', '/rebook/payDifference', '/rebook/rebook']"
+                    "['/rebook/rebook', '/rebook/payDifference', '/welcome']"
                 ],
                 [
                     "Port",
@@ -4676,12 +4676,12 @@
             ],
             "tagged_values": [
                 [
-                    "Endpoints",
-                    "['/welcome', '/register']"
-                ],
-                [
                     "Port",
                     12344
+                ],
+                [
+                    "Endpoints",
+                    "['/register', '/welcome']"
                 ]
             ],
             "type": "service"
@@ -4693,12 +4693,12 @@
             ],
             "tagged_values": [
                 [
-                    "Endpoints",
-                    "['/adminbasic/getAllContacts/{id}', '/adminbasic/modifyContacts', '/adminbasic/deleteConfig', '/adminbasic/getAllPrices/{id}', '/adminbasic/deletePrice', '/adminbasic/modifyConfig', '/welcome', '/adminbasic/addStation', '/adminbasic/getAllTrains/{id}', '/adminbasic/addConfig', '/adminbasic/deleteTrain', '/adminbasic/modifyStation', '/adminbasic/deleteStation', '/adminbasic/getAllStations/{id}', '/adminbasic/addPrice', '/adminbasic/deleteContacts', '/adminbasic/addTrain', '/adminbasic/modifyPrice', '/adminbasic/addContacts', '/adminbasic/modifyTrain', '/adminbasic/getAllConfigs/{id}']"
-                ],
-                [
                     "Port",
                     18767
+                ],
+                [
+                    "Endpoints",
+                    "['/adminbasic/deleteStation', '/adminbasic/modifyContacts', '/adminbasic/getAllConfigs/{id}', '/adminbasic/deletePrice', '/adminbasic/getAllPrices/{id}', '/adminbasic/deleteTrain', '/adminbasic/getAllStations/{id}', '/adminbasic/getAllTrains/{id}', '/adminbasic/modifyTrain', '/adminbasic/modifyConfig', '/adminbasic/addPrice', '/adminbasic/addStation', '/adminbasic/deleteConfig', '/adminbasic/addTrain', '/adminbasic/modifyStation', '/welcome', '/adminbasic/addContacts', '/adminbasic/modifyPrice', '/adminbasic/deleteContacts', '/adminbasic/getAllContacts/{id}', '/adminbasic/addConfig']"
                 ]
             ],
             "type": "service"
@@ -4710,12 +4710,12 @@
             ],
             "tagged_values": [
                 [
-                    "Port",
-                    16110
+                    "Endpoints",
+                    "['/consignPrice/getPrice', '/welcome', '/consignPrice/getPriceInfo', '/consignPrice/modifyPriceConfig', '/consignPrice/getPriceConfig']"
                 ],
                 [
-                    "Endpoints",
-                    "['/consignPrice/getPriceInfo', '/consignPrice/getPriceConfig', '/consignPrice/modifyPriceConfig', '/welcome', '/consignPrice/getPrice']"
+                    "Port",
+                    16110
                 ]
             ],
             "type": "service"
@@ -4728,7 +4728,7 @@
             "tagged_values": [
                 [
                     "Endpoints",
-                    "['/welcome', '/basic/queryForStationId', '/basic/queryForTravel']"
+                    "['/basic/queryForTravel', '/welcome', '/basic/queryForStationId']"
                 ],
                 [
                     "Port",
@@ -4744,12 +4744,12 @@
             ],
             "tagged_values": [
                 [
-                    "Port",
-                    14569
+                    "Endpoints",
+                    "['/preserveOther', '/welcome']"
                 ],
                 [
-                    "Endpoints",
-                    "['/welcome', '/preserveOther']"
+                    "Port",
+                    14569
                 ]
             ],
             "type": "service"
@@ -4761,12 +4761,12 @@
             ],
             "tagged_values": [
                 [
-                    "Endpoints",
-                    "['/station/queryForIdBatch', '/station/queryForId', '/station/create', '/station/queryById', '/station/delete', '/station/queryByIdBatch', '/station/query', '/station/update', '/welcome', '/station/queryByIdForName', '/station/exist']"
-                ],
-                [
                     "Port",
                     12345
+                ],
+                [
+                    "Endpoints",
+                    "['/welcome', '/station/queryForIdBatch', '/station/create', '/station/exist', '/station/delete', '/station/queryByIdForName', '/station/queryByIdBatch', '/station/query', '/station/queryForId', '/station/queryById', '/station/update']"
                 ]
             ],
             "type": "service"
@@ -4779,7 +4779,7 @@
             "tagged_values": [
                 [
                     "Endpoints",
-                    "['/routePlan/minStopStations', '/welcome', '/routePlan/quickestRoute', '/routePlan/cheapestRoute']"
+                    "['/routePlan/quickestRoute', '/routePlan/cheapestRoute', '/routePlan/minStopStations', '/welcome']"
                 ],
                 [
                     "Port",
@@ -4796,7 +4796,7 @@
             "tagged_values": [
                 [
                     "Endpoints",
-                    "['/welcome', '/ticketinfo/queryForStationId', '/ticketinfo/queryForTravel']"
+                    "['/ticketinfo/queryForStationId', '/ticketinfo/queryForTravel', '/welcome']"
                 ],
                 [
                     "Port",
@@ -4812,12 +4812,12 @@
             ],
             "tagged_values": [
                 [
-                    "Port",
-                    19001
+                    "Endpoints",
+                    "['/payment/query', '/payment/pay', '/payment/addMoney', '/welcome']"
                 ],
                 [
-                    "Endpoints",
-                    "['/payment/query', '/welcome', '/payment/pay', '/payment/addMoney']"
+                    "Port",
+                    19001
                 ]
             ],
             "type": "service"
@@ -4829,12 +4829,12 @@
             ],
             "tagged_values": [
                 [
-                    "Endpoints",
-                    "['/inside_payment/queryAddMoney', '/inside_payment/createAccount', '/inside_payment/queryPayment', '/inside_payment/pay', '/inside_payment/drawBack', '/hello1_callback', '/inside_payment/addMoney', '/inside_payment/queryAccount', '/welcome', '/inside_payment/payDifference']"
-                ],
-                [
                     "Port",
                     18673
+                ],
+                [
+                    "Endpoints",
+                    "['/welcome', '/inside_payment/queryPayment', '/hello1_callback', '/inside_payment/payDifference', '/inside_payment/queryAddMoney', '/inside_payment/pay', '/inside_payment/queryAccount', '/inside_payment/createAccount', '/inside_payment/addMoney', '/inside_payment/drawBack']"
                 ]
             ],
             "type": "service"
@@ -4846,12 +4846,12 @@
             ],
             "tagged_values": [
                 [
-                    "Endpoints",
-                    "['/welcome', '/seat/getSeat', '/seat/getLeftTicketOfInterval']"
-                ],
-                [
                     "Port",
                     18898
+                ],
+                [
+                    "Endpoints",
+                    "['/seat/getSeat', '/welcome', '/seat/getLeftTicketOfInterval']"
                 ]
             ],
             "type": "service"
@@ -4863,12 +4863,12 @@
             ],
             "tagged_values": [
                 [
-                    "Port",
-                    12386
+                    "Endpoints",
+                    "['/execute/collected', '/execute/execute', '/welcome']"
                 ],
                 [
-                    "Endpoints",
-                    "['/execute/collected', '/welcome', '/execute/execute']"
+                    "Port",
+                    12386
                 ]
             ],
             "type": "service"
@@ -4880,12 +4880,12 @@
             ],
             "tagged_values": [
                 [
-                    "Endpoints",
-                    "['/travelPlan/getCheapest', '/travelPlan/getMinStation', '/travelPlan/getQuickest', '/travelPlan/getTransferResult', '/welcome']"
-                ],
-                [
                     "Port",
                     14322
+                ],
+                [
+                    "Endpoints",
+                    "['/travelPlan/getMinStation', '/welcome', '/travelPlan/getCheapest', '/travelPlan/getTransferResult', '/travelPlan/getQuickest']"
                 ]
             ],
             "type": "service"
@@ -4902,7 +4902,7 @@
                 ],
                 [
                     "Endpoints",
-                    "['/travel2/getRouteByTripId/{tripId}', '/travel2/adminQueryAll', '/travel2/queryWithPackage', '/travel2/getTripAllDetailInfo', '/travel2/queryAll', '/travel2/delete', '/travel2/getTrainTypeByTripId/{tripId}', '/travel2/getTripsByRouteId', '/travel2/retrieve', '/travel2/create', '/welcome', '/travel2/update', '/travel2/query']"
+                    "['/travel2/adminQueryAll', '/travel2/getRouteByTripId/{tripId}', '/travel2/create', '/travel2/getTripAllDetailInfo', '/welcome', '/travel2/queryAll', '/travel2/getTripsByRouteId', '/travel2/retrieve', '/travel2/update', '/travel2/delete', '/travel2/queryWithPackage', '/travel2/getTrainTypeByTripId/{tripId}', '/travel2/query']"
                 ]
             ],
             "type": "service"
@@ -4915,7 +4915,7 @@
             "tagged_values": [
                 [
                     "Endpoints",
-                    "['/travel/getTrainTypeByTripId/{tripId}', '/travel/getTripAllDetailInfo', '/travel/queryWithPackage', '/travel/create', '/travel/retrieve', '/travel/queryAll', '/travel/adminQueryAll', '/travel/getRouteByTripId/{tripId}', '/travel/query', '/travel/getTripsByRouteId', '/travel/update', '/welcome', '/travel/delete']"
+                    "['/travel/getTripsByRouteId', '/welcome', '/travel/update', '/travel/getTripAllDetailInfo', '/travel/retrieve', '/travel/getRouteByTripId/{tripId}', '/travel/queryAll', '/travel/adminQueryAll', '/travel/create', '/travel/delete', '/travel/query', '/travel/queryWithPackage', '/travel/getTrainTypeByTripId/{tripId}']"
                 ],
                 [
                     "Port",
@@ -4936,7 +4936,7 @@
                 ],
                 [
                     "Endpoints",
-                    "['/adminorder/addOrder', '/adminorder/updateOrder', '/adminorder/findAll/{id}', '/welcome', '/adminorder/deleteOrder']"
+                    "['/adminorder/addOrder', '/welcome', '/adminorder/deleteOrder', '/adminorder/findAll/{id}', '/adminorder/updateOrder']"
                 ]
             ],
             "type": "service"
@@ -4948,12 +4948,12 @@
             ],
             "tagged_values": [
                 [
-                    "Port",
-                    16114
+                    "Endpoints",
+                    "['/welcome', '/admintravel/addTravel', '/admintravel/deleteTravel', '/admintravel/findAll/{id}', '/admintravel/updateTravel']"
                 ],
                 [
-                    "Endpoints",
-                    "['/admintravel/addTravel', '/admintravel/findAll/{id}', '/admintravel/deleteTravel', '/admintravel/updateTravel', '/welcome']"
+                    "Port",
+                    16114
                 ]
             ],
             "type": "service"
@@ -4970,7 +4970,7 @@
                 ],
                 [
                     "Endpoints",
-                    "['/account/findAll', '/account/register', '/account/modify', '/account/findAllLogin', '/verifyLoginToken/{token}', '/account/findById', '/account/login', '/account/adminlogin', '/account/admindelete', '/welcome', '/logout']"
+                    "['/welcome', '/verifyLoginToken/{token}', '/account/findAllLogin', '/account/login', '/account/modify', '/account/findById', '/account/findAll', '/logout', '/account/admindelete', '/account/adminlogin', '/account/register']"
                 ]
             ],
             "type": "service"
@@ -4982,12 +4982,12 @@
             ],
             "tagged_values": [
                 [
-                    "Port",
-                    16113
+                    "Endpoints",
+                    "['/adminroute/findAll/{id}', '/adminroute/createAndModifyRoute', '/adminroute/deleteRoute', '/welcome']"
                 ],
                 [
-                    "Endpoints",
-                    "['/adminroute/findAll/{id}', '/welcome', '/adminroute/createAndModifyRoute', '/adminroute/deleteRoute']"
+                    "Port",
+                    16113
                 ]
             ],
             "type": "service"
@@ -4995,19 +4995,19 @@
         {
             "name": "mail-server",
             "stereotype_instances": [
-                "entrypoint",
-                "plaintext_credentials",
                 "exitpoint",
-                "mail_server"
+                "plaintext_credentials",
+                "mail_server",
+                "entrypoint"
             ],
             "tagged_values": [
                 [
-                    "Password",
-                    "fdse1234"
-                ],
-                [
                     "Username",
                     "fdse_microservices@163.com"
+                ],
+                [
+                    "Password",
+                    "fdse1234"
                 ],
                 [
                     "Host",

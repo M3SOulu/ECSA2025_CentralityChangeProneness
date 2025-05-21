@@ -4,8 +4,8 @@
             "receiver": "mail-server",
             "sender": "ts-notification-service",
             "stereotype_instances": [
-                "plaintext_credentials_link",
-                "restful_http"
+                "restful_http",
+                "plaintext_credentials_link"
             ]
         },
         {
@@ -1193,12 +1193,12 @@
             ],
             "tagged_values": [
                 [
-                    "Username",
-                    "CONTACTS_MYSQL_USER:root"
-                ],
-                [
                     "Password",
                     "CONTACTS_MYSQL_PASSWORD:Abcd1234#"
+                ],
+                [
+                    "Username",
+                    "CONTACTS_MYSQL_USER:root"
                 ]
             ]
         },
@@ -1211,12 +1211,12 @@
             ],
             "tagged_values": [
                 [
-                    "Password",
-                    "NOTIFICATION_MYSQL_PASSWORD:root"
-                ],
-                [
                     "Username",
                     "NOTIFICATION_MYSQL_USER:root"
+                ],
+                [
+                    "Password",
+                    "NOTIFICATION_MYSQL_PASSWORD:root"
                 ]
             ]
         },
@@ -1229,12 +1229,12 @@
             ],
             "tagged_values": [
                 [
-                    "Password",
-                    "CONFIG_MYSQL_PASSWORD:root"
-                ],
-                [
                     "Username",
                     "CONFIG_MYSQL_USER:root"
+                ],
+                [
+                    "Password",
+                    "CONFIG_MYSQL_PASSWORD:root"
                 ]
             ]
         },
@@ -1319,12 +1319,12 @@
             ],
             "tagged_values": [
                 [
-                    "Password",
-                    "SECURITY_MYSQL_PASSWORD:root"
-                ],
-                [
                     "Username",
                     "SECURITY_MYSQL_USER:root"
+                ],
+                [
+                    "Password",
+                    "SECURITY_MYSQL_PASSWORD:root"
                 ]
             ]
         },
@@ -1355,12 +1355,12 @@
             ],
             "tagged_values": [
                 [
-                    "Username",
-                    "TRAIN_MYSQL_USER:root"
-                ],
-                [
                     "Password",
                     "TRAIN_MYSQL_PASSWORD:Abcd1234#"
+                ],
+                [
+                    "Username",
+                    "TRAIN_MYSQL_USER:root"
                 ]
             ]
         },
@@ -1409,12 +1409,12 @@
             ],
             "tagged_values": [
                 [
-                    "Username",
-                    "STATION_FOOD_MYSQL_USER:root"
-                ],
-                [
                     "Password",
                     "STATION_FOOD_MYSQL_PASSWORD:Abcd1234#"
+                ],
+                [
+                    "Username",
+                    "STATION_FOOD_MYSQL_USER:root"
                 ]
             ]
         },
@@ -1427,12 +1427,12 @@
             ],
             "tagged_values": [
                 [
-                    "Username",
-                    "TRAIN_FOOD_MYSQL_USER:root"
-                ],
-                [
                     "Password",
                     "TRAIN_FOOD_MYSQL_PASSWORD:root"
+                ],
+                [
+                    "Username",
+                    "TRAIN_FOOD_MYSQL_USER:root"
                 ]
             ]
         },
@@ -1445,12 +1445,12 @@
             ],
             "tagged_values": [
                 [
-                    "Username",
-                    "FOOD_DELIVERY_MYSQL_USER:root"
-                ],
-                [
                     "Password",
                     "FOOD_DELIVERY_MYSQL_PASSWORD:root"
+                ],
+                [
+                    "Username",
+                    "FOOD_DELIVERY_MYSQL_USER:root"
                 ]
             ]
         },
@@ -1481,12 +1481,12 @@
             ],
             "tagged_values": [
                 [
-                    "Username",
-                    "STATION_MYSQL_USER:root"
-                ],
-                [
                     "Password",
                     "STATION_MYSQL_PASSWORD:Abcd1234#"
+                ],
+                [
+                    "Username",
+                    "STATION_MYSQL_USER:root"
                 ]
             ]
         },
@@ -1499,12 +1499,12 @@
             ],
             "tagged_values": [
                 [
-                    "Password",
-                    "USER_MYSQL_PASSWORD:Abcd1234#"
-                ],
-                [
                     "Username",
                     "USER_MYSQL_USER:root"
+                ],
+                [
+                    "Password",
+                    "USER_MYSQL_PASSWORD:Abcd1234#"
                 ]
             ]
         },
@@ -1517,12 +1517,12 @@
             ],
             "tagged_values": [
                 [
-                    "Password",
-                    "PAYMENT_MYSQL_PASSWORD:Abcd1234#"
-                ],
-                [
                     "Username",
                     "PAYMENT_MYSQL_USER:root"
+                ],
+                [
+                    "Password",
+                    "PAYMENT_MYSQL_PASSWORD:Abcd1234#"
                 ]
             ]
         },
@@ -1535,12 +1535,12 @@
             ],
             "tagged_values": [
                 [
-                    "Password",
-                    "INSIDE_PAYMENT_MYSQL_PASSWORD:Abcd1234#"
-                ],
-                [
                     "Username",
                     "INSIDE_PAYMENT_MYSQL_USER:root"
+                ],
+                [
+                    "Password",
+                    "INSIDE_PAYMENT_MYSQL_PASSWORD:Abcd1234#"
                 ]
             ]
         },
@@ -1585,11 +1585,11 @@
         {
             "name": "ts-contacts-service",
             "stereotype_instances": [
-                "basic_authentication",
                 "internal",
-                "local_logging",
+                "load_balancer",
                 "csrf_disabled",
-                "load_balancer"
+                "basic_authentication",
+                "local_logging"
             ],
             "tagged_values": [
                 [
@@ -1602,7 +1602,7 @@
                 ],
                 [
                     "Endpoints",
-                    "['/api/v1/contactservice/contacts/welcome', '/api/v1/contactservice', '/api/v1/contactservice/contacts', '/api/v1/contactservice/contacts/{id}', '/api/v1/contactservice/contacts/account/{accountId}', '/api/v1/contactservice/contacts/admin', '/api/v1/contactservice/contacts/{contactsId}']"
+                    "['/api/v1/contactservice/contacts/{id}', '/api/v1/contactservice/contacts/welcome', '/api/v1/contactservice/contacts/account/{accountId}', '/api/v1/contactservice', '/api/v1/contactservice/contacts/admin', '/api/v1/contactservice/contacts', '/api/v1/contactservice/contacts/{contactsId}']"
                 ]
             ],
             "type": "service"
@@ -1610,11 +1610,11 @@
         {
             "name": "ts-notification-service",
             "stereotype_instances": [
-                "basic_authentication",
                 "internal",
-                "local_logging",
+                "load_balancer",
                 "csrf_disabled",
-                "load_balancer"
+                "basic_authentication",
+                "local_logging"
             ],
             "tagged_values": [
                 [
@@ -1623,7 +1623,7 @@
                 ],
                 [
                     "Endpoints",
-                    "['/api/v1/notifyservice/test_send_mq', '/api/v1/notifyservice/notification/preserve_success', '/api/v1/notifyservice/notification/order_changed_success', '/api/v1/notifyservice/notification/order_create_success', '/api/v1/notifyservice/welcome', '/api/v1/notifyservice/notification/order_cancel_success', '/api/v1/notifyservice/test_send_mail', '/api/v1/notifyservice']"
+                    "['/api/v1/notifyservice/notification/order_cancel_success', '/api/v1/notifyservice/notification/preserve_success', '/api/v1/notifyservice/notification/order_create_success', '/api/v1/notifyservice/notification/order_changed_success', '/api/v1/notifyservice', '/api/v1/notifyservice/test_send_mq', '/api/v1/notifyservice/welcome', '/api/v1/notifyservice/test_send_mail']"
                 ],
                 [
                     "Port",
@@ -1635,13 +1635,17 @@
         {
             "name": "ts-cancel-service",
             "stereotype_instances": [
-                "basic_authentication",
                 "internal",
-                "local_logging",
+                "load_balancer",
                 "csrf_disabled",
-                "load_balancer"
+                "basic_authentication",
+                "local_logging"
             ],
             "tagged_values": [
+                [
+                    "Endpoints",
+                    "['/api/v1/cancelservice/welcome', '/api/v1/cancelservice/cancel/refound/{orderId}', '/api/v1/cancelservice/cancel/{orderId}/{loginId}', '/api/v1/cancelservice']"
+                ],
                 [
                     "Load Balancer",
                     "Spring Cloud"
@@ -1649,10 +1653,6 @@
                 [
                     "Port",
                     18885
-                ],
-                [
-                    "Endpoints",
-                    "['/api/v1/cancelservice/welcome', '/api/v1/cancelservice/cancel/{orderId}/{loginId}', '/api/v1/cancelservice', '/api/v1/cancelservice/cancel/refound/{orderId}']"
                 ]
             ],
             "type": "service"
@@ -1660,24 +1660,24 @@
         {
             "name": "ts-config-service",
             "stereotype_instances": [
-                "basic_authentication",
                 "internal",
-                "local_logging",
+                "load_balancer",
                 "csrf_disabled",
-                "load_balancer"
+                "basic_authentication",
+                "local_logging"
             ],
             "tagged_values": [
+                [
+                    "Port",
+                    15679
+                ],
                 [
                     "Load Balancer",
                     "Spring Cloud"
                 ],
                 [
                     "Endpoints",
-                    "['/api/v1/configservice/configs', '/api/v1/configservice/configs/{configName}', '/api/v1/configservice', '/api/v1/configservice/welcome']"
-                ],
-                [
-                    "Port",
-                    15679
+                    "['/api/v1/configservice/welcome', '/api/v1/configservice/configs/{configName}', '/api/v1/configservice/configs', '/api/v1/configservice']"
                 ]
             ],
             "type": "service"
@@ -1685,17 +1685,13 @@
         {
             "name": "ts-assurance-service",
             "stereotype_instances": [
-                "basic_authentication",
                 "internal",
-                "local_logging",
+                "load_balancer",
                 "csrf_disabled",
-                "load_balancer"
+                "basic_authentication",
+                "local_logging"
             ],
             "tagged_values": [
-                [
-                    "Endpoints",
-                    "['/api/v1/assuranceservice/assurances/{assuranceId}/{orderId}/{typeIndex}', '/api/v1/assuranceservice/welcome', '/api/v1/assuranceservice/assurances/orderid/{orderId}', '/api/v1/assuranceservice/assurance/orderid/{orderId}', '/api/v1/assuranceservice', '/api/v1/assuranceservice/assurances', '/api/v1/assuranceservice/assurances/types', '/api/v1/assuranceservice/assurances/assuranceid/{assuranceId}', '/api/v1/assuranceservice/assurances/{typeIndex}/{orderId}']"
-                ],
                 [
                     "Load Balancer",
                     "Spring Cloud"
@@ -1703,6 +1699,10 @@
                 [
                     "Port",
                     18888
+                ],
+                [
+                    "Endpoints",
+                    "['/api/v1/assuranceservice/assurances/{assuranceId}/{orderId}/{typeIndex}', '/api/v1/assuranceservice/assurances/types', '/api/v1/assuranceservice/assurances/assuranceid/{assuranceId}', '/api/v1/assuranceservice/assurances', '/api/v1/assuranceservice/assurances/{typeIndex}/{orderId}', '/api/v1/assuranceservice/assurance/orderid/{orderId}', '/api/v1/assuranceservice/assurances/orderid/{orderId}', '/api/v1/assuranceservice', '/api/v1/assuranceservice/welcome']"
                 ]
             ],
             "type": "service"
@@ -1710,11 +1710,11 @@
         {
             "name": "ts-order-other-service",
             "stereotype_instances": [
-                "basic_authentication",
                 "internal",
-                "local_logging",
+                "load_balancer",
                 "csrf_disabled",
-                "load_balancer"
+                "basic_authentication",
+                "local_logging"
             ],
             "tagged_values": [
                 [
@@ -1727,7 +1727,7 @@
                 ],
                 [
                     "Endpoints",
-                    "['/api/v1/orderOtherService/orderOther', '/api/v1/orderOtherService/orderOther/status/{orderId}/{status}', '/api/v1/orderOtherService/orderOther/{travelDate}/{trainNumber}', '/api/v1/orderOtherService', '/api/v1/orderOtherService/orderOther/price/{orderId}', '/api/v1/orderOtherService/orderOther/{orderId}', '/api/v1/orderOtherService/welcome', '/api/v1/orderOtherService/orderOther/query', '/api/v1/orderOtherService/orderOther/admin', '/api/v1/orderOtherService/orderOther/security/{checkDate}/{accountId}', '/api/v1/orderOtherService/orderOther/tickets', '/api/v1/orderOtherService/orderOther/orderPay/{orderId}', '/api/v1/orderOtherService/orderOther/refresh']"
+                    "['/api/v1/orderOtherService/orderOther/security/{checkDate}/{accountId}', '/api/v1/orderOtherService/orderOther/tickets', '/api/v1/orderOtherService/orderOther/{travelDate}/{trainNumber}', '/api/v1/orderOtherService/orderOther', '/api/v1/orderOtherService/orderOther/refresh', '/api/v1/orderOtherService', '/api/v1/orderOtherService/orderOther/admin', '/api/v1/orderOtherService/welcome', '/api/v1/orderOtherService/orderOther/status/{orderId}/{status}', '/api/v1/orderOtherService/orderOther/{orderId}', '/api/v1/orderOtherService/orderOther/price/{orderId}', '/api/v1/orderOtherService/orderOther/query', '/api/v1/orderOtherService/orderOther/orderPay/{orderId}']"
                 ]
             ],
             "type": "service"
@@ -1735,13 +1735,17 @@
         {
             "name": "ts-route-service",
             "stereotype_instances": [
-                "basic_authentication",
                 "internal",
-                "local_logging",
+                "load_balancer",
                 "csrf_disabled",
-                "load_balancer"
+                "basic_authentication",
+                "local_logging"
             ],
             "tagged_values": [
+                [
+                    "Endpoints",
+                    "['/api/v1/routeservice/routes', '/api/v1/routeservice/welcome', '/api/v1/routeservice/routes/byIds', '/api/v1/routeservice/routes/{routeId}', '/api/v1/routeservice/routes/{start}/{end}', '/api/v1/routeservice']"
+                ],
                 [
                     "Load Balancer",
                     "Spring Cloud"
@@ -1749,10 +1753,6 @@
                 [
                     "Port",
                     11178
-                ],
-                [
-                    "Endpoints",
-                    "['/api/v1/routeservice/welcome', '/api/v1/routeservice/routes/{start}/{end}', '/api/v1/routeservice', '/api/v1/routeservice/routes/byIds', '/api/v1/routeservice/routes/{routeId}', '/api/v1/routeservice/routes']"
                 ]
             ],
             "type": "service"
@@ -1760,24 +1760,24 @@
         {
             "name": "ts-price-service",
             "stereotype_instances": [
-                "basic_authentication",
                 "internal",
-                "local_logging",
+                "load_balancer",
                 "csrf_disabled",
-                "load_balancer"
+                "basic_authentication",
+                "local_logging"
             ],
             "tagged_values": [
-                [
-                    "Load Balancer",
-                    "Spring Cloud"
-                ],
                 [
                     "Port",
                     16579
                 ],
                 [
+                    "Load Balancer",
+                    "Spring Cloud"
+                ],
+                [
                     "Endpoints",
-                    "['/api/v1/priceservice/prices/{routeId}/{trainType}', '/api/v1/priceservice/prices/{pricesId}', '/api/v1/priceservice/prices/welcome', '/api/v1/priceservice/prices/byRouteIdsAndTrainTypes', '/api/v1/priceservice/prices', '/api/v1/priceservice']"
+                    "['/api/v1/priceservice/prices/{routeId}/{trainType}', '/api/v1/priceservice/prices/byRouteIdsAndTrainTypes', '/api/v1/priceservice/prices/welcome', '/api/v1/priceservice', '/api/v1/priceservice/prices', '/api/v1/priceservice/prices/{pricesId}']"
                 ]
             ],
             "type": "service"
@@ -1785,11 +1785,11 @@
         {
             "name": "ts-preserve-service",
             "stereotype_instances": [
-                "basic_authentication",
                 "internal",
-                "local_logging",
+                "load_balancer",
                 "csrf_disabled",
-                "load_balancer"
+                "basic_authentication",
+                "local_logging"
             ],
             "tagged_values": [
                 [
@@ -1797,12 +1797,12 @@
                     "Spring Cloud"
                 ],
                 [
-                    "Endpoints",
-                    "['/api/v1/preserveservice', '/api/v1/preserveservice/welcome', '/api/v1/preserveservice/preserve']"
-                ],
-                [
                     "Port",
                     14568
+                ],
+                [
+                    "Endpoints",
+                    "['/api/v1/preserveservice/preserve', '/api/v1/preserveservice', '/api/v1/preserveservice/welcome']"
                 ]
             ],
             "type": "service"
@@ -1810,13 +1810,17 @@
         {
             "name": "ts-security-service",
             "stereotype_instances": [
-                "basic_authentication",
                 "internal",
-                "local_logging",
+                "load_balancer",
                 "csrf_disabled",
-                "load_balancer"
+                "basic_authentication",
+                "local_logging"
             ],
             "tagged_values": [
+                [
+                    "Endpoints",
+                    "['/api/v1/securityservice/securityConfigs', '/api/v1/securityservice/welcome', '/api/v1/securityservice', '/api/v1/securityservice/securityConfigs/{id}', '/api/v1/securityservice/securityConfigs/{accountId}']"
+                ],
                 [
                     "Port",
                     11188
@@ -1824,10 +1828,6 @@
                 [
                     "Load Balancer",
                     "Spring Cloud"
-                ],
-                [
-                    "Endpoints",
-                    "['/api/v1/securityservice/welcome', '/api/v1/securityservice/securityConfigs/{id}', '/api/v1/securityservice/securityConfigs/{accountId}', '/api/v1/securityservice/securityConfigs', '/api/v1/securityservice']"
                 ]
             ],
             "type": "service"
@@ -1835,11 +1835,11 @@
         {
             "name": "ts-consign-service",
             "stereotype_instances": [
-                "basic_authentication",
                 "internal",
-                "local_logging",
+                "load_balancer",
                 "csrf_disabled",
-                "load_balancer"
+                "basic_authentication",
+                "local_logging"
             ],
             "tagged_values": [
                 [
@@ -1848,7 +1848,7 @@
                 ],
                 [
                     "Endpoints",
-                    "['/api/v1/consignservice/consigns/order/{id}', '/api/v1/consignservice/consigns/account/{id}', '/api/v1/consignservice/welcome', '/api/v1/consignservice/consigns', '/api/v1/consignservice/consigns/{consignee}', '/api/v1/consignservice']"
+                    "['/api/v1/consignservice/consigns/account/{id}', '/api/v1/consignservice/consigns/{consignee}', '/api/v1/consignservice/consigns', '/api/v1/consignservice', '/api/v1/consignservice/welcome', '/api/v1/consignservice/consigns/order/{id}']"
                 ],
                 [
                     "Port",
@@ -1860,24 +1860,24 @@
         {
             "name": "ts-train-service",
             "stereotype_instances": [
-                "basic_authentication",
                 "internal",
-                "local_logging",
+                "load_balancer",
                 "csrf_disabled",
-                "load_balancer"
+                "basic_authentication",
+                "local_logging"
             ],
             "tagged_values": [
-                [
-                    "Load Balancer",
-                    "Spring Cloud"
-                ],
                 [
                     "Port",
                     14567
                 ],
                 [
                     "Endpoints",
-                    "['/api/v1/trainservice/trains', '/api/v1/trainservice/trains/welcome', '/api/v1/trainservice', '/api/v1/trainservice/trains/byName/{name}', '/api/v1/trainservice/trains/{id}', '/api/v1/trainservice/trains/byNames']"
+                    "['/api/v1/trainservice', '/api/v1/trainservice/trains/welcome', '/api/v1/trainservice/trains/byNames', '/api/v1/trainservice/trains', '/api/v1/trainservice/trains/byName/{name}', '/api/v1/trainservice/trains/{id}']"
+                ],
+                [
+                    "Load Balancer",
+                    "Spring Cloud"
                 ]
             ],
             "type": "service"
@@ -1885,11 +1885,11 @@
         {
             "name": "ts-order-service",
             "stereotype_instances": [
-                "basic_authentication",
                 "internal",
-                "local_logging",
+                "load_balancer",
                 "csrf_disabled",
-                "load_balancer"
+                "basic_authentication",
+                "local_logging"
             ],
             "tagged_values": [
                 [
@@ -1898,7 +1898,7 @@
                 ],
                 [
                     "Endpoints",
-                    "['/api/v1/orderservice', '/api/v1/orderservice/order/query', '/api/v1/orderservice/order/status/{orderId}/{status}', '/api/v1/orderservice/order', '/api/v1/orderservice/order/price/{orderId}', '/api/v1/orderservice/order/refresh', '/api/v1/orderservice/order/admin', '/api/v1/orderservice/order/tickets', '/api/v1/orderservice/welcome', '/api/v1/orderservice/order/security/{checkDate}/{accountId}', '/api/v1/orderservice/order/{travelDate}/{trainNumber}', '/api/v1/orderservice/order/{orderId}', '/api/v1/orderservice/order/orderPay/{orderId}']"
+                    "['/api/v1/orderservice/welcome', '/api/v1/orderservice/order/price/{orderId}', '/api/v1/orderservice/order/orderPay/{orderId}', '/api/v1/orderservice/order', '/api/v1/orderservice', '/api/v1/orderservice/order/refresh', '/api/v1/orderservice/order/{orderId}', '/api/v1/orderservice/order/admin', '/api/v1/orderservice/order/{travelDate}/{trainNumber}', '/api/v1/orderservice/order/query', '/api/v1/orderservice/order/status/{orderId}/{status}', '/api/v1/orderservice/order/tickets', '/api/v1/orderservice/order/security/{checkDate}/{accountId}']"
                 ],
                 [
                     "Port",
@@ -1910,13 +1910,17 @@
         {
             "name": "ts-food-service",
             "stereotype_instances": [
-                "basic_authentication",
                 "internal",
-                "local_logging",
+                "load_balancer",
                 "csrf_disabled",
-                "load_balancer"
+                "basic_authentication",
+                "local_logging"
             ],
             "tagged_values": [
+                [
+                    "Endpoints",
+                    "['/api/v1/foodservice/welcome', '/api/v1/foodservice/orders/{orderId}', '/api/v1/foodservice/orders', '/api/v1/foodservice', '/api/v1/foodservice/createOrderBatch', '/api/v1/foodservice/foods/{date}/{startStation}/{endStation}/{tripId}', '/api/v1/foodservice/test_send_delivery']"
+                ],
                 [
                     "Load Balancer",
                     "Spring Cloud"
@@ -1924,10 +1928,6 @@
                 [
                     "Port",
                     18856
-                ],
-                [
-                    "Endpoints",
-                    "['/api/v1/foodservice/test_send_delivery', '/api/v1/foodservice/foods/{date}/{startStation}/{endStation}/{tripId}', '/api/v1/foodservice/orders/{orderId}', '/api/v1/foodservice/createOrderBatch', '/api/v1/foodservice/orders', '/api/v1/foodservice/welcome', '/api/v1/foodservice']"
                 ]
             ],
             "type": "service"
@@ -1935,24 +1935,24 @@
         {
             "name": "ts-station-food-service",
             "stereotype_instances": [
-                "basic_authentication",
                 "internal",
-                "local_logging",
+                "load_balancer",
                 "csrf_disabled",
-                "load_balancer"
+                "basic_authentication",
+                "local_logging"
             ],
             "tagged_values": [
                 [
-                    "Port",
-                    18855
-                ],
-                [
                     "Endpoints",
-                    "['/api/v1/stationfoodservice', '/api/v1/stationfoodservice/stationfoodstores/{stationId}', '/api/v1/stationfoodservice/stationfoodstores/bystoreid/{stationFoodStoreId}', '/api/v1/stationfoodservice/stationfoodstores/welcome', '/api/v1/stationfoodservice/stationfoodstores']"
+                    "['/api/v1/stationfoodservice/stationfoodstores', '/api/v1/stationfoodservice/stationfoodstores/welcome', '/api/v1/stationfoodservice', '/api/v1/stationfoodservice/stationfoodstores/{stationId}', '/api/v1/stationfoodservice/stationfoodstores/bystoreid/{stationFoodStoreId}']"
                 ],
                 [
                     "Load Balancer",
                     "Spring Cloud"
+                ],
+                [
+                    "Port",
+                    18855
                 ]
             ],
             "type": "service"
@@ -1960,24 +1960,24 @@
         {
             "name": "ts-rebook-service",
             "stereotype_instances": [
-                "basic_authentication",
                 "internal",
-                "local_logging",
+                "load_balancer",
                 "csrf_disabled",
-                "load_balancer"
+                "basic_authentication",
+                "local_logging"
             ],
             "tagged_values": [
+                [
+                    "Port",
+                    18886
+                ],
                 [
                     "Load Balancer",
                     "Spring Cloud"
                 ],
                 [
                     "Endpoints",
-                    "['/api/v1/rebookservice/welcome', '/api/v1/rebookservice/rebook/difference', '/api/v1/rebookservice/rebook', '/api/v1/rebookservice']"
-                ],
-                [
-                    "Port",
-                    18886
+                    "['/api/v1/rebookservice/welcome', '/api/v1/rebookservice', '/api/v1/rebookservice/rebook/difference', '/api/v1/rebookservice/rebook']"
                 ]
             ],
             "type": "service"
@@ -1985,24 +1985,24 @@
         {
             "name": "ts-train-food-service",
             "stereotype_instances": [
-                "basic_authentication",
                 "internal",
-                "local_logging",
+                "load_balancer",
                 "csrf_disabled",
-                "load_balancer"
+                "basic_authentication",
+                "local_logging"
             ],
             "tagged_values": [
+                [
+                    "Port",
+                    19999
+                ],
                 [
                     "Load Balancer",
                     "Spring Cloud"
                 ],
                 [
                     "Endpoints",
-                    "['/api/v1/trainfoodservice/trainfoods', '/api/v1/trainfoodservice/trainfoods/{tripId}', '/api/v1/trainfoodservice', '/api/v1/trainfoodservice/trainfoods/welcome']"
-                ],
-                [
-                    "Port",
-                    19999
+                    "['/api/v1/trainfoodservice/trainfoods/{tripId}', '/api/v1/trainfoodservice', '/api/v1/trainfoodservice/trainfoods', '/api/v1/trainfoodservice/trainfoods/welcome']"
                 ]
             ],
             "type": "service"
@@ -2010,24 +2010,24 @@
         {
             "name": "ts-admin-basic-info-service",
             "stereotype_instances": [
-                "basic_authentication",
                 "internal",
-                "local_logging",
+                "load_balancer",
                 "csrf_disabled",
-                "load_balancer"
+                "basic_authentication",
+                "local_logging"
             ],
             "tagged_values": [
-                [
-                    "Load Balancer",
-                    "Spring Cloud"
-                ],
                 [
                     "Port",
                     18767
                 ],
                 [
                     "Endpoints",
-                    "['/api/v1/adminbasicservice/adminbasic/configs', '/api/v1/adminbasicservice/adminbasic/trains', '/api/v1/adminbasicservice/adminbasic/configs/{name}', '/api/v1/adminbasicservice/adminbasic/stations', '/api/v1/adminbasicservice/adminbasic/trains/{id}', '/api/v1/adminbasicservice/adminbasic/contacts/{contactsId}', '/api/v1/adminbasicservice/adminbasic/prices/{pricesId}', '/api/v1/adminbasicservice/adminbasic/prices', '/api/v1/adminbasicservice/adminbasic/contacts', '/api/v1/adminbasicservice/adminbasic/stations/{id}', '/api/v1/adminbasicservice/welcome', '/api/v1/adminbasicservice']"
+                    "['/api/v1/adminbasicservice/adminbasic/prices/{pricesId}', '/api/v1/adminbasicservice/adminbasic/configs/{name}', '/api/v1/adminbasicservice', '/api/v1/adminbasicservice/adminbasic/contacts', '/api/v1/adminbasicservice/adminbasic/trains/{id}', '/api/v1/adminbasicservice/adminbasic/contacts/{contactsId}', '/api/v1/adminbasicservice/welcome', '/api/v1/adminbasicservice/adminbasic/stations', '/api/v1/adminbasicservice/adminbasic/trains', '/api/v1/adminbasicservice/adminbasic/configs', '/api/v1/adminbasicservice/adminbasic/stations/{id}', '/api/v1/adminbasicservice/adminbasic/prices']"
+                ],
+                [
+                    "Load Balancer",
+                    "Spring Cloud"
                 ]
             ],
             "type": "service"
@@ -2035,11 +2035,11 @@
         {
             "name": "ts-food-delivery-service",
             "stereotype_instances": [
-                "basic_authentication",
                 "internal",
-                "local_logging",
+                "load_balancer",
                 "csrf_disabled",
-                "load_balancer"
+                "basic_authentication",
+                "local_logging"
             ],
             "tagged_values": [
                 [
@@ -2047,12 +2047,12 @@
                     "Spring Cloud"
                 ],
                 [
-                    "Port",
-                    18957
+                    "Endpoints",
+                    "['/api/v1/fooddeliveryservice/orders', '/api/v1/fooddeliveryservice/orders/tripid', '/api/v1/fooddeliveryservice/orders/d/{orderId}', '/api/v1/fooddeliveryservice/welcome', '/api/v1/fooddeliveryservice/orders/{orderId}', '/api/v1/fooddeliveryservice/orders/store/{storeId}', '/api/v1/fooddeliveryservice/orders/all', '/api/v1/fooddeliveryservice/orders/seatno', '/api/v1/fooddeliveryservice', '/api/v1/fooddeliveryservice/orders/dtime']"
                 ],
                 [
-                    "Endpoints",
-                    "['/api/v1/fooddeliveryservice/orders/dtime', '/api/v1/fooddeliveryservice/orders/d/{orderId}', '/api/v1/fooddeliveryservice/orders/seatno', '/api/v1/fooddeliveryservice/orders/tripid', '/api/v1/fooddeliveryservice/orders', '/api/v1/fooddeliveryservice/welcome', '/api/v1/fooddeliveryservice/orders/all', '/api/v1/fooddeliveryservice', '/api/v1/fooddeliveryservice/orders/{orderId}', '/api/v1/fooddeliveryservice/orders/store/{storeId}']"
+                    "Port",
+                    18957
                 ]
             ],
             "type": "service"
@@ -2060,24 +2060,24 @@
         {
             "name": "ts-consign-price-service",
             "stereotype_instances": [
-                "basic_authentication",
                 "internal",
-                "local_logging",
+                "load_balancer",
                 "csrf_disabled",
-                "load_balancer"
+                "basic_authentication",
+                "local_logging"
             ],
             "tagged_values": [
                 [
+                    "Load Balancer",
+                    "Spring Cloud"
+                ],
+                [
                     "Endpoints",
-                    "['/api/v1/consignpriceservice/consignprice', '/api/v1/consignpriceservice/consignprice/{weight}/{isWithinRegion}', '/api/v1/consignpriceservice/consignprice/price', '/api/v1/consignpriceservice/welcome', '/api/v1/consignpriceservice', '/api/v1/consignpriceservice/consignprice/config']"
+                    "['/api/v1/consignpriceservice/welcome', '/api/v1/consignpriceservice', '/api/v1/consignpriceservice/consignprice/config', '/api/v1/consignpriceservice/consignprice/price', '/api/v1/consignpriceservice/consignprice/{weight}/{isWithinRegion}', '/api/v1/consignpriceservice/consignprice']"
                 ],
                 [
                     "Port",
                     16110
-                ],
-                [
-                    "Load Balancer",
-                    "Spring Cloud"
                 ]
             ],
             "type": "service"
@@ -2085,24 +2085,24 @@
         {
             "name": "ts-basic-service",
             "stereotype_instances": [
-                "basic_authentication",
                 "internal",
-                "local_logging",
+                "load_balancer",
                 "csrf_disabled",
-                "load_balancer"
+                "basic_authentication",
+                "local_logging"
             ],
             "tagged_values": [
                 [
-                    "Load Balancer",
-                    "Spring Cloud"
+                    "Port",
+                    15680
                 ],
                 [
                     "Endpoints",
-                    "['/api/v1/basicservice/welcome', '/api/v1/basicservice/basic/travel', '/api/v1/basicservice/basic/{stationName}', '/api/v1/basicservice/basic/travels', '/api/v1/basicservice']"
+                    "['/api/v1/basicservice/basic/{stationName}', '/api/v1/basicservice/welcome', '/api/v1/basicservice', '/api/v1/basicservice/basic/travel', '/api/v1/basicservice/basic/travels']"
                 ],
                 [
-                    "Port",
-                    15680
+                    "Load Balancer",
+                    "Spring Cloud"
                 ]
             ],
             "type": "service"
@@ -2110,24 +2110,24 @@
         {
             "name": "ts-preserve-other-service",
             "stereotype_instances": [
-                "basic_authentication",
                 "internal",
-                "local_logging",
+                "load_balancer",
                 "csrf_disabled",
-                "load_balancer"
+                "basic_authentication",
+                "local_logging"
             ],
             "tagged_values": [
                 [
-                    "Load Balancer",
-                    "Spring Cloud"
+                    "Endpoints",
+                    "['/api/v1/preserveotherservice/preserveOther', '/api/v1/preserveotherservice', '/api/v1/preserveotherservice/welcome']"
                 ],
                 [
                     "Port",
                     14569
                 ],
                 [
-                    "Endpoints",
-                    "['/api/v1/preserveotherservice/preserveOther', '/api/v1/preserveotherservice', '/api/v1/preserveotherservice/welcome']"
+                    "Load Balancer",
+                    "Spring Cloud"
                 ]
             ],
             "type": "service"
@@ -2135,24 +2135,24 @@
         {
             "name": "ts-station-service",
             "stereotype_instances": [
-                "basic_authentication",
                 "internal",
-                "local_logging",
+                "load_balancer",
                 "csrf_disabled",
-                "load_balancer"
+                "basic_authentication",
+                "local_logging"
             ],
             "tagged_values": [
-                [
-                    "Load Balancer",
-                    "Spring Cloud"
-                ],
                 [
                     "Port",
                     12345
                 ],
                 [
+                    "Load Balancer",
+                    "Spring Cloud"
+                ],
+                [
                     "Endpoints",
-                    "['/api/v1/stationservice/stations/{stationsId}', '/api/v1/stationservice/stations/idlist', '/api/v1/stationservice/stations/namelist', '/api/v1/stationservice/stations', '/api/v1/stationservice', '/api/v1/stationservice/stations/name/{stationIdForName}', '/api/v1/stationservice/welcome', '/api/v1/stationservice/stations/id/{stationNameForId}']"
+                    "['/api/v1/stationservice/stations/namelist', '/api/v1/stationservice/stations/name/{stationIdForName}', '/api/v1/stationservice/stations', '/api/v1/stationservice/welcome', '/api/v1/stationservice', '/api/v1/stationservice/stations/id/{stationNameForId}', '/api/v1/stationservice/stations/{stationsId}', '/api/v1/stationservice/stations/idlist']"
                 ]
             ],
             "type": "service"
@@ -2160,11 +2160,11 @@
         {
             "name": "ts-user-service",
             "stereotype_instances": [
-                "basic_authentication",
                 "internal",
-                "local_logging",
+                "load_balancer",
                 "csrf_disabled",
-                "load_balancer"
+                "basic_authentication",
+                "local_logging"
             ],
             "tagged_values": [
                 [
@@ -2172,16 +2172,16 @@
                     "Spring Cloud"
                 ],
                 [
-                    "Port",
-                    12342
-                ],
-                [
                     "Endpoints",
-                    "['/api/v1/userservice/users/id/{userId}', '/api/v1/userservice/users/{userId}', '/api/v1/userservice/users/register', '/api/v1/userservice/users/{userName}', '/api/v1/userservice/users', '/api/v1/userservice/users/hello']"
+                    "['/api/v1/userservice/users/hello', '/api/v1/userservice/users', '/api/v1/userservice/users/{userName}', '/api/v1/userservice/users/register', '/api/v1/userservice/users/{userId}', '/api/v1/userservice/users/id/{userId}']"
                 ],
                 [
                     "Port",
                     12346
+                ],
+                [
+                    "Port",
+                    12342
                 ]
             ],
             "type": "service"
@@ -2189,24 +2189,24 @@
         {
             "name": "ts-route-plan-service",
             "stereotype_instances": [
-                "basic_authentication",
                 "internal",
-                "local_logging",
+                "load_balancer",
                 "csrf_disabled",
-                "load_balancer"
+                "basic_authentication",
+                "local_logging"
             ],
             "tagged_values": [
+                [
+                    "Port",
+                    14578
+                ],
                 [
                     "Load Balancer",
                     "Spring Cloud"
                 ],
                 [
                     "Endpoints",
-                    "['/api/v1/routeplanservice/routePlan/minStopStations', '/api/v1/routeplanservice/routePlan/cheapestRoute', '/api/v1/routeplanservice/welcome', '/api/v1/routeplanservice', '/api/v1/routeplanservice/routePlan/quickestRoute']"
-                ],
-                [
-                    "Port",
-                    14578
+                    "['/api/v1/routeplanservice/welcome', '/api/v1/routeplanservice/routePlan/minStopStations', '/api/v1/routeplanservice/routePlan/cheapestRoute', '/api/v1/routeplanservice/routePlan/quickestRoute', '/api/v1/routeplanservice']"
                 ]
             ],
             "type": "service"
@@ -2214,20 +2214,20 @@
         {
             "name": "ts-payment-service",
             "stereotype_instances": [
-                "basic_authentication",
                 "internal",
-                "local_logging",
+                "load_balancer",
                 "csrf_disabled",
-                "load_balancer"
+                "basic_authentication",
+                "local_logging"
             ],
             "tagged_values": [
                 [
-                    "Port",
-                    19001
+                    "Endpoints",
+                    "['/api/v1/paymentservice/payment/money', '/api/v1/paymentservice/welcome', '/api/v1/paymentservice/payment', '/api/v1/paymentservice']"
                 ],
                 [
-                    "Endpoints",
-                    "['/api/v1/paymentservice/payment', '/api/v1/paymentservice/welcome', '/api/v1/paymentservice/payment/money', '/api/v1/paymentservice']"
+                    "Port",
+                    19001
                 ],
                 [
                     "Load Balancer",
@@ -2239,24 +2239,24 @@
         {
             "name": "ts-inside-payment-service",
             "stereotype_instances": [
-                "basic_authentication",
                 "internal",
-                "local_logging",
+                "load_balancer",
                 "csrf_disabled",
-                "load_balancer"
+                "basic_authentication",
+                "local_logging"
             ],
             "tagged_values": [
                 [
-                    "Load Balancer",
-                    "Spring Cloud"
-                ],
-                [
                     "Endpoints",
-                    "['/api/v1/inside_pay_service/inside_payment/account', '/api/v1/inside_pay_service', '/api/v1/inside_pay_service/inside_payment/drawback/{userId}/{money}', '/api/v1/inside_pay_service/inside_payment/money', '/api/v1/inside_pay_service/inside_payment', '/api/v1/inside_pay_service/welcome', '/api/v1/inside_pay_service/inside_payment/difference', '/api/v1/inside_pay_service/inside_payment/{userId}/{money}', '/api/v1/inside_pay_service/inside_payment/payment']"
+                    "['/api/v1/inside_pay_service/inside_payment/payment', '/api/v1/inside_pay_service', '/api/v1/inside_pay_service/inside_payment', '/api/v1/inside_pay_service/welcome', '/api/v1/inside_pay_service/inside_payment/difference', '/api/v1/inside_pay_service/inside_payment/money', '/api/v1/inside_pay_service/inside_payment/{userId}/{money}', '/api/v1/inside_pay_service/inside_payment/drawback/{userId}/{money}', '/api/v1/inside_pay_service/inside_payment/account']"
                 ],
                 [
                     "Port",
                     18673
+                ],
+                [
+                    "Load Balancer",
+                    "Spring Cloud"
                 ]
             ],
             "type": "service"
@@ -2264,24 +2264,24 @@
         {
             "name": "ts-seat-service",
             "stereotype_instances": [
-                "basic_authentication",
                 "internal",
-                "local_logging",
+                "load_balancer",
                 "csrf_disabled",
-                "load_balancer"
+                "basic_authentication",
+                "local_logging"
             ],
             "tagged_values": [
-                [
-                    "Load Balancer",
-                    "Spring Cloud"
-                ],
                 [
                     "Port",
                     18898
                 ],
                 [
                     "Endpoints",
-                    "['/api/v1/seatservice', '/api/v1/seatservice/welcome', '/api/v1/seatservice/seats', '/api/v1/seatservice/seats/left_tickets']"
+                    "['/api/v1/seatservice/seats/left_tickets', '/api/v1/seatservice', '/api/v1/seatservice/welcome', '/api/v1/seatservice/seats']"
+                ],
+                [
+                    "Load Balancer",
+                    "Spring Cloud"
                 ]
             ],
             "type": "service"
@@ -2289,24 +2289,24 @@
         {
             "name": "ts-execute-service",
             "stereotype_instances": [
-                "basic_authentication",
                 "internal",
-                "local_logging",
+                "load_balancer",
                 "csrf_disabled",
-                "load_balancer"
+                "basic_authentication",
+                "local_logging"
             ],
             "tagged_values": [
+                [
+                    "Load Balancer",
+                    "Spring Cloud"
+                ],
                 [
                     "Port",
                     12386
                 ],
                 [
                     "Endpoints",
-                    "['/api/v1/executeservice/welcome', '/api/v1/executeservice/execute/collected/{orderId}', '/api/v1/executeservice', '/api/v1/executeservice/execute/execute/{orderId}']"
-                ],
-                [
-                    "Load Balancer",
-                    "Spring Cloud"
+                    "['/api/v1/executeservice', '/api/v1/executeservice/welcome', '/api/v1/executeservice/execute/collected/{orderId}', '/api/v1/executeservice/execute/execute/{orderId}']"
                 ]
             ],
             "type": "service"
@@ -2314,11 +2314,11 @@
         {
             "name": "ts-travel-plan-service",
             "stereotype_instances": [
-                "basic_authentication",
                 "internal",
-                "local_logging",
+                "load_balancer",
                 "csrf_disabled",
-                "load_balancer"
+                "basic_authentication",
+                "local_logging"
             ],
             "tagged_values": [
                 [
@@ -2326,12 +2326,12 @@
                     "Spring Cloud"
                 ],
                 [
-                    "Port",
-                    14322
+                    "Endpoints",
+                    "['/api/v1/travelplanservice/travelPlan/minStation', '/api/v1/travelplanservice', '/api/v1/travelplanservice/welcome', '/api/v1/travelplanservice/travelPlan/quickest', '/api/v1/travelplanservice/travelPlan/cheapest', '/api/v1/travelplanservice/travelPlan/transferResult']"
                 ],
                 [
-                    "Endpoints",
-                    "['/api/v1/travelplanservice', '/api/v1/travelplanservice/welcome', '/api/v1/travelplanservice/travelPlan/cheapest', '/api/v1/travelplanservice/travelPlan/minStation', '/api/v1/travelplanservice/travelPlan/quickest', '/api/v1/travelplanservice/travelPlan/transferResult']"
+                    "Port",
+                    14322
                 ]
             ],
             "type": "service"
@@ -2339,13 +2339,17 @@
         {
             "name": "ts-travel2-service",
             "stereotype_instances": [
-                "basic_authentication",
                 "internal",
-                "local_logging",
+                "load_balancer",
                 "csrf_disabled",
-                "load_balancer"
+                "basic_authentication",
+                "local_logging"
             ],
             "tagged_values": [
+                [
+                    "Endpoints",
+                    "['/api/v1/travel2service/train_types/{tripId}', '/api/v1/travel2service/admin_trip', '/api/v1/travel2service/trips', '/api/v1/travel2service/welcome', '/api/v1/travel2service/trips/left', '/api/v1/travel2service/routes/{tripId}', '/api/v1/travel2service/trips/routes', '/api/v1/travel2service/trip_detail', '/api/v1/travel2service/trips/{tripId}', '/api/v1/travel2service']"
+                ],
                 [
                     "Port",
                     16346
@@ -2353,10 +2357,6 @@
                 [
                     "Load Balancer",
                     "Spring Cloud"
-                ],
-                [
-                    "Endpoints",
-                    "['/api/v1/travel2service/welcome', '/api/v1/travel2service/routes/{tripId}', '/api/v1/travel2service/train_types/{tripId}', '/api/v1/travel2service/trip_detail', '/api/v1/travel2service/admin_trip', '/api/v1/travel2service/trips/{tripId}', '/api/v1/travel2service/trips', '/api/v1/travel2service/trips/left', '/api/v1/travel2service', '/api/v1/travel2service/trips/routes']"
                 ]
             ],
             "type": "service"
@@ -2364,20 +2364,20 @@
         {
             "name": "ts-travel-service",
             "stereotype_instances": [
-                "basic_authentication",
                 "internal",
-                "local_logging",
+                "load_balancer",
                 "csrf_disabled",
-                "load_balancer"
+                "basic_authentication",
+                "local_logging"
             ],
             "tagged_values": [
                 [
-                    "Load Balancer",
-                    "Spring Cloud"
+                    "Endpoints",
+                    "['/api/v1/travelservice/admin_trip', '/api/v1/travelservice/trips/{tripId}', '/api/v1/travelservice/train_types/{tripId}', '/api/v1/travelservice/trip_detail', '/api/v1/travelservice/routes/{tripId}', '/api/v1/travelservice/trips', '/api/v1/travelservice/trips/left', '/api/v1/travelservice', '/api/v1/travelservice/welcome', '/api/v1/travelservice/trips/left_parallel', '/api/v1/travelservice/trips/routes']"
                 ],
                 [
-                    "Endpoints",
-                    "['/api/v1/travelservice/trips', '/api/v1/travelservice', '/api/v1/travelservice/trip_detail', '/api/v1/travelservice/trips/left', '/api/v1/travelservice/admin_trip', '/api/v1/travelservice/trips/{tripId}', '/api/v1/travelservice/welcome', '/api/v1/travelservice/trips/left_parallel', '/api/v1/travelservice/routes/{tripId}', '/api/v1/travelservice/train_types/{tripId}', '/api/v1/travelservice/trips/routes']"
+                    "Load Balancer",
+                    "Spring Cloud"
                 ],
                 [
                     "Port",
@@ -2389,24 +2389,24 @@
         {
             "name": "ts-admin-order-service",
             "stereotype_instances": [
-                "basic_authentication",
                 "internal",
-                "local_logging",
+                "load_balancer",
                 "csrf_disabled",
-                "load_balancer"
+                "basic_authentication",
+                "local_logging"
             ],
             "tagged_values": [
                 [
-                    "Load Balancer",
-                    "Spring Cloud"
+                    "Port",
+                    16112
                 ],
                 [
                     "Endpoints",
-                    "['/api/v1/adminorderservice/welcome', '/api/v1/adminorderservice/adminorder', '/api/v1/adminorderservice/adminorder/{orderId}/{trainNumber}', '/api/v1/adminorderservice']"
+                    "['/api/v1/adminorderservice/adminorder/{orderId}/{trainNumber}', '/api/v1/adminorderservice/welcome', '/api/v1/adminorderservice/adminorder', '/api/v1/adminorderservice']"
                 ],
                 [
-                    "Port",
-                    16112
+                    "Load Balancer",
+                    "Spring Cloud"
                 ]
             ],
             "type": "service"
@@ -2414,11 +2414,11 @@
         {
             "name": "ts-admin-travel-service",
             "stereotype_instances": [
-                "basic_authentication",
                 "internal",
-                "local_logging",
+                "load_balancer",
                 "csrf_disabled",
-                "load_balancer"
+                "basic_authentication",
+                "local_logging"
             ],
             "tagged_values": [
                 [
@@ -2426,12 +2426,12 @@
                     "Spring Cloud"
                 ],
                 [
-                    "Endpoints",
-                    "['/api/v1/admintravelservice/welcome', '/api/v1/admintravelservice', '/api/v1/admintravelservice/admintravel/{tripId}', '/api/v1/admintravelservice/admintravel']"
-                ],
-                [
                     "Port",
                     16114
+                ],
+                [
+                    "Endpoints",
+                    "['/api/v1/admintravelservice', '/api/v1/admintravelservice/admintravel/{tripId}', '/api/v1/admintravelservice/welcome', '/api/v1/admintravelservice/admintravel']"
                 ]
             ],
             "type": "service"
@@ -2439,13 +2439,17 @@
         {
             "name": "ts-admin-route-service",
             "stereotype_instances": [
-                "basic_authentication",
                 "internal",
-                "local_logging",
+                "load_balancer",
                 "csrf_disabled",
-                "load_balancer"
+                "basic_authentication",
+                "local_logging"
             ],
             "tagged_values": [
+                [
+                    "Port",
+                    16113
+                ],
                 [
                     "Load Balancer",
                     "Spring Cloud"
@@ -2453,10 +2457,6 @@
                 [
                     "Endpoints",
                     "['/api/v1/adminrouteservice/welcome', '/api/v1/adminrouteservice/adminroute/{routeId}', '/api/v1/adminrouteservice/adminroute', '/api/v1/adminrouteservice']"
-                ],
-                [
-                    "Port",
-                    16113
                 ]
             ],
             "type": "service"
@@ -2464,12 +2464,16 @@
         {
             "name": "database-ts-contacts-service",
             "stereotype_instances": [
-                "plaintext_credentials",
                 "entrypoint",
+                "external_database",
                 "exitpoint",
-                "external_database"
+                "plaintext_credentials"
             ],
             "tagged_values": [
+                [
+                    "Password",
+                    "CONTACTS_MYSQL_PASSWORD:Abcd1234#"
+                ],
                 [
                     "Username",
                     "CONTACTS_MYSQL_USER:root"
@@ -2477,10 +2481,6 @@
                 [
                     "Database",
                     "MySQL"
-                ],
-                [
-                    "Password",
-                    "CONTACTS_MYSQL_PASSWORD:Abcd1234#"
                 ]
             ],
             "type": "external_component"
@@ -2488,10 +2488,10 @@
         {
             "name": "database-ts-notification-service",
             "stereotype_instances": [
-                "plaintext_credentials",
                 "entrypoint",
+                "external_database",
                 "exitpoint",
-                "external_database"
+                "plaintext_credentials"
             ],
             "tagged_values": [
                 [
@@ -2512,16 +2512,12 @@
         {
             "name": "database-ts-config-service",
             "stereotype_instances": [
-                "plaintext_credentials",
                 "entrypoint",
+                "external_database",
                 "exitpoint",
-                "external_database"
+                "plaintext_credentials"
             ],
             "tagged_values": [
-                [
-                    "Password",
-                    "CONFIG_MYSQL_PASSWORD:root"
-                ],
                 [
                     "Database",
                     "MySQL"
@@ -2529,6 +2525,10 @@
                 [
                     "Username",
                     "CONFIG_MYSQL_USER:root"
+                ],
+                [
+                    "Password",
+                    "CONFIG_MYSQL_PASSWORD:root"
                 ]
             ],
             "type": "external_component"
@@ -2536,10 +2536,10 @@
         {
             "name": "database-ts-assurance-service",
             "stereotype_instances": [
-                "plaintext_credentials",
                 "entrypoint",
+                "external_database",
                 "exitpoint",
-                "external_database"
+                "plaintext_credentials"
             ],
             "tagged_values": [
                 [
@@ -2560,10 +2560,10 @@
         {
             "name": "database-ts-order-other-service",
             "stereotype_instances": [
-                "plaintext_credentials",
                 "entrypoint",
+                "external_database",
                 "exitpoint",
-                "external_database"
+                "plaintext_credentials"
             ],
             "tagged_values": [
                 [
@@ -2584,10 +2584,10 @@
         {
             "name": "database-ts-route-service",
             "stereotype_instances": [
-                "plaintext_credentials",
                 "entrypoint",
+                "external_database",
                 "exitpoint",
-                "external_database"
+                "plaintext_credentials"
             ],
             "tagged_values": [
                 [
@@ -2608,10 +2608,10 @@
         {
             "name": "database-ts-price-service",
             "stereotype_instances": [
-                "plaintext_credentials",
                 "entrypoint",
+                "external_database",
                 "exitpoint",
-                "external_database"
+                "plaintext_credentials"
             ],
             "tagged_values": [
                 [
@@ -2632,19 +2632,19 @@
         {
             "name": "database-ts-security-service",
             "stereotype_instances": [
-                "plaintext_credentials",
                 "entrypoint",
+                "external_database",
                 "exitpoint",
-                "external_database"
+                "plaintext_credentials"
             ],
             "tagged_values": [
                 [
-                    "Password",
-                    "SECURITY_MYSQL_PASSWORD:root"
-                ],
-                [
                     "Username",
                     "SECURITY_MYSQL_USER:root"
+                ],
+                [
+                    "Password",
+                    "SECURITY_MYSQL_PASSWORD:root"
                 ],
                 [
                     "Database",
@@ -2656,10 +2656,10 @@
         {
             "name": "database-ts-consign-service",
             "stereotype_instances": [
-                "plaintext_credentials",
                 "entrypoint",
+                "external_database",
                 "exitpoint",
-                "external_database"
+                "plaintext_credentials"
             ],
             "tagged_values": [
                 [
@@ -2680,23 +2680,23 @@
         {
             "name": "database-ts-train-service",
             "stereotype_instances": [
-                "plaintext_credentials",
                 "entrypoint",
+                "external_database",
                 "exitpoint",
-                "external_database"
+                "plaintext_credentials"
             ],
             "tagged_values": [
                 [
-                    "Username",
-                    "TRAIN_MYSQL_USER:root"
+                    "Password",
+                    "TRAIN_MYSQL_PASSWORD:Abcd1234#"
                 ],
                 [
                     "Database",
                     "MySQL"
                 ],
                 [
-                    "Password",
-                    "TRAIN_MYSQL_PASSWORD:Abcd1234#"
+                    "Username",
+                    "TRAIN_MYSQL_USER:root"
                 ]
             ],
             "type": "external_component"
@@ -2704,10 +2704,10 @@
         {
             "name": "database-ts-order-service",
             "stereotype_instances": [
-                "plaintext_credentials",
                 "entrypoint",
+                "external_database",
                 "exitpoint",
-                "external_database"
+                "plaintext_credentials"
             ],
             "tagged_values": [
                 [
@@ -2715,12 +2715,12 @@
                     "ORDER_MYSQL_PASSWORD:Abcd1234#"
                 ],
                 [
-                    "Username",
-                    "ORDER_MYSQL_USER:root"
-                ],
-                [
                     "Database",
                     "MySQL"
+                ],
+                [
+                    "Username",
+                    "ORDER_MYSQL_USER:root"
                 ]
             ],
             "type": "external_component"
@@ -2728,19 +2728,19 @@
         {
             "name": "database-ts-food-service",
             "stereotype_instances": [
-                "plaintext_credentials",
                 "entrypoint",
+                "external_database",
                 "exitpoint",
-                "external_database"
+                "plaintext_credentials"
             ],
             "tagged_values": [
                 [
-                    "Password",
-                    "FOOD_MYSQL_PASSWORD:root"
-                ],
-                [
                     "Database",
                     "MySQL"
+                ],
+                [
+                    "Password",
+                    "FOOD_MYSQL_PASSWORD:root"
                 ],
                 [
                     "Username",
@@ -2752,19 +2752,19 @@
         {
             "name": "database-ts-station-food-service",
             "stereotype_instances": [
-                "plaintext_credentials",
                 "entrypoint",
+                "external_database",
                 "exitpoint",
-                "external_database"
+                "plaintext_credentials"
             ],
             "tagged_values": [
                 [
-                    "Username",
-                    "STATION_FOOD_MYSQL_USER:root"
-                ],
-                [
                     "Password",
                     "STATION_FOOD_MYSQL_PASSWORD:Abcd1234#"
+                ],
+                [
+                    "Username",
+                    "STATION_FOOD_MYSQL_USER:root"
                 ],
                 [
                     "Database",
@@ -2776,16 +2776,12 @@
         {
             "name": "database-ts-train-food-service",
             "stereotype_instances": [
-                "plaintext_credentials",
                 "entrypoint",
+                "external_database",
                 "exitpoint",
-                "external_database"
+                "plaintext_credentials"
             ],
             "tagged_values": [
-                [
-                    "Username",
-                    "TRAIN_FOOD_MYSQL_USER:root"
-                ],
                 [
                     "Password",
                     "TRAIN_FOOD_MYSQL_PASSWORD:root"
@@ -2793,6 +2789,10 @@
                 [
                     "Database",
                     "MySQL"
+                ],
+                [
+                    "Username",
+                    "TRAIN_FOOD_MYSQL_USER:root"
                 ]
             ],
             "type": "external_component"
@@ -2800,10 +2800,10 @@
         {
             "name": "database-ts-food-delivery-service",
             "stereotype_instances": [
-                "plaintext_credentials",
                 "entrypoint",
+                "external_database",
                 "exitpoint",
-                "external_database"
+                "plaintext_credentials"
             ],
             "tagged_values": [
                 [
@@ -2824,19 +2824,19 @@
         {
             "name": "database-ts-consign-price-service",
             "stereotype_instances": [
-                "plaintext_credentials",
                 "entrypoint",
+                "external_database",
                 "exitpoint",
-                "external_database"
+                "plaintext_credentials"
             ],
             "tagged_values": [
                 [
-                    "Password",
-                    "CONSIGN_PRICE_MYSQL_PASSWORD:Abcd1234#"
-                ],
-                [
                     "Database",
                     "MySQL"
+                ],
+                [
+                    "Password",
+                    "CONSIGN_PRICE_MYSQL_PASSWORD:Abcd1234#"
                 ],
                 [
                     "Username",
@@ -2848,12 +2848,16 @@
         {
             "name": "database-ts-station-service",
             "stereotype_instances": [
-                "plaintext_credentials",
                 "entrypoint",
+                "external_database",
                 "exitpoint",
-                "external_database"
+                "plaintext_credentials"
             ],
             "tagged_values": [
+                [
+                    "Password",
+                    "STATION_MYSQL_PASSWORD:Abcd1234#"
+                ],
                 [
                     "Username",
                     "STATION_MYSQL_USER:root"
@@ -2861,10 +2865,6 @@
                 [
                     "Database",
                     "MySQL"
-                ],
-                [
-                    "Password",
-                    "STATION_MYSQL_PASSWORD:Abcd1234#"
                 ]
             ],
             "type": "external_component"
@@ -2872,23 +2872,23 @@
         {
             "name": "database-ts-user-service",
             "stereotype_instances": [
-                "plaintext_credentials",
                 "entrypoint",
+                "external_database",
                 "exitpoint",
-                "external_database"
+                "plaintext_credentials"
             ],
             "tagged_values": [
                 [
-                    "Password",
-                    "USER_MYSQL_PASSWORD:Abcd1234#"
+                    "Username",
+                    "USER_MYSQL_USER:root"
                 ],
                 [
                     "Database",
                     "MySQL"
                 ],
                 [
-                    "Username",
-                    "USER_MYSQL_USER:root"
+                    "Password",
+                    "USER_MYSQL_PASSWORD:Abcd1234#"
                 ]
             ],
             "type": "external_component"
@@ -2896,16 +2896,12 @@
         {
             "name": "database-ts-payment-service",
             "stereotype_instances": [
-                "plaintext_credentials",
                 "entrypoint",
+                "external_database",
                 "exitpoint",
-                "external_database"
+                "plaintext_credentials"
             ],
             "tagged_values": [
-                [
-                    "Password",
-                    "PAYMENT_MYSQL_PASSWORD:Abcd1234#"
-                ],
                 [
                     "Username",
                     "PAYMENT_MYSQL_USER:root"
@@ -2913,6 +2909,10 @@
                 [
                     "Database",
                     "MySQL"
+                ],
+                [
+                    "Password",
+                    "PAYMENT_MYSQL_PASSWORD:Abcd1234#"
                 ]
             ],
             "type": "external_component"
@@ -2920,12 +2920,16 @@
         {
             "name": "database-ts-inside-payment-service",
             "stereotype_instances": [
-                "plaintext_credentials",
                 "entrypoint",
+                "external_database",
                 "exitpoint",
-                "external_database"
+                "plaintext_credentials"
             ],
             "tagged_values": [
+                [
+                    "Username",
+                    "INSIDE_PAYMENT_MYSQL_USER:root"
+                ],
                 [
                     "Password",
                     "INSIDE_PAYMENT_MYSQL_PASSWORD:Abcd1234#"
@@ -2933,10 +2937,6 @@
                 [
                     "Database",
                     "MySQL"
-                ],
-                [
-                    "Username",
-                    "INSIDE_PAYMENT_MYSQL_USER:root"
                 ]
             ],
             "type": "external_component"
@@ -2944,10 +2944,10 @@
         {
             "name": "database-ts-travel2-service",
             "stereotype_instances": [
-                "plaintext_credentials",
                 "entrypoint",
+                "external_database",
                 "exitpoint",
-                "external_database"
+                "plaintext_credentials"
             ],
             "tagged_values": [
                 [
@@ -2955,12 +2955,12 @@
                     "TRAVEL2_MYSQL_USER:root"
                 ],
                 [
-                    "Password",
-                    "TRAVEL2_MYSQL_PASSWORD:Abcd1234#"
-                ],
-                [
                     "Database",
                     "MySQL"
+                ],
+                [
+                    "Password",
+                    "TRAVEL2_MYSQL_PASSWORD:Abcd1234#"
                 ]
             ],
             "type": "external_component"
@@ -2968,12 +2968,16 @@
         {
             "name": "database-ts-travel-service",
             "stereotype_instances": [
-                "plaintext_credentials",
                 "entrypoint",
+                "external_database",
                 "exitpoint",
-                "external_database"
+                "plaintext_credentials"
             ],
             "tagged_values": [
+                [
+                    "Database",
+                    "MySQL"
+                ],
                 [
                     "Username",
                     "TRAVEL_MYSQL_USER:root"
@@ -2981,10 +2985,6 @@
                 [
                     "Password",
                     "TRAVEL_MYSQL_PASSWORD:root"
-                ],
-                [
-                    "Database",
-                    "MySQL"
                 ]
             ],
             "type": "external_component"
@@ -2992,10 +2992,10 @@
         {
             "name": "mail-server",
             "stereotype_instances": [
-                "plaintext_credentials",
-                "mail_server",
                 "entrypoint",
-                "exitpoint"
+                "mail_server",
+                "exitpoint",
+                "plaintext_credentials"
             ],
             "tagged_values": [
                 [

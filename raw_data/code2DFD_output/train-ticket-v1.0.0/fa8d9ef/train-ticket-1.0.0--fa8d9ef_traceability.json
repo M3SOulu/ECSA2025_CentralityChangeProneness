@@ -1,0 +1,2578 @@
+{
+    "nodes": {
+        "ts-contacts-service": {
+            "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-1.0.0/ts-contacts-service/src/main/resources/application.yml",
+            "line": 10,
+            "span": "(10:29)",
+            "sub_items": {
+                "Port": {
+                    "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-1.0.0/ts-contacts-service/src/main/resources/application.yml",
+                    "line": 2,
+                    "span": "(8, 13)"
+                },
+                "csrf_disabled": {
+                    "file": "ts-contacts-service/src/main/java/contacts/config/SecurityConfig.java",
+                    "line": "7",
+                    "span": "(67, 79)"
+                },
+                "basic_authentication": {
+                    "file": "ts-contacts-service/src/main/java/contacts/config/SecurityConfig.java",
+                    "line": "7",
+                    "span": "(67, 79)"
+                },
+                "local_logging": {
+                    "file": "ts-contacts-service/src/main/java/contacts/service/ContactsServiceImpl.java",
+                    "line": "6",
+                    "span": "(17, 30)"
+                },
+                "load_balancer": {
+                    "file": "ts-contacts-service/src/main/java/contacts/ContactsApplication.java",
+                    "line": "30",
+                    "span": "(4, 17)"
+                },
+                "internal": {
+                    "file": "heuristic",
+                    "line": "heuristic",
+                    "span": "heuristic"
+                }
+            }
+        },
+        "ts-admin-user-service": {
+            "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-1.0.0/ts-admin-user-service/src/main/resources/application.yml",
+            "line": 10,
+            "span": "(10:31)",
+            "sub_items": {
+                "Port": {
+                    "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-1.0.0/ts-admin-user-service/src/main/resources/application.yml",
+                    "line": 2,
+                    "span": "(8, 13)"
+                },
+                "csrf_disabled": {
+                    "file": "ts-admin-user-service/src/main/java/adminuser/config/SecurityConfig.java",
+                    "line": "7",
+                    "span": "(67, 79)"
+                },
+                "basic_authentication": {
+                    "file": "ts-admin-user-service/src/main/java/adminuser/config/SecurityConfig.java",
+                    "line": "7",
+                    "span": "(67, 79)"
+                },
+                "local_logging": {
+                    "file": "ts-admin-user-service/src/main/java/adminuser/service/AdminUserServiceImpl.java",
+                    "line": "7",
+                    "span": "(17, 30)"
+                },
+                "load_balancer": {
+                    "file": "ts-admin-user-service/src/main/java/adminuser/AdminUserApplication.java",
+                    "line": "29",
+                    "span": "(4, 17)"
+                },
+                "internal": {
+                    "file": "heuristic",
+                    "line": "heuristic",
+                    "span": "heuristic"
+                }
+            }
+        },
+        "ts-notification-service": {
+            "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-1.0.0/ts-notification-service/src/main/resources/application.yml",
+            "line": 11,
+            "span": "(10:33)",
+            "sub_items": {
+                "Port": {
+                    "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-1.0.0/ts-notification-service/src/main/resources/application.yml",
+                    "line": 3,
+                    "span": "(8, 13)"
+                },
+                "csrf_disabled": {
+                    "file": "ts-notification-service/src/main/java/notification/config/SecurityConfig.java",
+                    "line": "7",
+                    "span": "(67, 79)"
+                },
+                "basic_authentication": {
+                    "file": "ts-notification-service/src/main/java/notification/config/SecurityConfig.java",
+                    "line": "7",
+                    "span": "(67, 79)"
+                },
+                "local_logging": {
+                    "file": "ts-notification-service/src/main/java/notification/service/NotificationServiceImpl.java",
+                    "line": "6",
+                    "span": "(17, 30)"
+                },
+                "load_balancer": {
+                    "file": "ts-notification-service/src/main/java/notification/NotificationApplication.java",
+                    "line": "23",
+                    "span": "(4, 17)"
+                },
+                "internal": {
+                    "file": "heuristic",
+                    "line": "heuristic",
+                    "span": "heuristic"
+                }
+            }
+        },
+        "ts-cancel-service": {
+            "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-1.0.0/ts-cancel-service/src/main/resources/application.yml",
+            "line": 10,
+            "span": "(10:27)",
+            "sub_items": {
+                "Port": {
+                    "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-1.0.0/ts-cancel-service/src/main/resources/application.yml",
+                    "line": 2,
+                    "span": "(8, 13)"
+                },
+                "csrf_disabled": {
+                    "file": "ts-cancel-service/src/main/java/cancel/config/SecurityConfig.java",
+                    "line": "7",
+                    "span": "(67, 79)"
+                },
+                "basic_authentication": {
+                    "file": "ts-cancel-service/src/main/java/cancel/config/SecurityConfig.java",
+                    "line": "7",
+                    "span": "(67, 79)"
+                },
+                "local_logging": {
+                    "file": "ts-cancel-service/src/main/java/cancel/service/CancelServiceImpl.java",
+                    "line": "11",
+                    "span": "(17, 30)"
+                },
+                "load_balancer": {
+                    "file": "ts-cancel-service/src/main/java/cancel/CancelApplication.java",
+                    "line": "30",
+                    "span": "(4, 17)"
+                },
+                "internal": {
+                    "file": "heuristic",
+                    "line": "heuristic",
+                    "span": "heuristic"
+                }
+            }
+        },
+        "ts-config-service": {
+            "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-1.0.0/ts-config-service/src/main/resources/application.yml",
+            "line": 7,
+            "span": "(10:27)",
+            "sub_items": {
+                "Port": {
+                    "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-1.0.0/ts-config-service/src/main/resources/application.yml",
+                    "line": 23,
+                    "span": "(8, 13)"
+                },
+                "csrf_disabled": {
+                    "file": "ts-config-service/src/main/java/config/SecurityConfig.java",
+                    "line": "8",
+                    "span": "(67, 79)"
+                },
+                "basic_authentication": {
+                    "file": "ts-config-service/src/main/java/config/SecurityConfig.java",
+                    "line": "8",
+                    "span": "(67, 79)"
+                },
+                "local_logging": {
+                    "file": "ts-config-service/src/main/java/config/service/ConfigServiceImpl.java",
+                    "line": "7",
+                    "span": "(17, 30)"
+                },
+                "load_balancer": {
+                    "file": "ts-config-service/src/main/java/config/ConfigApplication.java",
+                    "line": "30",
+                    "span": "(4, 17)"
+                },
+                "internal": {
+                    "file": "heuristic",
+                    "line": "heuristic",
+                    "span": "heuristic"
+                }
+            }
+        },
+        "ts-assurance-service": {
+            "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-1.0.0/ts-assurance-service/src/main/resources/application.yml",
+            "line": 7,
+            "span": "(10:30)",
+            "sub_items": {
+                "Port": {
+                    "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-1.0.0/ts-assurance-service/src/main/resources/application.yml",
+                    "line": 21,
+                    "span": "(8, 13)"
+                },
+                "csrf_disabled": {
+                    "file": "ts-assurance-service/src/main/java/assurance/config/SecurityConfig.java",
+                    "line": "7",
+                    "span": "(67, 79)"
+                },
+                "basic_authentication": {
+                    "file": "ts-assurance-service/src/main/java/assurance/config/SecurityConfig.java",
+                    "line": "7",
+                    "span": "(67, 79)"
+                },
+                "local_logging": {
+                    "file": "ts-assurance-service/src/main/java/assurance/service/AssuranceServiceImpl.java",
+                    "line": "7",
+                    "span": "(17, 30)"
+                },
+                "load_balancer": {
+                    "file": "ts-assurance-service/src/main/java/assurance/AssuranceApplication.java",
+                    "line": "30",
+                    "span": "(4, 17)"
+                },
+                "internal": {
+                    "file": "heuristic",
+                    "line": "heuristic",
+                    "span": "heuristic"
+                }
+            }
+        },
+        "ts-order-other-service": {
+            "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-1.0.0/ts-order-other-service/src/main/resources/application.yml",
+            "line": 11,
+            "span": "(10:32)",
+            "sub_items": {
+                "Port": {
+                    "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-1.0.0/ts-order-other-service/src/main/resources/application.yml",
+                    "line": 3,
+                    "span": "(8, 13)"
+                },
+                "csrf_disabled": {
+                    "file": "ts-order-other-service/src/main/java/other/config/SecurityConfig.java",
+                    "line": "8",
+                    "span": "(67, 79)"
+                },
+                "basic_authentication": {
+                    "file": "ts-order-other-service/src/main/java/other/config/SecurityConfig.java",
+                    "line": "8",
+                    "span": "(67, 79)"
+                },
+                "local_logging": {
+                    "file": "ts-order-other-service/src/main/java/other/service/OrderOtherServiceImpl.java",
+                    "line": "7",
+                    "span": "(17, 30)"
+                },
+                "load_balancer": {
+                    "file": "ts-order-other-service/src/main/java/other/OrderOtherApplication.java",
+                    "line": "31",
+                    "span": "(4, 17)"
+                },
+                "internal": {
+                    "file": "heuristic",
+                    "line": "heuristic",
+                    "span": "heuristic"
+                }
+            }
+        },
+        "ts-route-service": {
+            "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-1.0.0/ts-route-service/src/main/resources/application.yml",
+            "line": 7,
+            "span": "(10:26)",
+            "sub_items": {
+                "Port": {
+                    "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-1.0.0/ts-route-service/src/main/resources/application.yml",
+                    "line": 22,
+                    "span": "(8, 13)"
+                },
+                "csrf_disabled": {
+                    "file": "ts-route-service/src/main/java/route/config/SecurityConfig.java",
+                    "line": "8",
+                    "span": "(67, 79)"
+                },
+                "basic_authentication": {
+                    "file": "ts-route-service/src/main/java/route/config/SecurityConfig.java",
+                    "line": "8",
+                    "span": "(67, 79)"
+                },
+                "local_logging": {
+                    "file": "ts-route-service/src/main/java/route/service/RouteServiceImpl.java",
+                    "line": "5",
+                    "span": "(17, 30)"
+                },
+                "load_balancer": {
+                    "file": "ts-route-service/src/main/java/route/RouteApplication.java",
+                    "line": "30",
+                    "span": "(4, 17)"
+                },
+                "internal": {
+                    "file": "heuristic",
+                    "line": "heuristic",
+                    "span": "heuristic"
+                }
+            }
+        },
+        "ts-price-service": {
+            "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-1.0.0/ts-price-service/src/main/resources/application.yml",
+            "line": 7,
+            "span": "(10:26)",
+            "sub_items": {
+                "Port": {
+                    "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-1.0.0/ts-price-service/src/main/resources/application.yml",
+                    "line": 23,
+                    "span": "(8, 13)"
+                },
+                "csrf_disabled": {
+                    "file": "ts-price-service/src/main/java/price/config/SecurityConfig.java",
+                    "line": "8",
+                    "span": "(67, 79)"
+                },
+                "basic_authentication": {
+                    "file": "ts-price-service/src/main/java/price/config/SecurityConfig.java",
+                    "line": "8",
+                    "span": "(67, 79)"
+                },
+                "local_logging": {
+                    "file": "ts-price-service/src/main/java/price/service/PriceServiceImpl.java",
+                    "line": "5",
+                    "span": "(17, 30)"
+                },
+                "load_balancer": {
+                    "file": "ts-price-service/src/main/java/price/PriceApplication.java",
+                    "line": "30",
+                    "span": "(4, 17)"
+                },
+                "internal": {
+                    "file": "heuristic",
+                    "line": "heuristic",
+                    "span": "heuristic"
+                }
+            }
+        },
+        "ts-preserve-service": {
+            "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-1.0.0/ts-preserve-service/src/main/resources/application.yml",
+            "line": 20,
+            "span": "(10:29)",
+            "sub_items": {
+                "Port": {
+                    "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-1.0.0/ts-preserve-service/src/main/resources/application.yml",
+                    "line": 12,
+                    "span": "(8, 13)"
+                },
+                "csrf_disabled": {
+                    "file": "ts-preserve-service/src/main/java/preserve/config/SecurityConfig.java",
+                    "line": "7",
+                    "span": "(67, 79)"
+                },
+                "basic_authentication": {
+                    "file": "ts-preserve-service/src/main/java/preserve/config/SecurityConfig.java",
+                    "line": "7",
+                    "span": "(67, 79)"
+                },
+                "local_logging": {
+                    "file": "ts-preserve-service/src/main/java/preserve/service/PreserveServiceImpl.java",
+                    "line": "7",
+                    "span": "(17, 30)"
+                },
+                "load_balancer": {
+                    "file": "ts-preserve-service/src/main/java/preserve/PreserveApplication.java",
+                    "line": "30",
+                    "span": "(4, 17)"
+                },
+                "internal": {
+                    "file": "heuristic",
+                    "line": "heuristic",
+                    "span": "heuristic"
+                }
+            }
+        },
+        "ts-security-service": {
+            "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-1.0.0/ts-security-service/src/main/resources/application.yml",
+            "line": 7,
+            "span": "(10:29)",
+            "sub_items": {
+                "Port": {
+                    "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-1.0.0/ts-security-service/src/main/resources/application.yml",
+                    "line": 24,
+                    "span": "(8, 13)"
+                },
+                "csrf_disabled": {
+                    "file": "ts-security-service/src/main/java/security/config/SecurityConfig.java",
+                    "line": "7",
+                    "span": "(67, 79)"
+                },
+                "basic_authentication": {
+                    "file": "ts-security-service/src/main/java/security/config/SecurityConfig.java",
+                    "line": "7",
+                    "span": "(67, 79)"
+                },
+                "local_logging": {
+                    "file": "ts-security-service/src/main/java/security/service/SecurityServiceImpl.java",
+                    "line": "6",
+                    "span": "(17, 30)"
+                },
+                "load_balancer": {
+                    "file": "ts-security-service/src/main/java/security/SecurityApplication.java",
+                    "line": "30",
+                    "span": "(4, 17)"
+                },
+                "internal": {
+                    "file": "heuristic",
+                    "line": "heuristic",
+                    "span": "heuristic"
+                }
+            }
+        },
+        "ts-consign-service": {
+            "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-1.0.0/ts-consign-service/src/main/resources/application.yml",
+            "line": 7,
+            "span": "(10:28)",
+            "sub_items": {
+                "Port": {
+                    "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-1.0.0/ts-consign-service/src/main/resources/application.yml",
+                    "line": 24,
+                    "span": "(8, 13)"
+                },
+                "csrf_disabled": {
+                    "file": "ts-consign-service/src/main/java/consign/config/SecurityConfig.java",
+                    "line": "7",
+                    "span": "(67, 79)"
+                },
+                "basic_authentication": {
+                    "file": "ts-consign-service/src/main/java/consign/config/SecurityConfig.java",
+                    "line": "7",
+                    "span": "(67, 79)"
+                },
+                "local_logging": {
+                    "file": "ts-consign-service/src/main/java/consign/service/ConsignServiceImpl.java",
+                    "line": "8",
+                    "span": "(17, 30)"
+                },
+                "load_balancer": {
+                    "file": "ts-consign-service/src/main/java/consign/ConsignApplication.java",
+                    "line": "29",
+                    "span": "(4, 17)"
+                },
+                "internal": {
+                    "file": "heuristic",
+                    "line": "heuristic",
+                    "span": "heuristic"
+                }
+            }
+        },
+        "ts-train-service": {
+            "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-1.0.0/ts-train-service/src/main/resources/application.yml",
+            "line": 7,
+            "span": "(10:26)",
+            "sub_items": {
+                "Port": {
+                    "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-1.0.0/ts-train-service/src/main/resources/application.yml",
+                    "line": 23,
+                    "span": "(8, 13)"
+                },
+                "csrf_disabled": {
+                    "file": "ts-train-service/src/main/java/train/config/SecurityConfig.java",
+                    "line": "8",
+                    "span": "(67, 79)"
+                },
+                "basic_authentication": {
+                    "file": "ts-train-service/src/main/java/train/config/SecurityConfig.java",
+                    "line": "8",
+                    "span": "(67, 79)"
+                },
+                "local_logging": {
+                    "file": "ts-train-service/src/main/java/train/service/TrainServiceImpl.java",
+                    "line": "4",
+                    "span": "(17, 30)"
+                },
+                "load_balancer": {
+                    "file": "ts-train-service/src/main/java/train/TrainApplication.java",
+                    "line": "27",
+                    "span": "(4, 17)"
+                },
+                "internal": {
+                    "file": "heuristic",
+                    "line": "heuristic",
+                    "span": "heuristic"
+                }
+            }
+        },
+        "ts-order-service": {
+            "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-1.0.0/ts-order-service/src/main/resources/application.yml",
+            "line": 11,
+            "span": "(10:26)",
+            "sub_items": {
+                "Port": {
+                    "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-1.0.0/ts-order-service/src/main/resources/application.yml",
+                    "line": 3,
+                    "span": "(8, 13)"
+                },
+                "csrf_disabled": {
+                    "file": "ts-order-service/src/main/java/order/config/SecurityConfig.java",
+                    "line": "8",
+                    "span": "(67, 79)"
+                },
+                "basic_authentication": {
+                    "file": "ts-order-service/src/main/java/order/config/SecurityConfig.java",
+                    "line": "8",
+                    "span": "(67, 79)"
+                },
+                "local_logging": {
+                    "file": "ts-order-service/src/main/java/order/service/OrderServiceImpl.java",
+                    "line": "11",
+                    "span": "(17, 30)"
+                },
+                "load_balancer": {
+                    "file": "ts-order-service/src/main/java/order/OrderApplication.java",
+                    "line": "29",
+                    "span": "(4, 17)"
+                },
+                "internal": {
+                    "file": "heuristic",
+                    "line": "heuristic",
+                    "span": "heuristic"
+                }
+            }
+        },
+        "ts-verification-code-service": {
+            "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-1.0.0/ts-verification-code-service/src/main/resources/application.yml",
+            "line": 10,
+            "span": "(10:38)",
+            "sub_items": {
+                "Port": {
+                    "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-1.0.0/ts-verification-code-service/src/main/resources/application.yml",
+                    "line": 2,
+                    "span": "(8, 13)"
+                },
+                "csrf_disabled": {
+                    "file": "ts-verification-code-service/src/main/java/verifycode/config/SecurityConfig.java",
+                    "line": "7",
+                    "span": "(67, 79)"
+                },
+                "basic_authentication": {
+                    "file": "ts-verification-code-service/src/main/java/verifycode/config/SecurityConfig.java",
+                    "line": "7",
+                    "span": "(67, 79)"
+                },
+                "local_logging": {
+                    "file": "ts-verification-code-service/src/main/java/verifycode/service/impl/VerifyCodeServiceImpl.java",
+                    "line": "6",
+                    "span": "(17, 30)"
+                },
+                "load_balancer": {
+                    "file": "ts-verification-code-service/src/main/java/verifycode/VerifyCodeApplication.java",
+                    "line": "20",
+                    "span": "(4, 17)"
+                },
+                "internal": {
+                    "file": "heuristic",
+                    "line": "heuristic",
+                    "span": "heuristic"
+                }
+            }
+        },
+        "ts-food-service": {
+            "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-1.0.0/ts-food-service/src/main/resources/application.yml",
+            "line": 10,
+            "span": "(10:25)",
+            "sub_items": {
+                "Port": {
+                    "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-1.0.0/ts-food-service/src/main/resources/application.yml",
+                    "line": 2,
+                    "span": "(8, 13)"
+                },
+                "csrf_disabled": {
+                    "file": "ts-food-service/src/main/java/foodsearch/config/SecurityConfig.java",
+                    "line": "8",
+                    "span": "(67, 79)"
+                },
+                "basic_authentication": {
+                    "file": "ts-food-service/src/main/java/foodsearch/config/SecurityConfig.java",
+                    "line": "8",
+                    "span": "(67, 79)"
+                },
+                "local_logging": {
+                    "file": "ts-food-service/src/main/java/foodsearch/service/FoodServiceImpl.java",
+                    "line": "13",
+                    "span": "(17, 30)"
+                },
+                "load_balancer": {
+                    "file": "ts-food-service/src/main/java/foodsearch/FoodApplication.java",
+                    "line": "27",
+                    "span": "(4, 17)"
+                },
+                "internal": {
+                    "file": "heuristic",
+                    "line": "heuristic",
+                    "span": "heuristic"
+                }
+            }
+        },
+        "ts-station-food-service": {
+            "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-1.0.0/ts-station-food-service/src/main/resources/application.yml",
+            "line": 10,
+            "span": "(10:33)",
+            "sub_items": {
+                "Port": {
+                    "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-1.0.0/ts-station-food-service/src/main/resources/application.yml",
+                    "line": 2,
+                    "span": "(8, 13)"
+                },
+                "csrf_disabled": {
+                    "file": "ts-station-food-service/src/main/java/food/config/SecurityConfig.java",
+                    "line": "7",
+                    "span": "(67, 79)"
+                },
+                "basic_authentication": {
+                    "file": "ts-station-food-service/src/main/java/food/config/SecurityConfig.java",
+                    "line": "7",
+                    "span": "(67, 79)"
+                },
+                "local_logging": {
+                    "file": "ts-station-food-service/src/main/java/food/service/StationFoodServiceImpl.java",
+                    "line": "7",
+                    "span": "(17, 30)"
+                },
+                "load_balancer": {
+                    "file": "ts-station-food-service/src/main/java/food/StationFoodApplication.java",
+                    "line": "27",
+                    "span": "(4, 17)"
+                },
+                "internal": {
+                    "file": "heuristic",
+                    "line": "heuristic",
+                    "span": "heuristic"
+                }
+            }
+        },
+        "ts-rebook-service": {
+            "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-1.0.0/ts-rebook-service/src/main/resources/application.yml",
+            "line": 11,
+            "span": "(10:27)",
+            "sub_items": {
+                "Port": {
+                    "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-1.0.0/ts-rebook-service/src/main/resources/application.yml",
+                    "line": 3,
+                    "span": "(8, 13)"
+                },
+                "csrf_disabled": {
+                    "file": "ts-rebook-service/src/main/java/rebook/config/SecurityConfig.java",
+                    "line": "7",
+                    "span": "(67, 79)"
+                },
+                "basic_authentication": {
+                    "file": "ts-rebook-service/src/main/java/rebook/config/SecurityConfig.java",
+                    "line": "7",
+                    "span": "(67, 79)"
+                },
+                "local_logging": {
+                    "file": "ts-rebook-service/src/main/java/rebook/service/RebookServiceImpl.java",
+                    "line": "12",
+                    "span": "(17, 30)"
+                },
+                "load_balancer": {
+                    "file": "ts-rebook-service/src/main/java/rebook/RebookApplication.java",
+                    "line": "30",
+                    "span": "(4, 17)"
+                },
+                "internal": {
+                    "file": "heuristic",
+                    "line": "heuristic",
+                    "span": "heuristic"
+                }
+            }
+        },
+        "ts-train-food-service": {
+            "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-1.0.0/ts-train-food-service/src/main/resources/application.yml",
+            "line": 10,
+            "span": "(10:31)",
+            "sub_items": {
+                "Port": {
+                    "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-1.0.0/ts-train-food-service/src/main/resources/application.yml",
+                    "line": 2,
+                    "span": "(8, 13)"
+                },
+                "csrf_disabled": {
+                    "file": "ts-train-food-service/src/main/java/trainFood/config/SecurityConfig.java",
+                    "line": "7",
+                    "span": "(67, 79)"
+                },
+                "basic_authentication": {
+                    "file": "ts-train-food-service/src/main/java/trainFood/config/SecurityConfig.java",
+                    "line": "7",
+                    "span": "(67, 79)"
+                },
+                "local_logging": {
+                    "file": "ts-train-food-service/src/main/java/trainFood/service/TrainFoodServiceImpl.java",
+                    "line": "5",
+                    "span": "(17, 30)"
+                },
+                "load_balancer": {
+                    "file": "ts-train-food-service/src/main/java/trainFood/TrainFoodApplication.java",
+                    "line": "26",
+                    "span": "(4, 17)"
+                },
+                "internal": {
+                    "file": "heuristic",
+                    "line": "heuristic",
+                    "span": "heuristic"
+                }
+            }
+        },
+        "ts-admin-basic-info-service": {
+            "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-1.0.0/ts-admin-basic-info-service/src/main/resources/application.yml",
+            "line": 10,
+            "span": "(10:37)",
+            "sub_items": {
+                "Port": {
+                    "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-1.0.0/ts-admin-basic-info-service/src/main/resources/application.yml",
+                    "line": 2,
+                    "span": "(8, 13)"
+                },
+                "csrf_disabled": {
+                    "file": "ts-admin-basic-info-service/src/main/java/adminbasic/config/SecurityConfig.java",
+                    "line": "8",
+                    "span": "(67, 79)"
+                },
+                "basic_authentication": {
+                    "file": "ts-admin-basic-info-service/src/main/java/adminbasic/config/SecurityConfig.java",
+                    "line": "8",
+                    "span": "(67, 79)"
+                },
+                "local_logging": {
+                    "file": "ts-admin-basic-info-service/src/main/java/adminbasic/controller/AdminBasicInfoController.java",
+                    "line": "10",
+                    "span": "(17, 30)"
+                },
+                "load_balancer": {
+                    "file": "ts-admin-basic-info-service/src/main/java/adminbasic/AdminBasicInfoApplication.java",
+                    "line": "30",
+                    "span": "(4, 17)"
+                },
+                "internal": {
+                    "file": "heuristic",
+                    "line": "heuristic",
+                    "span": "heuristic"
+                }
+            }
+        },
+        "ts-food-delivery-service": {
+            "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-1.0.0/ts-food-delivery-service/src/main/resources/application.yml",
+            "line": 11,
+            "span": "(10:34)",
+            "sub_items": {
+                "Port": {
+                    "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-1.0.0/ts-food-delivery-service/src/main/resources/application.yml",
+                    "line": 2,
+                    "span": "(8, 13)"
+                },
+                "csrf_disabled": {
+                    "file": "ts-food-delivery-service/src/main/java/food_delivery/config/SecurityConfig.java",
+                    "line": "7",
+                    "span": "(67, 79)"
+                },
+                "basic_authentication": {
+                    "file": "ts-food-delivery-service/src/main/java/food_delivery/config/SecurityConfig.java",
+                    "line": "7",
+                    "span": "(67, 79)"
+                },
+                "local_logging": {
+                    "file": "ts-food-delivery-service/src/main/java/food_delivery/service/FoodDeliveryServiceImpl.java",
+                    "line": "9",
+                    "span": "(17, 30)"
+                },
+                "load_balancer": {
+                    "file": "ts-food-delivery-service/src/main/java/food_delivery/FoodDeliveryApplication.java",
+                    "line": "27",
+                    "span": "(4, 17)"
+                },
+                "internal": {
+                    "file": "heuristic",
+                    "line": "heuristic",
+                    "span": "heuristic"
+                }
+            }
+        },
+        "ts-consign-price-service": {
+            "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-1.0.0/ts-consign-price-service/src/main/resources/application.yml",
+            "line": 7,
+            "span": "(10:34)",
+            "sub_items": {
+                "Port": {
+                    "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-1.0.0/ts-consign-price-service/src/main/resources/application.yml",
+                    "line": 23,
+                    "span": "(8, 13)"
+                },
+                "csrf_disabled": {
+                    "file": "ts-consign-price-service/src/main/java/consignprice/config/SecurityConfig.java",
+                    "line": "7",
+                    "span": "(67, 79)"
+                },
+                "basic_authentication": {
+                    "file": "ts-consign-price-service/src/main/java/consignprice/config/SecurityConfig.java",
+                    "line": "7",
+                    "span": "(67, 79)"
+                },
+                "local_logging": {
+                    "file": "ts-consign-price-service/src/main/java/consignprice/service/ConsignPriceServiceImpl.java",
+                    "line": "7",
+                    "span": "(17, 30)"
+                },
+                "load_balancer": {
+                    "file": "ts-consign-price-service/src/main/java/consignprice/ConsignPriceApplication.java",
+                    "line": "37",
+                    "span": "(4, 17)"
+                },
+                "internal": {
+                    "file": "heuristic",
+                    "line": "heuristic",
+                    "span": "heuristic"
+                }
+            }
+        },
+        "ts-wait-order-service": {
+            "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-1.0.0/ts-wait-order-service/src/main/resources/application.yml",
+            "line": 11,
+            "span": "(10:31)",
+            "sub_items": {
+                "Port": {
+                    "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-1.0.0/ts-wait-order-service/src/main/resources/application.yml",
+                    "line": 3,
+                    "span": "(8, 13)"
+                },
+                "csrf_disabled": {
+                    "file": "ts-wait-order-service/src/main/java/waitorder/config/SecurityConfig.java",
+                    "line": "8",
+                    "span": "(67, 79)"
+                },
+                "basic_authentication": {
+                    "file": "ts-wait-order-service/src/main/java/waitorder/config/SecurityConfig.java",
+                    "line": "8",
+                    "span": "(67, 79)"
+                },
+                "local_logging": {
+                    "file": "ts-wait-order-service/src/main/java/waitorder/service/Impl/WaitListOrderServiceImpl.java",
+                    "line": "5",
+                    "span": "(17, 30)"
+                },
+                "load_balancer": {
+                    "file": "ts-wait-order-service/src/main/java/waitorder/WaitOrderApplication.java",
+                    "line": "27",
+                    "span": "(4, 17)"
+                },
+                "internal": {
+                    "file": "heuristic",
+                    "line": "heuristic",
+                    "span": "heuristic"
+                }
+            }
+        },
+        "ts-basic-service": {
+            "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-1.0.0/ts-basic-service/src/main/resources/application.yml",
+            "line": 10,
+            "span": "(10:26)",
+            "sub_items": {
+                "Port": {
+                    "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-1.0.0/ts-basic-service/src/main/resources/application.yml",
+                    "line": 2,
+                    "span": "(8, 13)"
+                },
+                "csrf_disabled": {
+                    "file": "ts-basic-service/src/main/java/fdse/microservice/config/SecurityConfig.java",
+                    "line": "7",
+                    "span": "(67, 79)"
+                },
+                "basic_authentication": {
+                    "file": "ts-basic-service/src/main/java/fdse/microservice/config/SecurityConfig.java",
+                    "line": "7",
+                    "span": "(67, 79)"
+                },
+                "local_logging": {
+                    "file": "ts-basic-service/src/main/java/fdse/microservice/service/BasicServiceImpl.java",
+                    "line": "9",
+                    "span": "(17, 30)"
+                },
+                "load_balancer": {
+                    "file": "ts-basic-service/src/main/java/fdse/microservice/BasicApplication.java",
+                    "line": "30",
+                    "span": "(1, 14)"
+                },
+                "internal": {
+                    "file": "heuristic",
+                    "line": "heuristic",
+                    "span": "heuristic"
+                }
+            }
+        },
+        "ts-preserve-other-service": {
+            "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-1.0.0/ts-preserve-other-service/src/main/resources/application.yml",
+            "line": 20,
+            "span": "(10:35)",
+            "sub_items": {
+                "Port": {
+                    "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-1.0.0/ts-preserve-other-service/src/main/resources/application.yml",
+                    "line": 12,
+                    "span": "(8, 13)"
+                },
+                "csrf_disabled": {
+                    "file": "ts-preserve-other-service/src/main/java/preserveOther/config/SecurityConfig.java",
+                    "line": "7",
+                    "span": "(67, 79)"
+                },
+                "basic_authentication": {
+                    "file": "ts-preserve-other-service/src/main/java/preserveOther/config/SecurityConfig.java",
+                    "line": "7",
+                    "span": "(67, 79)"
+                },
+                "local_logging": {
+                    "file": "ts-preserve-other-service/src/main/java/preserveOther/service/PreserveOtherServiceImpl.java",
+                    "line": "8",
+                    "span": "(17, 30)"
+                },
+                "load_balancer": {
+                    "file": "ts-preserve-other-service/src/main/java/preserveOther/PreserveOtherApplication.java",
+                    "line": "30",
+                    "span": "(4, 17)"
+                },
+                "internal": {
+                    "file": "heuristic",
+                    "line": "heuristic",
+                    "span": "heuristic"
+                }
+            }
+        },
+        "ts-common": {
+            "file": "ts-common/pom.xml",
+            "line": 11,
+            "span": "[16:25]",
+            "sub_items": {
+                "local_logging": {
+                    "file": "ts-common/src/main/java/edu/fudan/common/security/jwt/JWTUtil.java",
+                    "line": "6",
+                    "span": "(17, 30)"
+                },
+                "internal": {
+                    "file": "heuristic",
+                    "line": "heuristic",
+                    "span": "heuristic"
+                }
+            }
+        },
+        "ts-station-service": {
+            "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-1.0.0/ts-station-service/src/main/resources/application.yml",
+            "line": 7,
+            "span": "(10:28)",
+            "sub_items": {
+                "Port": {
+                    "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-1.0.0/ts-station-service/src/main/resources/application.yml",
+                    "line": 19,
+                    "span": "(8, 13)"
+                },
+                "csrf_disabled": {
+                    "file": "ts-station-service/src/main/java/fdse/microservice/config/SecurityConfig.java",
+                    "line": "8",
+                    "span": "(67, 79)"
+                },
+                "basic_authentication": {
+                    "file": "ts-station-service/src/main/java/fdse/microservice/config/SecurityConfig.java",
+                    "line": "8",
+                    "span": "(67, 79)"
+                },
+                "local_logging": {
+                    "file": "ts-station-service/src/main/java/fdse/microservice/service/StationServiceImpl.java",
+                    "line": "7",
+                    "span": "(17, 30)"
+                },
+                "load_balancer": {
+                    "file": "ts-station-service/src/main/java/fdse/microservice/StationApplication.java",
+                    "line": "27",
+                    "span": "(1, 14)"
+                },
+                "internal": {
+                    "file": "heuristic",
+                    "line": "heuristic",
+                    "span": "heuristic"
+                }
+            }
+        },
+        "ts-auth-service": {
+            "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-1.0.0/ts-auth-service/src/main/resources/application.yaml",
+            "line": 9,
+            "span": "(10:25)",
+            "sub_items": {
+                "Port": {
+                    "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-1.0.0/ts-auth-service/src/main/resources/application.yaml",
+                    "line": 2,
+                    "span": "(8, 13)"
+                },
+                "csrf_disabled": {
+                    "file": "ts-auth-service/src/main/java/auth/config/WebSecurityConfig.java",
+                    "line": "13",
+                    "span": "(67, 79)"
+                },
+                "basic_authentication": {
+                    "file": "ts-auth-service/src/main/java/auth/config/WebSecurityConfig.java",
+                    "line": "13",
+                    "span": "(67, 79)"
+                },
+                "local_logging": {
+                    "file": "ts-auth-service/src/main/java/auth/service/impl/UserServiceImpl.java",
+                    "line": "12",
+                    "span": "(17, 30)"
+                },
+                "load_balancer": {
+                    "file": "ts-auth-service/src/main/java/auth/AuthApplication.java",
+                    "line": "21",
+                    "span": "(4, 17)"
+                },
+                "internal": {
+                    "file": "heuristic",
+                    "line": "heuristic",
+                    "span": "heuristic"
+                }
+            }
+        },
+        "ts-user-service": {
+            "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-1.0.0/ts-user-service/src/main/resources/application.yaml",
+            "line": 10,
+            "span": "(10:25)",
+            "sub_items": {
+                "Port": {
+                    "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-1.0.0/ts-user-service/src/main/resources/application.yaml",
+                    "line": 2,
+                    "span": "(8, 13)"
+                },
+                "csrf_disabled": {
+                    "file": "ts-user-service/src/main/java/user/config/SecurityConfig.java",
+                    "line": "8",
+                    "span": "(67, 79)"
+                },
+                "basic_authentication": {
+                    "file": "ts-user-service/src/main/java/user/config/SecurityConfig.java",
+                    "line": "8",
+                    "span": "(67, 79)"
+                },
+                "local_logging": {
+                    "file": "ts-user-service/src/main/java/user/service/impl/UserServiceImpl.java",
+                    "line": "5",
+                    "span": "(17, 30)"
+                },
+                "load_balancer": {
+                    "file": "ts-user-service/src/main/java/user/UserApplication.java",
+                    "line": "28",
+                    "span": "(4, 17)"
+                },
+                "internal": {
+                    "file": "heuristic",
+                    "line": "heuristic",
+                    "span": "heuristic"
+                }
+            }
+        },
+        "ts-route-plan-service": {
+            "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-1.0.0/ts-route-plan-service/src/main/resources/application.yml",
+            "line": 7,
+            "span": "(10:31)",
+            "sub_items": {
+                "Port": {
+                    "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-1.0.0/ts-route-plan-service/src/main/resources/application.yml",
+                    "line": 11,
+                    "span": "(8, 13)"
+                },
+                "csrf_disabled": {
+                    "file": "ts-route-plan-service/src/main/java/plan/config/SecurityConfig.java",
+                    "line": "7",
+                    "span": "(67, 79)"
+                },
+                "basic_authentication": {
+                    "file": "ts-route-plan-service/src/main/java/plan/config/SecurityConfig.java",
+                    "line": "7",
+                    "span": "(67, 79)"
+                },
+                "local_logging": {
+                    "file": "ts-route-plan-service/src/main/java/plan/service/RoutePlanServiceImpl.java",
+                    "line": "7",
+                    "span": "(17, 30)"
+                },
+                "load_balancer": {
+                    "file": "ts-route-plan-service/src/main/java/plan/RoutePlanApplication.java",
+                    "line": "30",
+                    "span": "(4, 17)"
+                },
+                "internal": {
+                    "file": "heuristic",
+                    "line": "heuristic",
+                    "span": "heuristic"
+                }
+            }
+        },
+        "ts-gateway-service": {
+            "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-1.0.0/ts-gateway-service/src/main/resources/application.yml",
+            "line": 9,
+            "span": "(10:28)",
+            "sub_items": {
+                "Port": {
+                    "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-1.0.0/ts-gateway-service/src/main/resources/application.yml",
+                    "line": 3,
+                    "span": "(8, 13)"
+                },
+                "gateway": {
+                    "file": "ts-gateway-service/pom.xml",
+                    "line": "32",
+                    "span": "(24, 52)"
+                },
+                "infrastructural": {
+                    "file": "heuristic, based on stereotype gateway",
+                    "line": "heuristic, based on stereotype gateway",
+                    "span": "heuristic, based on stereotype gateway"
+                }
+            }
+        },
+        "ts-payment-service": {
+            "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-1.0.0/ts-payment-service/src/main/resources/application.yml",
+            "line": 11,
+            "span": "(10:28)",
+            "sub_items": {
+                "Port": {
+                    "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-1.0.0/ts-payment-service/src/main/resources/application.yml",
+                    "line": 3,
+                    "span": "(8, 13)"
+                },
+                "csrf_disabled": {
+                    "file": "ts-payment-service/src/main/java/com/trainticket/config/SecurityConfig.java",
+                    "line": "7",
+                    "span": "(67, 79)"
+                },
+                "basic_authentication": {
+                    "file": "ts-payment-service/src/main/java/com/trainticket/config/SecurityConfig.java",
+                    "line": "7",
+                    "span": "(67, 79)"
+                },
+                "local_logging": {
+                    "file": "ts-payment-service/src/main/java/com/trainticket/service/PaymentServiceImpl.java",
+                    "line": "9",
+                    "span": "(17, 30)"
+                },
+                "load_balancer": {
+                    "file": "ts-payment-service/src/main/java/com/trainticket/PaymentApplication.java",
+                    "line": "30",
+                    "span": "(1, 14)"
+                },
+                "internal": {
+                    "file": "heuristic",
+                    "line": "heuristic",
+                    "span": "heuristic"
+                }
+            }
+        },
+        "ts-inside-payment-service": {
+            "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-1.0.0/ts-inside-payment-service/src/main/resources/application.yml",
+            "line": 10,
+            "span": "(10:35)",
+            "sub_items": {
+                "Port": {
+                    "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-1.0.0/ts-inside-payment-service/src/main/resources/application.yml",
+                    "line": 2,
+                    "span": "(8, 13)"
+                },
+                "csrf_disabled": {
+                    "file": "ts-inside-payment-service/src/main/java/inside_payment/config/SecurityConfig.java",
+                    "line": "7",
+                    "span": "(67, 79)"
+                },
+                "basic_authentication": {
+                    "file": "ts-inside-payment-service/src/main/java/inside_payment/config/SecurityConfig.java",
+                    "line": "7",
+                    "span": "(67, 79)"
+                },
+                "local_logging": {
+                    "file": "ts-inside-payment-service/src/main/java/inside_payment/service/InsidePaymentServiceImpl.java",
+                    "line": "10",
+                    "span": "(17, 30)"
+                },
+                "load_balancer": {
+                    "file": "ts-inside-payment-service/src/main/java/inside_payment/InsidePaymentApplication.java",
+                    "line": "30",
+                    "span": "(4, 17)"
+                },
+                "internal": {
+                    "file": "heuristic",
+                    "line": "heuristic",
+                    "span": "heuristic"
+                }
+            }
+        },
+        "ts-ui-test": {
+            "file": "old-docs/ts-ui-test/pom.xml",
+            "line": 7,
+            "span": "[16:26]",
+            "sub_items": {
+                "internal": {
+                    "file": "heuristic",
+                    "line": "heuristic",
+                    "span": "heuristic"
+                }
+            }
+        },
+        "micro-service-monitoring-core": {
+            "file": "old-docs/Lib/ms-monitoring-core/pom.xml",
+            "line": 6,
+            "span": "[13:42]",
+            "sub_items": {
+                "local_logging": {
+                    "file": "old-docs/Lib/ms-monitoring-core/src/main/java/org/myproject/ms/monitoring/lgger/Slf4jItemLogger.java",
+                    "line": "19",
+                    "span": "(23, 36)"
+                },
+                "internal": {
+                    "file": "heuristic",
+                    "line": "heuristic",
+                    "span": "heuristic"
+                }
+            }
+        },
+        "ts-delivery-service": {
+            "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-1.0.0/ts-delivery-service/src/main/resources/application.yml",
+            "line": 10,
+            "span": "(10:29)",
+            "sub_items": {
+                "Port": {
+                    "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-1.0.0/ts-delivery-service/src/main/resources/application.yml",
+                    "line": 2,
+                    "span": "(8, 13)"
+                },
+                "local_logging": {
+                    "file": "ts-delivery-service/src/main/java/delivery/mq/RabbitReceive.java",
+                    "line": "10",
+                    "span": "(17, 30)"
+                },
+                "load_balancer": {
+                    "file": "ts-delivery-service/src/main/java/delivery/DeliveryApplication.java",
+                    "line": "25",
+                    "span": "(4, 17)"
+                },
+                "internal": {
+                    "file": "heuristic",
+                    "line": "heuristic",
+                    "span": "heuristic"
+                }
+            }
+        },
+        "ts-seat-service": {
+            "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-1.0.0/ts-seat-service/src/main/resources/application.yml",
+            "line": 10,
+            "span": "(10:25)",
+            "sub_items": {
+                "Port": {
+                    "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-1.0.0/ts-seat-service/src/main/resources/application.yml",
+                    "line": 2,
+                    "span": "(8, 13)"
+                },
+                "csrf_disabled": {
+                    "file": "ts-seat-service/src/main/java/seat/config/SecurityConfig.java",
+                    "line": "8",
+                    "span": "(67, 79)"
+                },
+                "basic_authentication": {
+                    "file": "ts-seat-service/src/main/java/seat/config/SecurityConfig.java",
+                    "line": "8",
+                    "span": "(67, 79)"
+                },
+                "local_logging": {
+                    "file": "ts-seat-service/src/main/java/seat/service/SeatServiceImpl.java",
+                    "line": "5",
+                    "span": "(17, 30)"
+                },
+                "load_balancer": {
+                    "file": "ts-seat-service/src/main/java/seat/SeatApplication.java",
+                    "line": "30",
+                    "span": "(4, 17)"
+                },
+                "internal": {
+                    "file": "heuristic",
+                    "line": "heuristic",
+                    "span": "heuristic"
+                }
+            }
+        },
+        "ts-execute-service": {
+            "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-1.0.0/ts-execute-service/src/main/resources/application.yml",
+            "line": 10,
+            "span": "(10:28)",
+            "sub_items": {
+                "Port": {
+                    "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-1.0.0/ts-execute-service/src/main/resources/application.yml",
+                    "line": 2,
+                    "span": "(8, 13)"
+                },
+                "csrf_disabled": {
+                    "file": "ts-execute-service/src/main/java/execute/config/SecurityConfig.java",
+                    "line": "7",
+                    "span": "(67, 79)"
+                },
+                "basic_authentication": {
+                    "file": "ts-execute-service/src/main/java/execute/config/SecurityConfig.java",
+                    "line": "7",
+                    "span": "(67, 79)"
+                },
+                "local_logging": {
+                    "file": "ts-execute-service/src/main/java/execute/controller/ExecuteControlller.java",
+                    "line": "5",
+                    "span": "(17, 30)"
+                },
+                "load_balancer": {
+                    "file": "ts-execute-service/src/main/java/execute/ExecuteApplication.java",
+                    "line": "30",
+                    "span": "(4, 17)"
+                },
+                "internal": {
+                    "file": "heuristic",
+                    "line": "heuristic",
+                    "span": "heuristic"
+                }
+            }
+        },
+        "ts-travel-plan-service": {
+            "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-1.0.0/ts-travel-plan-service/src/main/resources/application.yml",
+            "line": 11,
+            "span": "(10:32)",
+            "sub_items": {
+                "Port": {
+                    "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-1.0.0/ts-travel-plan-service/src/main/resources/application.yml",
+                    "line": 3,
+                    "span": "(8, 13)"
+                },
+                "csrf_disabled": {
+                    "file": "ts-travel-plan-service/src/main/java/travelplan/config/SecurityConfig.java",
+                    "line": "7",
+                    "span": "(67, 79)"
+                },
+                "basic_authentication": {
+                    "file": "ts-travel-plan-service/src/main/java/travelplan/config/SecurityConfig.java",
+                    "line": "7",
+                    "span": "(67, 79)"
+                },
+                "local_logging": {
+                    "file": "ts-travel-plan-service/src/main/java/travelplan/service/TravelPlanServiceImpl.java",
+                    "line": "7",
+                    "span": "(17, 30)"
+                },
+                "load_balancer": {
+                    "file": "ts-travel-plan-service/src/main/java/travelplan/TravelPlanApplication.java",
+                    "line": "29",
+                    "span": "(4, 17)"
+                },
+                "internal": {
+                    "file": "heuristic",
+                    "line": "heuristic",
+                    "span": "heuristic"
+                }
+            }
+        },
+        "ts-travel2-service": {
+            "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-1.0.0/ts-travel2-service/src/main/resources/application.yml",
+            "line": 11,
+            "span": "(10:28)",
+            "sub_items": {
+                "Port": {
+                    "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-1.0.0/ts-travel2-service/src/main/resources/application.yml",
+                    "line": 3,
+                    "span": "(8, 13)"
+                },
+                "csrf_disabled": {
+                    "file": "ts-travel2-service/src/main/java/travel2/config/SecurityConfig.java",
+                    "line": "8",
+                    "span": "(67, 79)"
+                },
+                "basic_authentication": {
+                    "file": "ts-travel2-service/src/main/java/travel2/config/SecurityConfig.java",
+                    "line": "8",
+                    "span": "(67, 79)"
+                },
+                "local_logging": {
+                    "file": "ts-travel2-service/src/main/java/travel2/service/TravelServiceImpl.java",
+                    "line": "10",
+                    "span": "(17, 30)"
+                },
+                "load_balancer": {
+                    "file": "ts-travel2-service/src/main/java/travel2/Travel2Application.java",
+                    "line": "30",
+                    "span": "(4, 17)"
+                },
+                "internal": {
+                    "file": "heuristic",
+                    "line": "heuristic",
+                    "span": "heuristic"
+                }
+            }
+        },
+        "ts-travel-service": {
+            "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-1.0.0/ts-travel-service/src/main/resources/application.yml",
+            "line": 11,
+            "span": "(10:27)",
+            "sub_items": {
+                "Port": {
+                    "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-1.0.0/ts-travel-service/src/main/resources/application.yml",
+                    "line": 3,
+                    "span": "(8, 13)"
+                },
+                "csrf_disabled": {
+                    "file": "ts-travel-service/src/main/java/travel/config/SecurityConfig.java",
+                    "line": "8",
+                    "span": "(67, 79)"
+                },
+                "basic_authentication": {
+                    "file": "ts-travel-service/src/main/java/travel/config/SecurityConfig.java",
+                    "line": "8",
+                    "span": "(67, 79)"
+                },
+                "local_logging": {
+                    "file": "ts-travel-service/src/main/java/travel/service/TravelServiceImpl.java",
+                    "line": "11",
+                    "span": "(17, 30)"
+                },
+                "load_balancer": {
+                    "file": "ts-travel-service/src/main/java/travel/TravelApplication.java",
+                    "line": "30",
+                    "span": "(4, 17)"
+                },
+                "internal": {
+                    "file": "heuristic",
+                    "line": "heuristic",
+                    "span": "heuristic"
+                }
+            }
+        },
+        "ts-admin-order-service": {
+            "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-1.0.0/ts-admin-order-service/src/main/resources/application.yml",
+            "line": 10,
+            "span": "(10:32)",
+            "sub_items": {
+                "Port": {
+                    "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-1.0.0/ts-admin-order-service/src/main/resources/application.yml",
+                    "line": 2,
+                    "span": "(8, 13)"
+                },
+                "csrf_disabled": {
+                    "file": "ts-admin-order-service/src/main/java/adminorder/config/SecurityConfig.java",
+                    "line": "7",
+                    "span": "(67, 79)"
+                },
+                "basic_authentication": {
+                    "file": "ts-admin-order-service/src/main/java/adminorder/config/SecurityConfig.java",
+                    "line": "7",
+                    "span": "(67, 79)"
+                },
+                "local_logging": {
+                    "file": "ts-admin-order-service/src/main/java/adminorder/service/AdminOrderServiceImpl.java",
+                    "line": "6",
+                    "span": "(17, 30)"
+                },
+                "load_balancer": {
+                    "file": "ts-admin-order-service/src/main/java/adminorder/AdminOrderApplication.java",
+                    "line": "29",
+                    "span": "(4, 17)"
+                },
+                "internal": {
+                    "file": "heuristic",
+                    "line": "heuristic",
+                    "span": "heuristic"
+                }
+            }
+        },
+        "ts-admin-travel-service": {
+            "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-1.0.0/ts-admin-travel-service/src/main/resources/application.yml",
+            "line": 10,
+            "span": "(10:33)",
+            "sub_items": {
+                "Port": {
+                    "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-1.0.0/ts-admin-travel-service/src/main/resources/application.yml",
+                    "line": 2,
+                    "span": "(8, 13)"
+                },
+                "csrf_disabled": {
+                    "file": "ts-admin-travel-service/src/main/java/admintravel/config/SecurityConfig.java",
+                    "line": "7",
+                    "span": "(67, 79)"
+                },
+                "basic_authentication": {
+                    "file": "ts-admin-travel-service/src/main/java/admintravel/config/SecurityConfig.java",
+                    "line": "7",
+                    "span": "(67, 79)"
+                },
+                "local_logging": {
+                    "file": "ts-admin-travel-service/src/main/java/admintravel/service/AdminTravelServiceImpl.java",
+                    "line": "10",
+                    "span": "(17, 30)"
+                },
+                "load_balancer": {
+                    "file": "ts-admin-travel-service/src/main/java/admintravel/AdminTravelApplication.java",
+                    "line": "29",
+                    "span": "(4, 17)"
+                },
+                "internal": {
+                    "file": "heuristic",
+                    "line": "heuristic",
+                    "span": "heuristic"
+                }
+            }
+        },
+        "ts-admin-route-service": {
+            "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-1.0.0/ts-admin-route-service/src/main/resources/application.yml",
+            "line": 10,
+            "span": "(10:32)",
+            "sub_items": {
+                "Port": {
+                    "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-1.0.0/ts-admin-route-service/src/main/resources/application.yml",
+                    "line": 2,
+                    "span": "(8, 13)"
+                },
+                "csrf_disabled": {
+                    "file": "ts-admin-route-service/src/main/java/adminroute/config/SecurityConfig.java",
+                    "line": "7",
+                    "span": "(67, 79)"
+                },
+                "basic_authentication": {
+                    "file": "ts-admin-route-service/src/main/java/adminroute/config/SecurityConfig.java",
+                    "line": "7",
+                    "span": "(67, 79)"
+                },
+                "local_logging": {
+                    "file": "ts-admin-route-service/src/main/java/adminroute/service/AdminRouteServiceImpl.java",
+                    "line": "7",
+                    "span": "(17, 30)"
+                },
+                "load_balancer": {
+                    "file": "ts-admin-route-service/src/main/java/adminroute/AdminRouteApplication.java",
+                    "line": "29",
+                    "span": "(4, 17)"
+                },
+                "internal": {
+                    "file": "heuristic",
+                    "line": "heuristic",
+                    "span": "heuristic"
+                }
+            }
+        },
+        "ts-security-mongo": {
+            "file": "docker-compose.yml",
+            "line": 281,
+            "span": "[2:19]",
+            "sub_items": {
+                "internal": {
+                    "file": "heuristic",
+                    "line": "heuristic",
+                    "span": "heuristic"
+                }
+            }
+        },
+        "ts-assurance-mongo": {
+            "file": "docker-compose.yml",
+            "line": 355,
+            "span": "[2:20]",
+            "sub_items": {
+                "internal": {
+                    "file": "heuristic",
+                    "line": "heuristic",
+                    "span": "heuristic"
+                }
+            }
+        },
+        "ts-consign-mongo": {
+            "file": "docker-compose.yml",
+            "line": 469,
+            "span": "[2:18]",
+            "sub_items": {
+                "internal": {
+                    "file": "heuristic",
+                    "line": "heuristic",
+                    "span": "heuristic"
+                }
+            }
+        },
+        "ts-account-mongo": {
+            "file": "docker-compose.yml",
+            "line": 81,
+            "span": "[2:18]",
+            "sub_items": {
+                "internal": {
+                    "file": "heuristic",
+                    "line": "heuristic",
+                    "span": "heuristic"
+                }
+            }
+        },
+        "ts-contacts-mongo": {
+            "file": "docker-compose.yml",
+            "line": 109,
+            "span": "[2:19]",
+            "sub_items": {
+                "internal": {
+                    "file": "heuristic",
+                    "line": "heuristic",
+                    "span": "heuristic"
+                }
+            }
+        },
+        "ts-route-mongo": {
+            "file": "docker-compose.yml",
+            "line": 95,
+            "span": "[2:16]",
+            "sub_items": {
+                "internal": {
+                    "file": "heuristic",
+                    "line": "heuristic",
+                    "span": "heuristic"
+                }
+            }
+        },
+        "ts-auth-mongo": {
+            "file": "docker-compose.yml",
+            "line": 53,
+            "span": "[2:15]",
+            "sub_items": {
+                "internal": {
+                    "file": "heuristic",
+                    "line": "heuristic",
+                    "span": "heuristic"
+                }
+            }
+        },
+        "ts-consign-price-mongo": {
+            "file": "docker-compose.yml",
+            "line": 483,
+            "span": "[2:24]",
+            "sub_items": {
+                "internal": {
+                    "file": "heuristic",
+                    "line": "heuristic",
+                    "span": "heuristic"
+                }
+            }
+        },
+        "ts-rebook-mongo": {
+            "file": "docker-compose.yml",
+            "line": 332,
+            "span": "[2:17]",
+            "sub_items": {
+                "internal": {
+                    "file": "heuristic",
+                    "line": "heuristic",
+                    "span": "heuristic"
+                }
+            }
+        },
+        "ts-station-mongo": {
+            "file": "docker-compose.yml",
+            "line": 165,
+            "span": "[2:18]",
+            "sub_items": {
+                "internal": {
+                    "file": "heuristic",
+                    "line": "heuristic",
+                    "span": "heuristic"
+                }
+            }
+        },
+        "ts-order-mongo": {
+            "file": "docker-compose.yml",
+            "line": 123,
+            "span": "[2:16]",
+            "sub_items": {
+                "internal": {
+                    "file": "heuristic",
+                    "line": "heuristic",
+                    "span": "heuristic"
+                }
+            }
+        },
+        "ts-travel-mongo": {
+            "file": "docker-compose.yml",
+            "line": 193,
+            "span": "[2:17]",
+            "sub_items": {
+                "internal": {
+                    "file": "heuristic",
+                    "line": "heuristic",
+                    "span": "heuristic"
+                }
+            }
+        },
+        "ts-user-mongo": {
+            "file": "docker-compose.yml",
+            "line": 67,
+            "span": "[2:15]",
+            "sub_items": {
+                "internal": {
+                    "file": "heuristic",
+                    "line": "heuristic",
+                    "span": "heuristic"
+                }
+            }
+        },
+        "ts-news-mongo": {
+            "file": "docker-compose.yml",
+            "line": 401,
+            "span": "[2:15]",
+            "sub_items": {
+                "internal": {
+                    "file": "heuristic",
+                    "line": "heuristic",
+                    "span": "heuristic"
+                }
+            }
+        },
+        "ts-inside-payment-mongo": {
+            "file": "docker-compose.yml",
+            "line": 295,
+            "span": "[2:25]",
+            "sub_items": {
+                "internal": {
+                    "file": "heuristic",
+                    "line": "heuristic",
+                    "span": "heuristic"
+                }
+            }
+        },
+        "ts-food-mongo": {
+            "file": "docker-compose.yml",
+            "line": 488,
+            "span": "[2:15]",
+            "sub_items": {
+                "internal": {
+                    "file": "heuristic",
+                    "line": "heuristic",
+                    "span": "heuristic"
+                }
+            }
+        },
+        "ts-ticket-office-mongo": {
+            "file": "docker-compose.yml",
+            "line": 387,
+            "span": "[2:24]",
+            "sub_items": {
+                "internal": {
+                    "file": "heuristic",
+                    "line": "heuristic",
+                    "span": "heuristic"
+                }
+            }
+        },
+        "ts-food-map-mongo": {
+            "file": "docker-compose.yml",
+            "line": 437,
+            "span": "[2:19]",
+            "sub_items": {
+                "internal": {
+                    "file": "heuristic",
+                    "line": "heuristic",
+                    "span": "heuristic"
+                }
+            }
+        },
+        "ts-price-mongo": {
+            "file": "docker-compose.yml",
+            "line": 258,
+            "span": "[2:16]",
+            "sub_items": {
+                "internal": {
+                    "file": "heuristic",
+                    "line": "heuristic",
+                    "span": "heuristic"
+                }
+            }
+        },
+        "ts-travel2-mongo": {
+            "file": "docker-compose.yml",
+            "line": 207,
+            "span": "[2:18]",
+            "sub_items": {
+                "internal": {
+                    "file": "heuristic",
+                    "line": "heuristic",
+                    "span": "heuristic"
+                }
+            }
+        },
+        "ts-payment-mongo": {
+            "file": "docker-compose.yml",
+            "line": 318,
+            "span": "[2:18]",
+            "sub_items": {
+                "internal": {
+                    "file": "heuristic",
+                    "line": "heuristic",
+                    "span": "heuristic"
+                }
+            }
+        },
+        "ts-voucher-mysql": {
+            "file": "docker-compose.yml",
+            "line": 406,
+            "span": "[2:18]",
+            "sub_items": {
+                "internal": {
+                    "file": "heuristic",
+                    "line": "heuristic",
+                    "span": "heuristic"
+                }
+            }
+        },
+        "ts-config-mongo": {
+            "file": "docker-compose.yml",
+            "line": 151,
+            "span": "[2:17]",
+            "sub_items": {
+                "internal": {
+                    "file": "heuristic",
+                    "line": "heuristic",
+                    "span": "heuristic"
+                }
+            }
+        },
+        "ts-order-other-mongo": {
+            "file": "docker-compose.yml",
+            "line": 137,
+            "span": "[2:22]",
+            "sub_items": {
+                "internal": {
+                    "file": "heuristic",
+                    "line": "heuristic",
+                    "span": "heuristic"
+                }
+            }
+        },
+        "ts-train-mongo": {
+            "file": "docker-compose.yml",
+            "line": 179,
+            "span": "[2:16]",
+            "sub_items": {
+                "internal": {
+                    "file": "heuristic",
+                    "line": "heuristic",
+                    "span": "heuristic"
+                }
+            }
+        },
+        "database-ts-contacts-service": {
+            "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-1.0.0/ts-contacts-service/src/main/resources/application.yml",
+            "line": 12,
+            "span": "(10, 149)"
+        },
+        "database-ts-notification-service": {
+            "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-1.0.0/ts-notification-service/src/main/resources/application.yml",
+            "line": 27,
+            "span": "(10, 169)"
+        },
+        "database-ts-config-service": {
+            "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-1.0.0/ts-config-service/src/main/resources/application.yml",
+            "line": 9,
+            "span": "(10, 139)"
+        },
+        "database-ts-assurance-service": {
+            "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-1.0.0/ts-assurance-service/src/main/resources/application.yml",
+            "line": 9,
+            "span": "(10, 213)"
+        },
+        "database-ts-order-other-service": {
+            "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-1.0.0/ts-order-other-service/src/main/resources/application.yml",
+            "line": 14,
+            "span": "(10, 164)"
+        },
+        "database-ts-route-service": {
+            "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-1.0.0/ts-route-service/src/main/resources/application.yml",
+            "line": 9,
+            "span": "(10, 120)"
+        },
+        "database-ts-price-service": {
+            "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-1.0.0/ts-price-service/src/main/resources/application.yml",
+            "line": 9,
+            "span": "(10, 120)"
+        },
+        "database-ts-security-service": {
+            "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-1.0.0/ts-security-service/src/main/resources/application.yml",
+            "line": 10,
+            "span": "(10, 149)"
+        },
+        "database-ts-consign-service": {
+            "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-1.0.0/ts-consign-service/src/main/resources/application.yml",
+            "line": 9,
+            "span": "(10, 203)"
+        },
+        "database-ts-train-service": {
+            "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-1.0.0/ts-train-service/src/main/resources/application.yml",
+            "line": 9,
+            "span": "(10, 133)"
+        },
+        "database-ts-order-service": {
+            "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-1.0.0/ts-order-service/src/main/resources/application.yml",
+            "line": 13,
+            "span": "(10, 120)"
+        },
+        "database-ts-food-service": {
+            "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-1.0.0/ts-food-service/src/main/resources/application.yml",
+            "line": 12,
+            "span": "(10, 129)"
+        },
+        "database-ts-station-food-service": {
+            "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-1.0.0/ts-station-food-service/src/main/resources/application.yml",
+            "line": 13,
+            "span": "(10, 141)"
+        },
+        "database-ts-train-food-service": {
+            "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-1.0.0/ts-train-food-service/src/main/resources/application.yml",
+            "line": 12,
+            "span": "(10, 159)"
+        },
+        "database-ts-food-delivery-service": {
+            "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-1.0.0/ts-food-delivery-service/src/main/resources/application.yml",
+            "line": 14,
+            "span": "(10, 174)"
+        },
+        "database-ts-consign-price-service": {
+            "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-1.0.0/ts-consign-price-service/src/main/resources/application.yml",
+            "line": 9,
+            "span": "(10, 174)"
+        },
+        "database-ts-wait-order-service": {
+            "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-1.0.0/ts-wait-order-service/src/main/resources/application.yml",
+            "line": 13,
+            "span": "(10, 135)"
+        },
+        "database-ts-station-service": {
+            "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-1.0.0/ts-station-service/src/main/resources/application.yml",
+            "line": 9,
+            "span": "(10, 144)"
+        },
+        "database-ts-auth-service": {
+            "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-1.0.0/ts-auth-service/src/main/resources/application.yaml",
+            "line": 11,
+            "span": "(10, 129)"
+        },
+        "database-ts-user-service": {
+            "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-1.0.0/ts-user-service/src/main/resources/application.yaml",
+            "line": 12,
+            "span": "(10, 129)"
+        },
+        "database-ts-payment-service": {
+            "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-1.0.0/ts-payment-service/src/main/resources/application.yml",
+            "line": 13,
+            "span": "(10, 203)"
+        },
+        "database-ts-inside-payment-service": {
+            "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-1.0.0/ts-inside-payment-service/src/main/resources/application.yml",
+            "line": 13,
+            "span": "(10, 179)"
+        },
+        "database-ts-delivery-service": {
+            "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-1.0.0/ts-delivery-service/src/main/resources/application.yml",
+            "line": 12,
+            "span": "(10, 149)"
+        },
+        "database-ts-travel2-service": {
+            "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-1.0.0/ts-travel2-service/src/main/resources/application.yml",
+            "line": 13,
+            "span": "(10, 144)"
+        },
+        "database-ts-travel-service": {
+            "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-1.0.0/ts-travel-service/src/main/resources/application.yml",
+            "line": 13,
+            "span": "(10, 139)"
+        },
+        "user": {
+            "file": "implicit",
+            "line": "implicit",
+            "span": "implicit",
+            "sub_items": {
+                "user_stereotype": {
+                    "file": "implicit",
+                    "line": "implicit",
+                    "span": "implicit"
+                },
+                "entrypoint": {
+                    "file": "heuristic",
+                    "line": "heuristic",
+                    "span": "heuristic"
+                },
+                "exitpoint": {
+                    "file": "heuristic",
+                    "line": "heuristic",
+                    "span": "heuristic"
+                }
+            }
+        },
+        "mail-server": {
+            "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-1.0.0/ts-notification-service/src/main/resources/application.yml",
+            "line": 13,
+            "span": "(11, 23)",
+            "sub_items": {
+                "entrypoint": {
+                    "file": "heuristic",
+                    "line": "heuristic",
+                    "span": "heuristic"
+                },
+                "exitpoint": {
+                    "file": "heuristic",
+                    "line": "heuristic",
+                    "span": "heuristic"
+                },
+                "mail_server": {
+                    "file": "heuristic",
+                    "line": "heuristic",
+                    "span": "heuristic"
+                }
+            }
+        }
+    },
+    "edges": {
+        "ts-cancel-service -> ts-notification-service": {
+            "file": "ts-cancel-service/src/main/java/cancel/service/CancelServiceImpl.java",
+            "line": "148",
+            "span": "(37, 58)"
+        },
+        "ts-cancel-service -> ts-order-service": {
+            "file": "ts-cancel-service/src/main/java/cancel/service/CancelServiceImpl.java",
+            "line": "148",
+            "span": "(37, 58)"
+        },
+        "ts-cancel-service -> ts-order-other-service": {
+            "file": "ts-cancel-service/src/main/java/cancel/service/CancelServiceImpl.java",
+            "line": "148",
+            "span": "(37, 58)"
+        },
+        "ts-cancel-service -> ts-inside-payment-service": {
+            "file": "ts-cancel-service/src/main/java/cancel/service/CancelServiceImpl.java",
+            "line": "148",
+            "span": "(37, 58)"
+        },
+        "ts-cancel-service -> ts-user-service": {
+            "file": "ts-cancel-service/src/main/java/cancel/service/CancelServiceImpl.java",
+            "line": "148",
+            "span": "(37, 58)"
+        },
+        "ts-order-other-service -> ts-station-service": {
+            "file": "ts-order-other-service/src/main/java/other/service/OrderOtherServiceImpl.java",
+            "line": "227",
+            "span": "(52, 73)"
+        },
+        "ts-preserve-service -> ts-basic-service": {
+            "file": "ts-preserve-service/src/main/java/preserve/service/PreserveServiceImpl.java",
+            "line": "129",
+            "span": "(52, 73)"
+        },
+        "ts-preserve-service -> ts-seat-service": {
+            "file": "ts-preserve-service/src/main/java/preserve/service/PreserveServiceImpl.java",
+            "line": "129",
+            "span": "(52, 73)"
+        },
+        "ts-preserve-service -> ts-user-service": {
+            "file": "ts-preserve-service/src/main/java/preserve/service/PreserveServiceImpl.java",
+            "line": "129",
+            "span": "(52, 73)"
+        },
+        "ts-preserve-service -> ts-assurance-service": {
+            "file": "ts-preserve-service/src/main/java/preserve/service/PreserveServiceImpl.java",
+            "line": "129",
+            "span": "(52, 73)"
+        },
+        "ts-preserve-service -> ts-station-service": {
+            "file": "ts-preserve-service/src/main/java/preserve/service/PreserveServiceImpl.java",
+            "line": "129",
+            "span": "(52, 73)"
+        },
+        "ts-preserve-service -> ts-security-service": {
+            "file": "ts-preserve-service/src/main/java/preserve/service/PreserveServiceImpl.java",
+            "line": "129",
+            "span": "(52, 73)"
+        },
+        "ts-preserve-service -> ts-travel-service": {
+            "file": "ts-preserve-service/src/main/java/preserve/service/PreserveServiceImpl.java",
+            "line": "129",
+            "span": "(52, 73)"
+        },
+        "ts-preserve-service -> ts-contacts-service": {
+            "file": "ts-preserve-service/src/main/java/preserve/service/PreserveServiceImpl.java",
+            "line": "129",
+            "span": "(52, 73)"
+        },
+        "ts-preserve-service -> ts-order-service": {
+            "file": "ts-preserve-service/src/main/java/preserve/service/PreserveServiceImpl.java",
+            "line": "129",
+            "span": "(52, 73)"
+        },
+        "ts-preserve-service -> ts-food-service": {
+            "file": "ts-preserve-service/src/main/java/preserve/service/PreserveServiceImpl.java",
+            "line": "129",
+            "span": "(52, 73)"
+        },
+        "ts-preserve-service -> ts-consign-service": {
+            "file": "ts-preserve-service/src/main/java/preserve/service/PreserveServiceImpl.java",
+            "line": "129",
+            "span": "(52, 73)"
+        },
+        "ts-security-service -> ts-order-service": {
+            "file": "ts-security-service/src/main/java/security/service/SecurityServiceImpl.java",
+            "line": "133",
+            "span": "(53, 74)"
+        },
+        "ts-security-service -> ts-order-other-service": {
+            "file": "ts-security-service/src/main/java/security/service/SecurityServiceImpl.java",
+            "line": "133",
+            "span": "(53, 74)"
+        },
+        "ts-consign-service -> ts-consign-price-service": {
+            "file": "ts-consign-service/src/main/java/consign/service/ConsignServiceImpl.java",
+            "line": "67",
+            "span": "(46, 67)"
+        },
+        "ts-order-service -> ts-station-service": {
+            "file": "ts-order-service/src/main/java/order/service/OrderServiceImpl.java",
+            "line": "212",
+            "span": "(52, 73)"
+        },
+        "ts-food-service -> ts-train-food-service": {
+            "file": "ts-food-service/src/main/java/foodsearch/service/FoodServiceImpl.java",
+            "line": "229",
+            "span": "(72, 93)"
+        },
+        "ts-food-service -> ts-travel-service": {
+            "file": "ts-food-service/src/main/java/foodsearch/service/FoodServiceImpl.java",
+            "line": "229",
+            "span": "(72, 93)"
+        },
+        "ts-food-service -> ts-station-food-service": {
+            "file": "ts-food-service/src/main/java/foodsearch/service/FoodServiceImpl.java",
+            "line": "229",
+            "span": "(72, 93)"
+        },
+        "ts-rebook-service -> ts-seat-service": {
+            "file": "ts-rebook-service/src/main/java/rebook/service/RebookServiceImpl.java",
+            "line": "250",
+            "span": "(52, 73)"
+        },
+        "ts-rebook-service -> ts-travel-service": {
+            "file": "ts-rebook-service/src/main/java/rebook/service/RebookServiceImpl.java",
+            "line": "250",
+            "span": "(52, 73)"
+        },
+        "ts-rebook-service -> ts-order-service": {
+            "file": "ts-rebook-service/src/main/java/rebook/service/RebookServiceImpl.java",
+            "line": "250",
+            "span": "(52, 73)"
+        },
+        "ts-rebook-service -> ts-train-service": {
+            "file": "ts-rebook-service/src/main/java/rebook/service/RebookServiceImpl.java",
+            "line": "250",
+            "span": "(52, 73)"
+        },
+        "ts-rebook-service -> ts-route-service": {
+            "file": "ts-rebook-service/src/main/java/rebook/service/RebookServiceImpl.java",
+            "line": "250",
+            "span": "(52, 73)"
+        },
+        "ts-rebook-service -> ts-inside-payment-service": {
+            "file": "ts-rebook-service/src/main/java/rebook/service/RebookServiceImpl.java",
+            "line": "250",
+            "span": "(52, 73)"
+        },
+        "ts-admin-basic-info-service -> ts-contacts-service": {
+            "file": "ts-admin-basic-info-service/src/main/java/adminbasic/service/AdminBasicInfoServiceImpl.java",
+            "line": "44",
+            "span": "(38, 59)"
+        },
+        "ts-admin-basic-info-service -> ts-station-service": {
+            "file": "ts-admin-basic-info-service/src/main/java/adminbasic/service/AdminBasicInfoServiceImpl.java",
+            "line": "44",
+            "span": "(38, 59)"
+        },
+        "ts-admin-basic-info-service -> ts-train-service": {
+            "file": "ts-admin-basic-info-service/src/main/java/adminbasic/service/AdminBasicInfoServiceImpl.java",
+            "line": "44",
+            "span": "(38, 59)"
+        },
+        "ts-admin-basic-info-service -> ts-config-service": {
+            "file": "ts-admin-basic-info-service/src/main/java/adminbasic/service/AdminBasicInfoServiceImpl.java",
+            "line": "44",
+            "span": "(38, 59)"
+        },
+        "ts-admin-basic-info-service -> ts-price-service": {
+            "file": "ts-admin-basic-info-service/src/main/java/adminbasic/service/AdminBasicInfoServiceImpl.java",
+            "line": "44",
+            "span": "(38, 59)"
+        },
+        "ts-food-delivery-service -> ts-station-food-service": {
+            "file": "ts-food-delivery-service/src/main/java/food_delivery/service/FoodDeliveryServiceImpl.java",
+            "line": "49",
+            "span": "(77, 98)"
+        },
+        "ts-basic-service -> ts-station-service": {
+            "file": "ts-basic-service/src/main/java/fdse/microservice/service/BasicServiceImpl.java",
+            "line": "328",
+            "span": "(38, 59)"
+        },
+        "ts-basic-service -> ts-train-service": {
+            "file": "ts-basic-service/src/main/java/fdse/microservice/service/BasicServiceImpl.java",
+            "line": "328",
+            "span": "(38, 59)"
+        },
+        "ts-basic-service -> ts-route-service": {
+            "file": "ts-basic-service/src/main/java/fdse/microservice/service/BasicServiceImpl.java",
+            "line": "328",
+            "span": "(38, 59)"
+        },
+        "ts-basic-service -> ts-price-service": {
+            "file": "ts-basic-service/src/main/java/fdse/microservice/service/BasicServiceImpl.java",
+            "line": "328",
+            "span": "(38, 59)"
+        },
+        "ts-preserve-other-service -> ts-basic-service": {
+            "file": "ts-preserve-other-service/src/main/java/preserveOther/service/PreserveOtherServiceImpl.java",
+            "line": "132",
+            "span": "(52, 73)"
+        },
+        "ts-preserve-other-service -> ts-seat-service": {
+            "file": "ts-preserve-other-service/src/main/java/preserveOther/service/PreserveOtherServiceImpl.java",
+            "line": "132",
+            "span": "(52, 73)"
+        },
+        "ts-preserve-other-service -> ts-user-service": {
+            "file": "ts-preserve-other-service/src/main/java/preserveOther/service/PreserveOtherServiceImpl.java",
+            "line": "132",
+            "span": "(52, 73)"
+        },
+        "ts-preserve-other-service -> ts-assurance-service": {
+            "file": "ts-preserve-other-service/src/main/java/preserveOther/service/PreserveOtherServiceImpl.java",
+            "line": "132",
+            "span": "(52, 73)"
+        },
+        "ts-preserve-other-service -> ts-station-service": {
+            "file": "ts-preserve-other-service/src/main/java/preserveOther/service/PreserveOtherServiceImpl.java",
+            "line": "132",
+            "span": "(52, 73)"
+        },
+        "ts-preserve-other-service -> ts-security-service": {
+            "file": "ts-preserve-other-service/src/main/java/preserveOther/service/PreserveOtherServiceImpl.java",
+            "line": "132",
+            "span": "(52, 73)"
+        },
+        "ts-preserve-other-service -> ts-travel2-service": {
+            "file": "ts-preserve-other-service/src/main/java/preserveOther/service/PreserveOtherServiceImpl.java",
+            "line": "132",
+            "span": "(52, 73)"
+        },
+        "ts-preserve-other-service -> ts-contacts-service": {
+            "file": "ts-preserve-other-service/src/main/java/preserveOther/service/PreserveOtherServiceImpl.java",
+            "line": "132",
+            "span": "(52, 73)"
+        },
+        "ts-preserve-other-service -> ts-order-other-service": {
+            "file": "ts-preserve-other-service/src/main/java/preserveOther/service/PreserveOtherServiceImpl.java",
+            "line": "132",
+            "span": "(52, 73)"
+        },
+        "ts-preserve-other-service -> ts-food-service": {
+            "file": "ts-preserve-other-service/src/main/java/preserveOther/service/PreserveOtherServiceImpl.java",
+            "line": "132",
+            "span": "(52, 73)"
+        },
+        "ts-preserve-other-service -> ts-consign-service": {
+            "file": "ts-preserve-other-service/src/main/java/preserveOther/service/PreserveOtherServiceImpl.java",
+            "line": "132",
+            "span": "(52, 73)"
+        },
+        "ts-auth-service -> ts-verification-code-service": {
+            "file": "ts-auth-service/src/main/java/auth/service/impl/TokenServiceImpl.java",
+            "line": "67",
+            "span": "(41, 62)"
+        },
+        "ts-route-plan-service -> ts-route-service": {
+            "file": "ts-route-plan-service/src/main/java/plan/service/RoutePlanServiceImpl.java",
+            "line": "169",
+            "span": "(56, 77)"
+        },
+        "ts-route-plan-service -> ts-travel-service": {
+            "file": "ts-route-plan-service/src/main/java/plan/service/RoutePlanServiceImpl.java",
+            "line": "169",
+            "span": "(56, 77)"
+        },
+        "ts-route-plan-service -> ts-travel2-service": {
+            "file": "ts-route-plan-service/src/main/java/plan/service/RoutePlanServiceImpl.java",
+            "line": "169",
+            "span": "(56, 77)"
+        },
+        "ts-inside-payment-service -> ts-order-service": {
+            "file": "ts-inside-payment-service/src/main/java/inside_payment/service/InsidePaymentServiceImpl.java",
+            "line": "59",
+            "span": "(60, 81)"
+        },
+        "ts-inside-payment-service -> ts-payment-service": {
+            "file": "ts-inside-payment-service/src/main/java/inside_payment/service/InsidePaymentServiceImpl.java",
+            "line": "59",
+            "span": "(60, 81)"
+        },
+        "ts-inside-payment-service -> ts-order-other-service": {
+            "file": "ts-inside-payment-service/src/main/java/inside_payment/service/InsidePaymentServiceImpl.java",
+            "line": "59",
+            "span": "(60, 81)"
+        },
+        "ts-seat-service -> ts-order-service": {
+            "file": "ts-seat-service/src/main/java/seat/service/SeatServiceImpl.java",
+            "line": "60",
+            "span": "(18, 39)"
+        },
+        "ts-seat-service -> ts-order-other-service": {
+            "file": "ts-seat-service/src/main/java/seat/service/SeatServiceImpl.java",
+            "line": "60",
+            "span": "(18, 39)"
+        },
+        "ts-seat-service -> ts-config-service": {
+            "file": "ts-seat-service/src/main/java/seat/service/SeatServiceImpl.java",
+            "line": "60",
+            "span": "(18, 39)"
+        },
+        "ts-execute-service -> ts-order-service": {
+            "file": "ts-execute-service/src/main/java/execute/serivce/ExecuteServiceImpl.java",
+            "line": "141",
+            "span": "(38, 59)"
+        },
+        "ts-execute-service -> ts-order-other-service": {
+            "file": "ts-execute-service/src/main/java/execute/serivce/ExecuteServiceImpl.java",
+            "line": "141",
+            "span": "(38, 59)"
+        },
+        "ts-travel-plan-service -> ts-seat-service": {
+            "file": "ts-travel-plan-service/src/main/java/travelplan/service/TravelPlanServiceImpl.java",
+            "line": "244",
+            "span": "(47, 68)"
+        },
+        "ts-travel-plan-service -> ts-route-plan-service": {
+            "file": "ts-travel-plan-service/src/main/java/travelplan/service/TravelPlanServiceImpl.java",
+            "line": "244",
+            "span": "(47, 68)"
+        },
+        "ts-travel-plan-service -> ts-travel-service": {
+            "file": "ts-travel-plan-service/src/main/java/travelplan/service/TravelPlanServiceImpl.java",
+            "line": "244",
+            "span": "(47, 68)"
+        },
+        "ts-travel-plan-service -> ts-travel2-service": {
+            "file": "ts-travel-plan-service/src/main/java/travelplan/service/TravelPlanServiceImpl.java",
+            "line": "244",
+            "span": "(47, 68)"
+        },
+        "ts-travel-plan-service -> ts-train-service": {
+            "file": "ts-travel-plan-service/src/main/java/travelplan/service/TravelPlanServiceImpl.java",
+            "line": "244",
+            "span": "(47, 68)"
+        },
+        "ts-travel2-service -> ts-basic-service": {
+            "file": "ts-travel2-service/src/main/java/travel2/service/TravelServiceImpl.java",
+            "line": "264",
+            "span": "(38, 59)"
+        },
+        "ts-travel2-service -> ts-train-service": {
+            "file": "ts-travel2-service/src/main/java/travel2/service/TravelServiceImpl.java",
+            "line": "264",
+            "span": "(38, 59)"
+        },
+        "ts-travel2-service -> ts-route-service": {
+            "file": "ts-travel2-service/src/main/java/travel2/service/TravelServiceImpl.java",
+            "line": "264",
+            "span": "(38, 59)"
+        },
+        "ts-travel2-service -> ts-seat-service": {
+            "file": "ts-travel2-service/src/main/java/travel2/service/TravelServiceImpl.java",
+            "line": "264",
+            "span": "(38, 59)"
+        },
+        "ts-travel-service -> ts-basic-service": {
+            "file": "ts-travel-service/src/main/java/travel/service/TravelServiceImpl.java",
+            "line": "347",
+            "span": "(38, 59)"
+        },
+        "ts-travel-service -> ts-train-service": {
+            "file": "ts-travel-service/src/main/java/travel/service/TravelServiceImpl.java",
+            "line": "347",
+            "span": "(38, 59)"
+        },
+        "ts-travel-service -> ts-route-service": {
+            "file": "ts-travel-service/src/main/java/travel/service/TravelServiceImpl.java",
+            "line": "347",
+            "span": "(38, 59)"
+        },
+        "ts-travel-service -> ts-seat-service": {
+            "file": "ts-travel-service/src/main/java/travel/service/TravelServiceImpl.java",
+            "line": "347",
+            "span": "(38, 59)"
+        },
+        "ts-admin-order-service -> ts-order-service": {
+            "file": "ts-admin-order-service/src/main/java/adminorder/service/AdminOrderServiceImpl.java",
+            "line": "48",
+            "span": "(56, 77)"
+        },
+        "ts-admin-order-service -> ts-order-other-service": {
+            "file": "ts-admin-order-service/src/main/java/adminorder/service/AdminOrderServiceImpl.java",
+            "line": "48",
+            "span": "(56, 77)"
+        },
+        "ts-admin-travel-service -> ts-travel-service": {
+            "file": "ts-admin-travel-service/src/main/java/admintravel/service/AdminTravelServiceImpl.java",
+            "line": "49",
+            "span": "(60, 81)"
+        },
+        "ts-admin-travel-service -> ts-travel2-service": {
+            "file": "ts-admin-travel-service/src/main/java/admintravel/service/AdminTravelServiceImpl.java",
+            "line": "49",
+            "span": "(60, 81)"
+        },
+        "ts-admin-travel-service -> ts-station-service": {
+            "file": "ts-admin-travel-service/src/main/java/admintravel/service/AdminTravelServiceImpl.java",
+            "line": "49",
+            "span": "(60, 81)"
+        },
+        "ts-admin-travel-service -> ts-train-service": {
+            "file": "ts-admin-travel-service/src/main/java/admintravel/service/AdminTravelServiceImpl.java",
+            "line": "49",
+            "span": "(60, 81)"
+        },
+        "ts-admin-travel-service -> ts-route-service": {
+            "file": "ts-admin-travel-service/src/main/java/admintravel/service/AdminTravelServiceImpl.java",
+            "line": "49",
+            "span": "(60, 81)"
+        },
+        "ts-admin-route-service -> ts-route-service": {
+            "file": "ts-admin-route-service/src/main/java/adminroute/service/AdminRouteServiceImpl.java",
+            "line": "40",
+            "span": "(38, 59)"
+        },
+        "ts-admin-route-service -> ts-station-service": {
+            "file": "ts-admin-route-service/src/main/java/adminroute/service/AdminRouteServiceImpl.java",
+            "line": "40",
+            "span": "(38, 59)"
+        },
+        "database-ts-contacts-service -> ts-contacts-service": {
+            "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-1.0.0/ts-contacts-service/src/main/resources/application.yml",
+            "line": 12,
+            "span": "(10, 149)"
+        },
+        "database-ts-notification-service -> ts-notification-service": {
+            "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-1.0.0/ts-notification-service/src/main/resources/application.yml",
+            "line": 27,
+            "span": "(10, 169)"
+        },
+        "database-ts-config-service -> ts-config-service": {
+            "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-1.0.0/ts-config-service/src/main/resources/application.yml",
+            "line": 9,
+            "span": "(10, 139)"
+        },
+        "database-ts-assurance-service -> ts-assurance-service": {
+            "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-1.0.0/ts-assurance-service/src/main/resources/application.yml",
+            "line": 9,
+            "span": "(10, 213)"
+        },
+        "database-ts-order-other-service -> ts-order-other-service": {
+            "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-1.0.0/ts-order-other-service/src/main/resources/application.yml",
+            "line": 14,
+            "span": "(10, 164)"
+        },
+        "database-ts-route-service -> ts-route-service": {
+            "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-1.0.0/ts-route-service/src/main/resources/application.yml",
+            "line": 9,
+            "span": "(10, 120)"
+        },
+        "database-ts-price-service -> ts-price-service": {
+            "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-1.0.0/ts-price-service/src/main/resources/application.yml",
+            "line": 9,
+            "span": "(10, 120)"
+        },
+        "database-ts-security-service -> ts-security-service": {
+            "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-1.0.0/ts-security-service/src/main/resources/application.yml",
+            "line": 10,
+            "span": "(10, 149)"
+        },
+        "database-ts-consign-service -> ts-consign-service": {
+            "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-1.0.0/ts-consign-service/src/main/resources/application.yml",
+            "line": 9,
+            "span": "(10, 203)"
+        },
+        "database-ts-train-service -> ts-train-service": {
+            "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-1.0.0/ts-train-service/src/main/resources/application.yml",
+            "line": 9,
+            "span": "(10, 133)"
+        },
+        "database-ts-order-service -> ts-order-service": {
+            "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-1.0.0/ts-order-service/src/main/resources/application.yml",
+            "line": 13,
+            "span": "(10, 120)"
+        },
+        "database-ts-food-service -> ts-food-service": {
+            "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-1.0.0/ts-food-service/src/main/resources/application.yml",
+            "line": 12,
+            "span": "(10, 129)"
+        },
+        "database-ts-station-food-service -> ts-station-food-service": {
+            "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-1.0.0/ts-station-food-service/src/main/resources/application.yml",
+            "line": 13,
+            "span": "(10, 141)"
+        },
+        "database-ts-train-food-service -> ts-train-food-service": {
+            "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-1.0.0/ts-train-food-service/src/main/resources/application.yml",
+            "line": 12,
+            "span": "(10, 159)"
+        },
+        "database-ts-food-delivery-service -> ts-food-delivery-service": {
+            "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-1.0.0/ts-food-delivery-service/src/main/resources/application.yml",
+            "line": 14,
+            "span": "(10, 174)"
+        },
+        "database-ts-consign-price-service -> ts-consign-price-service": {
+            "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-1.0.0/ts-consign-price-service/src/main/resources/application.yml",
+            "line": 9,
+            "span": "(10, 174)"
+        },
+        "database-ts-wait-order-service -> ts-wait-order-service": {
+            "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-1.0.0/ts-wait-order-service/src/main/resources/application.yml",
+            "line": 13,
+            "span": "(10, 135)"
+        },
+        "database-ts-station-service -> ts-station-service": {
+            "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-1.0.0/ts-station-service/src/main/resources/application.yml",
+            "line": 9,
+            "span": "(10, 144)"
+        },
+        "database-ts-auth-service -> ts-auth-service": {
+            "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-1.0.0/ts-auth-service/src/main/resources/application.yaml",
+            "line": 11,
+            "span": "(10, 129)"
+        },
+        "database-ts-user-service -> ts-user-service": {
+            "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-1.0.0/ts-user-service/src/main/resources/application.yaml",
+            "line": 12,
+            "span": "(10, 129)"
+        },
+        "database-ts-payment-service -> ts-payment-service": {
+            "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-1.0.0/ts-payment-service/src/main/resources/application.yml",
+            "line": 13,
+            "span": "(10, 203)"
+        },
+        "database-ts-inside-payment-service -> ts-inside-payment-service": {
+            "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-1.0.0/ts-inside-payment-service/src/main/resources/application.yml",
+            "line": 13,
+            "span": "(10, 179)"
+        },
+        "database-ts-delivery-service -> ts-delivery-service": {
+            "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-1.0.0/ts-delivery-service/src/main/resources/application.yml",
+            "line": 12,
+            "span": "(10, 149)"
+        },
+        "database-ts-travel2-service -> ts-travel2-service": {
+            "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-1.0.0/ts-travel2-service/src/main/resources/application.yml",
+            "line": 13,
+            "span": "(10, 144)"
+        },
+        "database-ts-travel-service -> ts-travel-service": {
+            "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-1.0.0/ts-travel-service/src/main/resources/application.yml",
+            "line": 13,
+            "span": "(10, 139)"
+        },
+        "user -> ts-gateway-service": {
+            "file": "implicit",
+            "line": "implicit",
+            "span": "implicit"
+        },
+        "ts-gateway-service -> user": {
+            "file": "implicit",
+            "line": "implicit",
+            "span": "implicit"
+        },
+        "ts-notification-service -> mail-server": {
+            "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-1.0.0/ts-notification-service/src/main/resources/application.yml",
+            "line": 13,
+            "span": "(11, 23)"
+        }
+    }
+}

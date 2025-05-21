@@ -29,17 +29,14 @@ The tool can be executed as
 python -m code2DFD.py --repo_url PATH_TO_REPO
 ```
 
-in the cloned directory, where `PATH_TO_REPO` is a path to the repository that should be analysed (either local path or full GitHub URL).
+in the cloned directory, where `PATH_TO_REPO` is a path to the repository that should be analysed (one of the directories in [Projects](Projects)).
 
-Optionally, it is possible to provide a commit hash to checkout and analyse a specific commit:
+The tool will generate a folder `code2DFD_output/REPO_NAME/COMMIT` with the results for a specific commit from a specific repo.
 
-```
-python -m code2DFD.py --repo_url PATH_TO_REPO --commit HASH
-```
+This folder is provided in [raw_data/code2DFD_output](raw_data/code2DFD_output).
 
-For an analysed project, the tool will generate a folder `code2DFD_output/REPO_NAME/COMMIT` with the results for a specific commit from a specific repo.
+Move your own generated folder there if you want to test the rest of the package with the newly generated data.
 
-Such results folders are presented here in [raw_data/code2dfd](raw_data/code2dfd).
 
 ## Understand by SciTools
 

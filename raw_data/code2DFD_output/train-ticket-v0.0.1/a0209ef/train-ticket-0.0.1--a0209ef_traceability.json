@@ -1,0 +1,2150 @@
+{
+    "nodes": {
+        "ts-contacts-service": {
+            "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-0.0.1/ts-contacts-service/src/main/resources/application.yml",
+            "line": 6,
+            "span": "(10:29)",
+            "sub_items": {
+                "Port": {
+                    "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-0.0.1/ts-contacts-service/src/main/resources/application.yml",
+                    "line": 2,
+                    "span": "(8, 13)"
+                },
+                "internal": {
+                    "file": "heuristic",
+                    "line": "heuristic",
+                    "span": "heuristic"
+                }
+            }
+        },
+        "ts-admin-user-service": {
+            "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-0.0.1/ts-admin-user-service/src/main/resources/application.yml",
+            "line": 6,
+            "span": "(10:31)",
+            "sub_items": {
+                "Port": {
+                    "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-0.0.1/ts-admin-user-service/src/main/resources/application.yml",
+                    "line": 2,
+                    "span": "(8, 13)"
+                },
+                "internal": {
+                    "file": "heuristic",
+                    "line": "heuristic",
+                    "span": "heuristic"
+                }
+            }
+        },
+        "ts-food-map-service": {
+            "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-0.0.1/ts-food-map-service/src/main/resources/application.yml",
+            "line": 6,
+            "span": "(10:29)",
+            "sub_items": {
+                "Port": {
+                    "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-0.0.1/ts-food-map-service/src/main/resources/application.yml",
+                    "line": 2,
+                    "span": "(8, 13)"
+                },
+                "internal": {
+                    "file": "heuristic",
+                    "line": "heuristic",
+                    "span": "heuristic"
+                }
+            }
+        },
+        "ts-notification-service": {
+            "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-0.0.1/ts-notification-service/src/main/resources/application.yml",
+            "line": 16,
+            "span": "(10:33)",
+            "sub_items": {
+                "Port": {
+                    "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-0.0.1/ts-notification-service/src/main/resources/application.yml",
+                    "line": 3,
+                    "span": "(8, 13)"
+                },
+                "internal": {
+                    "file": "heuristic",
+                    "line": "heuristic",
+                    "span": "heuristic"
+                }
+            }
+        },
+        "ts-login-service": {
+            "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-0.0.1/ts-login-service/src/main/resources/application.yml",
+            "line": 9,
+            "span": "(10:26)",
+            "sub_items": {
+                "Port": {
+                    "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-0.0.1/ts-login-service/src/main/resources/application.yml",
+                    "line": 4,
+                    "span": "(8, 13)"
+                },
+                "internal": {
+                    "file": "heuristic",
+                    "line": "heuristic",
+                    "span": "heuristic"
+                }
+            }
+        },
+        "ts-cancel-service": {
+            "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-0.0.1/ts-cancel-service/src/main/resources/application.yml",
+            "line": 6,
+            "span": "(10:27)",
+            "sub_items": {
+                "Port": {
+                    "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-0.0.1/ts-cancel-service/src/main/resources/application.yml",
+                    "line": 2,
+                    "span": "(8, 13)"
+                },
+                "internal": {
+                    "file": "heuristic",
+                    "line": "heuristic",
+                    "span": "heuristic"
+                }
+            }
+        },
+        "ts-config-service": {
+            "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-0.0.1/ts-config-service/src/main/resources/application.yml",
+            "line": 3,
+            "span": "(12:29)",
+            "sub_items": {
+                "Port": {
+                    "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-0.0.1/ts-config-service/src/main/resources/application.yml",
+                    "line": 14,
+                    "span": "(8, 13)"
+                },
+                "internal": {
+                    "file": "heuristic",
+                    "line": "heuristic",
+                    "span": "heuristic"
+                }
+            }
+        },
+        "ts-assurance-service": {
+            "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-0.0.1/ts-assurance-service/src/main/resources/application.yml",
+            "line": 6,
+            "span": "(10:30)",
+            "sub_items": {
+                "Port": {
+                    "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-0.0.1/ts-assurance-service/src/main/resources/application.yml",
+                    "line": 2,
+                    "span": "(8, 13)"
+                },
+                "internal": {
+                    "file": "heuristic",
+                    "line": "heuristic",
+                    "span": "heuristic"
+                }
+            }
+        },
+        "ts-order-other-service": {
+            "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-0.0.1/ts-order-other-service/src/main/resources/application.yml",
+            "line": 7,
+            "span": "(10:32)",
+            "sub_items": {
+                "Port": {
+                    "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-0.0.1/ts-order-other-service/src/main/resources/application.yml",
+                    "line": 3,
+                    "span": "(8, 13)"
+                },
+                "internal": {
+                    "file": "heuristic",
+                    "line": "heuristic",
+                    "span": "heuristic"
+                }
+            }
+        },
+        "ts-route-service": {
+            "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-0.0.1/ts-route-service/src/main/resources/application.yml",
+            "line": 3,
+            "span": "(10:26)",
+            "sub_items": {
+                "Port": {
+                    "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-0.0.1/ts-route-service/src/main/resources/application.yml",
+                    "line": 14,
+                    "span": "(8, 13)"
+                },
+                "internal": {
+                    "file": "heuristic",
+                    "line": "heuristic",
+                    "span": "heuristic"
+                }
+            }
+        },
+        "ts-price-service": {
+            "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-0.0.1/ts-price-service/src/main/resources/application.yml",
+            "line": 3,
+            "span": "(10:26)",
+            "sub_items": {
+                "Port": {
+                    "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-0.0.1/ts-price-service/src/main/resources/application.yml",
+                    "line": 15,
+                    "span": "(8, 13)"
+                },
+                "internal": {
+                    "file": "heuristic",
+                    "line": "heuristic",
+                    "span": "heuristic"
+                }
+            }
+        },
+        "ts-preserve-service": {
+            "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-0.0.1/ts-preserve-service/src/main/resources/application.yml",
+            "line": 16,
+            "span": "(10:29)",
+            "sub_items": {
+                "Port": {
+                    "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-0.0.1/ts-preserve-service/src/main/resources/application.yml",
+                    "line": 12,
+                    "span": "(8, 13)"
+                },
+                "internal": {
+                    "file": "heuristic",
+                    "line": "heuristic",
+                    "span": "heuristic"
+                }
+            }
+        },
+        "micro-service-monitoring-core": {
+            "file": "ms-monitoring-core/pom.xml",
+            "line": 6,
+            "span": "[13:42]",
+            "sub_items": {
+                "local_logging": {
+                    "file": "ms-monitoring-core/src/main/java/org/myproject/ms/monitoring/lgger/Slf4jItemLogger.java",
+                    "line": "19",
+                    "span": "(23, 36)"
+                },
+                "internal": {
+                    "file": "heuristic",
+                    "line": "heuristic",
+                    "span": "heuristic"
+                }
+            }
+        },
+        "ts-security-service": {
+            "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-0.0.1/ts-security-service/src/main/resources/application.yml",
+            "line": 3,
+            "span": "(10:29)",
+            "sub_items": {
+                "Port": {
+                    "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-0.0.1/ts-security-service/src/main/resources/application.yml",
+                    "line": 14,
+                    "span": "(8, 13)"
+                },
+                "internal": {
+                    "file": "heuristic",
+                    "line": "heuristic",
+                    "span": "heuristic"
+                }
+            }
+        },
+        "ts-consign-service": {
+            "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-0.0.1/ts-consign-service/src/main/resources/application.yml",
+            "line": 3,
+            "span": "(10:28)",
+            "sub_items": {
+                "Port": {
+                    "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-0.0.1/ts-consign-service/src/main/resources/application.yml",
+                    "line": 13,
+                    "span": "(8, 13)"
+                },
+                "internal": {
+                    "file": "heuristic",
+                    "line": "heuristic",
+                    "span": "heuristic"
+                }
+            }
+        },
+        "ts-train-service": {
+            "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-0.0.1/ts-train-service/src/main/resources/application.yml",
+            "line": 3,
+            "span": "(10:26)",
+            "sub_items": {
+                "Port": {
+                    "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-0.0.1/ts-train-service/src/main/resources/application.yml",
+                    "line": 14,
+                    "span": "(8, 13)"
+                },
+                "local_logging": {
+                    "file": "ts-train-service/src/main/java/train/service/TrainServiceImpl.java",
+                    "line": "18",
+                    "span": "(40, 53)"
+                },
+                "internal": {
+                    "file": "heuristic",
+                    "line": "heuristic",
+                    "span": "heuristic"
+                }
+            }
+        },
+        "ts-order-service": {
+            "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-0.0.1/ts-order-service/src/main/resources/application.yml",
+            "line": 7,
+            "span": "(10:26)",
+            "sub_items": {
+                "Port": {
+                    "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-0.0.1/ts-order-service/src/main/resources/application.yml",
+                    "line": 3,
+                    "span": "(8, 13)"
+                },
+                "internal": {
+                    "file": "heuristic",
+                    "line": "heuristic",
+                    "span": "heuristic"
+                }
+            }
+        },
+        "ts-verification-code-service": {
+            "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-0.0.1/ts-verification-code-service/src/main/resources/application.yml",
+            "line": 7,
+            "span": "(10:38)",
+            "sub_items": {
+                "Port": {
+                    "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-0.0.1/ts-verification-code-service/src/main/resources/application.yml",
+                    "line": 2,
+                    "span": "(8, 13)"
+                },
+                "internal": {
+                    "file": "heuristic",
+                    "line": "heuristic",
+                    "span": "heuristic"
+                }
+            }
+        },
+        "ts-food-service": {
+            "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-0.0.1/ts-food-service/src/main/resources/application.yml",
+            "line": 6,
+            "span": "(10:25)",
+            "sub_items": {
+                "Port": {
+                    "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-0.0.1/ts-food-service/src/main/resources/application.yml",
+                    "line": 2,
+                    "span": "(8, 13)"
+                },
+                "internal": {
+                    "file": "heuristic",
+                    "line": "heuristic",
+                    "span": "heuristic"
+                }
+            }
+        },
+        "ts-rebook-service": {
+            "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-0.0.1/ts-rebook-service/src/main/resources/application.yml",
+            "line": 7,
+            "span": "(10:27)",
+            "sub_items": {
+                "Port": {
+                    "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-0.0.1/ts-rebook-service/src/main/resources/application.yml",
+                    "line": 3,
+                    "span": "(8, 13)"
+                },
+                "internal": {
+                    "file": "heuristic",
+                    "line": "heuristic",
+                    "span": "heuristic"
+                }
+            }
+        },
+        "rest-service-5": {
+            "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-0.0.1/1-services/rest-service-5/src/main/resources/application.yml",
+            "line": 3,
+            "span": "(10:24)",
+            "sub_items": {
+                "Port": {
+                    "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-0.0.1/1-services/rest-service-5/src/main/resources/application.yml",
+                    "line": 12,
+                    "span": "(8, 13)"
+                },
+                "local_logging": {
+                    "file": "1-services/rest-service-5/src/main/java/hello/HelloController.java",
+                    "line": "6",
+                    "span": "(17, 30)"
+                },
+                "internal": {
+                    "file": "heuristic",
+                    "line": "heuristic",
+                    "span": "heuristic"
+                }
+            }
+        },
+        "rest-service-2": {
+            "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-0.0.1/kubernetes-services/rest-service-2/src/main/resources/application.yml",
+            "line": 3,
+            "span": "(10:24)",
+            "sub_items": {
+                "Port": {
+                    "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-0.0.1/kubernetes-services/rest-service-2/src/main/resources/application.yml",
+                    "line": 5,
+                    "span": "(8, 13)"
+                },
+                "local_logging": {
+                    "file": "1-services/rest-service-2/src/main/java/hello/SampleJob.java",
+                    "line": "8",
+                    "span": "(17, 30)"
+                },
+                "internal": {
+                    "file": "heuristic",
+                    "line": "heuristic",
+                    "span": "heuristic"
+                }
+            }
+        },
+        "rest-service-collector": {
+            "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-0.0.1/1-services/rest-service-collector/src/main/resources/application.yml",
+            "line": 3,
+            "span": "(10:32)",
+            "sub_items": {
+                "Port": {
+                    "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-0.0.1/1-services/rest-service-collector/src/main/resources/application.yml",
+                    "line": 22,
+                    "span": "(8, 12)"
+                },
+                "local_logging": {
+                    "file": "1-services/rest-service-collector/src/main/java/hello/KafkaConsumer.java",
+                    "line": "4",
+                    "span": "(17, 30)"
+                },
+                "internal": {
+                    "file": "heuristic",
+                    "line": "heuristic",
+                    "span": "heuristic"
+                }
+            }
+        },
+        "rest-service-3": {
+            "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-0.0.1/kubernetes-services/rest-service-3/src/main/resources/application.yml",
+            "line": 3,
+            "span": "(10:24)",
+            "sub_items": {
+                "Port": {
+                    "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-0.0.1/kubernetes-services/rest-service-3/src/main/resources/application.yml",
+                    "line": 5,
+                    "span": "(8, 13)"
+                },
+                "local_logging": {
+                    "file": "1-services/rest-service-3/src/main/java/hello/RestbackService.java",
+                    "line": "6",
+                    "span": "(17, 30)"
+                },
+                "internal": {
+                    "file": "heuristic",
+                    "line": "heuristic",
+                    "span": "heuristic"
+                }
+            }
+        },
+        "rest-service-4": {
+            "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-0.0.1/1-services/rest-service-4/src/main/resources/application.yml",
+            "line": 3,
+            "span": "(10:24)",
+            "sub_items": {
+                "Port": {
+                    "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-0.0.1/1-services/rest-service-4/src/main/resources/application.yml",
+                    "line": 12,
+                    "span": "(8, 13)"
+                },
+                "local_logging": {
+                    "file": "1-services/rest-service-4/src/main/java/hello/HelloController.java",
+                    "line": "13",
+                    "span": "(17, 30)"
+                },
+                "internal": {
+                    "file": "heuristic",
+                    "line": "heuristic",
+                    "span": "heuristic"
+                }
+            }
+        },
+        "rest-service-1": {
+            "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-0.0.1/kubernetes-services/rest-service-1/src/main/resources/application.yml",
+            "line": 3,
+            "span": "(10:24)",
+            "sub_items": {
+                "Port": {
+                    "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-0.0.1/kubernetes-services/rest-service-1/src/main/resources/application.yml",
+                    "line": 5,
+                    "span": "(8, 13)"
+                },
+                "local_logging": {
+                    "file": "1-services/rest-service-1/src/main/java/hello/HelloController.java",
+                    "line": "7",
+                    "span": "(17, 30)"
+                },
+                "internal": {
+                    "file": "heuristic",
+                    "line": "heuristic",
+                    "span": "heuristic"
+                }
+            }
+        },
+        "rest-service-6": {
+            "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-0.0.1/1-services/rest-service-6/src/main/resources/application.yml",
+            "line": 3,
+            "span": "(10:24)",
+            "sub_items": {
+                "Port": {
+                    "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-0.0.1/1-services/rest-service-6/src/main/resources/application.yml",
+                    "line": 23,
+                    "span": "(8, 13)"
+                },
+                "local_logging": {
+                    "file": "1-services/rest-service-6/src/main/java/hello/MsgReveiceBean.java",
+                    "line": "6",
+                    "span": "(17, 30)"
+                },
+                "internal": {
+                    "file": "heuristic",
+                    "line": "heuristic",
+                    "span": "heuristic"
+                }
+            }
+        },
+        "rest-service-end": {
+            "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-0.0.1/1-services/rest-service-end/src/main/resources/application.yml",
+            "line": 3,
+            "span": "(10:26)",
+            "sub_items": {
+                "Port": {
+                    "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-0.0.1/1-services/rest-service-end/src/main/resources/application.yml",
+                    "line": 23,
+                    "span": "(8, 13)"
+                },
+                "local_logging": {
+                    "file": "1-services/rest-service-end/src/main/java/hello/GreetingController.java",
+                    "line": "6",
+                    "span": "(17, 30)"
+                },
+                "internal": {
+                    "file": "heuristic",
+                    "line": "heuristic",
+                    "span": "heuristic"
+                }
+            }
+        },
+        "ts-ui-test": {
+            "file": "ts-ui-test/pom.xml",
+            "line": 7,
+            "span": "[16:26]",
+            "sub_items": {
+                "internal": {
+                    "file": "heuristic",
+                    "line": "heuristic",
+                    "span": "heuristic"
+                }
+            }
+        },
+        "ts-register-service": {
+            "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-0.0.1/ts-register-service/src/main/resources/application.yml",
+            "line": 17,
+            "span": "(10:29)",
+            "sub_items": {
+                "Port": {
+                    "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-0.0.1/ts-register-service/src/main/resources/application.yml",
+                    "line": 12,
+                    "span": "(8, 13)"
+                },
+                "internal": {
+                    "file": "heuristic",
+                    "line": "heuristic",
+                    "span": "heuristic"
+                }
+            }
+        },
+        "spring-transaction-consumer": {
+            "file": "spring-transaction-consumer/pom.xml",
+            "line": 4,
+            "span": "[13:40]",
+            "sub_items": {
+                "internal": {
+                    "file": "heuristic",
+                    "line": "heuristic",
+                    "span": "heuristic"
+                }
+            }
+        },
+        "ts-admin-basic-info-service": {
+            "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-0.0.1/ts-admin-basic-info-service/src/main/resources/application.yml",
+            "line": 6,
+            "span": "(10:37)",
+            "sub_items": {
+                "Port": {
+                    "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-0.0.1/ts-admin-basic-info-service/src/main/resources/application.yml",
+                    "line": 2,
+                    "span": "(8, 13)"
+                },
+                "internal": {
+                    "file": "heuristic",
+                    "line": "heuristic",
+                    "span": "heuristic"
+                }
+            }
+        },
+        "ts-consign-price-service": {
+            "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-0.0.1/ts-consign-price-service/src/main/resources/application.yml",
+            "line": 3,
+            "span": "(10:34)",
+            "sub_items": {
+                "Port": {
+                    "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-0.0.1/ts-consign-price-service/src/main/resources/application.yml",
+                    "line": 13,
+                    "span": "(8, 13)"
+                },
+                "internal": {
+                    "file": "heuristic",
+                    "line": "heuristic",
+                    "span": "heuristic"
+                }
+            }
+        },
+        "ts-basic-service": {
+            "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-0.0.1/ts-basic-service/src/main/resources/application.yml",
+            "line": 6,
+            "span": "(10:26)",
+            "sub_items": {
+                "Port": {
+                    "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-0.0.1/ts-basic-service/src/main/resources/application.yml",
+                    "line": 2,
+                    "span": "(8, 13)"
+                },
+                "internal": {
+                    "file": "heuristic",
+                    "line": "heuristic",
+                    "span": "heuristic"
+                }
+            }
+        },
+        "ts-preserve-other-service": {
+            "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-0.0.1/ts-preserve-other-service/src/main/resources/application.yml",
+            "line": 16,
+            "span": "(10:35)",
+            "sub_items": {
+                "Port": {
+                    "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-0.0.1/ts-preserve-other-service/src/main/resources/application.yml",
+                    "line": 12,
+                    "span": "(8, 13)"
+                },
+                "internal": {
+                    "file": "heuristic",
+                    "line": "heuristic",
+                    "span": "heuristic"
+                }
+            }
+        },
+        "ts-station-service": {
+            "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-0.0.1/ts-station-service/src/main/resources/application.yml",
+            "line": 3,
+            "span": "(10:28)",
+            "sub_items": {
+                "Port": {
+                    "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-0.0.1/ts-station-service/src/main/resources/application.yml",
+                    "line": 14,
+                    "span": "(8, 13)"
+                },
+                "internal": {
+                    "file": "heuristic",
+                    "line": "heuristic",
+                    "span": "heuristic"
+                }
+            }
+        },
+        "ts-route-plan-service": {
+            "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-0.0.1/ts-route-plan-service/src/main/resources/application.yml",
+            "line": 3,
+            "span": "(10:31)",
+            "sub_items": {
+                "Port": {
+                    "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-0.0.1/ts-route-plan-service/src/main/resources/application.yml",
+                    "line": 7,
+                    "span": "(8, 13)"
+                },
+                "internal": {
+                    "file": "heuristic",
+                    "line": "heuristic",
+                    "span": "heuristic"
+                }
+            }
+        },
+        "ts-ticketinfo-service": {
+            "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-0.0.1/ts-ticketinfo-service/src/main/resources/application.yml",
+            "line": 7,
+            "span": "(10:31)",
+            "sub_items": {
+                "Port": {
+                    "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-0.0.1/ts-ticketinfo-service/src/main/resources/application.yml",
+                    "line": 3,
+                    "span": "(8, 13)"
+                },
+                "internal": {
+                    "file": "heuristic",
+                    "line": "heuristic",
+                    "span": "heuristic"
+                }
+            }
+        },
+        "spring-transaction-producer": {
+            "file": "spring-transaction-producer/pom.xml",
+            "line": 9,
+            "span": "[13:40]",
+            "sub_items": {
+                "internal": {
+                    "file": "heuristic",
+                    "line": "heuristic",
+                    "span": "heuristic"
+                }
+            }
+        },
+        "ts-payment-service": {
+            "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-0.0.1/ts-payment-service/src/main/resources/application.yml",
+            "line": 7,
+            "span": "(10:28)",
+            "sub_items": {
+                "Port": {
+                    "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-0.0.1/ts-payment-service/src/main/resources/application.yml",
+                    "line": 3,
+                    "span": "(8, 13)"
+                },
+                "internal": {
+                    "file": "heuristic",
+                    "line": "heuristic",
+                    "span": "heuristic"
+                }
+            }
+        },
+        "ts-inside-payment-service": {
+            "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-0.0.1/ts-inside-payment-service/src/main/resources/application.yml",
+            "line": 6,
+            "span": "(10:35)",
+            "sub_items": {
+                "Port": {
+                    "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-0.0.1/ts-inside-payment-service/src/main/resources/application.yml",
+                    "line": 2,
+                    "span": "(8, 13)"
+                },
+                "internal": {
+                    "file": "heuristic",
+                    "line": "heuristic",
+                    "span": "heuristic"
+                }
+            }
+        },
+        "rest-travel.service-update": {
+            "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-0.0.1/rest-service-update/src/main/resources/application.yml",
+            "line": 3,
+            "span": "(10:36)",
+            "sub_items": {
+                "Port": {
+                    "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-0.0.1/rest-service-update/src/main/resources/application.yml",
+                    "line": 6,
+                    "span": "(8, 13)"
+                },
+                "internal": {
+                    "file": "heuristic",
+                    "line": "heuristic",
+                    "span": "heuristic"
+                }
+            }
+        },
+        "sample-test-1": {
+            "file": "sample-test-1/pom.xml",
+            "line": 5,
+            "span": "[13:26]",
+            "sub_items": {
+                "internal": {
+                    "file": "heuristic",
+                    "line": "heuristic",
+                    "span": "heuristic"
+                }
+            }
+        },
+        "ts-seat-service": {
+            "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-0.0.1/ts-seat-service/src/main/resources/application.yml",
+            "line": 6,
+            "span": "(10:25)",
+            "sub_items": {
+                "Port": {
+                    "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-0.0.1/ts-seat-service/src/main/resources/application.yml",
+                    "line": 2,
+                    "span": "(8, 13)"
+                },
+                "internal": {
+                    "file": "heuristic",
+                    "line": "heuristic",
+                    "span": "heuristic"
+                }
+            }
+        },
+        "ts-execute-service": {
+            "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-0.0.1/ts-execute-service/src/main/resources/application.yml",
+            "line": 6,
+            "span": "(10:28)",
+            "sub_items": {
+                "Port": {
+                    "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-0.0.1/ts-execute-service/src/main/resources/application.yml",
+                    "line": 2,
+                    "span": "(8, 13)"
+                },
+                "internal": {
+                    "file": "heuristic",
+                    "line": "heuristic",
+                    "span": "heuristic"
+                }
+            }
+        },
+        "ts-travel-plan-service": {
+            "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-0.0.1/ts-travel-plan-service/src/main/resources/application.yml",
+            "line": 7,
+            "span": "(10:32)",
+            "sub_items": {
+                "Port": {
+                    "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-0.0.1/ts-travel-plan-service/src/main/resources/application.yml",
+                    "line": 3,
+                    "span": "(8, 13)"
+                },
+                "internal": {
+                    "file": "heuristic",
+                    "line": "heuristic",
+                    "span": "heuristic"
+                }
+            }
+        },
+        "ts-travel2-service": {
+            "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-0.0.1/ts-travel2-service/src/main/resources/application.yml",
+            "line": 7,
+            "span": "(10:28)",
+            "sub_items": {
+                "Port": {
+                    "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-0.0.1/ts-travel2-service/src/main/resources/application.yml",
+                    "line": 3,
+                    "span": "(8, 13)"
+                },
+                "internal": {
+                    "file": "heuristic",
+                    "line": "heuristic",
+                    "span": "heuristic"
+                }
+            }
+        },
+        "ts-travel-service": {
+            "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-0.0.1/ts-travel-service/src/main/resources/application.yml",
+            "line": 7,
+            "span": "(10:27)",
+            "sub_items": {
+                "Port": {
+                    "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-0.0.1/ts-travel-service/src/main/resources/application.yml",
+                    "line": 3,
+                    "span": "(8, 13)"
+                },
+                "internal": {
+                    "file": "heuristic",
+                    "line": "heuristic",
+                    "span": "heuristic"
+                }
+            }
+        },
+        "ts-admin-order-service": {
+            "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-0.0.1/ts-admin-order-service/src/main/resources/application.yml",
+            "line": 6,
+            "span": "(10:32)",
+            "sub_items": {
+                "Port": {
+                    "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-0.0.1/ts-admin-order-service/src/main/resources/application.yml",
+                    "line": 2,
+                    "span": "(8, 13)"
+                },
+                "internal": {
+                    "file": "heuristic",
+                    "line": "heuristic",
+                    "span": "heuristic"
+                }
+            }
+        },
+        "ts-admin-travel-service": {
+            "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-0.0.1/ts-admin-travel-service/src/main/resources/application.yml",
+            "line": 6,
+            "span": "(10:33)",
+            "sub_items": {
+                "Port": {
+                    "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-0.0.1/ts-admin-travel-service/src/main/resources/application.yml",
+                    "line": 2,
+                    "span": "(8, 13)"
+                },
+                "internal": {
+                    "file": "heuristic",
+                    "line": "heuristic",
+                    "span": "heuristic"
+                }
+            }
+        },
+        "ts-sso-service": {
+            "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-0.0.1/ts-sso-service/src/main/resources/application.yml",
+            "line": 4,
+            "span": "(10:24)",
+            "sub_items": {
+                "Port": {
+                    "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-0.0.1/ts-sso-service/src/main/resources/application.yml",
+                    "line": 18,
+                    "span": "(8, 13)"
+                },
+                "internal": {
+                    "file": "heuristic",
+                    "line": "heuristic",
+                    "span": "heuristic"
+                }
+            }
+        },
+        "ts-admin-route-service": {
+            "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-0.0.1/ts-admin-route-service/src/main/resources/application.yml",
+            "line": 6,
+            "span": "(10:32)",
+            "sub_items": {
+                "Port": {
+                    "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-0.0.1/ts-admin-route-service/src/main/resources/application.yml",
+                    "line": 2,
+                    "span": "(8, 13)"
+                },
+                "internal": {
+                    "file": "heuristic",
+                    "line": "heuristic",
+                    "span": "heuristic"
+                }
+            }
+        },
+        "rabbitmq": {
+            "file": "1-services/docker-compose.yml",
+            "line": 41,
+            "span": "[2:10]",
+            "sub_items": {
+                "message_broker": {
+                    "file": "heuristic, based on image in Docker Compose",
+                    "line": "heuristic, based on image in Docker Compose",
+                    "span": "heuristic, based on image in Docker Compose"
+                },
+                "infrastructural": {
+                    "file": "heuristic, based on stereotype message_broker",
+                    "line": "heuristic, based on stereotype message_broker",
+                    "span": "heuristic, based on stereotype message_broker"
+                }
+            }
+        },
+        "mongodb": {
+            "file": "1-services/docker-compose.yml",
+            "line": 30,
+            "span": "[2:9]",
+            "sub_items": {
+                "internal": {
+                    "file": "heuristic",
+                    "line": "heuristic",
+                    "span": "heuristic"
+                }
+            }
+        },
+        "zipkin": {
+            "file": "1-services/docker-compose.yml",
+            "line": 63,
+            "span": "[2:8]",
+            "sub_items": {
+                "infrastructural": {
+                    "file": "heuristic, based on stereotype tracing_server",
+                    "line": "heuristic, based on stereotype tracing_server",
+                    "span": "heuristic, based on stereotype tracing_server"
+                }
+            }
+        },
+        "kafka": {
+            "file": "1-services/docker-compose.yml",
+            "line": 53,
+            "span": "[2:7]",
+            "sub_items": {
+                "message_broker": {
+                    "file": "heuristic, based on image in Docker Compose",
+                    "line": "heuristic, based on image in Docker Compose",
+                    "span": "heuristic, based on image in Docker Compose"
+                },
+                "infrastructural": {
+                    "file": "heuristic, based on stereotype tracing_server",
+                    "line": "heuristic, based on stereotype tracing_server",
+                    "span": "heuristic, based on stereotype tracing_server"
+                }
+            }
+        },
+        "mail-server": {
+            "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-0.0.1/ts-notification-service/src/main/resources/application.yml",
+            "line": 18,
+            "span": "(11, 23)",
+            "sub_items": {
+                "entrypoint": {
+                    "file": "heuristic",
+                    "line": "heuristic",
+                    "span": "heuristic"
+                },
+                "exitpoint": {
+                    "file": "heuristic",
+                    "line": "heuristic",
+                    "span": "heuristic"
+                },
+                "mail_server": {
+                    "file": "heuristic",
+                    "line": "heuristic",
+                    "span": "heuristic"
+                }
+            }
+        }
+    },
+    "edges": {
+        "rabbitmq -> spring-transaction-consumer": {
+            "file": "FooHandler.java",
+            "line": 24,
+            "span": "<re.Match object; span=(1, 16), match='@RabbitListener'>"
+        },
+        "kafka -> rest-service-collector": {
+            "file": "KafkaConsumer.java",
+            "line": 15,
+            "span": "<re.Match object; span=(4, 18), match='@KafkaListener'>"
+        },
+        "rest-service-collector -> kafka": {
+            "file": "1-services/rest-service-collector/src/main/java/hello/KafkaProducer.java",
+            "line": 34,
+            "span": "<re.Match object; span=(4, 22), match='kafkaTemplate.send'>"
+        },
+        "ts-contacts-service -> ts-sso-service": {
+            "file": "ts-contacts-service/src/main/java/contacts/controller/ContactsController.java",
+            "line": "168",
+            "span": "(37, 62)"
+        },
+        "ts-admin-user-service -> ts-sso-service": {
+            "file": "ts-admin-user-service/src/main/java/adminuser/service/AdminUserServiceImpl.java",
+            "line": "36",
+            "span": "(23, 48)"
+        },
+        "ts-login-service -> ts-verification-code-service": {
+            "file": "ts-login-service/src/main/java/login/service/AccountLoginServiceImpl.java",
+            "line": "35",
+            "span": "(37, 58)"
+        },
+        "ts-login-service -> ts-sso-service": {
+            "file": "ts-login-service/src/main/java/login/service/AccountLoginServiceImpl.java",
+            "line": "35",
+            "span": "(37, 58)"
+        },
+        "ts-cancel-service -> ts-sso-service": {
+            "file": "ts-cancel-service/src/main/java/cancel/controller/CancelController.java",
+            "line": "81",
+            "span": "(37, 62)"
+        },
+        "ts-cancel-service -> ts-notification-service": {
+            "file": "ts-cancel-service/src/main/java/cancel/service/CancelServiceImpl.java",
+            "line": "152",
+            "span": "(37, 58)"
+        },
+        "ts-cancel-service -> ts-order-other-service": {
+            "file": "ts-cancel-service/src/main/java/cancel/service/CancelServiceImpl.java",
+            "line": "152",
+            "span": "(37, 58)"
+        },
+        "ts-cancel-service -> ts-inside-payment-service": {
+            "file": "ts-cancel-service/src/main/java/cancel/service/CancelServiceImpl.java",
+            "line": "152",
+            "span": "(37, 58)"
+        },
+        "ts-cancel-service -> ts-order-service": {
+            "file": "ts-cancel-service/src/main/java/cancel/service/CancelServiceImpl.java",
+            "line": "152",
+            "span": "(37, 58)"
+        },
+        "ts-assurance-service -> ts-sso-service": {
+            "file": "ts-assurance-service/src/main/java/assurance/controller/AssuranceController.java",
+            "line": "118",
+            "span": "(37, 62)"
+        },
+        "ts-order-other-service -> ts-sso-service": {
+            "file": "ts-order-other-service/src/main/java/other/controller/OrderOtherController.java",
+            "line": "182",
+            "span": "(45, 70)"
+        },
+        "ts-order-other-service -> ts-station-service": {
+            "file": "ts-order-other-service/src/main/java/other/service/OrderOtherServiceImpl.java",
+            "line": "190",
+            "span": "(50, 71)"
+        },
+        "ts-preserve-service -> ts-ticketinfo-service": {
+            "file": "ts-preserve-service/src/main/java/preserve/service/PreserveServiceImpl.java",
+            "line": "120",
+            "span": "(49, 70)"
+        },
+        "ts-preserve-service -> ts-seat-service": {
+            "file": "ts-preserve-service/src/main/java/preserve/service/PreserveServiceImpl.java",
+            "line": "120",
+            "span": "(49, 70)"
+        },
+        "ts-preserve-service -> ts-notification-service": {
+            "file": "ts-preserve-service/src/main/java/preserve/service/PreserveServiceImpl.java",
+            "line": "120",
+            "span": "(49, 70)"
+        },
+        "ts-preserve-service -> ts-sso-service": {
+            "file": "ts-preserve-service/src/main/java/preserve/service/PreserveServiceImpl.java",
+            "line": "387",
+            "span": "(37, 62)"
+        },
+        "ts-preserve-service -> ts-assurance-service": {
+            "file": "ts-preserve-service/src/main/java/preserve/service/PreserveServiceImpl.java",
+            "line": "120",
+            "span": "(49, 70)"
+        },
+        "ts-preserve-service -> ts-station-service": {
+            "file": "ts-preserve-service/src/main/java/preserve/service/PreserveServiceImpl.java",
+            "line": "120",
+            "span": "(49, 70)"
+        },
+        "ts-preserve-service -> ts-security-service": {
+            "file": "ts-preserve-service/src/main/java/preserve/service/PreserveServiceImpl.java",
+            "line": "120",
+            "span": "(49, 70)"
+        },
+        "ts-preserve-service -> ts-travel-service": {
+            "file": "ts-preserve-service/src/main/java/preserve/service/PreserveServiceImpl.java",
+            "line": "120",
+            "span": "(49, 70)"
+        },
+        "ts-preserve-service -> ts-contacts-service": {
+            "file": "ts-preserve-service/src/main/java/preserve/service/PreserveServiceImpl.java",
+            "line": "120",
+            "span": "(49, 70)"
+        },
+        "ts-preserve-service -> ts-order-service": {
+            "file": "ts-preserve-service/src/main/java/preserve/service/PreserveServiceImpl.java",
+            "line": "120",
+            "span": "(49, 70)"
+        },
+        "ts-preserve-service -> ts-food-service": {
+            "file": "ts-preserve-service/src/main/java/preserve/service/PreserveServiceImpl.java",
+            "line": "120",
+            "span": "(49, 70)"
+        },
+        "ts-preserve-service -> ts-consign-service": {
+            "file": "ts-preserve-service/src/main/java/preserve/service/PreserveServiceImpl.java",
+            "line": "120",
+            "span": "(49, 70)"
+        },
+        "ts-security-service -> ts-order-service": {
+            "file": "ts-security-service/src/main/java/security/service/SecurityServiceImpl.java",
+            "line": "126",
+            "span": "(59, 80)"
+        },
+        "ts-security-service -> ts-order-other-service": {
+            "file": "ts-security-service/src/main/java/security/service/SecurityServiceImpl.java",
+            "line": "126",
+            "span": "(59, 80)"
+        },
+        "ts-consign-service -> ts-consign-price-service": {
+            "file": "ts-consign-service/src/main/java/consign/service/ConsignServiceImpl.java",
+            "line": "48",
+            "span": "(36, 57)"
+        },
+        "ts-order-service -> ts-sso-service": {
+            "file": "ts-order-service/src/main/java/order/controller/OrderController.java",
+            "line": "181",
+            "span": "(37, 62)"
+        },
+        "ts-order-service -> ts-station-service": {
+            "file": "ts-order-service/src/main/java/order/service/OrderServiceImpl.java",
+            "line": "181",
+            "span": "(50, 71)"
+        },
+        "ts-food-service -> ts-food-map-service": {
+            "file": "ts-food-service/src/main/java/foodsearch/service/FoodServiceImpl.java",
+            "line": "46",
+            "span": "(74, 95)"
+        },
+        "ts-food-service -> ts-travel-service": {
+            "file": "ts-food-service/src/main/java/foodsearch/service/FoodServiceImpl.java",
+            "line": "76",
+            "span": "(41, 66)"
+        },
+        "ts-food-service -> ts-station-service": {
+            "file": "ts-food-service/src/main/java/foodsearch/service/FoodServiceImpl.java",
+            "line": "46",
+            "span": "(74, 95)"
+        },
+        "ts-rebook-service -> ts-seat-service": {
+            "file": "ts-rebook-service/src/main/java/rebook/service/RebookServiceImpl.java",
+            "line": "293",
+            "span": "(42, 63)"
+        },
+        "ts-rebook-service -> ts-sso-service": {
+            "file": "ts-rebook-service/src/main/java/rebook/service/RebookServiceImpl.java",
+            "line": "325",
+            "span": "(37, 62)"
+        },
+        "ts-rebook-service -> ts-travel-service": {
+            "file": "ts-rebook-service/src/main/java/rebook/service/RebookServiceImpl.java",
+            "line": "293",
+            "span": "(42, 63)"
+        },
+        "ts-rebook-service -> ts-travel2-service": {
+            "file": "ts-rebook-service/src/main/java/rebook/service/RebookServiceImpl.java",
+            "line": "293",
+            "span": "(42, 63)"
+        },
+        "ts-rebook-service -> ts-order-service": {
+            "file": "ts-rebook-service/src/main/java/rebook/service/RebookServiceImpl.java",
+            "line": "293",
+            "span": "(42, 63)"
+        },
+        "ts-rebook-service -> ts-order-other-service": {
+            "file": "ts-rebook-service/src/main/java/rebook/service/RebookServiceImpl.java",
+            "line": "293",
+            "span": "(42, 63)"
+        },
+        "ts-rebook-service -> ts-station-service": {
+            "file": "ts-rebook-service/src/main/java/rebook/service/RebookServiceImpl.java",
+            "line": "293",
+            "span": "(42, 63)"
+        },
+        "ts-rebook-service -> ts-inside-payment-service": {
+            "file": "ts-rebook-service/src/main/java/rebook/service/RebookServiceImpl.java",
+            "line": "293",
+            "span": "(42, 63)"
+        },
+        "ts-register-service -> ts-verification-code-service": {
+            "file": "ts-register-service/src/main/java/register/service/RegisterServiceImpl.java",
+            "line": "32",
+            "span": "(37, 58)"
+        },
+        "ts-register-service -> ts-sso-service": {
+            "file": "ts-register-service/src/main/java/register/service/RegisterServiceImpl.java",
+            "line": "32",
+            "span": "(37, 58)"
+        },
+        "ts-register-service -> ts-inside-payment-service": {
+            "file": "ts-register-service/src/main/java/register/service/RegisterServiceImpl.java",
+            "line": "32",
+            "span": "(37, 58)"
+        },
+        "ts-admin-basic-info-service -> ts-contacts-service": {
+            "file": "ts-admin-basic-info-service/src/main/java/adminbasic/service/AdminBasicInfoServiceImpl.java",
+            "line": "36",
+            "span": "(23, 48)"
+        },
+        "ts-admin-basic-info-service -> ts-station-service": {
+            "file": "ts-admin-basic-info-service/src/main/java/adminbasic/service/AdminBasicInfoServiceImpl.java",
+            "line": "36",
+            "span": "(23, 48)"
+        },
+        "ts-admin-basic-info-service -> ts-train-service": {
+            "file": "ts-admin-basic-info-service/src/main/java/adminbasic/service/AdminBasicInfoServiceImpl.java",
+            "line": "36",
+            "span": "(23, 48)"
+        },
+        "ts-admin-basic-info-service -> ts-config-service": {
+            "file": "ts-admin-basic-info-service/src/main/java/adminbasic/service/AdminBasicInfoServiceImpl.java",
+            "line": "36",
+            "span": "(23, 48)"
+        },
+        "ts-admin-basic-info-service -> ts-price-service": {
+            "file": "ts-admin-basic-info-service/src/main/java/adminbasic/service/AdminBasicInfoServiceImpl.java",
+            "line": "36",
+            "span": "(23, 48)"
+        },
+        "ts-basic-service -> ts-station-service": {
+            "file": "ts-basic-service/src/main/java/fdse/microservice/service/BasicServiceImpl.java",
+            "line": "74",
+            "span": "(36, 57)"
+        },
+        "ts-basic-service -> ts-train-service": {
+            "file": "ts-basic-service/src/main/java/fdse/microservice/service/BasicServiceImpl.java",
+            "line": "74",
+            "span": "(36, 57)"
+        },
+        "ts-basic-service -> ts-route-service": {
+            "file": "ts-basic-service/src/main/java/fdse/microservice/service/BasicServiceImpl.java",
+            "line": "123",
+            "span": "(38, 63)"
+        },
+        "ts-basic-service -> ts-price-service": {
+            "file": "ts-basic-service/src/main/java/fdse/microservice/service/BasicServiceImpl.java",
+            "line": "74",
+            "span": "(36, 57)"
+        },
+        "ts-preserve-other-service -> ts-ticketinfo-service": {
+            "file": "ts-preserve-other-service/src/main/java/preserveOther/service/PreserveOtherServiceImpl.java",
+            "line": "135",
+            "span": "(64, 85)"
+        },
+        "ts-preserve-other-service -> ts-seat-service": {
+            "file": "ts-preserve-other-service/src/main/java/preserveOther/service/PreserveOtherServiceImpl.java",
+            "line": "135",
+            "span": "(64, 85)"
+        },
+        "ts-preserve-other-service -> ts-notification-service": {
+            "file": "ts-preserve-other-service/src/main/java/preserveOther/service/PreserveOtherServiceImpl.java",
+            "line": "135",
+            "span": "(64, 85)"
+        },
+        "ts-preserve-other-service -> ts-sso-service": {
+            "file": "ts-preserve-other-service/src/main/java/preserveOther/service/PreserveOtherServiceImpl.java",
+            "line": "405",
+            "span": "(37, 62)"
+        },
+        "ts-preserve-other-service -> ts-assurance-service": {
+            "file": "ts-preserve-other-service/src/main/java/preserveOther/service/PreserveOtherServiceImpl.java",
+            "line": "135",
+            "span": "(64, 85)"
+        },
+        "ts-preserve-other-service -> ts-station-service": {
+            "file": "ts-preserve-other-service/src/main/java/preserveOther/service/PreserveOtherServiceImpl.java",
+            "line": "135",
+            "span": "(64, 85)"
+        },
+        "ts-preserve-other-service -> ts-security-service": {
+            "file": "ts-preserve-other-service/src/main/java/preserveOther/service/PreserveOtherServiceImpl.java",
+            "line": "135",
+            "span": "(64, 85)"
+        },
+        "ts-preserve-other-service -> ts-travel2-service": {
+            "file": "ts-preserve-other-service/src/main/java/preserveOther/service/PreserveOtherServiceImpl.java",
+            "line": "135",
+            "span": "(64, 85)"
+        },
+        "ts-preserve-other-service -> ts-contacts-service": {
+            "file": "ts-preserve-other-service/src/main/java/preserveOther/service/PreserveOtherServiceImpl.java",
+            "line": "135",
+            "span": "(64, 85)"
+        },
+        "ts-preserve-other-service -> ts-order-other-service": {
+            "file": "ts-preserve-other-service/src/main/java/preserveOther/service/PreserveOtherServiceImpl.java",
+            "line": "135",
+            "span": "(64, 85)"
+        },
+        "ts-preserve-other-service -> ts-food-service": {
+            "file": "ts-preserve-other-service/src/main/java/preserveOther/service/PreserveOtherServiceImpl.java",
+            "line": "135",
+            "span": "(64, 85)"
+        },
+        "ts-preserve-other-service -> ts-consign-service": {
+            "file": "ts-preserve-other-service/src/main/java/preserveOther/service/PreserveOtherServiceImpl.java",
+            "line": "135",
+            "span": "(64, 85)"
+        },
+        "ts-route-plan-service -> ts-route-service": {
+            "file": "ts-route-plan-service/src/main/java/plan/service/RoutePlanServiceImpl.java",
+            "line": "325",
+            "span": "(34, 59)"
+        },
+        "ts-route-plan-service -> ts-travel-service": {
+            "file": "ts-route-plan-service/src/main/java/plan/service/RoutePlanServiceImpl.java",
+            "line": "158",
+            "span": "(50, 71)"
+        },
+        "ts-route-plan-service -> ts-travel2-service": {
+            "file": "ts-route-plan-service/src/main/java/plan/service/RoutePlanServiceImpl.java",
+            "line": "158",
+            "span": "(50, 71)"
+        },
+        "ts-route-plan-service -> ts-station-service": {
+            "file": "ts-route-plan-service/src/main/java/plan/service/RoutePlanServiceImpl.java",
+            "line": "158",
+            "span": "(50, 71)"
+        },
+        "ts-ticketinfo-service -> ts-basic-service": {
+            "file": "ts-ticketinfo-service/src/main/java/ticketinfo/service/TicketInfoServiceImpl.java",
+            "line": "26",
+            "span": "(45, 66)"
+        },
+        "ts-ticketinfo-service -> ts-price-service": {
+            "file": "ts-ticketinfo-service/src/main/java/ticketinfo/service/TicketInfoServiceImpl.java",
+            "line": "26",
+            "span": "(45, 66)"
+        },
+        "ts-inside-payment-service -> ts-order-service": {
+            "file": "ts-inside-payment-service/src/main/java/inside_payment/service/InsidePaymentServiceImpl.java",
+            "line": "43",
+            "span": "(63, 84)"
+        },
+        "ts-inside-payment-service -> ts-order-other-service": {
+            "file": "ts-inside-payment-service/src/main/java/inside_payment/service/InsidePaymentServiceImpl.java",
+            "line": "43",
+            "span": "(63, 84)"
+        },
+        "ts-inside-payment-service -> ts-payment-service": {
+            "file": "ts-inside-payment-service/src/main/java/inside_payment/service/InsidePaymentServiceImpl.java",
+            "line": "43",
+            "span": "(63, 84)"
+        },
+        "ts-seat-service -> ts-travel-service": {
+            "file": "ts-seat-service/src/main/java/seat/service/SeatServiceImpl.java",
+            "line": "45",
+            "span": "(28, 53)"
+        },
+        "ts-seat-service -> ts-order-service": {
+            "file": "ts-seat-service/src/main/java/seat/service/SeatServiceImpl.java",
+            "line": "39",
+            "span": "(17, 38)"
+        },
+        "ts-seat-service -> ts-travel2-service": {
+            "file": "ts-seat-service/src/main/java/seat/service/SeatServiceImpl.java",
+            "line": "45",
+            "span": "(28, 53)"
+        },
+        "ts-seat-service -> ts-order-other-service": {
+            "file": "ts-seat-service/src/main/java/seat/service/SeatServiceImpl.java",
+            "line": "39",
+            "span": "(17, 38)"
+        },
+        "ts-seat-service -> ts-config-service": {
+            "file": "ts-seat-service/src/main/java/seat/service/SeatServiceImpl.java",
+            "line": "39",
+            "span": "(17, 38)"
+        },
+        "ts-execute-service -> ts-order-service": {
+            "file": "ts-execute-service/src/main/java/execute/serivce/ExecuteServiceImpl.java",
+            "line": "146",
+            "span": "(53, 74)"
+        },
+        "ts-execute-service -> ts-order-other-service": {
+            "file": "ts-execute-service/src/main/java/execute/serivce/ExecuteServiceImpl.java",
+            "line": "146",
+            "span": "(53, 74)"
+        },
+        "ts-travel-plan-service -> ts-seat-service": {
+            "file": "ts-travel-plan-service/src/main/java/travelplan/service/TravelPlanServiceImpl.java",
+            "line": "222",
+            "span": "(37, 58)"
+        },
+        "ts-travel-plan-service -> ts-route-plan-service": {
+            "file": "ts-travel-plan-service/src/main/java/travelplan/service/TravelPlanServiceImpl.java",
+            "line": "222",
+            "span": "(37, 58)"
+        },
+        "ts-travel-plan-service -> ts-travel-service": {
+            "file": "ts-travel-plan-service/src/main/java/travelplan/service/TravelPlanServiceImpl.java",
+            "line": "222",
+            "span": "(37, 58)"
+        },
+        "ts-travel-plan-service -> ts-travel2-service": {
+            "file": "ts-travel-plan-service/src/main/java/travelplan/service/TravelPlanServiceImpl.java",
+            "line": "222",
+            "span": "(37, 58)"
+        },
+        "ts-travel-plan-service -> ts-ticketinfo-service": {
+            "file": "ts-travel-plan-service/src/main/java/travelplan/service/TravelPlanServiceImpl.java",
+            "line": "222",
+            "span": "(37, 58)"
+        },
+        "ts-travel-plan-service -> ts-station-service": {
+            "file": "ts-travel-plan-service/src/main/java/travelplan/service/TravelPlanServiceImpl.java",
+            "line": "222",
+            "span": "(37, 58)"
+        },
+        "ts-travel2-service -> ts-ticketinfo-service": {
+            "file": "ts-travel2-service/src/main/java/travel2/service/Travel2ServiceImpl.java",
+            "line": "222",
+            "span": "(45, 66)"
+        },
+        "ts-travel2-service -> ts-order-other-service": {
+            "file": "ts-travel2-service/src/main/java/travel2/service/Travel2ServiceImpl.java",
+            "line": "222",
+            "span": "(45, 66)"
+        },
+        "ts-travel2-service -> ts-train-service": {
+            "file": "ts-travel2-service/src/main/java/travel2/service/Travel2ServiceImpl.java",
+            "line": "222",
+            "span": "(45, 66)"
+        },
+        "ts-travel2-service -> ts-route-service": {
+            "file": "ts-travel2-service/src/main/java/travel2/service/Travel2ServiceImpl.java",
+            "line": "370",
+            "span": "(34, 59)"
+        },
+        "ts-travel2-service -> ts-seat-service": {
+            "file": "ts-travel2-service/src/main/java/travel2/service/Travel2ServiceImpl.java",
+            "line": "222",
+            "span": "(45, 66)"
+        },
+        "ts-travel-service -> ts-ticketinfo-service": {
+            "file": "ts-travel-service/src/main/java/travel/service/TravelServiceImpl.java",
+            "line": "229",
+            "span": "(45, 66)"
+        },
+        "ts-travel-service -> ts-order-service": {
+            "file": "ts-travel-service/src/main/java/travel/service/TravelServiceImpl.java",
+            "line": "229",
+            "span": "(45, 66)"
+        },
+        "ts-travel-service -> ts-train-service": {
+            "file": "ts-travel-service/src/main/java/travel/service/TravelServiceImpl.java",
+            "line": "229",
+            "span": "(45, 66)"
+        },
+        "ts-travel-service -> ts-route-service": {
+            "file": "ts-travel-service/src/main/java/travel/service/TravelServiceImpl.java",
+            "line": "384",
+            "span": "(34, 59)"
+        },
+        "ts-travel-service -> ts-seat-service": {
+            "file": "ts-travel-service/src/main/java/travel/service/TravelServiceImpl.java",
+            "line": "229",
+            "span": "(45, 66)"
+        },
+        "ts-admin-order-service -> ts-order-service": {
+            "file": "ts-admin-order-service/src/main/java/adminorder/service/AdminOrderServiceImpl.java",
+            "line": "38",
+            "span": "(40, 65)"
+        },
+        "ts-admin-order-service -> ts-order-other-service": {
+            "file": "ts-admin-order-service/src/main/java/adminorder/service/AdminOrderServiceImpl.java",
+            "line": "38",
+            "span": "(40, 65)"
+        },
+        "ts-admin-travel-service -> ts-travel-service": {
+            "file": "ts-admin-travel-service/src/main/java/admintravel/service/AdminTravelServiceImpl.java",
+            "line": "36",
+            "span": "(23, 48)"
+        },
+        "ts-admin-travel-service -> ts-travel2-service": {
+            "file": "ts-admin-travel-service/src/main/java/admintravel/service/AdminTravelServiceImpl.java",
+            "line": "36",
+            "span": "(23, 48)"
+        },
+        "ts-admin-route-service -> ts-route-service": {
+            "file": "ts-admin-route-service/src/main/java/adminroute/service/AdminRouteServiceImpl.java",
+            "line": "33",
+            "span": "(44, 69)"
+        },
+        "rest-service-5 -> rest-service-4": {
+            "file": "1-services/rest-service-5/src/main/java/hello/HelloController.java",
+            "line": "26",
+            "span": "(19, 44)"
+        },
+        "rest-service-2 -> rest-service-1": {
+            "file": "1-services/rest-service-2/src/main/java/hello/HelloController.java",
+            "line": "26",
+            "span": "(19, 44)"
+        },
+        "rest-service-3 -> rest-service-2": {
+            "file": "1-services/rest-service-3/src/main/java/hello/HelloController.java",
+            "line": "29",
+            "span": "(23, 48)"
+        },
+        "rest-service-3 -> rest-service-1": {
+            "file": "kubernetes-services/rest-service-3/src/main/java/hello/HelloController.java",
+            "line": "18",
+            "span": "(16, 41)"
+        },
+        "rest-service-3 -> rest-service-end": {
+            "file": "1-services/rest-service-3/src/main/java/hello/HelloController.java",
+            "line": "29",
+            "span": "(23, 48)"
+        },
+        "rest-service-3 -> rest-service-6": {
+            "file": "1-services/rest-service-3/src/main/java/hello/RestbackService.java",
+            "line": "26",
+            "span": "(25, 50)"
+        },
+        "rest-service-4 -> rest-service-3": {
+            "file": "1-services/rest-service-4/src/main/java/hello/HelloController.java",
+            "line": "39",
+            "span": "(16, 41)"
+        },
+        "rest-service-6 -> rest-service-5": {
+            "file": "1-services/rest-service-6/src/main/java/hello/HelloController.java",
+            "line": "24",
+            "span": "(23, 48)"
+        },
+        "rest-service-6 -> rest-service-4": {
+            "file": "1-services/rest-service-6/src/main/java/hello/HelloController.java",
+            "line": "24",
+            "span": "(23, 48)"
+        },
+        "rest-service-6 -> rest-service-3": {
+            "file": "1-services/rest-service-6/src/main/java/hello/HelloController.java",
+            "line": "24",
+            "span": "(23, 48)"
+        },
+        "rest-service-1 -> rest-service-2": {
+            "file": "kubernetes-services/rest-service-1/src/main/java/hello/HelloController.java",
+            "line": "18",
+            "span": "(16, 41)"
+        },
+        "http://ts-order-other-service:12032/orderOther/getById/ -> ts-order-other-service": {
+            "file": "ts-cancel-service/src/main/java/cancel/service/CancelServiceImpl.java",
+            "line": "152",
+            "span": "(37, 58)"
+        },
+        "http://ts-contacts-service:12347/contacts/modifyContacts -> ts-contacts-service": {
+            "file": "ts-admin-basic-info-service/src/main/java/adminbasic/service/AdminBasicInfoServiceImpl.java",
+            "line": "30",
+            "span": "(54, 75)"
+        },
+        "http://ts-seat-service:18898/seat/getLeftTicketOfInterval -> ts-seat-service": {
+            "file": "ts-travel-plan-service/src/main/java/travelplan/service/TravelPlanServiceImpl.java",
+            "line": "222",
+            "span": "(37, 58)"
+        },
+        "http://ts-travel-service:12346/travel/delete -> ts-travel-service": {
+            "file": "ts-admin-travel-service/src/main/java/admintravel/service/AdminTravelServiceImpl.java",
+            "line": "30",
+            "span": "(52, 73)"
+        },
+        "http://ts-order-service:12031/order/getById/ -> ts-order-service": {
+            "file": "ts-cancel-service/src/main/java/cancel/service/CancelServiceImpl.java",
+            "line": "152",
+            "span": "(37, 58)"
+        },
+        "http://ts-order-other-service:12032/orderOther/modifyOrderStatus -> ts-order-other-service": {
+            "file": "ts-execute-service/src/main/java/execute/serivce/ExecuteServiceImpl.java",
+            "line": "146",
+            "span": "(53, 74)"
+        },
+        "http://ts-station-service:12345/station/create -> ts-station-service": {
+            "file": "ts-admin-basic-info-service/src/main/java/adminbasic/service/AdminBasicInfoServiceImpl.java",
+            "line": "30",
+            "span": "(54, 75)"
+        },
+        "http://ts-travel2-service:16346/travel2/queryWithPackage -> ts-travel2-service": {
+            "file": "ts-route-plan-service/src/main/java/plan/service/RoutePlanServiceImpl.java",
+            "line": "158",
+            "span": "(50, 71)"
+        },
+        "http://ts-notification-service:17853/notification/order_cancel_success -> ts-notification-service": {
+            "file": "ts-cancel-service/src/main/java/cancel/service/CancelServiceImpl.java",
+            "line": "152",
+            "span": "(37, 58)"
+        },
+        "http://ts-order-other-service:12032/orderOther/adminUpdate -> ts-order-other-service": {
+            "file": "ts-admin-order-service/src/main/java/adminorder/service/AdminOrderServiceImpl.java",
+            "line": "32",
+            "span": "(50, 71)"
+        },
+        "http://ts-order-service:12031/order/adminUpdate -> ts-order-service": {
+            "file": "ts-admin-order-service/src/main/java/adminorder/service/AdminOrderServiceImpl.java",
+            "line": "32",
+            "span": "(50, 71)"
+        },
+        "http://ts-station-service:12345/station/queryByIdForName -> ts-station-service": {
+            "file": "ts-travel-plan-service/src/main/java/travelplan/service/TravelPlanServiceImpl.java",
+            "line": "222",
+            "span": "(37, 58)"
+        },
+        "http://ts-ticketinfo-service:15681/ticketinfo/queryForStationId -> ts-ticketinfo-service": {
+            "file": "ts-travel-plan-service/src/main/java/travelplan/service/TravelPlanServiceImpl.java",
+            "line": "222",
+            "span": "(37, 58)"
+        },
+        "http://ts-route-plan-service:14578/routePlan/cheapestRoute -> ts-route-plan-service": {
+            "file": "ts-travel-plan-service/src/main/java/travelplan/service/TravelPlanServiceImpl.java",
+            "line": "222",
+            "span": "(37, 58)"
+        },
+        "http://ts-route-plan-service:14578/routePlan/minStopStations -> ts-route-plan-service": {
+            "file": "ts-travel-plan-service/src/main/java/travelplan/service/TravelPlanServiceImpl.java",
+            "line": "222",
+            "span": "(37, 58)"
+        },
+        "http://ts-price-service:16579/price/queryAll -> ts-price-service": {
+            "file": "ts-admin-basic-info-service/src/main/java/adminbasic/service/AdminBasicInfoServiceImpl.java",
+            "line": "30",
+            "span": "(54, 75)"
+        },
+        "http://ts-contacts-service:12347/contacts/deleteContacts -> ts-contacts-service": {
+            "file": "ts-admin-basic-info-service/src/main/java/adminbasic/service/AdminBasicInfoServiceImpl.java",
+            "line": "30",
+            "span": "(54, 75)"
+        },
+        "http://ts-sso-service:12349/account/findAll -> ts-sso-service": {
+            "file": "ts-admin-user-service/src/main/java/adminuser/service/AdminUserServiceImpl.java",
+            "line": "30",
+            "span": "(54, 75)"
+        },
+        "http://ts-ticketinfo-service:15681/ticketinfo/queryForTravel -> ts-ticketinfo-service": {
+            "file": "ts-travel2-service/src/main/java/travel2/service/Travel2ServiceImpl.java",
+            "line": "222",
+            "span": "(45, 66)"
+        },
+        "http://ts-seat-service:18898/seat/getSeat -> ts-seat-service": {
+            "file": "ts-rebook-service/src/main/java/rebook/service/RebookServiceImpl.java",
+            "line": "293",
+            "span": "(42, 63)"
+        },
+        "http://ts-contacts-service:12347/contacts/admincreate -> ts-contacts-service": {
+            "file": "ts-admin-basic-info-service/src/main/java/adminbasic/service/AdminBasicInfoServiceImpl.java",
+            "line": "30",
+            "span": "(54, 75)"
+        },
+        "http://ts-order-service:12031/order/delete -> ts-order-service": {
+            "file": "ts-rebook-service/src/main/java/rebook/service/RebookServiceImpl.java",
+            "line": "293",
+            "span": "(42, 63)"
+        },
+        "http://ts-sso-service:12349/account/admindelete -> ts-sso-service": {
+            "file": "ts-admin-user-service/src/main/java/adminuser/service/AdminUserServiceImpl.java",
+            "line": "30",
+            "span": "(54, 75)"
+        },
+        "http://ts-basic-service:15680/basic/queryForStationId -> ts-basic-service": {
+            "file": "ts-ticketinfo-service/src/main/java/ticketinfo/service/TicketInfoServiceImpl.java",
+            "line": "26",
+            "span": "(45, 66)"
+        },
+        "http://ts-station-service:12345/station/queryForId -> ts-station-service": {
+            "file": "ts-preserve-service/src/main/java/preserve/service/PreserveServiceImpl.java",
+            "line": "120",
+            "span": "(49, 70)"
+        },
+        "http://ts-order-service:12031/order/adminAddOrder -> ts-order-service": {
+            "file": "ts-admin-order-service/src/main/java/adminorder/service/AdminOrderServiceImpl.java",
+            "line": "32",
+            "span": "(50, 71)"
+        },
+        "http://ts-sso-service:12349/account/register -> ts-sso-service": {
+            "file": "ts-admin-user-service/src/main/java/adminuser/service/AdminUserServiceImpl.java",
+            "line": "30",
+            "span": "(54, 75)"
+        },
+        "http://ts-order-service:12031/order/create -> ts-order-service": {
+            "file": "ts-rebook-service/src/main/java/rebook/service/RebookServiceImpl.java",
+            "line": "293",
+            "span": "(42, 63)"
+        },
+        "http://ts-sso-service:12349/logout -> ts-sso-service": {
+            "file": "ts-login-service/src/main/java/login/service/AccountLoginServiceImpl.java",
+            "line": "35",
+            "span": "(37, 58)"
+        },
+        "http://ts-travel2-service:16346/travel2/getTripsByRouteId -> ts-travel2-service": {
+            "file": "ts-route-plan-service/src/main/java/plan/service/RoutePlanServiceImpl.java",
+            "line": "158",
+            "span": "(50, 71)"
+        },
+        "http://ts-consign-service:16111/consign/insertConsign -> ts-consign-service": {
+            "file": "ts-preserve-other-service/src/main/java/preserveOther/service/PreserveOtherServiceImpl.java",
+            "line": "135",
+            "span": "(64, 85)"
+        },
+        "http://ts-order-service:12031/order/getById -> ts-order-service": {
+            "file": "ts-inside-payment-service/src/main/java/inside_payment/service/InsidePaymentServiceImpl.java",
+            "line": "43",
+            "span": "(63, 84)"
+        },
+        "http://ts-price-service:16579/price/delete -> ts-price-service": {
+            "file": "ts-admin-basic-info-service/src/main/java/adminbasic/service/AdminBasicInfoServiceImpl.java",
+            "line": "30",
+            "span": "(54, 75)"
+        },
+        "http://ts-order-other-service:12032/orderOther/create -> ts-order-other-service": {
+            "file": "ts-rebook-service/src/main/java/rebook/service/RebookServiceImpl.java",
+            "line": "293",
+            "span": "(42, 63)"
+        },
+        "http://ts-sso-service:12349/account/modify -> ts-sso-service": {
+            "file": "ts-admin-user-service/src/main/java/adminuser/service/AdminUserServiceImpl.java",
+            "line": "30",
+            "span": "(54, 75)"
+        },
+        "http://ts-order-other-service:12032/orderOther/delete -> ts-order-other-service": {
+            "file": "ts-admin-order-service/src/main/java/adminorder/service/AdminOrderServiceImpl.java",
+            "line": "32",
+            "span": "(50, 71)"
+        },
+        "http://ts-travel2-service:16346//travel2/getTripAllDetailInfo -> ts-travel2-service": {
+            "file": "ts-route-plan-service/src/main/java/plan/service/RoutePlanServiceImpl.java",
+            "line": "158",
+            "span": "(50, 71)"
+        },
+        "http://ts-train-service:14567/train/query -> ts-train-service": {
+            "file": "ts-admin-basic-info-service/src/main/java/adminbasic/service/AdminBasicInfoServiceImpl.java",
+            "line": "30",
+            "span": "(54, 75)"
+        },
+        "http://ts-price-service:16579/price/query -> ts-price-service": {
+            "file": "ts-basic-service/src/main/java/fdse/microservice/service/BasicServiceImpl.java",
+            "line": "74",
+            "span": "(36, 57)"
+        },
+        "http://ts-consign-price-service:16110/consignPrice/getPrice -> ts-consign-price-service": {
+            "file": "ts-consign-service/src/main/java/consign/service/ConsignServiceImpl.java",
+            "line": "48",
+            "span": "(36, 57)"
+        },
+        "http://ts-station-service:12345/station/queryByIdBatch -> ts-station-service": {
+            "file": "ts-order-service/src/main/java/order/service/OrderServiceImpl.java",
+            "line": "181",
+            "span": "(50, 71)"
+        },
+        "http://ts-station-service:12345/station/update -> ts-station-service": {
+            "file": "ts-admin-basic-info-service/src/main/java/adminbasic/service/AdminBasicInfoServiceImpl.java",
+            "line": "30",
+            "span": "(54, 75)"
+        },
+        "http://ts-food-map-service:18855/foodmap/getFoodStoresOfStation -> ts-food-map-service": {
+            "file": "ts-food-service/src/main/java/foodsearch/service/FoodServiceImpl.java",
+            "line": "46",
+            "span": "(74, 95)"
+        },
+        "http://ts-inside-payment-service:18673/inside_payment/drawBack -> ts-inside-payment-service": {
+            "file": "ts-cancel-service/src/main/java/cancel/service/CancelServiceImpl.java",
+            "line": "152",
+            "span": "(37, 58)"
+        },
+        "http://ts-price-service:16579/price/update -> ts-price-service": {
+            "file": "ts-admin-basic-info-service/src/main/java/adminbasic/service/AdminBasicInfoServiceImpl.java",
+            "line": "30",
+            "span": "(54, 75)"
+        },
+        "http://ts-order-other-service:12032/orderOther/getById -> ts-order-other-service": {
+            "file": "ts-rebook-service/src/main/java/rebook/service/RebookServiceImpl.java",
+            "line": "293",
+            "span": "(42, 63)"
+        },
+        "http://ts-travel-service:12346/travel/getTripsByRouteId -> ts-travel-service": {
+            "file": "ts-route-plan-service/src/main/java/plan/service/RoutePlanServiceImpl.java",
+            "line": "158",
+            "span": "(50, 71)"
+        },
+        "http://ts-verification-code-service:15678/verification/verify -> ts-verification-code-service": {
+            "file": "ts-register-service/src/main/java/register/service/RegisterServiceImpl.java",
+            "line": "32",
+            "span": "(37, 58)"
+        },
+        "http://ts-order-service:12031/order/modifyOrderStatus -> ts-order-service": {
+            "file": "ts-inside-payment-service/src/main/java/inside_payment/service/InsidePaymentServiceImpl.java",
+            "line": "43",
+            "span": "(63, 84)"
+        },
+        "http://ts-route-service:11178/route/queryById/{routeId} -> ts-route-service": {
+            "file": "ts-basic-service/src/main/java/fdse/microservice/service/BasicServiceImpl.java",
+            "line": "74",
+            "span": "(36, 57)"
+        },
+        "http://ts-travel-service:12346/travel/getTripAllDetailInfo/ -> ts-travel-service": {
+            "file": "ts-rebook-service/src/main/java/rebook/service/RebookServiceImpl.java",
+            "line": "293",
+            "span": "(42, 63)"
+        },
+        "http://ts-station-service:12345/station/delete -> ts-station-service": {
+            "file": "ts-admin-basic-info-service/src/main/java/adminbasic/service/AdminBasicInfoServiceImpl.java",
+            "line": "30",
+            "span": "(54, 75)"
+        },
+        "http://ts-order-other-service:12032/orderOther/calculate -> ts-order-other-service": {
+            "file": "ts-travel2-service/src/main/java/travel2/service/Travel2ServiceImpl.java",
+            "line": "222",
+            "span": "(45, 66)"
+        },
+        "http://ts-travel2-service:16346/travel2/delete -> ts-travel2-service": {
+            "file": "ts-admin-travel-service/src/main/java/admintravel/service/AdminTravelServiceImpl.java",
+            "line": "30",
+            "span": "(52, 73)"
+        },
+        "http://ts-travel2-service:16346/travel2/query -> ts-travel2-service": {
+            "file": "ts-travel-plan-service/src/main/java/travelplan/service/TravelPlanServiceImpl.java",
+            "line": "222",
+            "span": "(37, 58)"
+        },
+        "http://ts-train-service:14567/train/retrieve -> ts-train-service": {
+            "file": "ts-travel2-service/src/main/java/travel2/service/Travel2ServiceImpl.java",
+            "line": "222",
+            "span": "(45, 66)"
+        },
+        "http://ts-station-service:12345/station/exist -> ts-station-service": {
+            "file": "ts-basic-service/src/main/java/fdse/microservice/service/BasicServiceImpl.java",
+            "line": "74",
+            "span": "(36, 57)"
+        },
+        "http://ts-order-other-service:12032/orderOther/getTicketListByDateAndTripId -> ts-order-other-service": {
+            "file": "ts-seat-service/src/main/java/seat/service/SeatServiceImpl.java",
+            "line": "39",
+            "span": "(17, 38)"
+        },
+        "http://ts-travel2-service:16346/travel2/adminQueryAll -> ts-travel2-service": {
+            "file": "ts-admin-travel-service/src/main/java/admintravel/service/AdminTravelServiceImpl.java",
+            "line": "30",
+            "span": "(52, 73)"
+        },
+        "http://ts-travel2-service:16346/travel2/getTripAllDetailInfo -> ts-travel2-service": {
+            "file": "ts-rebook-service/src/main/java/rebook/service/RebookServiceImpl.java",
+            "line": "293",
+            "span": "(42, 63)"
+        },
+        "http://ts-travel2-service:16346/travel2/update -> ts-travel2-service": {
+            "file": "ts-admin-travel-service/src/main/java/admintravel/service/AdminTravelServiceImpl.java",
+            "line": "30",
+            "span": "(52, 73)"
+        },
+        "http://ts-order-other-service:12032/orderOther/update -> ts-order-other-service": {
+            "file": "ts-cancel-service/src/main/java/cancel/service/CancelServiceImpl.java",
+            "line": "152",
+            "span": "(37, 58)"
+        },
+        "http://ts-sso-service:12349/account/findById -> ts-sso-service": {
+            "file": "ts-preserve-other-service/src/main/java/preserveOther/service/PreserveOtherServiceImpl.java",
+            "line": "135",
+            "span": "(64, 85)"
+        },
+        "http://ts-food-service:18856/food/createFoodOrder -> ts-food-service": {
+            "file": "ts-preserve-other-service/src/main/java/preserveOther/service/PreserveOtherServiceImpl.java",
+            "line": "135",
+            "span": "(64, 85)"
+        },
+        "http://ts-route-service:11178/route/delete -> ts-route-service": {
+            "file": "ts-admin-route-service/src/main/java/adminroute/service/AdminRouteServiceImpl.java",
+            "line": "27",
+            "span": "(54, 75)"
+        },
+        "http://ts-sso-service:12349/account/login -> ts-sso-service": {
+            "file": "ts-login-service/src/main/java/login/service/AccountLoginServiceImpl.java",
+            "line": "35",
+            "span": "(37, 58)"
+        },
+        "http://ts-contacts-service:12347/contacts/findAll -> ts-contacts-service": {
+            "file": "ts-admin-basic-info-service/src/main/java/adminbasic/service/AdminBasicInfoServiceImpl.java",
+            "line": "30",
+            "span": "(54, 75)"
+        },
+        "http://ts-travel-service:12346/travel/adminQueryAll -> ts-travel-service": {
+            "file": "ts-admin-travel-service/src/main/java/admintravel/service/AdminTravelServiceImpl.java",
+            "line": "30",
+            "span": "(52, 73)"
+        },
+        "http://ts-travel-service:12346/travel/create -> ts-travel-service": {
+            "file": "ts-admin-travel-service/src/main/java/admintravel/service/AdminTravelServiceImpl.java",
+            "line": "30",
+            "span": "(52, 73)"
+        },
+        "http://ts-travel-service:12346/travel/query -> ts-travel-service": {
+            "file": "ts-travel-plan-service/src/main/java/travelplan/service/TravelPlanServiceImpl.java",
+            "line": "222",
+            "span": "(37, 58)"
+        },
+        "http://ts-config-service:15679/config/queryAll -> ts-config-service": {
+            "file": "ts-admin-basic-info-service/src/main/java/adminbasic/service/AdminBasicInfoServiceImpl.java",
+            "line": "30",
+            "span": "(54, 75)"
+        },
+        "http://ts-travel-service:12346/travel/getRouteByTripId/{tripId} -> ts-travel-service": {
+            "file": "ts-route-plan-service/src/main/java/plan/service/RoutePlanServiceImpl.java",
+            "line": "158",
+            "span": "(50, 71)"
+        },
+        "http://ts-config-service:15679//config/query -> ts-config-service": {
+            "file": "ts-seat-service/src/main/java/seat/service/SeatServiceImpl.java",
+            "line": "39",
+            "span": "(17, 38)"
+        },
+        "http://ts-price-service:16579/price/create -> ts-price-service": {
+            "file": "ts-admin-basic-info-service/src/main/java/adminbasic/service/AdminBasicInfoServiceImpl.java",
+            "line": "30",
+            "span": "(54, 75)"
+        },
+        "http://ts-train-service:14567/train/update -> ts-train-service": {
+            "file": "ts-admin-basic-info-service/src/main/java/adminbasic/service/AdminBasicInfoServiceImpl.java",
+            "line": "30",
+            "span": "(54, 75)"
+        },
+        "http://ts-assurance-service:18888/assurance/create -> ts-assurance-service": {
+            "file": "ts-preserve-service/src/main/java/preserve/service/PreserveServiceImpl.java",
+            "line": "120",
+            "span": "(49, 70)"
+        },
+        "http://ts-security-service:11188/security/check -> ts-security-service": {
+            "file": "ts-preserve-other-service/src/main/java/preserveOther/service/PreserveOtherServiceImpl.java",
+            "line": "135",
+            "span": "(64, 85)"
+        },
+        "http://ts-travel-service:12346/travel/queryWithPackage -> ts-travel-service": {
+            "file": "ts-route-plan-service/src/main/java/plan/service/RoutePlanServiceImpl.java",
+            "line": "158",
+            "span": "(50, 71)"
+        },
+        "http://ts-order-other-service:12032/orderOther/findAll -> ts-order-other-service": {
+            "file": "ts-admin-order-service/src/main/java/adminorder/service/AdminOrderServiceImpl.java",
+            "line": "32",
+            "span": "(50, 71)"
+        },
+        "http://ts-config-service:15679/config/create -> ts-config-service": {
+            "file": "ts-admin-basic-info-service/src/main/java/adminbasic/service/AdminBasicInfoServiceImpl.java",
+            "line": "30",
+            "span": "(54, 75)"
+        },
+        "http://ts-inside-payment-service:18673/inside_payment/payDifference -> ts-inside-payment-service": {
+            "file": "ts-rebook-service/src/main/java/rebook/service/RebookServiceImpl.java",
+            "line": "293",
+            "span": "(42, 63)"
+        },
+        "http://ts-train-service:14567/train/create -> ts-train-service": {
+            "file": "ts-admin-basic-info-service/src/main/java/adminbasic/service/AdminBasicInfoServiceImpl.java",
+            "line": "30",
+            "span": "(54, 75)"
+        },
+        "http://ts-order-other-service:12032/getOrderOtherInfoForSecurity -> ts-order-other-service": {
+            "file": "ts-security-service/src/main/java/security/service/SecurityServiceImpl.java",
+            "line": "126",
+            "span": "(59, 80)"
+        },
+        "http://ts-route-service:11178/route/createAndModify -> ts-route-service": {
+            "file": "ts-admin-route-service/src/main/java/adminroute/service/AdminRouteServiceImpl.java",
+            "line": "27",
+            "span": "(54, 75)"
+        },
+        "http://ts-order-service:12031/getOrderInfoForSecurity -> ts-order-service": {
+            "file": "ts-security-service/src/main/java/security/service/SecurityServiceImpl.java",
+            "line": "126",
+            "span": "(59, 80)"
+        },
+        "http://ts-travel2-service:16346/travel2/getTripAllDetailInfo/ -> ts-travel2-service": {
+            "file": "ts-preserve-other-service/src/main/java/preserveOther/service/PreserveOtherServiceImpl.java",
+            "line": "135",
+            "span": "(64, 85)"
+        },
+        "http://ts-contacts-service:12347/contacts/getContactsById/ -> ts-contacts-service": {
+            "file": "ts-preserve-service/src/main/java/preserve/service/PreserveServiceImpl.java",
+            "line": "120",
+            "span": "(49, 70)"
+        },
+        "http://ts-station-service:12345/station/query -> ts-station-service": {
+            "file": "ts-admin-basic-info-service/src/main/java/adminbasic/service/AdminBasicInfoServiceImpl.java",
+            "line": "30",
+            "span": "(54, 75)"
+        },
+        "http://ts-food-map-service:18855/foodmap/getTrainFoodOfTrip -> ts-food-map-service": {
+            "file": "ts-food-service/src/main/java/foodsearch/service/FoodServiceImpl.java",
+            "line": "46",
+            "span": "(74, 95)"
+        },
+        "http://ts-config-service:15679/config/update -> ts-config-service": {
+            "file": "ts-admin-basic-info-service/src/main/java/adminbasic/service/AdminBasicInfoServiceImpl.java",
+            "line": "30",
+            "span": "(54, 75)"
+        },
+        "http://ts-train-service:14567/train/delete -> ts-train-service": {
+            "file": "ts-admin-basic-info-service/src/main/java/adminbasic/service/AdminBasicInfoServiceImpl.java",
+            "line": "30",
+            "span": "(54, 75)"
+        },
+        "http://ts-order-service:12031/order/create/ -> ts-order-service": {
+            "file": "ts-preserve-service/src/main/java/preserve/service/PreserveServiceImpl.java",
+            "line": "120",
+            "span": "(49, 70)"
+        },
+        "http://ts-order-service:12031/order/findAll -> ts-order-service": {
+            "file": "ts-admin-order-service/src/main/java/adminorder/service/AdminOrderServiceImpl.java",
+            "line": "32",
+            "span": "(50, 71)"
+        },
+        "http://ts-inside-payment-service:18673/inside_payment/createAccount -> ts-inside-payment-service": {
+            "file": "ts-register-service/src/main/java/register/service/RegisterServiceImpl.java",
+            "line": "32",
+            "span": "(37, 58)"
+        },
+        "http://ts-payment-service:19001/payment/pay -> ts-payment-service": {
+            "file": "ts-inside-payment-service/src/main/java/inside_payment/service/InsidePaymentServiceImpl.java",
+            "line": "43",
+            "span": "(63, 84)"
+        },
+        "http://ts-station-service:12345/station/queryById -> ts-station-service": {
+            "file": "ts-rebook-service/src/main/java/rebook/service/RebookServiceImpl.java",
+            "line": "293",
+            "span": "(42, 63)"
+        },
+        "http://ts-travel-service:12346/travel/update -> ts-travel-service": {
+            "file": "ts-admin-travel-service/src/main/java/admintravel/service/AdminTravelServiceImpl.java",
+            "line": "30",
+            "span": "(52, 73)"
+        },
+        "http://ts-basic-service:15680/basic/queryForTravel -> ts-basic-service": {
+            "file": "ts-ticketinfo-service/src/main/java/ticketinfo/service/TicketInfoServiceImpl.java",
+            "line": "26",
+            "span": "(45, 66)"
+        },
+        "http://ts-route-plan-service:14578/routePlan/quickestRoute -> ts-route-plan-service": {
+            "file": "ts-travel-plan-service/src/main/java/travelplan/service/TravelPlanServiceImpl.java",
+            "line": "222",
+            "span": "(37, 58)"
+        },
+        "http://ts-travel2-service:16346/travel2/create -> ts-travel2-service": {
+            "file": "ts-admin-travel-service/src/main/java/admintravel/service/AdminTravelServiceImpl.java",
+            "line": "30",
+            "span": "(52, 73)"
+        },
+        "http://ts-route-service:11178/route/queryAll -> ts-route-service": {
+            "file": "ts-admin-route-service/src/main/java/adminroute/service/AdminRouteServiceImpl.java",
+            "line": "27",
+            "span": "(54, 75)"
+        },
+        "http://ts-order-service:12031/order/update -> ts-order-service": {
+            "file": "ts-rebook-service/src/main/java/rebook/service/RebookServiceImpl.java",
+            "line": "293",
+            "span": "(42, 63)"
+        },
+        "http://ts-travel-service:12346//travel/getTripAllDetailInfo -> ts-travel-service": {
+            "file": "ts-route-plan-service/src/main/java/plan/service/RoutePlanServiceImpl.java",
+            "line": "158",
+            "span": "(50, 71)"
+        },
+        "http://ts-config-service:15679/config/delete -> ts-config-service": {
+            "file": "ts-admin-basic-info-service/src/main/java/adminbasic/service/AdminBasicInfoServiceImpl.java",
+            "line": "30",
+            "span": "(54, 75)"
+        },
+        "http://ts-order-service:12031/order/calculate -> ts-order-service": {
+            "file": "ts-travel-service/src/main/java/travel/service/TravelServiceImpl.java",
+            "line": "229",
+            "span": "(45, 66)"
+        },
+        "http://ts-order-service:12031/order/getTicketListByDateAndTripId -> ts-order-service": {
+            "file": "ts-seat-service/src/main/java/seat/service/SeatServiceImpl.java",
+            "line": "39",
+            "span": "(17, 38)"
+        },
+        "http://ts-route-service:11178/route/queryByStartAndTerminal -> ts-route-service": {
+            "file": "ts-route-plan-service/src/main/java/plan/service/RoutePlanServiceImpl.java",
+            "line": "158",
+            "span": "(50, 71)"
+        },
+        "http://ts-order-other-service:12032/orderOther/adminAddOrder -> ts-order-other-service": {
+            "file": "ts-admin-order-service/src/main/java/adminorder/service/AdminOrderServiceImpl.java",
+            "line": "32",
+            "span": "(50, 71)"
+        },
+        "rest-service-5 -> rest-service-collector": {
+            "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-0.0.1/1-services/rest-service-5/src/main/resources/application.yml",
+            "line": 6,
+            "span": "(14, 49)"
+        },
+        "rest-service-2 -> zipkin": {
+            "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-0.0.1/1-services/rest-service-2/src/main/resources/application.yml",
+            "line": 6,
+            "span": "(14, 33)"
+        },
+        "rest-service-3 -> zipkin": {
+            "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-0.0.1/1-services/rest-service-3/src/main/resources/application.yml",
+            "line": 6,
+            "span": "(14, 33)"
+        },
+        "rest-service-4 -> rest-service-collector": {
+            "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-0.0.1/1-services/rest-service-4/src/main/resources/application.yml",
+            "line": 6,
+            "span": "(14, 49)"
+        },
+        "rest-service-1 -> zipkin": {
+            "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-0.0.1/1-services/rest-service-1/src/main/resources/application.yml",
+            "line": 6,
+            "span": "(14, 33)"
+        },
+        "rest-service-6 -> rest-service-collector": {
+            "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-0.0.1/1-services/rest-service-6/src/main/resources/application.yml",
+            "line": 9,
+            "span": "(14, 49)"
+        },
+        "rest-service-end -> zipkin": {
+            "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-0.0.1/1-services/rest-service-end/src/main/resources/application.yml",
+            "line": 9,
+            "span": "(14, 33)"
+        },
+        "ts-notification-service -> mail-server": {
+            "file": "/Users/abakhtin22/Documents/Papers/ECSA2025_TemporalCentrality/Projects/train-ticket-0.0.1/ts-notification-service/src/main/resources/application.yml",
+            "line": 18,
+            "span": "(11, 23)"
+        }
+    }
+}
