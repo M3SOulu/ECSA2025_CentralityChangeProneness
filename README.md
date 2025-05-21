@@ -98,9 +98,7 @@ The raw json output for each project version is saved here to [raw_data/code2DFD
 The script [extract_graphs.py](Scripts/Data-Centrality/extract_graphs.py) converts the `json` files of the `Code2DFD` output into
 standard network json files.
 
-For each `PROJECT`, it creates 2 files in the [raw_data/graph](raw_data/graph) folder:
-- `PROJECT-gwcc.json`: The Greatest Weakly Connected Component (GWCC) of the reconstructed architecture graph
-- `PROJECT-gwcc_noDB.json`: The GWCC with all databases that are only connected to one service removed
+For each `PROJECT`, it creates the corresponding architecture network `json` in the [raw_data/graph](raw_data/graph) folder.
 
 The script [make_temp_net.py](Scripts/Data-Centrality/make_temp_net.py) converts the `json` network files to the `csv` temporal networks, accumulating the releases, in folder [raw_data/temp_net](raw_data/temp_net)
 
@@ -170,6 +168,8 @@ The script [merge_understand.py](Scripts/Data-Understand/merge_understand.py) ta
 ## `SonarQube` metrics
 
 Deploy a `SonarQube` instance using the instructions from the [official website](https://docs.sonarsource.com/sonarqube/latest/setup-and-upgrade/install-the-server/introduction/).
+
+Navigate to `Profile` -> `My Account` -> `Security` -> `Token Generation`.
 
 Generate a `Global Analysis Token` and a `User token`.
 
